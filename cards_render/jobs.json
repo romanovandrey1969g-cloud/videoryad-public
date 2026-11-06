@@ -1,0 +1,249 @@
+[
+ {
+  "scene": 10,
+  "view": "split",
+  "dur": 9.63,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Либо стороны заканчивают конфликт в ближайшие месяцы, либо ставки дойдут до совсем опасного уровня",
+   "author": "Александр Лукашенко",
+   "role": "президент Белоруссии",
+   "photo": "cards/src/luka.jpg",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 16,
+  "view": "poster.poster",
+  "dur": 9.75,
+  "anim": 9.75,
+  "tail_zoom": 0.0,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "title": "Базовые условия Москвы",
+   "bottom": "Спорить можно, сделать вид, что списка нет, уже нет",
+   "facts": [
+    {
+     "label": "Территории",
+     "value": "предмет торга"
+    },
+    {
+     "label": "Статус Украины",
+     "value": "вне НАТО"
+    },
+    {
+     "label": "Военная инфраструктура",
+     "value": "ограничения"
+    },
+    {
+     "label": "Санкции",
+     "value": "часть пакета"
+    }
+   ],
+   "watermark": "ПЛАНЕТА"
+  },
+  "mode": "frame"
+ },
+ {
+  "scene": 22,
+  "view": "film.film_strip",
+  "dur": 9.95,
+  "anim": 9.95,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "shots": [
+    "cards/src/oval.jpg",
+    "cards/src/kushner.jpg",
+    "cards/src/europarl.jpg"
+   ],
+   "title": "Процесс пошёл",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 28,
+  "view": "pull",
+  "dur": 11.66,
+  "anim": 2.6,
+  "tail_zoom": 0.05,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "А потом у кого-то начинается расследование. У кого-то всплывают старые закупки",
+   "kick": "Киев · ноябрь 2026",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 34,
+  "view": "cinematic.depth_of_field",
+  "dur": 12.24,
+  "anim": 12.24,
+  "tail_zoom": 0.0,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "photo": "cards/src/zel.jpg",
+   "title": "Политика лечит провалы памяти",
+   "watermark": "ПЛАНЕТА"
+  },
+  "mode": "frame"
+ },
+ {
+  "scene": 40,
+  "view": "photo",
+  "dur": 12.48,
+  "anim": 12.48,
+  "tail_zoom": 0.0,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "watermark": "ПЛАНЕТА",
+   "photo": "cards/src/podezd.jpg",
+   "title": "Одна точка на карте",
+   "lines": [
+    "Частный дом под Киевом",
+    "Обвинения в удержании людей",
+    "Съехались СБУ и Нацгвардия",
+    "Подключилась президентская вертикаль"
+   ]
+  }
+ },
+ {
+  "scene": 46,
+  "view": "marker_serif",
+  "dur": 12.1,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Стратегическая автономия. Собственная оборона. Новые бюджеты. Выглядит внушительно",
+   "accent": "Стратегическая автономия",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 52,
+  "view": "slider",
+  "dur": 10.41,
+  "anim": 10.41,
+  "tail_zoom": 0.0,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {},
+  "mode": "cli",
+  "script": "build_chart_slider.py",
+  "cfg": {
+   "title": "",
+   "min": 0.0,
+   "max": 100.0,
+   "low": 15.0,
+   "high": 35.0,
+   "marker_value": 25.0,
+   "marker_display": "25",
+   "seconds": 10.41,
+   "range_label": "Насколько Европа способна заменить Америку",
+   "caption": "Между «мы постепенно усиливаемся» и «завтра заменяем США» — пропасть",
+   "source": ""
+  }
+ },
+ {
+  "scene": 58,
+  "view": "film.film_single",
+  "dur": 13.16,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "photo": "cards/src/kreml.jpg",
+   "title": "На другом конце — ядерная Россия",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 64,
+  "view": "cinematic.evidence_wall",
+  "dur": 12.21,
+  "anim": 12.21,
+  "tail_zoom": 0.0,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "shots": [
+    [
+     "cards/src/trump.jpg",
+     240,
+     250,
+     -4,
+     "Трамп: большая сделка"
+    ],
+    [
+     "cards/src/oval.jpg",
+     800,
+     250,
+     3,
+     "Овальный кабинет: Дмитриев уже был"
+    ],
+    [
+     "cards/src/kushner.jpg",
+     1360,
+     250,
+     -2,
+     "Кушнер: новая архитектура"
+    ],
+    [
+     "cards/src/kreml.jpg",
+     240,
+     580,
+     4,
+     "Москва: свой список условий"
+    ]
+   ],
+   "title": "Разные задачи на одном столе",
+   "watermark": "ПЛАНЕТА"
+  },
+  "mode": "frame"
+ },
+ {
+  "scene": 70,
+  "view": "bars",
+  "dur": 12.32,
+  "anim": 12.32,
+  "tail_zoom": 0.0,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {},
+  "mode": "cli",
+  "script": "build_chart_bars.py",
+  "cfg": {
+   "title": "Что каждый тащит на стол",
+   "caption": "Задачи не совпадают — отсюда и торг",
+   "seconds": 12.32,
+   "bars": [
+    {
+     "label": "ВАШИНГТОН: БЫСТРЫЙ РЕЗУЛЬТАТ",
+     "value": 0.95,
+     "color": "B92526"
+    },
+    {
+     "label": "ЕВРОПА: ВЛИЯНИЕ НА БУДУЩУЮ СИСТЕМУ",
+     "value": 0.75,
+     "color": "EABD23"
+    },
+    {
+     "label": "КИЕВ: ГАРАНТИИ И ОРУЖИЕ",
+     "value": 0.5,
+     "color": "8C8C92"
+    }
+   ]
+  }
+ }
+]
