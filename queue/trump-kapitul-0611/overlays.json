@@ -1,0 +1,85 @@
+{
+  "49": {
+    "photo": "overlays/scene_049.jpg",
+    "sound": "pop",
+    "at": 2.0,
+    "url": "https://t.me/OstashkoNews/228131",
+    "approved": true,
+    "shape": "rect",
+    "scale": 1.0
+  },
+  "4": {
+    "photo": "overlays/scene_004.jpg",
+    "sound": "pop",
+    "at": 2.0,
+    "approved": true,
+    "shape": "rect",
+    "scale": 1.0
+  },
+  "12": {
+    "photo": "overlays/scene_012.jpg",
+    "sound": "pshik",
+    "at": 2.5,
+    "style": "left",
+    "anchor": "top",
+    "shape": "rect",
+    "scale": 1.0,
+    "approved": true
+  },
+  "31": {
+    "photo": "overlays/scene_031.jpg",
+    "sound": "whoosh",
+    "at": 2.4,
+    "style": "right",
+    "anchor": "top",
+    "approved": true,
+    "shape": "rect",
+    "scale": 1.0
+  },
+  "42": {
+    "photo": "overlays/scene_042.jpg",
+    "sound": "pop",
+    "at": 2.0,
+    "style": "left",
+    "anchor": "top",
+    "approved": true,
+    "shape": "rect",
+    "scale": 1.0
+  },
+  "17": {
+    "photo": "overlays/scene_017.jpg",
+    "sound": "whoosh",
+    "at": 2.2,
+    "approved": true,
+    "shape": "rect",
+    "scale": 1.0
+  },
+  "26": {
+    "photo": "overlays/scene_026.jpg",
+    "sound": "pshik",
+    "at": 2.5,
+    "approved": true,
+    "shape": "rect",
+    "scale": 1.0
+  },
+  "36": {
+    "photo": "overlays/scene_036.jpg",
+    "sound": "pop",
+    "at": 2.8,
+    "style": "up-center",
+    "anchor": "top",
+    "approved": true,
+    "shape": "rect",
+    "scale": 1.0
+  },
+  "55": {
+    "photo": "overlays/scene_055.jpg",
+    "sound": "whoosh",
+    "at": 2.2,
+    "style": "left",
+    "anchor": "middle",
+    "approved": true,
+    "shape": "rect",
+    "scale": 1.0
+  }
+}
