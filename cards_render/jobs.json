@@ -1,0 +1,266 @@
+[
+ {
+  "scene": 5,
+  "view": "split",
+  "dur": 13.5,
+  "anim": 2.0,
+  "tail_zoom": 0.06,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "photo": "images/scene_007.jpg",
+   "text": "Определим, кто куда не лезет, какие вооружения и где не размещает и как не допустить следующего кризиса",
+   "author": "суть российского предложения",
+   "accent": "кто куда не лезет",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 9,
+  "view": "tape",
+  "dur": 10.6,
+  "anim": 2.4,
+  "tail_zoom": 0.04,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Место за столом требуют. Обсуждать причину, по которой стол понадобился, отказываются",
+   "accent": "отказываются",
+   "kick": "ПОЗИЦИЯ ЕВРОПЫ",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 11,
+  "view": "poster.poster",
+  "dur": 14.0,
+  "anim": 14.0,
+  "tail_zoom": 0.0,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "kick": "ЕСЛИ ВСЁ УЖЕ ПОСТРОЕНО",
+   "title": "ЗАЧЕМ ТОГДА РАЗГОВОР О НОВОЙ",
+   "bottom": "Одно из двух неверно",
+   "facts": [
+    {
+     "label": "Ответ Брюсселя",
+     "value": "система есть, вето у Путина нет"
+    },
+    {
+     "label": "Факт",
+     "value": "разговор о новой начался"
+    }
+   ],
+   "watermark": "ПЛАНЕТА"
+  },
+  "mode": "frame"
+ },
+ {
+  "scene": 17,
+  "view": "photo",
+  "dur": 11.45,
+  "anim": 11.45,
+  "tail_zoom": 0.0,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "kick": "ЧТО ПРЕДЛАГАЮТ ВМЕСТО ПЕРЕГОВОРОВ",
+   "watermark": "ПЛАНЕТА",
+   "photo": "images/scene_015.jpg",
+   "lines": [
+    "Посредник лишний",
+    "Прямой разговор лишний",
+    "Давление необходимо"
+   ]
+  }
+ },
+ {
+  "scene": 23,
+  "view": "bars",
+  "dur": 14.8,
+  "anim": 14.8,
+  "tail_zoom": 0.0,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {},
+  "mode": "cli",
+  "script": "build_chart_bars.py",
+  "cfg": {
+   "title": "НА ЧТО ДЕЛАЕТСЯ СТАВКА",
+   "caption": "",
+   "seconds": 14.8,
+   "bars": [
+    {
+     "label": "ДАВИТЬ И ОГРАНИЧИВАТЬ",
+     "value": 0.8,
+     "color": "B92526"
+    },
+    {
+     "label": "ДОГОВАРИВАТЬСЯ",
+     "value": 0.2,
+     "color": "EABD23"
+    }
+   ]
+  }
+ },
+ {
+  "scene": 29,
+  "view": "film.film_single",
+  "dur": 12.5,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "photo": "images/scene_027.jpg",
+   "kick": "А СКОЛЬКО У НИХ ДИВИЗИЙ?",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 35,
+  "view": "slider",
+  "dur": 9.5,
+  "anim": 9.5,
+  "tail_zoom": 0.0,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {},
+  "mode": "cli",
+  "script": "build_chart_slider.py",
+  "cfg": {
+   "title": "ЗАПАС НА СЛУЧАЙ ПЕРЕБОЕВ",
+   "min": 0.0,
+   "max": 7.0,
+   "low": 3.0,
+   "high": 3.0,
+   "marker_value": 3.0,
+   "marker_display": "3",
+   "seconds": 9.5,
+   "range_label": "вода, еда, лекарства, наличные, фонарь, радио",
+   "caption": "Трое суток без привычной жизни",
+   "source": ""
+  }
+ },
+ {
+  "scene": 41,
+  "view": "cinematic.depth_of_field",
+  "dur": 12.4,
+  "anim": 12.4,
+  "tail_zoom": 0.0,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "photo": "images/scene_039.jpg",
+   "kick": "ПОЛЬША ВХОДИТ В ИГРУ",
+   "watermark": "ПЛАНЕТА"
+  },
+  "mode": "frame"
+ },
+ {
+  "scene": 44,
+  "view": "charts.cartogram",
+  "dur": 10.7,
+  "anim": 10.7,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "data": [
+    "Польша",
+    "Эстония",
+    "Литва",
+    "Украина"
+   ],
+   "kick": "У КАЖДОГО СВОЁ УСЛОВИЕ",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 47,
+  "view": "cinematic.evidence_wall",
+  "dur": 12.3,
+  "anim": 12.3,
+  "tail_zoom": 0.0,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "shots": [
+    [
+     "images/scene_045.jpg",
+     240,
+     380,
+     -4,
+     "кто что ограничивает"
+    ],
+    [
+     "images/scene_049.jpg",
+     800,
+     380,
+     3,
+     "кто что гарантирует"
+    ],
+    [
+     "images/scene_051.jpg",
+     1360,
+     380,
+     -2,
+     "где проходит инфраструктура"
+    ]
+   ],
+   "kick": "ПРЕДМЕТ ОБМЕНА",
+   "title": "ИЗ ЧЕГО СОБИРАЕТСЯ СДЕЛКА",
+   "watermark": "ПЛАНЕТА"
+  },
+  "mode": "frame"
+ },
+ {
+  "scene": 53,
+  "view": "film.film_strip",
+  "dur": 15.8,
+  "anim": 15.8,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "shots": [
+    "images/scene_050.jpg",
+    "images/scene_052.jpg",
+    "images/scene_055.jpg",
+    "images/scene_057.jpg"
+   ],
+   "kick": "ПРАВЫ АБСОЛЮТНО ВСЕ",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 59,
+  "view": "pull",
+  "dur": 9.3,
+  "anim": 2.6,
+  "tail_zoom": 0.05,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Если точки, в которой цели выполнены, не существует, перед нами не стратегия выхода, а просто дорога",
+   "accent": "не стратегия выхода",
+   "kick": "ГЛАВНЫЙ ВОПРОС",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 65,
+  "view": "marker_serif",
+  "dur": 11.3,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Америка отходит в сторону, а европейцам предлагают продолжать так, как было",
+   "accent": "продолжать так, как было",
+   "watermark": "ПЛАНЕТА"
+  }
+ }
+]
