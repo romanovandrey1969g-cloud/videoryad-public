@@ -94,6 +94,7 @@ template/fx_inset.py
 template/fx_put.py
 template/fx_rings.py
 template/fx_trans.py
+template/fx_trans5.py
 template/geo_links.py
 template/grab_stream_frame.py
 template/grab_video_frame.py
@@ -119,6 +120,7 @@ template/tg_media.py
 template/voice_note.py
 template/wm_sheet.py
 template/zoom.py
+template/ozvuchka.py
 template/take_folder.py
 template/final_sheet.py
 template/fx_sheet.py
