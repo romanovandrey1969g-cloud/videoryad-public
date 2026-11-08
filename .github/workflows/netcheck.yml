@@ -1,0 +1,16 @@
+name: netcheck
+on:
+  workflow_dispatch:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: достучаться до сервиса озвучки
+        run: |
+          for h in api.qw1voicegencore.pro qw1voicegencore.pro voicegenapp.com api.voicegenapp.com; do
+            code=$(curl -4 -s -o /dev/null -w "%{http_code}" --connect-timeout 10 --max-time 20 "https://$h/" || echo "сбой")
+            echo "$h → $code"
+          done
+          echo "--- путь API без ключа (ждём 401/403, а не 000):"
+          curl -4 -s -o /dev/null -w "%{http_code}\n" --connect-timeout 10 --max-time 20 \
+            "https://api.qw1voicegencore.pro/api/v1/client/templates" || true
