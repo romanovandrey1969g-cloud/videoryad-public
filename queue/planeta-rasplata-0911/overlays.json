@@ -1,0 +1,126 @@
+{
+ "anchor": "top",
+ "2": {
+  "photo": "overlays/scene_002.jpg",
+  "sound": "pop",
+  "at": 2.2,
+  "shape": "rect",
+  "scale": 1.0,
+  "style": "left"
+ },
+ "6": {
+  "photo": "overlays/scene_006.jpg",
+  "sound": "whoosh",
+  "at": 2.4,
+  "shape": "rect",
+  "scale": 1.0,
+  "style": "right"
+ },
+ "25": {
+  "photo": "overlays/scene_025.jpg",
+  "sound": "ding",
+  "at": 2.6,
+  "shape": "rect",
+  "scale": 1.0,
+  "style": "left"
+ },
+ "31": {
+  "photo": "overlays/scene_031.jpg",
+  "sound": "pop",
+  "at": 2.8,
+  "shape": "square",
+  "scale": 1.0,
+  "style": "right"
+ },
+ "33": {
+  "photo": "overlays/scene_033.jpg",
+  "sound": "whoosh",
+  "at": 3.0,
+  "shape": "rect",
+  "scale": 1.0,
+  "style": "left"
+ },
+ "44": {
+  "photo": "overlays/scene_044.jpg",
+  "sound": "ding",
+  "at": 2.2,
+  "shape": "rect",
+  "scale": 1.0,
+  "style": "right"
+ },
+ "49": {
+  "photo": "overlays/scene_049.jpg",
+  "sound": "pop",
+  "at": 2.4,
+  "shape": "rect",
+  "scale": 1.0,
+  "style": "left"
+ },
+ "56": {
+  "photo": "overlays/scene_056.jpg",
+  "sound": "whoosh",
+  "at": 2.6,
+  "shape": "square",
+  "scale": 1.0,
+  "style": "right"
+ },
+ "63": {
+  "photo": "overlays/scene_063.jpg",
+  "sound": "ding",
+  "at": 2.8,
+  "shape": "rect",
+  "scale": 1.0,
+  "style": "left"
+ },
+ "69": {
+  "photo": "overlays/scene_069.jpg",
+  "sound": "pop",
+  "at": 3.0,
+  "shape": "rect",
+  "scale": 1.0,
+  "style": "right"
+ },
+ "75": {
+  "photo": "overlays/scene_075.jpg",
+  "sound": "whoosh",
+  "at": 2.2,
+  "shape": "rect",
+  "scale": 1.0,
+  "style": "left"
+ },
+ "88": {
+  "photo": "overlays/scene_088.jpg",
+  "sound": "ding",
+  "at": 2.4,
+  "shape": "square",
+  "scale": 1.0,
+  "style": "right"
+ },
+ "21": {
+  "text": {
+   "words": "СЧЁТ ГРАЖДАНАМ",
+   "sub": "Европа платит по месту жительства",
+   "style": "mask_plate",
+   "pos": "ml",
+   "at": 0.5
+  }
+ },
+ "38": {
+  "text": {
+   "words": "ПЕНСИИ",
+   "sub": "Калькулятор включили",
+   "style": "mask_plate",
+   "pos": "ml",
+   "at": 0.5
+  }
+ },
+ "65": {
+  "text": {
+   "words": "РЕЙТИНГИ",
+   "sub": "Проверка системы",
+   "style": "mask_plate",
+   "pos": "ml",
+   "at": 0.5
+  }
+ }
+}
