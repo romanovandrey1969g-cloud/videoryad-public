@@ -2739,6 +2739,7 @@ async function ovTextSave(id, approvedVal){{
   try{{
     const r=await fetch("overlay_text?id="+id,{{method:"POST",
       headers:{{"Content-Type":"application/json"}},body:JSON.stringify(body)}});
+    if(await _otkaz(r, m)) return;
     if(m) m.textContent = r.ok ? "сохранено ✓" : "ошибка";
     if(r.ok){{
       const mk=document.getElementById("txtmark"+id), mi=document.getElementById("txtmarkimg"+id);
@@ -2765,6 +2766,7 @@ async function ovPhotoPos(id,c){{
     const r = await fetch("overlay?id="+id, {{method:"POST",
       headers:{{"Content-Type":"application/json"}},
       body: JSON.stringify({{pos: H, anchor: V}})}});
+    if(await _otkaz(r, m)) return;
     if(m) m.textContent = r.ok ? "сохранено ✓" : "ошибка";
   }}catch(e){{ if(m) m.textContent = "ошибка"; }}
   setTimeout(()=>{{ if(m) m.textContent = ""; }}, 1800);
@@ -2835,12 +2837,30 @@ async function tkClear(id){{
     headers:{{"Content-Type":"application/json"}}, body: JSON.stringify({{clear:1}})}}); }}catch(e){{}}
   const w=document.getElementById("tkwrap"+id); if(w) w.remove();
 }}
+// ОТКАЗ С СЕРВЕРА — НА ЭКРАН ЦЕЛИКОМ, А НЕ «ошибка» (09.11). Сервер отвечает
+// 409 и телом {{ok:false, reason:"…"}}: ровно тот формат, которым уже отвечает
+// кнопка «выбрать вариант». Возвращает true, если это был отказ.
+async function _otkaz(r, el){{
+  if(r.ok) return false;
+  let j = null;
+  try{{ j = await r.json(); }}catch(e){{}}
+  const why = (j && (j.reason || j.warn)) || "";
+  if(why){{
+    // перевод строки берём кодом: весь этот скрипт лежит в python-f-строке,
+    // и обратный слэш в ней съедается ещё до браузера (поймано сразу, 09.11)
+    if(el) el.textContent = "✗ нельзя: " + why.split(String.fromCharCode(10))[0];
+    alert(why);
+    return true;
+  }}
+  return false;
+}}
 async function ovPhoto(id, inp){{
   const f = inp.files[0]; if(!f) return;
   const fn = document.getElementById("ovfile"+id); fn.textContent = "… загрузка";
   try{{
     const r = await fetch("overlay_photo?id="+id, {{method:"POST",
       headers:{{"X-Filename": encodeURIComponent(f.name)}}, body: f}});
+    if(await _otkaz(r, fn)){{ inp.value = ""; return; }}
     fn.textContent = r.ok ? f.name : "✗ не вышло";
     if(r.ok){{
       const pv = document.getElementById("ovprev"+id);
@@ -3146,7 +3166,9 @@ async function ovFind(id){{
       fn.textContent = "✓ нашёл: " + q;
       const pv = document.getElementById("ovprev"+id);
       pv.src = j.photo + "?t=" + Date.now(); pv.hidden = false;
-    }} else {{ fn.textContent = "✗ не нашёл — переформулируй или загрузи файл"; }}
+    }} else if(!(await _otkaz(r, fn))){{
+      fn.textContent = "✗ не нашёл — переформулируй или загрузи файл";
+    }}
   }}catch(e){{ fn.textContent = "✗ ошибка поиска"; }}
 }}
 function ovEdit(id){{
