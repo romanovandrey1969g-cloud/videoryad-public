@@ -1,0 +1,843 @@
+{
+ "channel": "ПЛАНЕТА",
+ "scenes": [
+  {
+   "id": 1,
+   "start_sec": 0.0,
+   "duration_sec": 9.2,
+   "text": "",
+   "source": "local_library",
+   "source_query": "БАЗА/ПЕРСОНЫ/ТРАМП"
+  },
+  {
+   "id": 2,
+   "start_sec": 9.2,
+   "duration_sec": 9.6,
+   "text": "",
+   "source": "local_library",
+   "source_query": "ПОЛИТИКА/Украина-РФ-Переговоры",
+   "fx": "mosaic"
+  },
+  {
+   "id": 3,
+   "start_sec": 18.8,
+   "duration_sec": 9.8,
+   "text": "",
+   "source": "web_search",
+   "source_query": "Прибытие Сергея Рябкова Москва 2026 к Министерству иностранных дел"
+  },
+  {
+   "id": 4,
+   "start_sec": 28.6,
+   "duration_sec": 10.0,
+   "text": "",
+   "source": "local_library",
+   "source_query": "БАЗА/ВЛАСТЬ-РОССИЯ/ЗДАНИЕ-МИД-РОССИИ"
+  },
+  {
+   "id": 5,
+   "start_sec": 38.6,
+   "duration_sec": 9.4,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Комментарий Сергея Рябкова Москва 2026 о ракетной безопасности",
+   "fx": "panels"
+  },
+  {
+   "id": 6,
+   "start_sec": 48.0,
+   "duration_sec": 9.7,
+   "text": "",
+   "source": "card:film_frame",
+   "source_query": "карточка"
+  },
+  {
+   "id": 7,
+   "start_sec": 57.7,
+   "duration_sec": 9.2,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Сергей Рябков у микрофона Дом приёмов МИД Москва 2021"
+  },
+  {
+   "id": 8,
+   "start_sec": 66.9,
+   "duration_sec": 9.6,
+   "text": "",
+   "source": "local_library",
+   "source_query": "БАЗА/ВЛАСТЬ-РОССИЯ/МОСКОВСКИЙ-КРЕМЛЬ-СО",
+   "fx": "depth"
+  },
+  {
+   "id": 9,
+   "start_sec": 76.5,
+   "duration_sec": 9.8,
+   "text": "",
+   "source": "web_search",
+   "source_query": "Вход Сергея Рябкова в Дом приёмов МИД Москва 2026"
+  },
+  {
+   "id": 10,
+   "start_sec": 86.3,
+   "duration_sec": 10.0,
+   "text": "",
+   "source": "local_library",
+   "source_query": "БАЗА/ВЕДОМСТВА/НАТО"
+  },
+  {
+   "id": 11,
+   "start_sec": 96.3,
+   "duration_sec": 9.4,
+   "text": "",
+   "source": "direct_url",
+   "source_query": "https://cdn4.telesco.pe/file/JttUtGPGUoh8BVgOgu7oJclSTZ6dK46VXn-He7z5I55Y8tQehkWLYdILYnSmv5WsrCK1UzRgBXWYeII7s68RgPSEIqkpi-EOyomnPd6XdDFP1t471fviR_d1sXm2nupkbkY6MUW_7J-BmrFRQ788Z6JBFkNPiC_H98U0dLGH185w9x32zzaXxjTIHTof71oW6irKGqqmtbUE_gxZrXmeBIXTc0DmEEX1ALWipXnzG0sYt2ZLhK6EL-D7sqDzC6fwTFuARK11ROcBfglRkPgscd-TiEDVd6d4ZWPO-BC26n4FpI2Pc4UI1xcydahzBFsKKWZOsN15d1nrE_YTusKUDQ.jpg"
+  },
+  {
+   "id": 12,
+   "start_sec": 105.7,
+   "duration_sec": 9.7,
+   "text": "",
+   "source": "local_library",
+   "source_query": "БАЗА/ВЛАСТЬ-УКРАИНА/ЗАЛ-ЗАСЕДАНИЙ-ВЕРХОВНОЙ"
+  },
+  {
+   "id": 13,
+   "start_sec": 115.4,
+   "duration_sec": 9.2,
+   "text": "",
+   "source": "local_library",
+   "source_query": "ПОЛИТИКА/TRAMP",
+   "fx": "tear"
+  },
+  {
+   "id": 14,
+   "start_sec": 124.6,
+   "duration_sec": 9.6,
+   "text": "",
+   "source": "direct_url",
+   "source_query": "https://cdn4.telesco.pe/file/420fa56907.mp4?token=FHE_ACj96G9El-k_QMgeW7WwJ4WTZDMXQ6iFriZXCAzVo6LE7IVhTxpUJdKW83QViCvC11SEN630-wzKo10O9c_toJI7eKIJN9re3-3WHByLIREMEJ9HcQ7bUxGfIvQ9QrRmhTSTyeQVCTbkCjHxhGfrHtZTnygOBGcST7zu-l9CBnVHZJVQ7lC7oBNOrgfE4ky7RtgA6TJ5R8U1oK__rWc33Q_jT-SpoC5Vd3Dod4NKGb3B9PRbBYssAfhaF238C_U19gZgnesdInbme7gNe__XP4btU7q0h_0BmG-KuV2RFPkBfvT2aRJ0TceoR4fLSH_u1Lk0_8uu6Wsv9y_TDYWOpGPPJgrUDPjvR3m_yJOfwRxPGsEpzEljmzYPM_ib305LxFaLPd8quvZ40nG9StDJNw4Nax8aoRuL-b8n-6oBPvwGr8dv3EhiyaKqNfG_gV9yGSa5ZYGah72x-eD3NdPOT5KFLz0rHzzCgVpF21iBWL2Mh-pu7emhKtuQ6RrzYc-exPxNBiFoTJJ4PSz4BcA7I0RbPUvvLPVvJS478EhQjqh_St8RHpk-3Wpaz8lMgpmY2V0l6NDEKTgkiX0IrwOxzwQ6jsb7EQRO3f6H6YGX2g2aDZYSErWvG97giqxzjDm64dEXG5M0_9VmmbDUMpm4EEasNpxSft6FvnJPxA8"
+  },
+  {
+   "id": 15,
+   "start_sec": 134.2,
+   "duration_sec": 9.8,
+   "text": "",
+   "source": "local_library",
+   "source_query": "БАЗА/ВЛАСТЬ-США/БРИФИНГ-ЗАЛ-БЕЛОГО-ДОМА"
+  },
+  {
+   "id": 16,
+   "start_sec": 144.0,
+   "duration_sec": 10.0,
+   "text": "",
+   "source": "card:marker_serif",
+   "source_query": "карточка «marker_serif» — кадр рисуется в облаке, фетч не нужен"
+  },
+  {
+   "id": 17,
+   "start_sec": 154.0,
+   "duration_sec": 9.4,
+   "text": "",
+   "source": "web_search",
+   "source_query": "Президентский кортеж Белый дом Вашингтон 2026 у входа"
+  },
+  {
+   "id": 18,
+   "start_sec": 163.4,
+   "duration_sec": 9.7,
+   "text": "",
+   "source": "local_library",
+   "source_query": "БАЗА/УНИВЕРСАЛЬНОЕ/ОПЕРАТОРЫ-КАМЕРАМИ-ПРЕСС-ПОДХОДЕ",
+   "fx": "subscribe"
+  },
+  {
+   "id": 19,
+   "start_sec": 173.1,
+   "duration_sec": 9.5,
+   "text": "",
+   "source": "direct_url",
+   "source_query": "https://cdn4.telesco.pe/file/jg8raMt0IeKch7S5oo55RhjS5Rnm2fVw2F3v5uPWRdAp9XTRfUiS7_KZdI20-IiAiimHA54uozaU7bitoo0x79AKFLlHXOgzk7n6dn9E9Ulxs5sqkTaNRF3UPXAVU7UxfoL-KShdAMSiGm2fC9bw0epYmV2Ls_fVRhwYNl_MyCY7oC4ofUZRGqUjqXl1gIgYkwyodyS85loDGhYgJoVxcOTshor_TJ58RZw5n5KZ13XPsH5gaMIGDnnhHIPEoAiqnNrq1WGzgcC3Mzwk9wtsSSqHZesjAK9qfWkf15_9TsThGuy7BRo4SvcFIKNRMo6liDzQmiEDQZxGOlW6DGeT6Q.jpg"
+  },
+  {
+   "id": 20,
+   "start_sec": 182.6,
+   "duration_sec": 9.9,
+   "text": "",
+   "source": "local_library",
+   "source_query": "БАЗА/ВЛАСТЬ-УКРАИНА/ОФИС-ПРЕЗИДЕНТА-УКРАИНЫ"
+  },
+  {
+   "id": 21,
+   "start_sec": 192.5,
+   "duration_sec": 11.5,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Ливадийский дворец Ялта 2026 парадный фасад",
+   "fx": "wipe"
+  },
+  {
+   "id": 22,
+   "start_sec": 204.0,
+   "duration_sec": 12.0,
+   "text": "",
+   "source": "card:map",
+   "source_query": "карточка"
+  },
+  {
+   "id": 23,
+   "start_sec": 216.0,
+   "duration_sec": 12.5,
+   "text": "",
+   "source": "direct_url",
+   "source_query": "https://cdn4.telesco.pe/file/s9xdiGTcb8_BXOa1G0nEV8QI_cHN7b1oDQUQ_3IoHUWWlSt4mQEBkUAYL5QtCzLR8DSFoFoVH5xdscDJEvoCqRxJBBKkSTtXqSl_NWm_EkflfdqtQ_ZS1hEiqaSoyWqa_OY91BvHyuydN5WGx8v-k83THbvIZUn8XCrDnj4dew2U4VOPRegC_1Oyv95mydeRkYclglKYzkSNRGM6RpdsfwMCTtQIrdQgKaIm7yTo0km96e1qDDf-gIiC5Er-pNpiiBD-erJ8oaGhJtKxwZLck6X-QLhth2rrcs4xd9QL5_QaMH6dQbDVhUCo2FKJZHEcIhfSNzpctOEySIXjBAi2OA.jpg"
+  },
+  {
+   "id": 24,
+   "start_sec": 228.5,
+   "duration_sec": 13.0,
+   "text": "",
+   "source": "local_library",
+   "source_query": "ПОЛИТИКА/США"
+  },
+  {
+   "id": 25,
+   "start_sec": 241.5,
+   "duration_sec": 12.25,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Киев 2026 панорама правительственного квартала",
+   "fx": "mosaic"
+  },
+  {
+   "id": 26,
+   "start_sec": 253.75,
+   "duration_sec": 11.75,
+   "text": "",
+   "source": "local_library",
+   "source_query": "БАЗА/ВЛАСТЬ-ЕВРОПА-НАТО/ЗАЛ-ЗАСЕДАНИЙ-НАТО"
+  },
+  {
+   "id": 27,
+   "start_sec": 265.5,
+   "duration_sec": 12.75,
+   "text": "",
+   "source": "local_library",
+   "source_query": "БАЗА/ВЕДОМСТВА/АРМИЯ-США"
+  },
+  {
+   "id": 28,
+   "start_sec": 278.25,
+   "duration_sec": 12.1,
+   "text": "",
+   "source": "local_library",
+   "source_query": "ПОЛИТИКА/ЗЕЛЕНСКИЙ"
+  },
+  {
+   "id": 29,
+   "start_sec": 290.35,
+   "duration_sec": 12.6,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Беседа Дональда Трампа с советниками Овальный кабинет 2026"
+  },
+  {
+   "id": 30,
+   "start_sec": 302.95,
+   "duration_sec": 11.9,
+   "text": "",
+   "source": "local_library",
+   "source_query": "ПОЛИТИКА/ЕВРОПА",
+   "fx": "flash"
+  },
+  {
+   "id": 31,
+   "start_sec": 314.85,
+   "duration_sec": 12.35,
+   "text": "",
+   "source": "card:pull",
+   "source_query": "карточка «pull» — кадр рисуется в облаке, фетч не нужен"
+  },
+  {
+   "id": 32,
+   "start_sec": 327.2,
+   "duration_sec": 12.85,
+   "text": "",
+   "source": "local_library",
+   "source_query": "БАЗА/ВЕДОМСТВА/ГОСДЕП-США"
+  },
+  {
+   "id": 33,
+   "start_sec": 340.05,
+   "duration_sec": 12.0,
+   "text": "",
+   "source": "local_library",
+   "source_query": "БАЗА/ВЛАСТЬ-ЕВРОПА-НАТО/ЕЛИСЕЙСКИЙ-ДВОРЕЦ-ПАРИЖЕ",
+   "fx": "panels"
+  },
+  {
+   "id": 34,
+   "start_sec": 352.05,
+   "duration_sec": 10.94,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Выход Эммануэля Макрона из Елисейского дворца Париж 2026"
+  },
+  {
+   "id": 35,
+   "start_sec": 362.99,
+   "duration_sec": 11.34,
+   "text": "",
+   "source": "local_library",
+   "source_query": "БАЗА/ВЕДОМСТВА/ЕВРОКОМИССИЯ"
+  },
+  {
+   "id": 36,
+   "start_sec": 374.33,
+   "duration_sec": 11.74,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Джорджа Мелони Рим 2026 выступает у Палаццо Киджи"
+  },
+  {
+   "id": 37,
+   "start_sec": 386.07,
+   "duration_sec": 12.14,
+   "text": "",
+   "source": "local_library",
+   "source_query": "БАЗА/ВЛАСТЬ-ЕВРОПА-НАТО/ЗАЛ-ЕВРОПАРЛАМЕНТА-СТРАСБУРГЕ",
+   "fx": "depth"
+  },
+  {
+   "id": 38,
+   "start_sec": 398.21,
+   "duration_sec": 12.54,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Приём Эммануэлем Макроном официальной машины Париж 2026 во дворе дворца"
+  },
+  {
+   "id": 39,
+   "start_sec": 410.75,
+   "duration_sec": 12.94,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Джаред Кушнер Майами 2026 выходит из правительственного автомобиля"
+  },
+  {
+   "id": 40,
+   "start_sec": 423.69,
+   "duration_sec": 12.34,
+   "text": "",
+   "source": "card:film",
+   "source_query": "карточка"
+  },
+  {
+   "id": 41,
+   "start_sec": 436.03,
+   "duration_sec": 11.54,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Комплекс НАТО Брюссель 2022 закрытый служебный вход",
+   "fx": "flash"
+  },
+  {
+   "id": 42,
+   "start_sec": 447.57,
+   "duration_sec": 10.94,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Кремль Москва 2021 Владимир Путин на совещании с дипломатами"
+  },
+  {
+   "id": 43,
+   "start_sec": 458.51,
+   "duration_sec": 11.34,
+   "text": "",
+   "source": "web_search",
+   "source_query": "Автомобили у особняка МИД Москва 2021 возле парадного подъезда"
+  },
+  {
+   "id": 44,
+   "start_sec": 469.85,
+   "duration_sec": 11.74,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Закрытая дверь Совета Россия НАТО Брюссель 2026"
+  },
+  {
+   "id": 45,
+   "start_sec": 481.59,
+   "duration_sec": 12.14,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Борис Ельцин и Жак Ширак в Елисейском дворце Париж 1997, реальное фото"
+  },
+  {
+   "id": 46,
+   "start_sec": 493.73,
+   "duration_sec": 12.54,
+   "text": "",
+   "source": "web_search",
+   "source_query": "Елисейский дворец в Париже, парадный фасад, реальное фото",
+   "fx": "subscribe"
+  },
+  {
+   "id": 47,
+   "start_sec": 506.27,
+   "duration_sec": 12.94,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Штаб-квартира НАТО в Брюсселе, здание 1997 года, реальное фото"
+  },
+  {
+   "id": 48,
+   "start_sec": 519.21,
+   "duration_sec": 12.34,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Зал заседаний Североатлантического совета в штаб-квартире НАТО Брюссель 2026, пустой зал, реальное фото"
+  },
+  {
+   "id": 49,
+   "start_sec": 531.55,
+   "duration_sec": 11.54,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Церемония вступления Польши в НАТО Варшава 1999, реальное фото",
+   "fx": "tear"
+  },
+  {
+   "id": 50,
+   "start_sec": 543.09,
+   "duration_sec": 10.94,
+   "text": "",
+   "source": "local_library",
+   "source_query": "БАЗА/ВЛАСТЬ-ЕВРОПА-НАТО/УЧЕНИЯ-НАТО-БРОНЕТЕХНИКА"
+  },
+  {
+   "id": 51,
+   "start_sec": 554.03,
+   "duration_sec": 11.34,
+   "text": "",
+   "source": "local_library",
+   "source_query": "БАЗА/ВЕДОМСТВА/БУНДЕСВЕР"
+  },
+  {
+   "id": 52,
+   "start_sec": 565.37,
+   "duration_sec": 11.74,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Автомобили Смоленской площади Москва 2021 у российского МИД",
+   "fx": "subscribe"
+  },
+  {
+   "id": 53,
+   "start_sec": 577.11,
+   "duration_sec": 12.14,
+   "text": "",
+   "source": "web_search",
+   "source_query": "Особняк МИД Москва 2021 официальный приём дипломатов"
+  },
+  {
+   "id": 54,
+   "start_sec": 589.25,
+   "duration_sec": 12.54,
+   "text": "",
+   "source": "card:film",
+   "source_query": "карточка"
+  },
+  {
+   "id": 55,
+   "start_sec": 601.79,
+   "duration_sec": 12.94,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Кортеж у входа Дом приёмов МИД Москва 2026"
+  },
+  {
+   "id": 56,
+   "start_sec": 614.73,
+   "duration_sec": 12.34,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Верховная Рада Киев 2026 депутаты в сессионном помещении",
+   "fx": "wipe"
+  },
+  {
+   "id": 57,
+   "start_sec": 627.07,
+   "duration_sec": 11.54,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Бранево 2026 шлагбаум и патрульные машины на границе с Россией"
+  },
+  {
+   "id": 58,
+   "start_sec": 638.61,
+   "duration_sec": 10.94,
+   "text": "",
+   "source": "web_search",
+   "source_query": "Польские машины НАТО Варшава 2026 на шоссе"
+  },
+  {
+   "id": 59,
+   "start_sec": 649.55,
+   "duration_sec": 11.34,
+   "text": "",
+   "source": "local_library",
+   "source_query": "ПОЛИТИКА/УКРАИНА ВСУ и Азов",
+   "fx": "mosaic"
+  },
+  {
+   "id": 60,
+   "start_sec": 660.89,
+   "duration_sec": 11.74,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Военнослужащие Украины Киев 2026 возле бронемашины"
+  },
+  {
+   "id": 61,
+   "start_sec": 672.63,
+   "duration_sec": 12.14,
+   "text": "",
+   "source": "local_library",
+   "source_query": "БАЗА/ВЛАСТЬ-УКРАИНА/КАБИНЕТ-МИНИСТРОВ-УКРАИНЫ"
+  },
+  {
+   "id": 62,
+   "start_sec": 684.77,
+   "duration_sec": 12.54,
+   "text": "",
+   "source": "web_search",
+   "source_query": "Служебные автомобили Киев 2026 возле Верховной Рады",
+   "fx": "panels"
+  },
+  {
+   "id": 63,
+   "start_sec": 697.31,
+   "duration_sec": 12.94,
+   "text": "",
+   "source": "card:bars",
+   "source_query": "карточка «bars» — кадр рисуется в облаке, фетч за сценой не идёт",
+   "card": {
+    "kind": "bars",
+    "код": "A4",
+    "title": "Три уровня «другой формы»",
+    "watermark": "ПЛАНЕТА",
+    "anim": 12.94
+   }
+  },
+  {
+   "id": 64,
+   "start_sec": 710.25,
+   "duration_sec": 12.34,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Владимир Зеленский Киев 2026 записывает обращение в Офисе президента"
+  },
+  {
+   "id": 65,
+   "start_sec": 722.59,
+   "duration_sec": 11.54,
+   "text": "",
+   "source": "card:slider",
+   "source_query": "карточка «slider» — кадр рисуется в облаке, фетч за сценой не идёт",
+   "card": {
+    "kind": "slider",
+    "код": "A5",
+    "title": "Насколько глубока правка",
+    "watermark": "ПЛАНЕТА",
+    "anim": 11.54
+   }
+  },
+  {
+   "id": 66,
+   "start_sec": 734.13,
+   "duration_sec": 10.94,
+   "text": "",
+   "source": "local_library",
+   "source_query": "БАЗА/ВЛАСТЬ-США/САМОЛЁТ-AIR-FORCE",
+   "fx": "flash"
+  },
+  {
+   "id": 67,
+   "start_sec": 745.07,
+   "duration_sec": 11.34,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Конференц-центр Майами 2026 фасад у набережной"
+  },
+  {
+   "id": 68,
+   "start_sec": 756.41,
+   "duration_sec": 11.74,
+   "text": "",
+   "source": "web_search",
+   "source_query": "Совещание Владимира Путина Москва 2026 с дипломатами в Кремле",
+   "fx": "inset"
+  },
+  {
+   "id": 69,
+   "start_sec": 768.15,
+   "duration_sec": 12.14,
+   "text": "",
+   "source": "local_library",
+   "source_query": "БАЗА/УНИВЕРСАЛЬНОЕ/ЛЮДИ-ОФИСЕ-МОНИТОРАМИ"
+  },
+  {
+   "id": 70,
+   "start_sec": 780.29,
+   "duration_sec": 12.54,
+   "text": "",
+   "source": "card:dossier",
+   "source_query": "карточка"
+  },
+  {
+   "id": 71,
+   "start_sec": 792.83,
+   "duration_sec": 12.94,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Игорь Костюков Москва 2026 на официальном мероприятии"
+  },
+  {
+   "id": 72,
+   "start_sec": 805.77,
+   "duration_sec": 12.34,
+   "text": "",
+   "source": "local_library",
+   "source_query": "БАЗА/ВЛАСТЬ-УКРАИНА/НАЦИОНАЛЬНЫЙ-БАНК-УКРАИНЫ",
+   "fx": "depth"
+  },
+  {
+   "id": 73,
+   "start_sec": 818.11,
+   "duration_sec": 11.54,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Автомобили европейского квартала Брюссель 2026 возле правительственных офисов"
+  },
+  {
+   "id": 74,
+   "start_sec": 829.65,
+   "duration_sec": 10.94,
+   "text": "",
+   "source": "web_search",
+   "source_query": "Логистический узел НАТО в Жешуве Польша 2026, грузовые платформы с техникой, реальное фото"
+  },
+  {
+   "id": 75,
+   "start_sec": 840.59,
+   "duration_sec": 11.34,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Микрофоны западного крыла Белый дом Вашингтон 2026"
+  },
+  {
+   "id": 76,
+   "start_sec": 851.93,
+   "duration_sec": 11.74,
+   "text": "",
+   "source": "web_search",
+   "source_query": "Резиденция президента США Вашингтон 2026 закрытая дверь кабинета",
+   "fx": "subscribe"
+  },
+  {
+   "id": 77,
+   "start_sec": 863.67,
+   "duration_sec": 12.14,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Президентский квартал Киев 2026 охрана у правительственных зданий"
+  },
+  {
+   "id": 78,
+   "start_sec": 875.81,
+   "duration_sec": 12.54,
+   "text": "",
+   "source": "web_search",
+   "source_query": "Служебный транспорт Смоленская площадь Москва 2026 возле российского МИД"
+  },
+  {
+   "id": 79,
+   "start_sec": 888.35,
+   "duration_sec": 12.94,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Ливадийский дворец Ялта 1945, участники конференции во дворе, архивное реальное фото"
+  },
+  {
+   "id": 80,
+   "start_sec": 901.29,
+   "duration_sec": 12.34,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Выход Джорджи Мелони из Палаццо Киджи Рим 2026"
+  },
+  {
+   "id": 81,
+   "start_sec": 913.63,
+   "duration_sec": 11.54,
+   "text": "",
+   "source": "web_search",
+   "source_query": "Вопросы Дональду Трампу у резиденции Вашингтон 2026"
+  },
+  {
+   "id": 82,
+   "start_sec": 925.17,
+   "duration_sec": 10.94,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Колонна бронетехники ВСУ на шоссе под Киевом 2026, реальное фото"
+  },
+  {
+   "id": 83,
+   "start_sec": 936.11,
+   "duration_sec": 11.34,
+   "text": "",
+   "source": "web_search",
+   "source_query": "Разрушенные кварталы Киев 2026 без прохожих"
+  },
+  {
+   "id": 84,
+   "start_sec": 947.45,
+   "duration_sec": 11.74,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Ночной фасад МИД Смоленская площадь Москва 2021",
+   "fx": "subscribe"
+  },
+  {
+   "id": 85,
+   "start_sec": 959.19,
+   "duration_sec": 12.14,
+   "text": "",
+   "source": "card:poster",
+   "source_query": "карточка"
+  },
+  {
+   "id": 86,
+   "start_sec": 971.33,
+   "duration_sec": 12.54,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Официальный автомобиль возле Дома приёмов МИД Москва 2026"
+  },
+  {
+   "id": 87,
+   "start_sec": 983.87,
+   "duration_sec": 12.94,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Совместный снимок участников саммита Россия — НАТО Париж 1997, реальное фото",
+   "fx": "tear"
+  },
+  {
+   "id": 88,
+   "start_sec": 996.81,
+   "duration_sec": 12.34,
+   "text": "",
+   "source": "web_search",
+   "source_query": "Брюссель 2021 Совет Россия НАТО участники за общим столом"
+  },
+  {
+   "id": 89,
+   "start_sec": 1009.15,
+   "duration_sec": 11.54,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Главный вход МИД России Москва 2026 со служебными машинами"
+  },
+  {
+   "id": 90,
+   "start_sec": 1020.69,
+   "duration_sec": 10.94,
+   "text": "",
+   "source": "local_library",
+   "source_query": "БАЗА/ТЕМЫ/КИЕВ-БЕЗ-СВЕТА-3110_РЕМОНТНАЯ-БРИГАДА-ВОССТАНАВЛИВАЕТ"
+  },
+  {
+   "id": 91,
+   "start_sec": 1031.63,
+   "duration_sec": 11.34,
+   "text": "",
+   "source": "local_library",
+   "source_query": "ПОЛИТИКА/НАТО",
+   "fx": "wipe"
+  },
+  {
+   "id": 92,
+   "start_sec": 1042.97,
+   "duration_sec": 11.74,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Краковец 2026 инспекция автомобилей на границе Украины и Польши"
+  },
+  {
+   "id": 93,
+   "start_sec": 1054.71,
+   "duration_sec": 12.14,
+   "text": "",
+   "source": "web_search",
+   "source_query": "Входная группа МИД Москва 2026 и служебные машины"
+  },
+  {
+   "id": 94,
+   "start_sec": 1066.85,
+   "duration_sec": 12.54,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Вечерняя улица Брюссель 2026 возле европейских ведомств"
+  },
+  {
+   "id": 95,
+   "start_sec": 1079.39,
+   "duration_sec": 12.94,
+   "text": "",
+   "source": "web_search",
+   "source_query": "Выступление Дональда Трампа Белый дом Вашингтон 2026 перед микрофонами"
+  },
+  {
+   "id": 96,
+   "start_sec": 1092.33,
+   "duration_sec": 12.34,
+   "text": "",
+   "source": "local_library",
+   "source_query": "ПОЛИТИКА/КИЕВ-ОБОРОНА"
+  },
+  {
+   "id": 97,
+   "start_sec": 1104.67,
+   "duration_sec": 11.54,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Купол Верховной Рады Киев 2026 над правительственным кварталом"
+  },
+  {
+   "id": 98,
+   "start_sec": 1116.21,
+   "duration_sec": 10.94,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Охрана Южного портика Белый дом Вашингтон 2026"
+  },
+  {
+   "id": 99,
+   "start_sec": 1127.15,
+   "duration_sec": 11.34,
+   "text": "",
+   "source": "web_search",
+   "source_query": "Заявление Дональда Трампа Овальный кабинет Вашингтон 2026"
+  },
+  {
+   "id": 100,
+   "start_sec": 1138.49,
+   "duration_sec": 13.01,
+   "text": "",
+   "source": "card:split",
+   "source_query": "карточка"
+  }
+ ]
+}

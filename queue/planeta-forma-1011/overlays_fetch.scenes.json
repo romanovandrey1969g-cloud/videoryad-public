@@ -1,0 +1,101 @@
+{
+ "channel": "ПЛАНЕТА",
+ "scenes": [
+  {
+   "id": 2,
+   "text": "",
+   "duration_sec": 3.0,
+   "source": "press_photo",
+   "source_query": "Владимир Мединский на переговорах Стамбул 2025, реальное фото",
+   "visual_prompt": "Владимир Мединский на переговорах Стамбул 2025, реальное фото"
+  },
+  {
+   "id": 12,
+   "text": "",
+   "duration_sec": 3.0,
+   "source": "press_photo",
+   "source_query": "Сергей Кислица дипломат Украины 2026, реальное фото",
+   "visual_prompt": "Сергей Кислица дипломат Украины 2026, реальное фото"
+  },
+  {
+   "id": 17,
+   "text": "",
+   "duration_sec": 3.0,
+   "source": "direct_url",
+   "source_query": "https://cdn4.telesco.pe/file/98df265a9d.mp4?token=R-F8Ulo60VASQO6cJ26q_iu8itwZEqDLqaO75M_1YX_-ZqYbCVDmxAaXobe5EwlL9hrNMVhNAUFcI44tqi5hwzfot6wqjWo5b4yXEwcwR582qvlcfeY01S5NIpHVSB6eZvSbDBZYZb3cpU8izI28VjpEgWX0n5374VqODBa7srUiN-Gzsv1njWXIbE4FSXFnHo2XYD05axZTv4n41Kvpwq65BSOpfCPqynZ_kev1MKrftPc5Uq1qWCrrL4lXBVRYxxZMo8XPckPohLooZAn9Dh2QvRcZ-zCpIGTAUU7zmv4zdnYRw18NVjflkbL1pMoaiNs1x5_wG-Zzv1_Yep8lEw",
+   "visual_prompt": "https://cdn4.telesco.pe/file/98df265a9d.mp4?token=R-F8Ulo60VASQO6cJ26q_iu8itwZEqDLqaO75M_1YX_-ZqYbCVDmxAaXobe5EwlL9hrNMVhNAUFcI44tqi5hwzfot6wqjWo5b4yXEwcwR582qvlcfeY01S5NIpHVSB6eZvSbDBZYZb3cpU8izI28VjpEgWX0n5374VqODBa7srUiN-Gzsv1njWXIbE4FSXFnHo2XYD05axZTv4n41Kvpwq65BSOpfCPqynZ_kev1MKrftPc5Uq1qWCrrL4lXBVRYxxZMo8XPckPohLooZAn9Dh2QvRcZ-zCpIGTAUU7zmv4zdnYRw18NVjflkbL1pMoaiNs1x5_wG-Zzv1_Yep8lEw"
+  },
+  {
+   "id": 20,
+   "text": "",
+   "duration_sec": 3.0,
+   "source": "press_photo",
+   "source_query": "Владимир Зеленский на пресс-конференции Берлин 2026, реальное фото",
+   "visual_prompt": "Владимир Зеленский на пресс-конференции Берлин 2026, реальное фото"
+  },
+  {
+   "id": 26,
+   "text": "",
+   "duration_sec": 3.0,
+   "source": "press_photo",
+   "source_query": "Батарея Patriot армии США на позиции в Польше 2026, реальное фото",
+   "visual_prompt": "Батарея Patriot армии США на позиции в Польше 2026, реальное фото"
+  },
+  {
+   "id": 36,
+   "text": "",
+   "duration_sec": 3.0,
+   "source": "press_photo",
+   "source_query": "Флаги стран Евросоюза у здания Берлемон Брюссель, реальное фото",
+   "visual_prompt": "Флаги стран Евросоюза у здания Берлемон Брюссель, реальное фото"
+  },
+  {
+   "id": 48,
+   "text": "",
+   "duration_sec": 3.0,
+   "source": "press_photo",
+   "source_query": "Бронетехника бундесвера на полигоне в Литве 2026, реальное фото",
+   "visual_prompt": "Бронетехника бундесвера на полигоне в Литве 2026, реальное фото"
+  },
+  {
+   "id": 57,
+   "text": "",
+   "duration_sec": 3.0,
+   "source": "local_library",
+   "source_query": "КАРТЫ/ЕВРОПА",
+   "visual_prompt": "КАРТЫ/ЕВРОПА"
+  },
+  {
+   "id": 75,
+   "text": "",
+   "duration_sec": 3.0,
+   "source": "press_photo",
+   "source_query": "Здание Генерального штаба Вооружённых сил России Москва, реальное фото",
+   "visual_prompt": "Здание Генерального штаба Вооружённых сил России Москва, реальное фото"
+  },
+  {
+   "id": 71,
+   "text": "",
+   "duration_sec": 3.0,
+   "source": "press_photo",
+   "source_query": "Михаил Галузин заместитель министра иностранных дел России 2026, реальное фото",
+   "visual_prompt": "Михаил Галузин заместитель министра иностранных дел России 2026, реальное фото"
+  },
+  {
+   "id": 80,
+   "text": "",
+   "duration_sec": 3.0,
+   "source": "press_photo",
+   "source_query": "Небоскрёбы Абу-Даби Объединённые Арабские Эмираты, реальное фото",
+   "visual_prompt": "Небоскрёбы Абу-Даби Объединённые Арабские Эмираты, реальное фото"
+  },
+  {
+   "id": 95,
+   "text": "",
+   "duration_sec": 3.0,
+   "source": "local_library",
+   "source_query": "КАРТЫ/УКРАИНА",
+   "visual_prompt": "КАРТЫ/УКРАИНА"
+  }
+ ]
+}
