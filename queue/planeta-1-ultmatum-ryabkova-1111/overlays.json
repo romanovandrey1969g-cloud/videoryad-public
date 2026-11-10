@@ -1,0 +1,116 @@
+{
+  "18": {
+    "photo": "overlays/pop_018.jpg",
+    "sound": "whoosh",
+    "at": 1.5
+  },
+  "36": {
+    "photo": "overlays/pop_036.jpg",
+    "sound": "whoosh",
+    "at": 1.5
+  },
+  "37": {
+    "photo": "overlays/pop_037.jpg",
+    "sound": "whoosh",
+    "at": 2.0
+  },
+  "41": {
+    "photo": "overlays/pop_041.jpg",
+    "sound": "whoosh",
+    "at": 1.8
+  },
+  "44": {
+    "photo": "overlays/pop_044.jpg",
+    "sound": "whoosh",
+    "at": 1.5
+  },
+  "47": {
+    "photo": "overlays/pop_047.jpg",
+    "sound": "whoosh",
+    "at": 2.0
+  },
+  "48": {
+    "photo": "overlays/pop_048.jpg",
+    "sound": "whoosh",
+    "at": 1.8
+  },
+  "53": {
+    "photo": "overlays/pop_053.jpg",
+    "sound": "whoosh",
+    "at": 1.5
+  },
+  "4": {
+    "text": {
+      "words": "УЛЬТИМАТУМ 2.0",
+      "sub": "требования Москвы снова на столе",
+      "style": "mask_plate",
+      "pos": "ml",
+      "at": 0.5
+    }
+  },
+  "14": {
+    "text": {
+      "words": "КОМУ НУЖНЫ ГАРАНТИИ",
+      "sub": "Украина, Европа, Россия",
+      "style": "mask_plate",
+      "pos": "ml",
+      "at": 0.5
+    }
+  },
+  "32": {
+    "text": {
+      "words": "АБУ-ДАБИ",
+      "sub": "кто сел за стол без приглашения",
+      "style": "mask_plate",
+      "pos": "ml",
+      "at": 0.5
+    }
+  },
+  "39": {
+    "text": {
+      "words": "ПРЕДУПРЕЖДЕНИЕ РЯБКОВА",
+      "sub": "конфликт будет коротким",
+      "style": "mask_plate",
+      "pos": "ml",
+      "at": 0.5
+    }
+  },
+  "51": {
+    "text": {
+      "words": "ЧТО ПРОВЕРЯТЬ ПОСЛЕ",
+      "sub": "действия, а не заявления",
+      "style": "mask_plate",
+      "pos": "ml",
+      "at": 0.5
+    }
+  },
+  "20": {
+    "text": {
+      "words": "ЕВРОПА ПРОТИВ",
+      "sub": "«новая архитектура не нужна»",
+      "style": "mask_plate",
+      "pos": "ml",
+      "at": 0.5
+    }
+  },
+  "11": {
+    "photo": "overlays/pop_011.jpg",
+    "sound": "whoosh",
+    "at": 1.8
+  },
+  "27": {
+    "photo": "overlays/pop_027.jpg",
+    "sound": "whoosh",
+    "at": 1.8
+  },
+  "33": {
+    "photo": "overlays/pop_033.jpg",
+    "sound": "whoosh",
+    "at": 1.8
+  },
+  "52": {
+    "photo": "overlays/pop_052.jpg",
+    "sound": "whoosh",
+    "at": 1.6
+  }
+}
