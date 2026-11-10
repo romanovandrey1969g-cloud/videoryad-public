@@ -31,6 +31,7 @@ already placed in an open project's images/ or overlays/. A --days entry
 stops being enforced automatically once it expires (checked by date, no
 cleanup step needed).
 """
+import glob
 import os
 import sys
 
@@ -125,8 +126,36 @@ def _need_reason(what):
 BLANK_REASON = "причина не названа (снято без текста)"
 
 
+
+def _zamorozheno_stop(path_hint="."):
+    """УТВЕРЖДЕНО — ЗНАЧИТ ЗАМОРОЖЕНО (10.11, Z-0019/Z-0020). После того как
+    пользователь утвердил дашборд, инструменты правки на этом проекте не
+    работают: находку несут координатору, пересборку назначает он. Иначе
+    вкладка меняет кадры и упирается только на пуше, потеряв круг."""
+    try:
+        import sys as _s, os as _o
+        _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__)))
+        from zamorozka import zamorozheno
+        pdir = _o.path.abspath(path_hint if _o.path.isdir(path_hint)
+                               else _o.path.dirname(_o.path.abspath(path_hint)) or ".")
+        for _ in range(3):
+            if _o.path.exists(_o.path.join(pdir, ".utverzhdeno.json")):
+                break
+            pdir = _o.path.dirname(pdir)
+        if zamorozheno(pdir):
+            print("ПРАВКИ ЗАПРЕЩЕНЫ: дашборд этого ролика утверждён. "
+                  "Находку неси координатору — пересборку назначает пользователь.",
+                  file=_s.stderr)
+            raise SystemExit(3)
+    except SystemExit:
+        raise
+    except Exception:
+        pass
+
+
 def main():
     argv = sys.argv[1:]
+    _zamorozheno_stop(argv[0] if argv and not argv[0].startswith('-') else '.')
     if not argv:
         print(__doc__)
         raise SystemExit(1)
@@ -193,9 +222,33 @@ def main():
         md5 = file_md5(path)
         if ban_md5(md5, path=path, reason=reason, days=days):
             print(f"забанено {until_msg}: {path}  (md5 {md5})  {reason}")
+            _v_zhurnal(path, reason)
         else:
             print(f"НЕ записано: {path}  (md5 {md5}) — остался прежний бан")
     _siblings_hint(paths[-1])
+
+
+def _v_zhurnal(path, reason=""):
+    """ЗАМЕНА КАДРА ЧЕРЕЗ БАН — ТОЖЕ КРУГ ПРАВОК (10.11, его «где отсчёт?»).
+    Журнал вёл только `refetch.py`, а вкладки банят кадр и ставят новый руками
+    — и замер `brak.py` отвечал «данных нет» при четырёх кругах на ролик."""
+    try:
+        import re as _re
+        bn = os.path.basename(path)
+        m = _re.search(r"(?:scene_|_)(\d{2,3})\b", bn)
+        if not m:
+            return
+        sid = int(m.group(1))
+        pdir = os.path.dirname(os.path.dirname(os.path.abspath(path)))
+        if not glob.glob(os.path.join(pdir, "*.scenes.json")):
+            return                      # файл не из папки ролика (медиатека)
+        kind = "overlays" if os.sep + "overlays" + os.sep in os.path.abspath(path) \
+            else "images"
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        from zhurnal_zamen import tikho
+        tikho(pdir, sid, kind=kind, how="ban_file", query=reason or "")
+    except Exception:
+        pass
 
 
 def _siblings_hint(path):
