@@ -1,0 +1,310 @@
+[
+ {
+  "scene": 3,
+  "view": "split",
+  "dur": 14.0,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Пять лет назад Москва положила Западу на стол требования по безопасности. Их назвали ультиматумом.",
+   "accent": "ультиматумом",
+   "photo": "cards/photo/card_003.jpg",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 9,
+  "view": "marker_serif",
+  "dur": 13.6,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Европе не нужна новая архитектура безопасности",
+   "accent": "не нужна",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 13,
+  "view": "poster.poster",
+  "dur": 12.3,
+  "anim": 12.3,
+  "tail_zoom": 0.0,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "title": "КРУГ УЧАСТНИКОВ ШИРЕ МОСКВЫ И КИЕВА",
+   "hero_photo": "cards/photo/card_013.jpg",
+   "facts": [
+    {
+     "label": "США",
+     "value": "ищут формулу"
+    },
+    {
+     "label": "ЕВРОПА",
+     "value": "держит старую систему"
+    },
+    {
+     "label": "УКРАИНА",
+     "value": "требует защиты"
+    },
+    {
+     "label": "РОССИЯ",
+     "value": "требует гарантий"
+    }
+   ],
+   "watermark": "ПЛАНЕТА"
+  },
+  "mode": "frame"
+ },
+ {
+  "scene": 15,
+  "view": "charts.cartogram",
+  "dur": 18.9,
+  "anim": 18.9,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "data": [
+    "Белоруссия",
+    "Турция",
+    "Китай"
+   ],
+   "title": "КТО СЧИТАЕТ СВОИ РИСКИ",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 17,
+  "view": "bars",
+  "dur": 14.4,
+  "anim": 14.4,
+  "tail_zoom": 0.0,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {},
+  "mode": "cli",
+  "script": "build_chart_bars.py",
+  "cfg": {
+   "title": "ЧЬИ ТРЕБОВАНИЯ НА СТОЛЕ",
+   "caption": "",
+   "seconds": 14.4,
+   "bars": [
+    {
+     "label": "РОССИЯ",
+     "value": 0.9,
+     "color": "4A90E2"
+    },
+    {
+     "label": "УКРАИНА",
+     "value": 0.75,
+     "color": "48BB78"
+    },
+    {
+     "label": "ЕВРОПА",
+     "value": 0.6,
+     "color": "84848A"
+    },
+    {
+     "label": "США",
+     "value": 0.5,
+     "color": "E8E8E8"
+    }
+   ]
+  }
+ },
+ {
+  "scene": 19,
+  "view": "vyrezka.figura",
+  "dur": 11.8,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "photo": "cards/photo/card_019.jpg",
+   "author": "ЙОХАНН ВАДЕФУЛЬ",
+   "role": "глава МИД Германии",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 22,
+  "view": "film.film_single",
+  "dur": 9.0,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "photo": "cards/photo/card_022.jpg",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 28,
+  "view": "pull",
+  "dur": 10.8,
+  "anim": 2.6,
+  "tail_zoom": 0.05,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Гарантии безопасности для Украины должны устроить Россию",
+   "author": "Марко Рубио",
+   "role": "госсекретарь США",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 30,
+  "view": "photo",
+  "dur": 8.5,
+  "anim": 8.5,
+  "tail_zoom": 0.0,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "watermark": "ПЛАНЕТА",
+   "photo": "cards/photo/card_030.jpg",
+   "title": "Переговоры в Абу-Даби",
+   "lines": [
+    "российская и украинская делегации",
+    "США в роли посредника"
+   ]
+  }
+ },
+ {
+  "scene": 35,
+  "view": "paper_typed",
+  "dur": 13.6,
+  "anim": 2.8,
+  "tail_zoom": 0.04,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Согласится ли Европа обсуждать саму систему безопасности — или снова предложит вернуться в исходную точку?",
+   "accent": "саму систему безопасности",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 38,
+  "view": "vyrezka.gazeta",
+  "dur": 11.8,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "photo": "cards/photo/card_038.jpg",
+   "author": "СЕРГЕЙ РЯБКОВ",
+   "role": "заместитель министра иностранных дел России",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 43,
+  "view": "slider",
+  "dur": 15.4,
+  "anim": 15.4,
+  "tail_zoom": 0.0,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {},
+  "mode": "cli",
+  "script": "build_chart_slider.py",
+  "cfg": {
+   "title": "ЦЕНА НЕВЕРНОГО ОТВЕТА",
+   "min": 0.0,
+   "max": 100.0,
+   "low": 20.0,
+   "high": 95.0,
+   "marker_value": 80.0,
+   "marker_display": "80",
+   "seconds": 15.4,
+   "range_label": "РАЗБРОС ОЦЕНОК",
+   "caption": "",
+   "source": ""
+  }
+ },
+ {
+  "scene": 45,
+  "view": "cinematic.evidence_wall",
+  "dur": 10.1,
+  "anim": 10.1,
+  "tail_zoom": 0.0,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "shots": [
+    [
+     "cards/photo/card_045.jpg",
+     240,
+     380,
+     -4,
+     "Турция"
+    ],
+    [
+     "cards/photo/card_045_2.jpg",
+     800,
+     380,
+     3,
+     "Китай"
+    ],
+    [
+     "cards/photo/card_045_3.jpg",
+     1360,
+     380,
+     -2,
+     "Норвегия"
+    ]
+   ],
+   "title": "КТО СЧИТАЕТ СВОИ РИСКИ",
+   "watermark": "ПЛАНЕТА"
+  },
+  "mode": "frame"
+ },
+ {
+  "scene": 50,
+  "view": "film.film_strip",
+  "dur": 9.2,
+  "anim": 9.2,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "shots": [
+    "cards/photo/card_050.jpg",
+    "cards/photo/card_050_2.jpg",
+    "cards/photo/card_050_3.jpg"
+   ],
+   "captions": [
+    "Абу-Даби",
+    "Брюссель",
+    "Москва"
+   ],
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 56,
+  "view": "cinematic.depth_of_field",
+  "dur": 7.8,
+  "anim": 7.8,
+  "tail_zoom": 0.0,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "photo": "cards/photo/card_056.jpg",
+   "title": "Рябков у микрофонов",
+   "watermark": "ПЛАНЕТА"
+  },
+  "mode": "frame"
+ }
+]
