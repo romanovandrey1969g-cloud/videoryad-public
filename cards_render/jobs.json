@@ -1,0 +1,290 @@
+[
+ {
+  "scene": 6,
+  "view": "vyrezka.gazeta",
+  "dur": 10.48,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "photo": "cards/photo/card_006.jpg",
+   "author": "БЕРЛИН, 1945",
+   "role": "чем закончился прошлый разговор с позиции силы",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 9,
+  "view": "film.film_single",
+  "dur": 9.47,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "photo": "cards/photo/card_009.jpg",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 12,
+  "view": "split",
+  "dur": 9.2,
+  "anim": 2.0,
+  "tail_zoom": 0.06,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "photo": "cards/photo/card_012.jpg",
+   "text": "Это шантаж",
+   "author": "Роберт Фицо",
+   "role": "премьер-министр Словакии",
+   "accent": "Это шантаж",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 22,
+  "view": "photo",
+  "dur": 12.31,
+  "anim": 12.31,
+  "tail_zoom": 0.0,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "watermark": "5 МИНУТ",
+   "photo": "cards/photo/card_022.jpg",
+   "title": "Польская армия: два направления",
+   "lines": [
+    "Украина — одно направление",
+    "Калининград — другое"
+   ]
+  }
+ },
+ {
+  "scene": 25,
+  "view": "poster.poster",
+  "dur": 12.16,
+  "anim": 12.16,
+  "tail_zoom": 0.0,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "title": "Учения по энергоустойчивости",
+   "hero_photo": "cards/photo/card_025.jpg",
+   "features": [
+    {
+     "text": "Литва, Латвия, Эстония"
+    },
+    {
+     "text": "Польша, Финляндия"
+    }
+   ],
+   "facts": [
+    {
+     "label": "Участников",
+     "value": "больше ста"
+    },
+    {
+     "label": "Фланг",
+     "value": "северо-восточный"
+    }
+   ],
+   "watermark": "5 МИНУТ"
+  },
+  "mode": "frame"
+ },
+ {
+  "scene": 28,
+  "view": "cinematic.depth_of_field",
+  "dur": 12.04,
+  "anim": 12.04,
+  "tail_zoom": 0.0,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "photo": "cards/photo/card_028.jpg",
+   "title": "Энергетика под ударом",
+   "watermark": "5 МИНУТ"
+  },
+  "mode": "frame"
+ },
+ {
+  "scene": 31,
+  "view": "vyrezka.figura",
+  "dur": 12.32,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "photo": "cards/photo/card_031.jpg",
+   "author": "ФРИДРИХ МЕРЦ",
+   "role": "канцлер Германии",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 35,
+  "view": "bars",
+  "dur": 12.24,
+  "anim": 12.24,
+  "tail_zoom": 0.0,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {},
+  "mode": "cli",
+  "script": "build_chart_bars.py",
+  "cfg": {
+   "title": "Ставка на массу, а не на одну ракету",
+   "caption": "",
+   "seconds": 12.24,
+   "bars": [
+    {
+     "label": "ОДНА ДОРОГАЯ РАКЕТА",
+     "value": 0.08,
+     "color": "EABD23"
+    },
+    {
+     "label": "СЕРИЙНЫЕ ERAM",
+     "value": 0.92,
+     "color": "B92526"
+    }
+   ]
+  }
+ },
+ {
+  "scene": 39,
+  "view": "film.film_strip",
+  "dur": 11.52,
+  "anim": 11.52,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "shots": [
+    "cards/photo/card_039.jpg",
+    "cards/photo/card_039_2.jpg",
+    "cards/photo/card_039_3.jpg"
+   ],
+   "captions": [
+    "истребитель НАТО",
+    "совет министров Польши",
+    "парламент Финляндии"
+   ],
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 43,
+  "view": "cinematic.evidence_wall",
+  "dur": 12.88,
+  "anim": 12.88,
+  "tail_zoom": 0.0,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "shots": [
+    [
+     "cards/photo/card_043.jpg",
+     240,
+     380,
+     -4,
+     "морские маршруты"
+    ],
+    [
+     "cards/photo/card_043_2.jpg",
+     800,
+     380,
+     3,
+     "энергетика"
+    ],
+    [
+     "cards/photo/card_043_3.jpg",
+     1360,
+     380,
+     -2,
+     "европейская дипломатия"
+    ]
+   ],
+   "title": "Что Сеул держит в уме",
+   "watermark": "5 МИНУТ"
+  },
+  "mode": "frame"
+ },
+ {
+  "scene": 46,
+  "view": "slider",
+  "dur": 12.53,
+  "anim": 12.53,
+  "tail_zoom": 0.0,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {},
+  "mode": "cli",
+  "script": "build_chart_slider.py",
+  "cfg": {
+   "title": "Пусан — Роттердам через Арктику, суток",
+   "min": 0.0,
+   "max": 90.0,
+   "low": 45.0,
+   "high": 55.0,
+   "marker_value": 50.0,
+   "marker_display": "50",
+   "seconds": 12.53,
+   "range_label": "РАЗБРОС ОЦЕНОК",
+   "caption": "",
+   "source": ""
+  }
+ },
+ {
+  "scene": 49,
+  "view": "pull",
+  "dur": 12.48,
+  "anim": 2.6,
+  "tail_zoom": 0.05,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "text": "Арктический маршрут развиваем с соблюдением международных норм и санкций",
+   "author": "Сеул",
+   "role": "официальная позиция",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 57,
+  "view": "marker_serif",
+  "dur": 13.31,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "text": "У Германии есть голос в Евросоюзе, но решение всё равно принимают все вместе",
+   "accent": "принимают все вместе",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 59,
+  "view": "charts.cartogram",
+  "dur": 12.88,
+  "anim": 12.88,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "data": [
+    "Россия",
+    "Китай",
+    "Северная Корея",
+    "Южная Корея",
+    "Германия"
+   ],
+   "title": "География не реагирует на политические заявления",
+   "watermark": "5 МИНУТ"
+  }
+ }
+]
