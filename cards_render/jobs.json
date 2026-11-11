@@ -1,0 +1,121 @@
+[
+ {
+  "scene": 12,
+  "view": "split",
+  "dur": 9.2,
+  "anim": 2.0,
+  "tail_zoom": 0.06,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "photo": "cards/photo/card_012.jpg",
+   "text": "Это шантаж",
+   "author": "Роберт Фицо",
+   "role": "премьер-министр Словакии",
+   "accent": "Это шантаж",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 22,
+  "view": "photo",
+  "dur": 12.31,
+  "anim": 12.31,
+  "tail_zoom": 0.0,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "watermark": "5 МИНУТ",
+   "photo": "cards/photo/card_022.jpg",
+   "title": "Польская армия: два направления",
+   "lines": [
+    "Украина — одно направление",
+    "Калининград — другое"
+   ]
+  }
+ },
+ {
+  "scene": 28,
+  "view": "cinematic.depth_of_field",
+  "dur": 12.04,
+  "anim": 12.04,
+  "tail_zoom": 0.0,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "photo": "cards/photo/card_028.jpg",
+   "title": "Энергетика под ударом",
+   "watermark": "5 МИНУТ"
+  },
+  "mode": "frame"
+ },
+ {
+  "scene": 31,
+  "view": "vyrezka.figura",
+  "dur": 12.32,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "photo": "cards/photo/card_031.jpg",
+   "author": "ФРИДРИХ МЕРЦ",
+   "role": "канцлер Германии",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 46,
+  "view": "slider",
+  "dur": 12.53,
+  "anim": 12.53,
+  "tail_zoom": 0.0,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {},
+  "mode": "cli",
+  "script": "build_chart_slider.py",
+  "cfg": {
+   "title": "Пусан — Роттердам через Арктику, суток",
+   "min": 0.0,
+   "max": 90.0,
+   "low": 45.0,
+   "high": 55.0,
+   "marker_value": 50.0,
+   "marker_display": "50",
+   "seconds": 12.53,
+   "range_label": "РАЗБРОС ОЦЕНОК",
+   "caption": "",
+   "source": ""
+  }
+ },
+ {
+  "scene": 49,
+  "view": "pull",
+  "dur": 12.48,
+  "anim": 2.6,
+  "tail_zoom": 0.05,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "text": "Арктический маршрут развиваем с соблюдением международных норм и санкций",
+   "author": "Сеул",
+   "role": "официальная позиция",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 57,
+  "view": "marker_serif",
+  "dur": 13.31,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "text": "У Германии есть голос в Евросоюзе, но решение всё равно принимают все вместе",
+   "accent": "принимают все вместе",
+   "watermark": "5 МИНУТ"
+  }
+ }
+]
