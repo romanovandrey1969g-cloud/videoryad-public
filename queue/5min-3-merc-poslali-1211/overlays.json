@@ -1,0 +1,265 @@
+{
+ "2": {
+  "photo": "overlays/scene_002.jpg",
+  "sound": "whoosh",
+  "at": 3.0
+ },
+ "10": {
+  "photo": "overlays/scene_010.jpg",
+  "sound": "pop",
+  "at": 3.5
+ },
+ "14": {
+  "photo": "overlays/scene_014.jpg",
+  "sound": "ding",
+  "at": 2.8
+ },
+ "19": {
+  "photo": "overlays/scene_019.jpg",
+  "sound": "zatvor",
+  "at": 3.2
+ },
+ "21": {
+  "photo": "overlays/scene_021.jpg",
+  "sound": "pshik",
+  "at": 3.6
+ },
+ "26": {
+  "photo": "overlays/scene_026.jpg",
+  "sound": "whoosh",
+  "at": 2.9
+ },
+ "29": {
+  "photo": "overlays/scene_029.jpg",
+  "sound": "pop",
+  "at": 3.4
+ },
+ "34": {
+  "photo": "overlays/scene_034.jpg",
+  "sound": "zatvor",
+  "at": 3.1
+ },
+ "42": {
+  "photo": "overlays/scene_042.jpg",
+  "sound": "ding",
+  "at": 3.3
+ },
+ "47": {
+  "photo": "overlays/scene_047.jpg",
+  "sound": "whoosh",
+  "at": 2.7
+ },
+ "52": {
+  "photo": "overlays/scene_052.jpg",
+  "sound": "pop",
+  "at": 3.5
+ },
+ "58": {
+  "photo": "overlays/scene_058.jpg",
+  "sound": "pshik",
+  "at": 3.0
+ },
+ "61": {
+  "photo": "overlays/scene_061.jpg",
+  "sound": "ding",
+  "at": 3.4
+ },
+ "1": {
+  "words": "ЯЗЫК СИЛЫ",
+  "color": "white",
+  "pos": "tc",
+  "at": 1.5
+ },
+ "4": {
+  "words": "«РОССИЯ ПОНИМАЕТ ТОЛЬКО СИЛУ»",
+  "color": "yellow",
+  "pos": "tc",
+  "at": 1.5
+ },
+ "5": {
+  "words": "ДАВИТЬ И ПЕРЕГОВАРИВАТЬСЯ",
+  "color": "white",
+  "pos": "tc",
+  "at": 1.5
+ },
+ "7": {
+  "words": "ДЕД МЕРЦА",
+  "color": "white",
+  "pos": "tc",
+  "at": 1.5
+ },
+ "8": {
+  "words": "ВНУКИ ЗА ДЕДОВ НЕ ОТВЕЧАЮТ",
+  "color": "white",
+  "pos": "tc",
+  "at": 1.5
+ },
+ "11": {
+  "words": "ДЫРА В БЮДЖЕТЕ КИЕВА",
+  "color": "red",
+  "pos": "tc",
+  "at": 1.5
+ },
+ "13": {
+  "words": "У ГЕРМАНИИ ЕСТЬ ГОЛОС",
+  "color": "white",
+  "pos": "tc",
+  "at": 1.5
+ },
+ "15": {
+  "words": "ЗАБЛОКИРУЮТ И СВОИ ДЕНЬГИ",
+  "color": "red",
+  "pos": "tc",
+  "at": 1.5
+ },
+ "16": {
+  "words": "КТО КОМУ ЧТО ДОЛЖЕН",
+  "color": "white",
+  "pos": "tc",
+  "at": 1.5
+ },
+ "17": {
+  "words": "НИ ШАГУ НАЗАД",
+  "color": "yellow",
+  "pos": "tc",
+  "at": 1.5
+ },
+ "18": {
+  "words": "РЯБКОВ ПРЕДУПРЕДИЛ",
+  "color": "red",
+  "pos": "tc",
+  "at": 1.5
+ },
+ "20": {
+  "words": "ПРЯМОЙ ПУТЬ К КАТАСТРОФЕ",
+  "color": "red",
+  "pos": "tc",
+  "at": 1.5
+ },
+ "23": {
+  "words": "ИНФРАСТРУКТУРА РАСТЁТ",
+  "color": "white",
+  "pos": "tc",
+  "at": 1.5
+ },
+ "24": {
+  "words": "УЧЕНИЯ ПО ЭНЕРГЕТИКЕ",
+  "color": "white",
+  "pos": "tc",
+  "at": 1.5
+ },
+ "27": {
+  "words": "ПОДГОТОВКОЙ НЕ НАЗЫВАЮТ",
+  "color": "white",
+  "pos": "tc",
+  "at": 1.5
+ },
+ "30": {
+  "words": "ОБВИНЕНИЯ В РАЗВЕДКЕ",
+  "color": "red",
+  "pos": "tc",
+  "at": 1.5
+ },
+ "32": {
+  "words": "УЧЕНИЯ. РАЗВЕДКА. БЛОКАДА",
+  "color": "yellow",
+  "pos": "tc",
+  "at": 1.5
+ },
+ "33": {
+  "words": "ЧЕТЫРЕ РАКЕТЫ СБИТЫ",
+  "color": "red",
+  "pos": "tc",
+  "at": 1.5
+ },
+ "36": {
+  "words": "ПОБЕДНЫЙ ТАНЕЦ РАНО",
+  "color": "white",
+  "pos": "tc",
+  "at": 1.5
+ },
+ "37": {
+  "words": "ЕВРОПЕЙСКАЯ ФОРМУЛА",
+  "color": "white",
+  "pos": "tc",
+  "at": 1.5
+ },
+ "38": {
+  "words": "А ЧТО ДАЛЬШЕ?",
+  "color": "yellow",
+  "pos": "tc",
+  "at": 1.5
+ },
+ "41": {
+  "words": "ГЕОГРАФИЯ УЧИТ ПОЛИТИКЕ",
+  "color": "white",
+  "pos": "tc",
+  "at": 1.5
+ },
+ "44": {
+  "words": "СЕВЕРНАЯ КОРЕЯ НИКУДА НЕ ДЕНЕТСЯ",
+  "color": "white",
+  "pos": "tc",
+  "at": 1.5
+ },
+ "45": {
+  "words": "СЕУЛ НЕ ХЛОПАЕТ ДВЕРЬЮ",
+  "color": "white",
+  "pos": "tc",
+  "at": 1.5
+ },
+ "48": {
+  "words": "ОЧЕНЬ ВЗРОСЛАЯ СИТУАЦИЯ",
+  "color": "yellow",
+  "pos": "tc",
+  "at": 1.5
+ },
+ "50": {
+  "words": "СУДОСТРОЕНИЕ ЮЖНОЙ КОРЕИ",
+  "color": "white",
+  "pos": "tc",
+  "at": 1.5
+ },
+ "51": {
+  "words": "В СЕУЛЕ НЕ СПЕШАТ",
+  "color": "white",
+  "pos": "tc",
+  "at": 1.5
+ },
+ "53": {
+  "words": "МАТЕРИАЛ ОТОЗВАН",
+  "color": "red",
+  "pos": "tc",
+  "at": 1.5
+ },
+ "54": {
+  "words": "ЦИТАТЫ БЫЛИ ВЫДУМАНЫ",
+  "color": "red",
+  "pos": "tc",
+  "at": 1.5
+ },
+ "55": {
+  "words": "РЕАЛЬНОЕ ПОВЕДЕНИЕ СЕУЛА",
+  "color": "white",
+  "pos": "tc",
+  "at": 1.5
+ },
+ "56": {
+  "words": "ИНТЕРЕС ОСТАЁТСЯ",
+  "color": "white",
+  "pos": "tc",
+  "at": 1.5
+ },
+ "60": {
+  "words": "ГЕОГРАФИЯ НЕ РЕАГИРУЕТ",
+  "color": "yellow",
+  "pos": "tc",
+  "at": 1.5
+ },
+ "62": {
+  "words": "ИСТОРИЯ СЕМЬИ",
+  "color": "white",
+  "pos": "tc",
+  "at": 1.5
+ }
+}
