@@ -1,0 +1,334 @@
+{
+ "2": {
+  "photo": "overlays/scene_002.jpg",
+  "sound": "whoosh",
+  "at": 3.0
+ },
+ "10": {
+  "photo": "overlays/scene_010.jpg",
+  "sound": "pop",
+  "at": 3.5
+ },
+ "19": {
+  "photo": "overlays/scene_019.jpg",
+  "sound": "zatvor",
+  "at": 3.2
+ },
+ "21": {
+  "photo": "overlays/scene_021.jpg",
+  "sound": "pshik",
+  "at": 3.6
+ },
+ "26": {
+  "photo": "overlays/scene_026.jpg",
+  "sound": "whoosh",
+  "at": 2.9
+ },
+ "29": {
+  "photo": "overlays/scene_029.jpg",
+  "sound": "pop",
+  "at": 3.4
+ },
+ "47": {
+  "photo": "overlays/scene_047.jpg",
+  "sound": "whoosh",
+  "at": 2.7
+ },
+ "58": {
+  "photo": "overlays/scene_058.jpg",
+  "sound": "pshik",
+  "at": 3.0
+ },
+ "61": {
+  "photo": "overlays/scene_061.jpg",
+  "sound": "ding",
+  "at": 3.4
+ },
+ "1": {
+  "text": {
+   "words": "ЯЗЫК СИЛЫ",
+   "color": "yellow",
+   "pos": "tc",
+   "font": "default",
+   "sound": "zatvor",
+   "at": 2.0,
+   "scale": 1.0
+  }
+ },
+ "4": {
+  "text": {
+   "words": "«РОССИЯ ПОНИМАЕТ ТОЛЬКО СИЛУ»",
+   "color": "white",
+   "pos": "tl",
+   "font": "default",
+   "sound": "zatvor",
+   "at": 2.0,
+   "scale": 1.0
+  }
+ },
+ "7": {
+  "text": {
+   "words": "ДЕД ЖИЛ В ТЕ ГОДЫ",
+   "color": "red",
+   "pos": "mc",
+   "font": "default",
+   "sound": "zatvor",
+   "at": 2.0,
+   "scale": 1.0
+  }
+ },
+ "8": {
+  "text": {
+   "words": "ВНУКИ ЗА ДЕДОВ НЕ ОТВЕЧАЮТ",
+   "color": "orange",
+   "pos": "tr",
+   "font": "default",
+   "sound": "zatvor",
+   "at": 2.0,
+   "scale": 1.0
+  }
+ },
+ "11": {
+  "text": {
+   "words": "ДЫРА В БЮДЖЕТЕ КИЕВА",
+   "color": "green",
+   "pos": "ml",
+   "font": "default",
+   "sound": "zatvor",
+   "at": 2.0,
+   "scale": 1.0
+  }
+ },
+ "13": {
+  "text": {
+   "words": "У ГЕРМАНИИ ЕСТЬ ГОЛОС",
+   "color": "yellow",
+   "pos": "mr",
+   "font": "default",
+   "sound": "zatvor",
+   "at": 2.0,
+   "scale": 1.0
+  }
+ },
+ "15": {
+  "text": {
+   "words": "ЗАБЛОКИРУЮТ И СВОИ ДЕНЬГИ",
+   "color": "white",
+   "pos": "tc",
+   "font": "default",
+   "sound": "zatvor",
+   "at": 2.0,
+   "scale": 1.0
+  }
+ },
+ "17": {
+  "text": {
+   "words": "НИ ШАГУ НАЗАД",
+   "color": "red",
+   "pos": "tl",
+   "font": "default",
+   "sound": "zatvor",
+   "at": 2.0,
+   "scale": 1.0
+  }
+ },
+ "18": {
+  "text": {
+   "words": "РЯБКОВ ПРЕДУПРЕДИЛ",
+   "color": "orange",
+   "pos": "mc",
+   "font": "default",
+   "sound": "zatvor",
+   "at": 2.0,
+   "scale": 1.0
+  }
+ },
+ "20": {
+  "text": {
+   "words": "ПРЯМОЙ ПУТЬ К КАТАСТРОФЕ",
+   "color": "green",
+   "pos": "tr",
+   "font": "default",
+   "sound": "zatvor",
+   "at": 2.0,
+   "scale": 1.0
+  }
+ },
+ "24": {
+  "text": {
+   "words": "УЧЕНИЯ ПО ЭНЕРГЕТИКЕ",
+   "color": "yellow",
+   "pos": "ml",
+   "font": "default",
+   "sound": "zatvor",
+   "at": 2.0,
+   "scale": 1.0
+  }
+ },
+ "27": {
+  "text": {
+   "words": "ПОДГОТОВКОЙ НЕ НАЗЫВАЮТ",
+   "color": "yellow",
+   "pos": "mr",
+   "font": "default",
+   "sound": "zatvor",
+   "at": 2.0,
+   "scale": 1.0
+  }
+ },
+ "30": {
+  "text": {
+   "words": "ОБВИНЕНИЯ В РАЗВЕДКЕ",
+   "color": "white",
+   "pos": "tc",
+   "font": "default",
+   "sound": "zatvor",
+   "at": 2.0,
+   "scale": 1.0
+  }
+ },
+ "32": {
+  "text": {
+   "words": "УЧЕНИЯ. РАЗВЕДКА. БЛОКАДА",
+   "color": "red",
+   "pos": "tl",
+   "font": "default",
+   "sound": "zatvor",
+   "at": 2.0,
+   "scale": 1.0
+  }
+ },
+ "36": {
+  "text": {
+   "words": "ПОБЕДНЫЙ ТАНЕЦ РАНО",
+   "color": "green",
+   "pos": "tr",
+   "font": "default",
+   "sound": "zatvor",
+   "at": 2.0,
+   "scale": 1.0
+  }
+ },
+ "38": {
+  "text": {
+   "words": "А ЧТО ДАЛЬШЕ?",
+   "color": "yellow",
+   "pos": "ml",
+   "font": "default",
+   "sound": "zatvor",
+   "at": 2.0,
+   "scale": 1.0
+  }
+ },
+ "41": {
+  "text": {
+   "words": "ГЕОГРАФИЯ УЧИТ ПОЛИТИКЕ",
+   "color": "yellow",
+   "pos": "mr",
+   "font": "default",
+   "sound": "zatvor",
+   "at": 2.0,
+   "scale": 1.0
+  }
+ },
+ "44": {
+  "text": {
+   "words": "СОСЕД НИКУДА НЕ ДЕНЕТСЯ",
+   "color": "white",
+   "pos": "tc",
+   "font": "default",
+   "sound": "zatvor",
+   "at": 2.0,
+   "scale": 1.0
+  }
+ },
+ "45": {
+  "text": {
+   "words": "СЕУЛ НЕ ХЛОПАЕТ ДВЕРЬЮ",
+   "color": "red",
+   "pos": "tl",
+   "font": "default",
+   "sound": "zatvor",
+   "at": 2.0,
+   "scale": 1.0
+  }
+ },
+ "48": {
+  "text": {
+   "words": "ОЧЕНЬ ВЗРОСЛАЯ СИТУАЦИЯ",
+   "color": "orange",
+   "pos": "mc",
+   "font": "default",
+   "sound": "zatvor",
+   "at": 2.0,
+   "scale": 1.0
+  }
+ },
+ "50": {
+  "text": {
+   "words": "ВЕРФИ РАБОТАЮТ БЕЗ ПАУЗЫ",
+   "color": "green",
+   "pos": "tr",
+   "font": "default",
+   "sound": "zatvor",
+   "at": 2.0,
+   "scale": 1.0
+  }
+ },
+ "51": {
+  "text": {
+   "words": "В СЕУЛЕ НЕ СПЕШАТ",
+   "color": "yellow",
+   "pos": "ml",
+   "font": "default",
+   "sound": "zatvor",
+   "at": 2.0,
+   "scale": 1.0
+  }
+ },
+ "54": {
+  "text": {
+   "words": "ЦИТАТЫ БЫЛИ ВЫДУМАНЫ",
+   "color": "white",
+   "pos": "tc",
+   "font": "default",
+   "sound": "zatvor",
+   "at": 2.0,
+   "scale": 1.0
+  }
+ },
+ "55": {
+  "text": {
+   "words": "РЕАЛЬНОЕ ПОВЕДЕНИЕ СЕУЛА",
+   "color": "red",
+   "pos": "tl",
+   "font": "default",
+   "sound": "zatvor",
+   "at": 2.0,
+   "scale": 1.0
+  }
+ },
+ "60": {
+  "text": {
+   "words": "ГЕОГРАФИЯ НЕ РЕАГИРУЕТ",
+   "color": "orange",
+   "pos": "mc",
+   "font": "default",
+   "sound": "zatvor",
+   "at": 2.0,
+   "scale": 1.0
+  }
+ },
+ "62": {
+  "text": {
+   "words": "ИСТОРИЯ СЕМЬИ",
+   "color": "green",
+   "pos": "tr",
+   "font": "default",
+   "sound": "zatvor",
+   "at": 2.0,
+   "scale": 1.0
+  }
+ },
+ "anchor": "top"
+}
