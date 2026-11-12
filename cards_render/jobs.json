@@ -1,0 +1,899 @@
+[
+ {
+  "scene": 3,
+  "view": "zal_slova",
+  "dur": 10.7,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 10.7,
+   "sheets": [],
+   "text": "ПРАВО НАЖАТЬ КНОПКУ",
+   "na_polu": "ЧЕЙ ПРИКАЗ",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 5,
+  "view": "devices.device_scene",
+  "dur": 8.7,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "content_path": "cards/photo/card_005.jpg",
+   "items": [
+    "Кто отдаёт приказ на применение",
+    "На какую глубину летят ракеты",
+    "Кто выбирает цель"
+   ],
+   "kick": "Париж · ноябрь 2026",
+   "title": "ВОПРОСЫ ПАРИЖА",
+   "source": "запрос Парижа к Берлину",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 7,
+  "view": "quote",
+  "dur": 6.4,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Пока ракета стоит в ангаре, слово «сдерживание» звучит почти успокаивающе",
+   "accent": "Пока ракета стоит в ангаре",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 9,
+  "view": "doc",
+  "dur": 7.4,
+  "anim": 3.4,
+  "tail_zoom": 0.04,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Париж потребовал от Берлина разъяснить будущий порядок применения систем большой дальности. Это не опытный образец. Речь о боевом оружии, которое уже встаёт в строй.",
+   "kick": "Париж · ноябрь 2026",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 11,
+  "view": "bars",
+  "dur": 6.6,
+  "anim": 6.6,
+  "tail_zoom": 0.0,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {},
+  "mode": "cli",
+  "script": "build_chart_bars.py",
+  "cfg": {
+   "title": "Глубина поражения",
+   "caption": "",
+   "seconds": 6.6,
+   "bars": [
+    {
+     "label": "ГЕРМАНИЯ",
+     "value": 0.9,
+     "color": "4A90E2"
+    },
+    {
+     "label": "БРИТАНИЯ",
+     "value": 0.7,
+     "color": "48BB78"
+    },
+    {
+     "label": "ФРАНЦИЯ",
+     "value": 0.4,
+     "color": "84848A"
+    }
+   ]
+  }
+ },
+ {
+  "scene": 13,
+  "view": "film.film_strip",
+  "dur": 13.2,
+  "anim": 13.2,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "shots": [
+    "cards/photo/card_013.jpg",
+    "cards/photo/card_013_2.jpg",
+    "cards/photo/card_013_3.jpg"
+   ],
+   "captions": [
+    "Берлин",
+    "Бундесвер",
+    "Автобаны ФРГ"
+   ],
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 15,
+  "view": "torn_split.torn_split",
+  "dur": 13.1,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "a_path": "cards/photo/card_015.jpg",
+   "b_path": "cards/photo/card_015_2.jpg",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 18,
+  "view": "poster.poster",
+  "dur": 12.2,
+  "anim": 12.2,
+  "tail_zoom": 0.0,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "title": "КТО ЗАДАЁТ ПРАВИЛА",
+   "hero_photo": "cards/photo/card_018.jpg",
+   "source": "расклад сил",
+   "facts": [
+    {
+     "label": "Берлин",
+     "value": "самая мощная армия союза"
+    },
+    {
+     "label": "Британия",
+     "value": "организатор давления"
+    },
+    {
+     "label": "Польша",
+     "value": "восточный фланг"
+    }
+   ],
+   "watermark": "ПЛАНЕТА"
+  },
+  "mode": "frame"
+ },
+ {
+  "scene": 20,
+  "view": "vyrezka.gazeta",
+  "dur": 9.7,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "photo": "cards/photo/card_020.jpg",
+   "author": "Польша увеличивает армию",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 22,
+  "view": "charts.cartogram",
+  "dur": 15.5,
+  "anim": 15.5,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "data": [
+    "Германия",
+    "Британия",
+    "Польша",
+    "Франция"
+   ],
+   "source": "заявления правительств",
+   "mode": "bubble",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 24,
+  "view": "zal",
+  "dur": 7.7,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "КЛЮЧИ ОТ ЯДЕРНОГО ЗОНТА",
+   "words": [
+    "КЛЮЧИ",
+    "ДОГОВОР",
+    "ЗОНТ"
+   ],
+   "sheets": [
+    "кто решает о запуске",
+    "кто отвечает за ответ",
+    "расширенное сдерживание",
+    "мелкий шрифт договора",
+    "Париж и Берлин",
+    "практический вопрос"
+   ],
+   "channel": "ПЛАНЕТА",
+   "dur": 7.7,
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 27,
+  "view": "vyrezka.figura",
+  "dur": 10.3,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "photo": "cards/photo/card_027.jpg",
+   "author": "Марк Седвилл",
+   "role": "бывший советник правительства Британии по национальной безопасности",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 29,
+  "view": "zal_makety",
+  "dur": 13.4,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 13.4,
+   "sheets": [],
+   "text": "ЧТО ПРЕДЛАГАЮТ",
+   "makety": [
+    "банк=ВЕДОМСТВА",
+    "лэп=РАЗВЕДСЕТИ"
+   ],
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 31,
+  "view": "cinematic.dossier",
+  "dur": 6.8,
+  "anim": 6.8,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "rows": [
+    "подход — давление наращивать заранее",
+    "цель — создавать новые угрозы",
+    "горизонт — годами без смены линии",
+    "инструменты — кибер, флот, разведсети",
+    "риск — ошибка в оценке намерений"
+   ],
+   "title": "ДОСЬЕ",
+   "photo": "cards/photo/card_031.jpg",
+   "stamp": "ПЕРВОИСТОЧНИК",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 33,
+  "view": "marker_serif",
+  "dur": 11.6,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Пять лет подряд границы допустимого двигали всё дальше",
+   "accent": "границы допустимого",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 35,
+  "view": "cinematic.evidence_wall",
+  "dur": 10.4,
+  "anim": 10.4,
+  "tail_zoom": 0.0,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "shots": [
+    [
+     "cards/photo/card_035.jpg",
+     240,
+     380,
+     -4,
+     "аккуратный шаг"
+    ],
+    [
+     "cards/photo/card_035_2.jpg",
+     800,
+     380,
+     3,
+     "контролируемый шаг"
+    ],
+    [
+     "cards/photo/card_035_3.jpg",
+     1360,
+     380,
+     -2,
+     "последний этаж"
+    ]
+   ],
+   "title": "ЛЕСТНИЦА ШАГОВ",
+   "watermark": "ПЛАНЕТА"
+  },
+  "mode": "frame"
+ },
+ {
+  "scene": 37,
+  "view": "paper_hand",
+  "dur": 16.5,
+  "anim": 2.8,
+  "tail_zoom": 0.04,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Пока ракеты падают на Украине — это стратегия. Когда они поворачивают к Британии — это недоразумение.",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 39,
+  "view": "split",
+  "dur": 13.6,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Одна ошибка в оценке намерений может запустить события, которые никто не собирался начинать",
+   "photo": "cards/photo/card_039.jpg",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 41,
+  "view": "duel",
+  "dur": 16.3,
+  "anim": 3.2,
+  "tail_zoom": 0.035,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "top": {
+    "who": "Лондонская линия",
+    "text": "Нажим надо прибавить",
+    "accent": null,
+    "source": "Марк Седвилл"
+   },
+   "bottom": {
+    "who": "Норвежский военный",
+    "text": "Риск неверного расчёта",
+    "accent": null,
+    "source": "оценка штаба"
+   },
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 43,
+  "view": "charts.cartogram",
+  "dur": 10.6,
+  "anim": 10.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "data": [
+    "Ирак",
+    "Сирия",
+    "Мали",
+    "Афганистан"
+   ],
+   "source": "прежняя модель НАТО",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 45,
+  "view": "zal_schetchik",
+  "dur": 9.4,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 9.4,
+   "sheets": [],
+   "text": "РЕЗЕРВ УХОДИТ В ЕВРОПУ",
+   "value": "18",
+   "value_sub": "БРИГАД",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 47,
+  "view": "tape",
+  "dur": 12.7,
+  "anim": 2.4,
+  "tail_zoom": 0.04,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Потребность в личном составе, авиации, противовоздушной обороне и ракетах считают для каждого участника",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 49,
+  "view": "slider",
+  "dur": 8.6,
+  "anim": 8.6,
+  "tail_zoom": 0.0,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {},
+  "mode": "cli",
+  "script": "build_chart_slider.py",
+  "cfg": {
+   "title": "Оборонные траты",
+   "min": 2.0,
+   "max": 5.0,
+   "low": 2.0,
+   "high": 5.0,
+   "marker_value": 5.0,
+   "marker_display": "5%",
+   "seconds": 8.6,
+   "range_label": "РАЗБРОС ОЦЕНОК",
+   "caption": "",
+   "source": "предложение союзникам"
+  }
+ },
+ {
+  "scene": 51,
+  "view": "zal_efir",
+  "dur": 12.0,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 12.0,
+   "sheets": [],
+   "text": "ВОПРОС В КОММЕНТАРИИ",
+   "say": "Кого Франция опасается сильнее через двадцать лет — Россию или вооружённую Германию",
+   "author": "ПЛАНЕТА",
+   "role": "канал",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 53,
+  "view": "charts.map_dist",
+  "dur": 9.9,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "points": [
+    {
+     "label": "Варшава",
+     "lat": 52.23,
+     "lon": 21.01,
+     "accent": false
+    },
+    {
+     "label": "Калининград",
+     "lat": 54.71,
+     "lon": 20.51,
+     "accent": true
+    }
+   ],
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 55,
+  "view": "zal_pol",
+  "dur": 12.2,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 12.2,
+   "sheets": [],
+   "text": "ВОСТОЧНЫЙ ФЛАНГ",
+   "na_polu": "ПОЛЬША",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 57,
+  "view": "charts.network",
+  "dur": 19.4,
+  "anim": 19.4,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "nodes": [
+    {
+     "id": "Варшава",
+     "label": "Варшава",
+     "weight": 4.0
+    },
+    {
+     "id": "Берлин",
+     "label": "Берлин",
+     "weight": 1.0
+    },
+    {
+     "id": "Брюссель",
+     "label": "Брюссель",
+     "weight": 1.0
+    },
+    {
+     "id": "Калининград",
+     "label": "Калининград",
+     "weight": 1.0
+    },
+    {
+     "id": "Лондон",
+     "label": "Лондон",
+     "weight": 1.0
+    }
+   ],
+   "links": [
+    {
+     "from": "Варшава",
+     "to": "Берлин",
+     "weight": 1.0
+    },
+    {
+     "from": "Варшава",
+     "to": "Брюссель",
+     "weight": 1.0
+    },
+    {
+     "from": "Варшава",
+     "to": "Калининград",
+     "weight": 1.0
+    },
+    {
+     "from": "Лондон",
+     "to": "Варшава",
+     "weight": 1.0
+    }
+   ],
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 59,
+  "view": "film.film_single",
+  "dur": 20.9,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "photo": "cards/photo/card_059.jpg",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 61,
+  "view": "charts.cartogram",
+  "dur": 9.3,
+  "anim": 9.3,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "data": [
+    "Новгородская область",
+    "Московская область",
+    "Ленинградская область"
+   ],
+   "level": "region",
+   "admin": "Россия",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 63,
+  "view": "charts.line",
+  "dur": 7.5,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "x_labels": [
+    "1812",
+    "1914",
+    "1941",
+    "2026"
+   ],
+   "series": [
+    {
+     "name": "Движения на Восток",
+     "values": [
+      1.0,
+      2.0,
+      3.0,
+      4.0
+     ]
+    }
+   ],
+   "source": "исторический ряд",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 65,
+  "view": "charts.radar",
+  "dur": 10.0,
+  "anim": 10.0,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "axes": [
+    "Авиация",
+    "ПВО",
+    "Ракеты",
+    "Логистика",
+    "Кибер"
+   ],
+   "series": [
+    {
+     "label": "",
+     "values": [
+      4.0,
+      3.0,
+      5.0,
+      3.0,
+      4.0
+     ]
+    }
+   ],
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 67,
+  "view": "zal_shkala",
+  "dur": 9.8,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 9.8,
+   "sheets": [],
+   "text": "ДВЕ ЛИНИИ СОШЛИСЬ",
+   "value": "2",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 69,
+  "view": "zal_kub",
+  "dur": 9.3,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 9.3,
+   "sheets": [],
+   "text": "СТРАНА ЧЕРЕЗ ТРИДЦАТЬ ЛЕТ",
+   "kick": "ГЛАВНЫЙ ВОЕННЫЙ ЦЕНТР ЕВРОПЫ",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 71,
+  "view": "charts.waterfall",
+  "dur": 8.6,
+  "anim": 8.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "start": {
+    "label": "Империя",
+    "value": 100.0
+   },
+   "steps": [
+    {
+     "label": "Февраль 1917",
+     "value": -40.0
+    },
+    {
+     "label": "Октябрь 1917",
+     "value": -35.0
+    },
+    {
+     "label": "Распад СССР",
+     "value": -15.0
+    }
+   ],
+   "end": {
+    "label": "ИТОГ"
+   },
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 73,
+  "view": "strike",
+  "dur": 19.9,
+  "anim": 3.0,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Нынешняя война выглядит как отдельный конфликт, но продолжает старые линии раскола, которым больше ста лет.",
+   "struck": "отдельный конфликт",
+   "fix": "продолжение старых линий",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 75,
+  "view": "paper_typed",
+  "dur": 8.9,
+  "anim": 2.8,
+  "tail_zoom": 0.04,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Теперь значительная часть участия проходит через финансирование, поставки оружия, разведывательные данные, технологии и логистику.",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 77,
+  "view": "zal_ekran",
+  "dur": 7.5,
+  "anim": 4.0,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 7.5,
+   "sheets": [],
+   "text": "РЕШЕНИЕ ЗА ЕВРОПОЙ",
+   "say": "Ограничения вводили европейские институты, средства находятся в европейской юрисдикции",
+   "author": "Еврокомиссия",
+   "role": "институты ЕС",
+   "source": "позиция Брюсселя",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 79,
+  "view": "charts.pie",
+  "dur": 10.5,
+  "anim": 10.5,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "segments": [
+    {
+     "label": "Санкционные решения",
+     "value": 40.0
+    },
+    {
+     "label": "Замороженные средства",
+     "value": 40.0
+    },
+    {
+     "label": "Юрисдикция ЕС",
+     "value": 20.0
+    }
+   ],
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 81,
+  "view": "photo",
+  "dur": 15.0,
+  "anim": 15.0,
+  "tail_zoom": 0.0,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "source": "расклад интересов",
+   "watermark": "ПЛАНЕТА",
+   "photo": "cards/photo/card_081.jpg",
+   "title": "КТО ЧЕГО ХОЧЕТ",
+   "lines": [
+    "США — сократить расходы, сохранить влияние",
+    "Британия — организатор давления",
+    "Польша — восточный фланг и Балтика"
+   ]
+  }
+ },
+ {
+  "scene": 83,
+  "view": "pull",
+  "dur": 10.7,
+  "anim": 2.6,
+  "tail_zoom": 0.05,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Официальная витрина показывает единую Европу. За витриной каждый пересчитывает выгоду на своём калькуляторе.",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 86,
+  "view": "cinematic.depth_of_field",
+  "dur": 17.3,
+  "anim": 17.3,
+  "tail_zoom": 0.0,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "photo": "cards/photo/card_086.jpg",
+   "title": "ДАЛЬШЕ ХАРАКТЕРИСТИК",
+   "watermark": "ПЛАНЕТА"
+  },
+  "mode": "frame"
+ },
+ {
+  "scene": 89,
+  "view": "charts.slope",
+  "dur": 14.9,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "items": [
+    {
+     "label": "Германия",
+     "from": 2.0,
+     "to": 4.0
+    },
+    {
+     "label": "Польша",
+     "from": 2.0,
+     "to": 5.0
+    },
+    {
+     "label": "Франция",
+     "from": 2.0,
+     "to": 3.0
+    }
+   ],
+   "source": "оборонные расходы, доля",
+   "watermark": "ПЛАНЕТА"
+  }
+ }
+]
