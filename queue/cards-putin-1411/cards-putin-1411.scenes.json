@@ -1,0 +1,85 @@
+{
+ "channel": "5 МИНУТ",
+ "scenes": [
+  {
+   "id": 1,
+   "start_sec": 0.0,
+   "duration_sec": 6.0,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Владимир Зеленский крупным планом на брифинге, Киев, 2026"
+  },
+  {
+   "id": 2,
+   "start_sec": 0.0,
+   "duration_sec": 6.0,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Владимир Путин крупным планом на совещании в Кремле, 2026"
+  },
+  {
+   "id": 3,
+   "start_sec": 0.0,
+   "duration_sec": 6.0,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Владимир Путин на переговорах в Кремле за столом, 2026"
+  },
+  {
+   "id": 4,
+   "start_sec": 0.0,
+   "duration_sec": 6.0,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Мелания Трамп на гуманитарной акции в Вашингтоне, 2026"
+  },
+  {
+   "id": 5,
+   "start_sec": 0.0,
+   "duration_sec": 6.0,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Эмманюэль Макрон на военной базе во Франции, 2026"
+  },
+  {
+   "id": 6,
+   "start_sec": 0.0,
+   "duration_sec": 6.0,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "спутниковая антенна Starshield компании SpaceX, США, 2026"
+  },
+  {
+   "id": 7,
+   "start_sec": 0.0,
+   "duration_sec": 6.0,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Владимир Путин и Джо Байден на саммите в Женеве, июнь 2021"
+  },
+  {
+   "id": 8,
+   "start_sec": 0.0,
+   "duration_sec": 6.0,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "экран ноутбука с интерфейсом спутниковой связи Starlink"
+  },
+  {
+   "id": 9,
+   "start_sec": 0.0,
+   "duration_sec": 6.0,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Стив Уиткофф на встрече в Москве, 2026"
+  },
+  {
+   "id": 10,
+   "start_sec": 0.0,
+   "duration_sec": 6.0,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Джаред Кушнер на встрече в Москве, 2026"
+  }
+ ]
+}
