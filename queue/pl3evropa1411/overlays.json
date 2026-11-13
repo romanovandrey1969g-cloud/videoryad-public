@@ -1,0 +1,66 @@
+{
+ "13": {
+  "text": {
+   "words": "ТРИНАДЦАТЬ ПРОЦЕНТОВ",
+   "color": "green",
+   "pos": "ml",
+   "font": "default",
+   "sound": "zatvor",
+   "at": 0.5,
+   "scale": 1.0,
+   "style": "mask_plate",
+   "sub": "столько доверия у Макрона дома",
+   "approved": true
+  },
+  "sound": "ding"
+ },
+ "3": {
+  "photo": "overlays/scene_003.jpg",
+  "sound": "pop",
+  "at": 2.0,
+  "approved": true,
+  "dash_ok": true,
+  "shape": "rect",
+  "scale": 1.0
+ },
+ "56": {
+  "text": {
+   "words": "ВТОРОЙ КАЛЕНДАРЬ",
+   "color": "orange",
+   "pos": "ml",
+   "font": "default",
+   "sound": "whoosh",
+   "at": 0.5,
+   "scale": 1.0,
+   "style": "mask_plate",
+   "sub": "сроки переговоров против сроков политики",
+   "approved": true
+  }
+ },
+ "32": {
+  "text": {
+   "words": "СЛЕДУЮЩИЙ РАУНД",
+   "sub": "Эмираты или Швейцария",
+   "style": "mask_plate",
+   "pos": "ml",
+   "color": "green",
+   "font": "default",
+   "sound": "ding",
+   "at": 0.5,
+   "scale": 1.0
+  }
+ },
+ "5": {
+  "text": {
+   "words": "ЕВРОПА РАЗВЕРНУЛАСЬ",
+   "sub": "разговор с Москвой перестал быть запретным",
+   "style": "mask_plate",
+   "pos": "ml",
+   "color": "green",
+   "font": "default",
+   "sound": "whoosh",
+   "at": 0.5,
+   "scale": 1.0
+  }
+ }
+}
