@@ -223,6 +223,39 @@ def pech_russkaya(x, y, w_, h_, t, ogon_on=True, zaslonka=0.0):
     return s
 
 
+def spina(x, y, h_, t, col="#3a3448", platok=None, ph=0.0, kant="#cfd8dd"):
+    """Человек СО СПИНЫ: плечи, шея, затылок, по желанию платок или шапка.
+    Капля из общей базы в кадре читается лампочкой — для очередей своя фигура."""
+    k = h_ / 620.0
+    dy = 2.6 * A.w(t, 2.4, ph)
+    s = ten(x, y + 10, 90 * k, 22 * k, .45)
+    s += f'<g transform="translate(0,{dy:.1f})">'
+    # пальто/спина с плечами
+    s += (f'<path d="M{x-96*k:.0f},{y}'
+          f' q-{6*k:.0f},-{250*k:.0f} {26*k:.0f},-{300*k:.0f}'
+          f' q{70*k:.0f},-{40*k:.0f} {140*k:.0f},0'
+          f' q{32*k:.0f},{50*k:.0f} {26*k:.0f},{300*k:.0f} z"'
+          f' fill="{col}" {o(6, kant)}/>')
+    # шея и затылок
+    s += (f'<rect x="{x-22*k:.0f}" y="{y-330*k:.0f}" width="{44*k:.0f}"'
+          f' height="{50*k:.0f}" rx="{14*k:.0f}" fill="#d8ab86" {o(4)}/>')
+    s += (f'<ellipse cx="{x}" cy="{y-392*k:.0f}" rx="{64*k:.0f}" ry="{72*k:.0f}"'
+          f' fill="#e2b58e" {o(5)}/>')
+    # волосы/затылок
+    s += (f'<path d="M{x-64*k:.0f},{y-392*k:.0f} q{4*k:.0f},-{86*k:.0f} {64*k:.0f},-{84*k:.0f}'
+          f' q{60*k:.0f},-{2*k:.0f} {64*k:.0f},{84*k:.0f}'
+          f' q-{20*k:.0f},{30*k:.0f} -{128*k:.0f},0 z" fill="#4a3b2e" {o(4)}/>')
+    if platok:
+        s += (f'<path d="M{x-72*k:.0f},{y-380*k:.0f}'
+              f' q{6*k:.0f},-{104*k:.0f} {72*k:.0f},-{100*k:.0f}'
+              f' q{68*k:.0f},-{4*k:.0f} {72*k:.0f},{100*k:.0f}'
+              f' q-{30*k:.0f},{56*k:.0f} -{144*k:.0f},0 z" fill="{platok}" {o(5)}/>')
+        s += (f'<path d="M{x-36*k:.0f},{y-300*k:.0f} q{36*k:.0f},{26*k:.0f} {72*k:.0f},0"'
+              f' fill="none" stroke="{platok}" stroke-width="{18*k:.0f}"/>')
+    s += '</g>'
+    return s
+
+
 def babka(x, y, h_, t, profil=True, platok=TKAN, ph=0.0, ruka_ugol=0.0,
           fartuk=TKAN2, vpravo=True):
     """Бабушка: плечи, кофта, фартук, платок сзади, живое лицо в профиль."""
@@ -1175,37 +1208,41 @@ def pridorozhnyy_stolb_s_doschechkoy(t):
 
 def stol_zagovenya(t):
     """Планы 26-27. Стол ломится: пирог, яичница, сметана, сыр, молоко."""
-    s = SL(Z_DAL, kuhnya_stena(t, True, 1500))
-    s += SL(Z_SRED, stol_bok(60, 700, 1800, 250, t, "#d9c7a4"))
-    s += SL(Z_SRED, teplo(900, 620, 900, 460, .5))
-    # мясной пирог
-    s += SL(Z_PERED, ten(330, 700, 150, 22, .5)
-            + f'<path d="M200,690 q6,-92 130,-92 q124,0 130,92 z" fill="url(#solom)" {o(6)}/>'
-            + f'<path d="M232,636 q98,-28 196,0" fill="none" stroke="#c08a3e" stroke-width="8"/>')
-    s += SL(Z_PERED, par(330, 580, t, 6, .5, 240, .4, 1.2))
+    s = SL(Z_DAL, kuhnya_stena(t, True, 1520))
+    s += SL(Z_SRED, stol_bok(40, 700, 1240, 300, t, "#d9c7a4"))
+    s += SL(Z_SRED, teplo(640, 600, 900, 520, .5))
+    # мясной пирог крупно
+    s += SL(Z_PERED, ten(300, 700, 210, 30, .5)
+            + f'<path d="M110,690 q10,-150 190,-150 q180,0 190,150 z"'
+              f' fill="url(#solom)" {o(8)}/>'
+            + f'<path d="M160,600 q140,-40 280,0" fill="none" stroke="#c08a3e"'
+              f' stroke-width="12"/>'
+            + "".join(f'<path d="M{190+j*60},660 l34,-40" stroke="#b47a36"'
+                      f' stroke-width="8"/>' for j in range(4)))
+    s += SL(Z_PERED, par(300, 520, t, 7, .55, 260, .4, 1.5))
     # яичница шкворчит
-    shk = 4 * A.w(t, .35)
+    shk = 5 * A.w(t, .35)
     s += SL(Z_PERED, f'<g transform="translate({shk:.1f},0)">'
-            + f'<ellipse cx="700" cy="690" rx="150" ry="44" fill="url(#chug)" {o(6)}/>'
-            + "".join(f'<ellipse cx="{640+j*62}" cy="682" rx="46" ry="24" fill="#fbf4e2"'
-                      f' {o(4)}/><circle cx="{640+j*62}" cy="680" r="17" fill="#f0b43c"/>'
+            + f'<ellipse cx="700" cy="690" rx="210" ry="62" fill="url(#chug)" {o(8)}/>'
+            + "".join(f'<ellipse cx="{620+j*84}" cy="676" rx="64" ry="34" fill="#fbf4e2"'
+                      f' {o(5)}/><circle cx="{620+j*84}" cy="672" r="24" fill="#f0b43c"/>'
                       for j in range(2))
-            + f'<path d="M850,678 h160" {o(9)} fill="none"/></g>')
-    for i in range(4):
-        ph = (t * 1.6 + i * .25) % 1.0
-        s += SL(Z_PERED, f'<circle cx="{660+i*42}" cy="{660-40*ph:.0f}" r="{3+2*ph:.0f}"'
+            + f'<path d="M910,672 h210" {o(14)} fill="none"/></g>')
+    for i in range(5):
+        ph = (t * 1.6 + i * .2) % 1.0
+        s += SL(Z_PERED, f'<circle cx="{640+i*52}" cy="{640-54*ph:.0f}" r="{4+4*ph:.0f}"'
                          f' fill="#ffe9b8" opacity="{.6*(1-ph):.2f}"/>')
     # сметана блестит
     bl = .5 + .5 * A.w(t, 2.0)
-    s += SL(Z_PERED, tarelka(1060, 690, 72, t, "url(#krem)", True)
-            + f'<ellipse cx="1060" cy="676" rx="52" ry="20" fill="#fbfaf4" {o(4)}/>'
-            + f'<ellipse cx="1040" cy="670" rx="18" ry="7" fill="#ffffff"'
+    s += SL(Z_PERED, tarelka(1080, 690, 104, t, "url(#krem)", True)
+            + f'<ellipse cx="1080" cy="668" rx="74" ry="28" fill="#fbfaf4" {o(5)}/>'
+            + f'<ellipse cx="1052" cy="660" rx="26" ry="11" fill="#ffffff"'
               f' opacity="{.4+.4*bl:.2f}"/>')
     # сыр и кувшин молока
-    s += SL(Z_PERED, f'<path d="M1300,690 l130,-66 l56,44 l-130,66 z" fill="url(#solom)" {o(6)}/>'
-            + "".join(f'<circle cx="{1340+j*36}" cy="{664-j*12}" r="9" fill="#e2c87e"/>'
-                      for j in range(3)))
-    s += SL(Z_PERED, krynka(1650, 692, 1.5, "url(#krem)"))
+    s += SL(Z_PERED, f'<path d="M1300,694 l170,-86 l76,58 l-170,86 z" fill="url(#solom)" {o(7)}/>'
+            + "".join(f'<circle cx="{1352+j*46}" cy="{658-j*16}" r="13"'
+                      f' fill="#e2c87e"/>' for j in range(3)))
+    s += SL(Z_PERED, krynka(1620, 700, 2.1, "url(#krem)"))
     s += SL(Z_PERED, ramka_pp("levo", "#1a1309", .22))
     s += _vinetka(.42)
     return s
@@ -1268,7 +1305,7 @@ def holodilnik_nakanune_posta(t):
             + f'<path d="M1180,560 q-180,-90 -300,-140" fill="none" stroke="#e8bb93"'
               f' stroke-width="56" stroke-linecap="round" opacity="{min(1,.2+ber):.2f}"/></g>')
     # хозяйка со спины
-    s += SL(Z_PERED, siluet(1420, 1040, 760, "#39323c", 1.0, True, "#c8b9a0"))
+    s += SL(Z_PERED, spina(1420, 1040, 780, t, "#39323c", "#6b5a7a", .2))
     # тапочек постукивает
     tap = 7 * abs(A.w(t, .8))
     s += SL(Z_PERED, f'<ellipse cx="1500" cy="{1046-tap:.0f}" rx="56" ry="18"'
@@ -1295,8 +1332,8 @@ def stol_knizhka_v_komnate(t):
                    f' fill="#2b2420" {o(8)}/>')
     gost = A.ease(A.seg(t, 2.0, 1.4))
     s += SL(Z_SRED, f'<g opacity="{gost:.2f}">'
-            + siluet(1640, 840, 420, "#231d1f", 1.0, True, "#d9c49c")
-            + siluet(1760, 840, 400, "#231d1f", 1.0, False, "#d9c49c") + '</g>')
+            + spina(1640, 840, 420, t, "#3a3040", "#8a3f3a", .2)
+            + spina(1770, 840, 400, t, "#2f3845", None, .5) + '</g>')
     # стол-книжка: крылья раскрываются
     kr = A.ease(A.seg(t, .2, 1.1))
     s += SL(Z_SRED, stol_bok(700, 760, 420, 230, t))
@@ -1518,31 +1555,31 @@ def sumka_s_pokupkami_na_taburetke(t):
 def chetyre_zabytye_melochi(t):
     """План 40. Кофе с молоком, бутерброд, салат, булка — и значки над ними."""
     s = SL(Z_DAL, kuhnya_stena(t, True, 1460, False, True, 23))
-    s += SL(Z_SRED, stol_bok(80, 680, 1280, 300, t, "#cfd8c6"))
+    s += SL(Z_SRED, stol_bok(40, 700, 1320, 300, t, "#cfd8c6"))
     veshi = [
-        (240, lambda: f'<path d="M190,660 q-8,-120 100,-120 q108,0 100,120 z"'
-                      f' fill="#f2eee4" {o(6)}/>'
-                      f'<ellipse cx="290" cy="546" rx="100" ry="30" fill="#6b4a32" {o(5)}/>'
+        (260, lambda: f'<path d="M150,686 q-10,-160 140,-160 q150,0 140,160 z"'
+                      f' fill="#f2eee4" {o(7)}/>'
+                      f'<ellipse cx="290" cy="530" rx="140" ry="40" fill="#6b4a32" {o(6)}/>'
                       + "".join(f'<path d="M{250+j*18},546 q22,-16 44,4" fill="none"'
                                 f' stroke="#efe6d6" stroke-width="7" opacity=".9"'
                                 f' transform="rotate({t*40+j*120:.0f},290,546)"/>'
                                 for j in range(3))
-                      + f'<path d="M390,580 q60,10 40,70" fill="none" {o(12)}/>'),
-        (620, lambda: f'<rect x="520" y="600" width="210" height="46" rx="8"'
-                      f' fill="url(#solom)" {o(6)}/>'
-                      f'<rect x="534" y="566" width="182" height="40" rx="6"'
-                      f' fill="#f0c860" {o(5)}/>'
-                      + "".join(f'<circle cx="{570+j*52}" cy="586" r="9" fill="#d8ac46"/>'
-                                for j in range(3))),
-        (980, lambda: f'<path d="M880,660 q-10,-90 100,-90 q110,0 100,90 z"'
-                      f' fill="url(#krem)" {o(6)}/>'
-                      f'<ellipse cx="980" cy="570" rx="100" ry="26" fill="#fbfaf4" {o(4)}/>'
-                      + "".join(f'<ellipse cx="{930+j*46}" cy="564" rx="22" ry="12"'
-                                f' fill="{ZEL2}" opacity=".9"/>' for j in range(3))),
-        (1280, lambda: f'<path d="M1190,660 q0,-120 90,-120 q90,0 90,120 z"'
-                       f' fill="#d49a52" {o(6)}/>'
-                       f'<path d="M1222,580 q58,-26 116,0" fill="none" stroke="#b47a36"'
-                       f' stroke-width="8"/>'),
+                      + f'<path d="M430,580 q76,14 50,88" fill="none" {o(16)}/>'),
+        (640, lambda: f'<rect x="500" y="610" width="280" height="60" rx="10"'
+                      f' fill="url(#solom)" {o(7)}/>'
+                      f'<rect x="520" y="560" width="240" height="54" rx="8"'
+                      f' fill="#f0c860" {o(6)}/>'
+                      + "".join(f'<circle cx="{560+j*68}" cy="586" r="13"'
+                                f' fill="#d8ac46"/>' for j in range(3))),
+        (1000, lambda: f'<path d="M860,686 q-14,-130 140,-130 q154,0 140,130 z"'
+                       f' fill="url(#krem)" {o(7)}/>'
+                       f'<ellipse cx="1000" cy="556" rx="140" ry="34" fill="#fbfaf4" {o(5)}/>'
+                       + "".join(f'<ellipse cx="{930+j*62}" cy="548" rx="30" ry="16"'
+                                 f' fill="{ZEL2}" opacity=".9"/>' for j in range(3))),
+        (1300, lambda: f'<path d="M1180,686 q0,-160 120,-160 q120,0 120,160 z"'
+                       f' fill="#d49a52" {o(7)}/>'
+                       f'<path d="M1222,572 q78,-34 156,0" fill="none" stroke="#b47a36"'
+                       f' stroke-width="11"/>'),
     ]
     for i, (xx, f) in enumerate(veshi):
         k = A.over(A.seg(t, .4 + i * .9, .4))
@@ -2062,7 +2099,8 @@ def rybnyy_otdel_s_vesami(t):
     for i, (xx, h_, col) in enumerate(((120, 560, "#4a4152"), (300, 600, "#3f4a5c"),
                                        (470, 540, "#5e4a42"))):
         s += SL(Z_PERED, f'<g opacity=".95">'
-                + siluet(xx, 1080, h_, col, 1.0, i % 2 == 0, "#cfd8d6") + '</g>')
+                + spina(xx, 1080, h_, t, col, TKAN if i % 2 == 0 else None, i * .2)
+                + '</g>')
     s += _vinetka(.44)
     return s
 
@@ -2136,17 +2174,17 @@ def belaya_skatert_sredi_kleenok(t):
     """План 67. Ряд будничных столов, один накрывают белой скатертью."""
     s = SL(Z_DAL, kuhnya_stena(t, True, None, False, True, 71))
     s += SL(Z_SRED, teplo(960, 600, 900, 620, .4))
-    for i in range(4):
-        xx = 60 + i * 480
-        prazd = i == 2
-        s += SL(Z_SRED, stol_bok(xx, 760, 400, 260, t))
+    for i in range(3):
+        xx = 40 + i * 640
+        prazd = i == 1
+        s += SL(Z_SRED, stol_bok(xx, 780, 560, 280, t))
         if not prazd:
-            s += SL(Z_SRED, f'<path d="M{xx-10},656 h420 l20,104 h-440 z"'
-                            f' fill="#e8ddc6" {o(5)}/>'
-                    + "".join(f'<path d="M{xx+20+j*70},656 l-6,104" stroke="#b9553f"'
-                              f' stroke-width="5" opacity=".5"/>' for j in range(6)))
+            s += SL(Z_SRED, f'<path d="M{xx-14},634 h588 l28,146 h-616 z"'
+                            f' fill="#e8ddc6" {o(6)}/>'
+                    + "".join(f'<path d="M{xx+30+j*92},634 l-10,146" stroke="#b9553f"'
+                              f' stroke-width="7" opacity=".5"/>' for j in range(6)))
     # белая скатерть ложится волной на третий стол
-    xx = 60 + 2 * 480
+    xx = 40 + 1 * 640
     k = A.ease(A.seg(t, 1.0, 1.4))
     volna = 16 * A.w(t, 1.8)
     s += SL(Z_PERED, f'<g opacity="{k:.2f}">'
@@ -3259,17 +3297,24 @@ def meshok_kochan_i_kulek(t):
             + f'<rect x="0" y="700" width="{W}" height="380" fill="url(#pol)"/>'
             + polovicy(700))
     veshi = [
-        (280, lambda k: f'<path d="M160,980 q-20,-{300*k:.0f} 120,-{320*k:.0f}'
-                        f' q140,{20*k:.0f} 120,{320*k:.0f} z" fill="url(#solom)" {o(8)}/>'
-                        f'<path d="M190,{700-20*k:.0f} q90,-40 180,0 q-90,30 -180,0 z"'
-                        f' fill="#c89a4e" {o(6)}/>'
-                        + "".join(f'<ellipse cx="{230+j*40}" cy="{720+(j%2)*20}" rx="26"'
-                                  f' ry="20" fill="#c9a86a" {o(3)}/>' for j in range(3))),
-        (640, lambda k: f'<circle cx="640" cy="{880-30*k:.0f}" r="{140*k:.0f}"'
-                        f' fill="#dfe8d6" {o(8)}/>'
-                        + "".join(f'<path d="M{560+j*40},{800-20*k:.0f} q40,{80*k:.0f}'
-                                  f' 10,{150*k:.0f}" fill="none" stroke="#b9c9ae"'
-                                  f' stroke-width="9"/>' for j in range(4))),
+        (280, lambda k: f'<path d="M150,980 q-30,-{300*k:.0f} 130,-{310*k:.0f}'
+                        f' q160,{10*k:.0f} 130,{310*k:.0f} z" fill="url(#solom)" {o(8)}/>'
+                        + "".join(f'<path d="M{170+j*44},980 v-{240*k:.0f}"'
+                                  f' stroke="#c89a4e" stroke-width="7"'
+                                  f' opacity=".5"/>' for j in range(5))
+                        + f'<path d="M190,{676-16*k:.0f} q90,-46 180,0'
+                          f' q-50,40 -90,40 q-40,0 -90,-40 z" fill="#c89a4e" {o(7)}/>'
+                        + "".join(f'<ellipse cx="{232+j*46}" cy="{706+(j%2)*22}" rx="30"'
+                                  f' ry="23" fill="#c9a86a" {o(4)}/>' for j in range(3))),
+        (640, lambda k: f'<circle cx="640" cy="{870-26*k:.0f}" r="{150*k:.0f}"'
+                        f' fill="#e6eede" {o(8)}/>'
+                        + "".join(f'<path d="M{556+j*42},{790-18*k:.0f} q44,{86*k:.0f}'
+                                  f' 12,{156*k:.0f}" fill="none" stroke="#b9c9ae"'
+                                  f' stroke-width="11"/>' for j in range(4))
+                        + f'<path d="M520,{860-20*k:.0f} q-70,-{70*k:.0f} 10,-{120*k:.0f}'
+                          f' q50,{40*k:.0f} 50,{110*k:.0f} z" fill="#9ab07e" {o(6)}/>'
+                        + f'<path d="M760,{860-20*k:.0f} q70,-{70*k:.0f} -10,-{120*k:.0f}'
+                          f' q-50,{40*k:.0f} -50,{110*k:.0f} z" fill="#9ab07e" {o(6)}/>'),
         (980, lambda k: f'<path d="M900,980 l20,-{260*k:.0f} h140 l20,{260*k:.0f} z"'
                         f' fill="#d8cdb4" {o(7)}/>'
                         f'<path d="M920,{720-10*k:.0f} h140" stroke="#b9ae92"'
@@ -3309,10 +3354,15 @@ def komnata_s_nochnikom(t):
             + "".join(f'<path d="M{120+j*120},{270+j*10} l{-40+j*10},-60"'
                       f' stroke="#1c2230" stroke-width="12" opacity=".5"/>' for j in range(5)))
     # кресло
-    s += SL(Z_SRED, f'<path d="M300,860 q-30,-420 230,-420 q260,0 230,420 z"'
-                    f' fill="#4a4152" {o(8)}/>'
-            + f'<path d="M340,700 q190,-60 380,0 v160 h-380 z" fill="#5e5468" {o(6)}/>'
-            + f'<rect x="280" y="840" width="500" height="40" rx="12" fill="#3a3344" {o(6)}/>')
+    s += SL(Z_SRED, ten(530, 900, 260, 34, .5)
+            + f'<path d="M320,840 v-300 q0,-120 210,-120 q210,0 210,120 v300 z"'
+              f' fill="#4a4152" {o(8)}/>'
+            + f'<path d="M360,560 q170,-70 340,0 q-170,40 -340,0 z" fill="#5e5468" {o(6)}/>'
+            + f'<rect x="286" y="700" width="80" height="150" rx="26" fill="#564c62" {o(7)}/>'
+            + f'<rect x="694" y="700" width="80" height="150" rx="26" fill="#564c62" {o(7)}/>'
+            + f'<rect x="300" y="838" width="460" height="34" rx="12" fill="#3a3344" {o(6)}/>'
+            + f'<rect x="330" y="872" width="34" height="80" rx="10" fill="#2f2a38" {o(5)}/>'
+            + f'<rect x="700" y="872" width="34" height="80" rx="10" fill="#2f2a38" {o(5)}/>')
     # плед сползает с кресла
     sp = A.ease(A.seg(t, .6, 2.2))
     s += SL(Z_PERED, f'<path d="M380,{620+120*sp:.0f} h300 q20,{200+60*sp:.0f}'
@@ -3392,18 +3442,26 @@ def kreslo_kachalka_u_detskoy_krovatki(t):
             + f'<path d="M340,700 q180,-60 360,0 v160 h-360 z" fill="#8a6038" {o(6)}/>'
             + f'<path d="M260,880 q260,80 520,0" fill="none" stroke="#5e4428"'
               f' stroke-width="24" stroke-linecap="round"/>'
-            + siluet(520, 820, 420, "#3a3344", 1.0, True, "#d9c49c")
+            + babka(520, 830, 520, t, True, "#6b5a7a", .3, -8, "#8a7a94")
             + '</g>')
     # детская кроватка с пологом
-    s += SL(Z_SRED, f'<rect x="880" y="700" width="420" height="200" rx="14"'
-                    f' fill="url(#derev)" {o(8)}/>'
-            + "".join(f'<path d="M{910+j*44},700 v200" stroke="#8a6038"'
-                      f' stroke-width="12"/>' for j in range(9)))
+    s += SL(Z_SRED, ten(1120, 930, 280, 26, .45)
+            + f'<rect x="860" y="680" width="520" height="240" rx="16"'
+              f' fill="url(#derev)" {o(8)}/>'
+            + "".join(f'<path d="M{890+j*50},690 v220" stroke="#8a6038"'
+                      f' stroke-width="13"/>' for j in range(10))
+            + f'<rect x="860" y="660" width="520" height="30" rx="10"'
+              f' fill="#8a6038" {o(6)}/>')
     kol = 12 * A.w(t, 2.2)
-    s += SL(Z_PERED, f'<path d="M1090,300 q{60+kol:.0f},160 {170:.0f},400 h-340'
-                     f' q{110-kol:.0f},-240 {170:.0f},-400 z" fill="#f6eedc"'
-                     f' opacity=".75" {o(5)}/>'
-            + f'<circle cx="1090" cy="290" r="22" fill="{MED}" {o(5)}/>')
+    s += SL(Z_PERED, f'<path d="M1120,300 q-{200+kol:.0f},120 -{280:.0f},380'
+                     f' q{70:.0f},-20 {150:.0f},-120 z" fill="#f6eedc"'
+                     f' opacity=".85" {o(5)}/>'
+            + f'<path d="M1120,300 q{200-kol:.0f},120 {280:.0f},380'
+              f' q-{70:.0f},-20 -{150:.0f},-120 z" fill="#f6eedc"'
+              f' opacity=".85" {o(5)}/>'
+            + f'<path d="M1120,300 q-40,180 -20,330" fill="none" stroke="#efe9da"'
+              f' stroke-width="8" opacity=".8"/>'
+            + f'<circle cx="1120" cy="292" r="22" fill="{MED}" {o(5)}/>')
     # кружка молока и блюдце творога на подоконнике
     s += SL(Z_SRED, f'<rect x="1220" y="600" width="560" height="26" rx="8"'
                     f' fill="url(#dosk)" {o(7)}/>')
@@ -3491,15 +3549,16 @@ def zerkalo_s_babushkoy(t):
     # отражение меняется: женщина → бабушка в платке
     k = A.ease(A.seg(t, 1.6, 1.6))
     s += SL(Z_SRED, f'<g opacity="{1-k:.2f}">'
-            + siluet(1080, 880, 620, "#4a4458", 1.0, False, "#cfd8dd") + '</g>')
+            + babka(1080, 820, 560, t, True, "#6b5a7a", .1, 0, "#8a7a94", False) + '</g>')
     if k > .02:
         kiv = 5 * A.w(t, 1.4)
-        s += SL(Z_SRED, f'<g opacity="{k:.2f}" transform="rotate({kiv:.1f},1080,700)">'
-                + babka(1080, 900, 660, t, True, TKAN, .5, -6, "#5e6b7a", False) + '</g>')
+        s += SL(Z_SRED, f'<g opacity="{k:.2f}" transform="rotate({kiv:.1f},1080,640)">'
+                + babka(1080, 820, 580, t, True, TKAN, .5, -6, "#5e6b7a", False) + '</g>')
     # женщина со спины перед зеркалом
-    s += SL(Z_PERED, f'<g>' + siluet(1080, 1080, 820, "#2f2a36", 1.0, False, "#b9ad96")
-            + f'<path d="M1000,320 q80,-50 160,0 q-30,70 -160,0 z" fill="#cfcabc"'
-              f' opacity=".9" {o(5)}/></g>')
+    s += SL(Z_PERED, f'<g>'
+            + babka(560, 1190, 900, t, True, "#4a4458", .4, 0, "#5e5468", True)
+            + f'<path d="M470,520 q80,-70 170,-10 q-46,66 -170,10 z" fill="#cfcabc"'
+              f' opacity=".92" {o(5)}/></g>')
     s += _vinetka(.5)
     return s
 
@@ -3536,9 +3595,11 @@ def delyanka_na_moroze(t):
     s += SL(Z_PERED, muzh(480, 1020, 760, t, .2, "#6b4a2c", True))
     s += SL(Z_PERED, f'<g transform="rotate({-24*razv:.0f},560,640)">'
             + ruka(560, 640, t, 240, 10, 52, "#6b4a2c") + '</g>')
-    s += SL(Z_PERED, f'<path d="M300,1020 v-280" stroke="url(#derev)" stroke-width="22"'
-                     f' stroke-linecap="round"/>'
-            + f'<path d="M280,740 q60,-60 110,-10 q-50,40 -110,10 z" fill="{ZHELEZ}" {o(6)}/>')
+    s += SL(Z_PERED, f'<path d="M300,1030 l70,-330" stroke="url(#derev)"'
+                     f' stroke-width="30" stroke-linecap="round"/>'
+            + f'<path d="M360,700 q80,-40 130,30 q-40,56 -140,24 z" fill="{ZHELEZ}" {o(7)}/>'
+            + f'<path d="M382,712 q60,-22 92,24" fill="none" stroke="#e8ecee"'
+              f' stroke-width="9" opacity=".6"/>')
     # пар изо рта
     s += SL(Z_PERED, par(600, 560, t, 5, .4, 190, .3, 1.4))
     # из-за кадра протягивают горшок с горячим
@@ -3675,7 +3736,7 @@ def ruki_pomogayut(t):
             + f'<rect x="0" y="0" width="{W}" height="{H}" fill="url(#teplo)" opacity=".25"/>')
     s += SL(Z_DAL, lampa(1500, 220, t, 1.5, True) + teplo(1500, 420, 620, 520, .5))
     # фигура в пледе со спины
-    s += SL(Z_SRED, siluet(1080, 1010, 620, "#2f2a36", 1.0, True, "#d9c49c"))
+    s += SL(Z_SRED, babka(1080, 1010, 660, t, True, "#5e5468", .2, -4, "#6b5a6e", False))
     # плед расправляется на плечах
     k = A.ease(A.seg(t, 1.2, 1.8))
     s += SL(Z_SRED, f'<path d="M940,{700-40*k:.0f} q140,-{60+40*k:.0f} 290,0'
@@ -3750,9 +3811,16 @@ def otodvinutaya_tarelka(t):
     # сложенные руки в центре, пальцы перебирают край скатерти
     per = 7 * A.w(t, 1.3)
     s += SL(Z_PERED, f'<g transform="translate({per*.3:.1f},0)">'
-            + ruka(620, 740, t, 290, 4, 58, "#6b5a6e")
-            + f'<g transform="translate(60,36)">'
-            + ruka(640, 760, t, 270, -6, 56, "#6b5a6e") + '</g></g>')
+            + ruka(360, 660, t, 420, 10, 74, "#6b5a6e", False)
+            + f'<g transform="translate(40,70)">'
+            + ruka(380, 680, t, 400, -6, 70, "#6b5a6e", False) + '</g>'
+            # ладонь поверх ладони: пальцы лежат друг на друге
+            + "".join(f'<path d="M{860+j*10},{738+j*30} q70,{10:.0f} 120,-{6:.0f}"'
+                      f' fill="none" stroke="#e8bb93" stroke-width="26"'
+                      f' stroke-linecap="round"/>' for j in range(3))
+            + f'<path d="M870,836 q60,30 130,10" fill="none" stroke="#dca882"'
+              f' stroke-width="24" stroke-linecap="round"/>'
+            + '</g>')
     for j in range(3):
         s += SL(Z_PERED, f'<path d="M{1020+j*34},{800+per*.6:.0f} q14,36 2,66"'
                          f' fill="none" stroke="#e8bb93" stroke-width="16"'
@@ -3923,7 +3991,8 @@ def ochered_v_zimnih_palto(t):
                                            (440, 650, "#3f4a5c", False),
                                            (1320, 640, "#5e4a42", True),
                                            (1520, 610, "#3a4450", True))):
-        s += SL(Z_SRED, siluet(xx, 1020, h_, col, 1.0, pl, "#cfd8dd"))
+        s += SL(Z_SRED, spina(xx, 1020, h_, t, col,
+                              ("#8a3f3a" if i % 2 else "#4a6b86") if pl else None, i * .17))
     # героиня молчит и смотрит на снег
     s += SL(Z_PERED, babka(860, 1040, 700, t, True, "#6b5a7a", .1, 0))
     # колючее облачко от обернувшегося
@@ -3972,7 +4041,8 @@ def telefon_s_dlinnym_shnurom(t):
                         f' fill="none" stroke="#2f2a26" stroke-width="12"/>')
         if rasp < .7:
             s += SL(Z_PERED, f'<g opacity="{(1-rasp/.7)*.9:.2f}">'
-                    + siluet(xx + r_, 600, 150 + i * 12, "#4a4458", 1.0, i % 2 == 0, None)
+                    + spina(xx + r_, 600, 160 + i * 12, t, "#4a4458",
+                            TKAN if i % 2 == 0 else None, i * .3)
                     + '</g>')
     s += SL(Z_SRED, f'<path d="M160,620 h100 M1580,620 h160" stroke="#2f2a26"'
                     f' stroke-width="12"/>')
@@ -4139,7 +4209,7 @@ def spyaschaya_ulica_v_snegu(t):
             + f'<path d="M690,440 v170 M600,525 h180" {o(6)} fill="none"/>'
             + teplo(690, 520, 420, 360, .5))
     s += SL(Z_PERED, f'<g transform="translate(0,{-18*vdoh:.0f})">'
-            + siluet(690, 612, 200, "#2a2430", .95, True, None) + '</g>')
+            + spina(690, 612, 210, t, "#2a2430", None, .3, "#f0d894") + '</g>')
     s += SL(Z_LETIT, _sneg_letit(t, 30, 89, .5, .45))
     s += _vinetka(.5)
     return s
@@ -4161,19 +4231,19 @@ def svyatochnaya_gorka(t):
     s += SL(Z_PERED, f'<g transform="translate({sx:.0f},{sy:.0f}) rotate(-16)">'
             + f'<rect x="-90" y="0" width="200" height="26" rx="8" fill="url(#derev)" {o(6)}/>'
             + f'<path d="M-90,26 q-30,30 10,40 h190" fill="none" {o(10)}/>'
-            + siluet(-20, 0, 150, "#8a3f3a", 1.0, True, "#f6eedc")
-            + siluet(50, 0, 130, "#3f5c7a", 1.0, True, "#f6eedc")
+            + spina(-20, 0, 160, t, "#8a3f3a", "#d9a441", .2)
+            + spina(50, 0, 140, t, "#3f5c7a", "#f6eedc", .6)
             + '</g>')
     # парни тащат гармониста
     s += SL(Z_PERED, f'<g transform="translate(340,980)">'
-            + siluet(0, 0, 420, "#3a4450", 1.0, False, "#dce8f4")
-            + siluet(150, 0, 440, "#4a3426", 1.0, False, "#dce8f4")
+            + spina(0, 0, 420, t, "#3a4450", None, .1)
+            + spina(150, 0, 440, t, "#4a3426", None, .4)
             + f'<g transform="translate(300,-240) scale(.8)">'
             + f'<rect x="-100" y="-70" width="60" height="140" rx="10" fill="#8a2f2c" {o(6)}/>'
             + f'<rect x="40" y="-70" width="60" height="140" rx="10" fill="#8a2f2c" {o(6)}/>'
             + "".join(f'<path d="M{-40+j*16},-66 v132" stroke="#e8d9bc"'
                       f' stroke-width="6"/>' for j in range(6)) + '</g>'
-            + siluet(320, 0, 430, "#6b4a2c", 1.0, False, "#dce8f4")
+            + spina(320, 0, 430, t, "#6b4a2c", None, .7)
             + '</g>')
     # девушки в цветных платках смеются
     for i, (xx, col) in enumerate(((1120, "#c0392b"), (1260, "#d9a441"), (1400, "#3f5c7a"))):
@@ -4440,7 +4510,8 @@ def svadebnyy_stol_v_post(t):
     s += SL(Z_SRED, f'<g transform="rotate({-pov:.1f},860,620)">'
             + muzh(860, 620, 440, t, .3, "#2f3845", False) + '</g>')
     for i, xx in enumerate((300, 1180, 1420, 1660)):
-        s += SL(Z_SRED, siluet(xx, 620, 400 + i * 10, "#4a4152", 1.0, i % 2 == 0, "#d9c49c"))
+        s += SL(Z_SRED, spina(xx, 620, 400 + i * 10, t, "#4a4152",
+                              "#8a3f3a" if i % 2 == 0 else None, i * .23))
     # лента на стуле качается
     kol = 10 * A.w(t, 1.7)
     s += SL(Z_PERED, f'<path d="M1020,600 q{40+kol:.0f},100 {10:.0f},200" fill="none"'
@@ -4513,10 +4584,21 @@ def portnovskiy_maneken(t):
             + f'<path d="M1200,800 q-30,-300 140,-320 q170,20 140,320 z"'
               f' fill="#e8e4d8" {o(8)}/>')
     # намётанное белое платье с булавками
-    s += SL(Z_PERED, f'<path d="M1180,820 q-20,-290 160,-310 q180,20 160,310'
-                     f' q-160,40 -320,0 z" fill="#fdfaf2" opacity=".95" {o(7)}/>'
-            + "".join(f'<path d="M{1210+j*44},520 v280" stroke="#d8d2c4"'
-                      f' stroke-width="5" opacity=".9"/>' for j in range(6)))
+    s += SL(Z_PERED, f'<path d="M1180,820 q-40,-250 90,-290'
+                     f' q70,-26 140,0 q130,40 90,290 q-160,44 -320,0 z"'
+                     f' fill="#fdfaf2" opacity=".96" {o(7)}/>'
+            # плечи и рукава
+            + f'<path d="M1250,536 q-96,20 -120,120 q50,26 86,-16 z"'
+              f' fill="#fdfaf2" {o(6)}/>'
+            + f'<path d="M1430,536 q96,20 120,120 q-50,26 -86,-16 z"'
+              f' fill="#fdfaf2" {o(6)}/>'
+            # юбка колоколом и намётка
+            + f'<path d="M1200,790 q140,60 280,0 l40,230 q-180,54 -360,0 z"'
+              f' fill="#fdfaf2" opacity=".96" {o(7)}/>'
+            + "".join(f'<path d="M{1216+j*42},560 v440" stroke="#d8d2c4"'
+                      f' stroke-width="5" opacity=".85"/>' for j in range(7))
+            + f'<path d="M1200,790 q140,56 280,0" fill="none" stroke="#c9c2b2"'
+              f' stroke-width="7"/>')
     for j in range(6):
         bl = .4 + .6 * abs(A.w(t, 1.7, j * .2))
         s += SL(Z_PERED, f'<circle cx="{1230+j*42}" cy="{600+(j%3)*60}" r="7"'
@@ -4873,9 +4955,14 @@ def novogodniy_stol_s_bumazhnymi_snezh(t):
     for i in range(5):
         yy = 840 - i * 118
         w_ = 330 - i * 54
-        s += SL(Z_SRED, f'<path d="M{380-w_},{yy} q{w_},-{76+i*8:.0f} {w_*2},0'
-                        f' q-{w_*.5:.0f},{26:.0f} -{w_*2:.0f},0 z"'
+        s += SL(Z_SRED, f'<path d="M{380-w_},{yy} L380,{yy-150-i*6} L{380+w_},{yy} z"'
                         f' fill="{"#2f5e34" if i%2 else "#3c6b3a"}" {o(7)}/>')
+        for j in range(7):
+            u = (j + 1) / 8.0
+            s += SL(Z_SRED, f'<path d="M{380-w_+2*w_*u:.0f},{yy-6:.0f}'
+                            f' l{(-1 if u<.5 else 1)*26:.0f},{26:.0f}"'
+                            f' stroke="{"#27502c" if i%2 else "#345c32"}"'
+                            f' stroke-width="7" opacity=".9"/>')
         for j in range(4):
             mig = .35 + .65 * abs(A.w(t, 1.5, (i * 4 + j) * .11))
             s += SL(Z_PERED, f'<circle cx="{380-w_*.7+j*(w_*1.4/3):.0f}" cy="{yy-18}" r="11"'
