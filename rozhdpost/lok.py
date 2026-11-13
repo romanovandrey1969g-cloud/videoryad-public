@@ -3484,6 +3484,19 @@ def tri_pary_obuvi_u_poroga(t):
             + polovicy(620)
             + f'<rect x="0" y="600" width="{W}" height="40" rx="8"'
               f' fill="url(#dosk)" {o(7)}/>')
+    # живое с первого кадра: свет из сеней дышит, пылинки, половик дрожит
+    dysh = .8 + .2 * A.w(t, 2.6)
+    s += SL(Z_DAL, teplo(1500, 520, 700, 620, .4 * dysh))
+    for i in range(9):
+        ph = (t * .25 + i * .11) % 1.0
+        s += SL(Z_PERED, f'<circle cx="{300+i*170-80*ph:.0f}" cy="{140+ph*700:.0f}"'
+                         f' r="4" fill="#fff6dc" opacity="{.45*(1-ph):.2f}"/>')
+    kol = 6 * A.w(t, 1.7)
+    s += SL(Z_SRED, f'<path d="M120,980 h520 l{-40+kol:.0f},70 h-500 z"'
+                    f' fill="{TKAN2}" {o(5)} opacity=".9"/>'
+            + "".join(f'<path d="M{160+j*100},984 l{-50+kol*.4:.0f},62"'
+                      f' stroke="#e3d6b4" stroke-width="12" opacity=".6"/>'
+                      for j in range(5)))
     pary = [
         (330, lambda: f'<path d="M200,900 q-16,-90 110,-90 q90,0 110,60 l-20,30 z"'
                       f' fill="#8a3f3a" {o(7)}/>'
@@ -3509,12 +3522,18 @@ def tri_pary_obuvi_u_poroga(t):
                        f' fill="{TKAN2}" {o(6)}/>'),
     ]
     for i, (xx, f) in enumerate(pary):
-        k = A.over(A.seg(t, .4 + i * 1.5, .4))
+        k = A.over(A.seg(t, .1 + i * 1.5, .4))
         if k <= 0:
             continue
         kk = min(1.0, k)
         s += SL(Z_PERED, f'<g opacity="{kk:.2f}" transform="translate(0,{-50*(1-kk):.0f})">'
                 + f() + '</g>')
+    # рукавицы подсыхают: покачиваются весь план
+    kach2 = 7 * A.w(t, 1.4)
+    s += SL(Z_PERED, f'<path d="M1480,{640+kach2*.3:.0f} q50,-70 110,-10'
+                     f' q-10,50 -110,10 z" fill="{TKAN2}" opacity=".9" {o(5)}/>'
+            + f'<path d="M1660,{640-kach2*.3:.0f} q50,-70 110,-10'
+              f' q-10,50 -110,10 z" fill="{TKAN2}" opacity=".9" {o(5)}/>')
     # снег тает на сапогах
     for i in range(4):
         ph = (t * .5 + i * .22) % 1.0
