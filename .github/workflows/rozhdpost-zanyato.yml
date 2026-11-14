@@ -1,0 +1,18 @@
+name: rozhdpost-zanyato
+# Карта занятости кадра для наполнения сцен предметами (R-0045).
+on:
+  workflow_dispatch:
+jobs:
+  zanyato:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install --quiet cairosvg pillow
+      - name: карта
+        working-directory: rozhdpost
+        run: python3 zanyato.py "$GITHUB_WORKSPACE/zanyato.json"
+      - uses: actions/upload-artifact@v4
+        with: { name: rozhdpost-zanyato, path: zanyato.json, retention-days: 2 }
