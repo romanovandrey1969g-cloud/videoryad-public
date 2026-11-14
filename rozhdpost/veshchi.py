@@ -108,7 +108,7 @@ def _korzinka(x, y, s_=1.0, chem="ovoshchi"):
                 f' {w_-16*s_:.0f},0" fill="none" stroke="#a07c2e"'
                 f' stroke-width="{max(2,3*s_):.0f}" opacity=".75"/>')
     out += (f'<path d="M{x-w_*.3:.0f},{y-h_:.0f} q{w_*.3:.0f},{-54*s_:.0f} {w_*.6:.0f},0"'
-            f' fill="none" stroke="url(#solom)" stroke-width="{max(5,7*s_):.0f}" {o(0)}/>'
+            f' fill="none" stroke="url(#solom)" stroke-width="{max(5,7*s_):.0f}"/>'
             f'<path d="M{x-w_*.3:.0f},{y-h_:.0f} q{w_*.3:.0f},{-54*s_:.0f} {w_*.6:.0f},0"'
             f' fill="none" stroke="{K}" stroke-width="{max(2,3*s_):.0f}"/>')
     return out
@@ -268,7 +268,7 @@ def stena_nabor(x, y, w_, t, seed=2, n=4):
                     + siluet(xx + 16, y + 78, 50, "#6b5a6e", .9) + "</g>")
         elif v == "podkova":
             out += (g0 + f'<path d="M{xx-38:.0f},{y+78:.0f} a38,44 0 1,1 76,0" fill="none"'
-                    f' stroke="url(#zhel)" stroke-width="20" {o(0)}/>'
+                    f' stroke="url(#zhel)" stroke-width="20"/>'
                     f'<path d="M{xx-38:.0f},{y+78:.0f} a38,44 0 1,1 76,0" fill="none"'
                     f' stroke="{K}" stroke-width="5"/></g>')
         elif v == "venik":
