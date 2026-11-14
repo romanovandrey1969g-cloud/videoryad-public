@@ -99,6 +99,7 @@ def dobavit(imya, t):
     out = ""
     gruppy = 0
     zanyato_vidov = set()          # один вид — один раз на сцену
+    zanyato_stolbcy = set()        # столбцы, где уже что-то стоит на полу
 
     # 1. ПОЛ (или земля): корзины, мешки, вёдра, поленница, сани
     br = int(pol / CH)                      # ряд, в котором стоит низ предмета
@@ -107,6 +108,7 @@ def dobavit(imya, t):
         c0, n = polosy[0]
         x = max(56, c0 * CW + 14)
         w_ = min((c0 + n) * CW - 28, W - 56) - x
+        zanyato_stolbcy |= set(range(c0, c0 + n))
         if tip == "ulica":
             sp = V.nabor(V.DVOR_VIDY, sd, min(3, max(2, n // 4)), zanyato_vidov)
             zanyato_vidov |= set(sp)
@@ -119,6 +121,7 @@ def dobavit(imya, t):
         gruppy += 1
         if len(polosy) > 1 and polosy[1][1] >= 4 and tip != "ulica":
             c0, n = polosy[1]
+            zanyato_stolbcy |= set(range(c0, c0 + n))
             sp = V.nabor(V.POL_VIDY, sd + 7, min(3, max(2, n // 4)), zanyato_vidov)
             zanyato_vidov |= set(sp)
             out += SL(Z_PERED, V.pod_stolom(c0 * CW + 14, pol, n * CW - 28, t,
@@ -147,6 +150,16 @@ def dobavit(imya, t):
                 zanyato_vidov |= set(sp)
                 out += SL(Z_SRED, V.stena_nabor(c0 * CW + 20, r0 * CH + 30,
                                                 n * CW - 40, t, sd + 3, len(sp), sp))
+                gruppy += 1
+
+    # 2б. БОЛЬШАЯ ПУСТОТА: если свободна вся высота — ставим мебель, иначе
+    # половина кадра так и останется голой стеной (его слово 14.11)
+    if tip != "ulica":
+        vys = _polosy(_svobod(karta, 2, int(pol / CH) - 1), 5)
+        if vys:
+            c0, n = vys[0]
+            if not (zanyato_stolbcy & set(range(c0, c0 + n))):
+                out += SL(Z_SRED, V.ugol_mebel((c0 + n / 2) * CW, pol, t, sd + 5))
                 gruppy += 1
 
     # 3. ПОТОЛОК: вязки грибов и трав — только в избе и на кухне
