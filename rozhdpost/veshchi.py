@@ -520,10 +520,13 @@ def dvor_veshchi(x, y, w_, t, seed=8, n=3, vidy_sp=None):
                                              f' rx="{40*s_:.0f}" ry="{10*s_:.0f}" fill="{SNEG}" opacity=".8"/>')
         elif v == "kust":
             out += ten(xx, y + 4, 92 * s_, 12, .35)
+            out += (f'<rect x="{xx-11*s_:.0f}" y="{y-56*s_:.0f}" width="{22*s_:.0f}"'
+                    f' height="{56*s_:.0f}" rx="{8*s_:.0f}" fill="#4a3b2c" {o(max(3,4*s_))}/>')
             for j in range(9):
-                out += (f'<path d="M{xx:.0f},{y:.0f} q{-60+j*15:.0f},{-80*s_:.0f}'
-                        f' {-84+j*21:.0f},{-150*s_:.0f}" fill="none" stroke="#4a3b2c"'
-                        f' stroke-width="{9*s_:.0f}"/>')
+                bx = xx - 36 * s_ + (j % 3) * 36 * s_
+                out += (f'<path d="M{bx:.0f},{y-50*s_:.0f} q{-46+j*12:.0f},{-70*s_:.0f}'
+                        f' {-64+j*16:.0f},{-120*s_:.0f}" fill="none" stroke="#4a3b2c"'
+                        f' stroke-width="{8*s_:.0f}"/>')
             for dx, dy, rr in ((-56, -128, 52), (4, -150, 62), (64, -120, 48)):
                 out += (f'<ellipse cx="{xx+dx*s_:.0f}" cy="{y+dy*s_:.0f}" rx="{rr*s_:.0f}"'
                         f' ry="{rr*.74*s_:.0f}" fill="#3f4a3a" opacity=".92"'

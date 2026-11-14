@@ -23,11 +23,10 @@ if os.path.exists(_f):
 BEZ_NAPOLNENIYA = {
     "detskaya_tarelka_s_nadpisyu_na_dne", "korotkiy_chek_i_sdacha",
     "listok_naznacheniya_i_ochki", "tolstaya_kniga_s_zastezhkami",
-    "miska_sochiva_krupno", "zolotoy_luk_na_kashe", "sorok_misok_i_klyaksa",
+    "miska_sochiva_krupno", "zolotoy_luk_na_kashe",
     "oreh_v_dvernoy_scheli", "mandarin_i_kozhura_spiralyu",
     "dve_snezhnye_lesenki_ryadom", "shest_snezhnyh_stupeney",
-    "tri_nosa_na_stekle", "pesochnye_chasy_na_podokonnike",
-    "lozhka_i_chelovechki", "lesenka_pamyatka_na_stene", "krytyy_rynok",
+    "tri_nosa_na_stekle", "krytyy_rynok",
 }
 
 
