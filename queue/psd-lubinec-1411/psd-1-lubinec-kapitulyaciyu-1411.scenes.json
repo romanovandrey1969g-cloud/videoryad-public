@@ -1,0 +1,598 @@
+{
+ "channel": "ПЕРЕВОД с ДИПЛОМАТИЧЕСКОГО",
+ "scenes": [
+  {
+   "id": 1,
+   "start_sec": 0.0,
+   "duration_sec": 10.7,
+   "text": "",
+   "source": "card:doc",
+   "source_query": "карточка «doc» — кадр рисуется в облаке, фетч не нужен"
+  },
+  {
+   "id": 2,
+   "start_sec": 10.7,
+   "duration_sec": 9.9,
+   "text": "",
+   "source": "local_donor",
+   "source_query": "5min-1-lubinec-kapitulyaciyu-1411-cloud/scene_005.mp4"
+  },
+  {
+   "id": 3,
+   "start_sec": 20.6,
+   "duration_sec": 9.7,
+   "text": "",
+   "source": "local_donor",
+   "source_query": "lubinec-planeta-final-cloud/scene_034.jpg",
+   "fx": "subscribe"
+  },
+  {
+   "id": 4,
+   "start_sec": 30.3,
+   "duration_sec": 8.8,
+   "text": "",
+   "source": "local_donor",
+   "source_query": "5min-1-lubinec-kapitulyaciyu-1411-cloud/scene_007.jpg"
+  },
+  {
+   "id": 5,
+   "start_sec": 39.1,
+   "duration_sec": 10.5,
+   "text": "",
+   "source": "card:duel",
+   "source_query": "карточка «duel» — кадр рисуется в облаке, фетч не нужен"
+  },
+  {
+   "id": 6,
+   "start_sec": 49.6,
+   "duration_sec": 10.9,
+   "text": "",
+   "source": "card:bubbles",
+   "source_query": "карточка «bubbles» — кадр рисуется в облаке, фетч не нужен"
+  },
+  {
+   "id": 7,
+   "start_sec": 60.5,
+   "duration_sec": 7.6,
+   "text": "",
+   "source": "card:pull",
+   "source_query": "карточка «pull» — кадр рисуется в облаке, фетч не нужен"
+  },
+  {
+   "id": 8,
+   "start_sec": 68.1,
+   "duration_sec": 15.2,
+   "text": "",
+   "source": "local_donor",
+   "source_query": "lubinec-planeta-final-cloud/scene_010.jpg"
+  },
+  {
+   "id": 9,
+   "start_sec": 83.3,
+   "duration_sec": 7.5,
+   "text": "",
+   "source": "local_donor",
+   "source_query": "lubinec-planeta-final-cloud/scene_003.jpg",
+   "fx": "subscribe"
+  },
+  {
+   "id": 10,
+   "start_sec": 90.8,
+   "duration_sec": 10.0,
+   "text": "",
+   "source": "card:doc",
+   "source_query": "карточка «doc» — кадр рисуется в облаке, фетч не нужен"
+  },
+  {
+   "id": 11,
+   "start_sec": 100.8,
+   "duration_sec": 9.7,
+   "text": "",
+   "source": "local_donor",
+   "source_query": "lubinec-planeta-final-cloud/scene_012.jpg"
+  },
+  {
+   "id": 12,
+   "start_sec": 110.5,
+   "duration_sec": 9.3,
+   "text": "",
+   "source": "local_donor",
+   "source_query": "5min-1-lubinec-kapitulyaciyu-1411-cloud/scene_004.mp4"
+  },
+  {
+   "id": 13,
+   "start_sec": 119.8,
+   "duration_sec": 10.8,
+   "text": "",
+   "source": "card:torn",
+   "source_query": "карточка «torn» — кадр рисуется в облаке, фетч не нужен"
+  },
+  {
+   "id": 14,
+   "start_sec": 130.6,
+   "duration_sec": 10.9,
+   "text": "",
+   "source": "card:split",
+   "source_query": "карточка"
+  },
+  {
+   "id": 15,
+   "start_sec": 141.5,
+   "duration_sec": 9.0,
+   "text": "",
+   "source": "local_donor",
+   "source_query": "lubinec-planeta-final-cloud/scene_007.mp4",
+   "fx": "subscribe"
+  },
+  {
+   "id": 16,
+   "start_sec": 150.5,
+   "duration_sec": 10.5,
+   "text": "",
+   "source": "local_donor",
+   "source_query": "lubinec-planeta-final-cloud/scene_018.jpg"
+  },
+  {
+   "id": 17,
+   "start_sec": 161.0,
+   "duration_sec": 12.6,
+   "text": "",
+   "source": "local_donor",
+   "source_query": "lubinec-planeta-final-cloud/scene_004.mp4"
+  },
+  {
+   "id": 18,
+   "start_sec": 173.6,
+   "duration_sec": 7.9,
+   "text": "",
+   "source": "card:doc",
+   "source_query": "карточка «doc» — кадр рисуется в облаке, фетч не нужен"
+  },
+  {
+   "id": 19,
+   "start_sec": 181.5,
+   "duration_sec": 5.2,
+   "text": "",
+   "source": "local_donor",
+   "source_query": "lubinec-planeta-final-cloud/scene_007.mp4",
+   "fx": "flash"
+  },
+  {
+   "id": 20,
+   "start_sec": 186.7,
+   "duration_sec": 15.5,
+   "text": "",
+   "source": "card:quote",
+   "source_query": "карточка «quote» — кадр рисуется в облаке, фетч не нужен"
+  },
+  {
+   "id": 21,
+   "start_sec": 202.2,
+   "duration_sec": 9.3,
+   "text": "",
+   "source": "card:dof",
+   "source_query": "карточка «dof» — кадр рисуется в облаке, фетч за сценой не идёт",
+   "card": {
+    "kind": "dof",
+    "код": "A64",
+    "watermark": "ПЕРЕВОД С ДИПЛОМАТИЧЕСКОГО",
+    "anim": 9.3
+   }
+  },
+  {
+   "id": 22,
+   "start_sec": 211.5,
+   "duration_sec": 8.0,
+   "text": "",
+   "source": "card:pie",
+   "source_query": "карточка «pie» — кадр рисуется в облаке, фетч не нужен"
+  },
+  {
+   "id": 23,
+   "start_sec": 219.5,
+   "duration_sec": 17.5,
+   "text": "",
+   "source": "card:pull",
+   "source_query": "карточка «pull» — кадр рисуется в облаке, фетч не нужен"
+  },
+  {
+   "id": 24,
+   "start_sec": 237.0,
+   "duration_sec": 5.7,
+   "text": "",
+   "source": "card:device",
+   "source_query": "карточка «device» — кадр рисуется в облаке, фетч не нужен"
+  },
+  {
+   "id": 25,
+   "start_sec": 242.7,
+   "duration_sec": 8.0,
+   "text": "",
+   "source": "card:pull",
+   "source_query": "карточка «pull» — кадр рисуется в облаке, фетч не нужен"
+  },
+  {
+   "id": 26,
+   "start_sec": 250.7,
+   "duration_sec": 10.9,
+   "text": "",
+   "source": "card:film_frame",
+   "source_query": "карточка «film_frame» — кадр рисуется в облаке, фетч не нужен",
+   "card": {
+    "kind": "bars",
+    "код": "A4",
+    "title": "ЧЬИ ВОЗМОЖНОСТИ ВЕСОМЕЕ",
+    "watermark": "ПЕРЕВОД С ДИПЛОМАТИЧЕСКОГО",
+    "anim": 10.9
+   }
+  },
+  {
+   "id": 27,
+   "start_sec": 261.6,
+   "duration_sec": 15.1,
+   "text": "",
+   "source": "card:slope",
+   "source_query": "карточка «slope» — кадр рисуется в облаке, фетч не нужен"
+  },
+  {
+   "id": 28,
+   "start_sec": 276.7,
+   "duration_sec": 10.1,
+   "text": "",
+   "source": "card:doc",
+   "source_query": "карточка «doc» — кадр рисуется в облаке, фетч не нужен"
+  },
+  {
+   "id": 29,
+   "start_sec": 286.8,
+   "duration_sec": 7.0,
+   "text": "",
+   "source": "card:photo",
+   "source_query": "карточка"
+  },
+  {
+   "id": 30,
+   "start_sec": 293.8,
+   "duration_sec": 18.0,
+   "text": "",
+   "source": "card:wall",
+   "source_query": "карточка «wall» — кадр рисуется в облаке, фетч за сценой не идёт",
+   "card": {
+    "kind": "wall",
+    "код": "A56",
+    "title": "РАСЧЁТ ДО ЯНВАРЯ",
+    "watermark": "ПЕРЕВОД С ДИПЛОМАТИЧЕСКОГО",
+    "anim": 18.0
+   }
+  },
+  {
+   "id": 31,
+   "start_sec": 311.8,
+   "duration_sec": 7.7,
+   "text": "",
+   "source": "card:tape",
+   "source_query": "карточка «tape» — кадр рисуется в облаке, фетч не нужен"
+  },
+  {
+   "id": 32,
+   "start_sec": 319.5,
+   "duration_sec": 16.7,
+   "text": "",
+   "source": "card:map",
+   "source_query": "карточка «map» — кадр рисуется в облаке, фетч не нужен"
+  },
+  {
+   "id": 33,
+   "start_sec": 336.2,
+   "duration_sec": 11.5,
+   "text": "",
+   "source": "card:doc",
+   "source_query": "карточка «doc» — кадр рисуется в облаке, фетч не нужен"
+  },
+  {
+   "id": 34,
+   "start_sec": 347.7,
+   "duration_sec": 6.4,
+   "text": "",
+   "source": "card:vyrezka",
+   "source_query": "карточка «vyrezka» — кадр рисуется в облаке, фетч не нужен"
+  },
+  {
+   "id": 35,
+   "start_sec": 354.1,
+   "duration_sec": 11.5,
+   "text": "",
+   "source": "card:vyrezka_kontur",
+   "source_query": "карточка «vyrezka_kontur» — кадр рисуется в облаке, фетч не нужен"
+  },
+  {
+   "id": 36,
+   "start_sec": 365.6,
+   "duration_sec": 8.0,
+   "text": "",
+   "source": "card:doc",
+   "source_query": "карточка «doc» — кадр рисуется в облаке, фетч не нужен"
+  },
+  {
+   "id": 37,
+   "start_sec": 373.6,
+   "duration_sec": 19.2,
+   "text": "",
+   "source": "card:torn",
+   "source_query": "карточка «torn» — кадр рисуется в облаке, фетч не нужен"
+  },
+  {
+   "id": 38,
+   "start_sec": 392.8,
+   "duration_sec": 5.1,
+   "text": "",
+   "source": "card:map_dist",
+   "source_query": "карточка «map_dist» — кадр рисуется в облаке, фетч не нужен"
+  },
+  {
+   "id": 39,
+   "start_sec": 397.9,
+   "duration_sec": 15.4,
+   "text": "",
+   "source": "card:split",
+   "source_query": "карточка «split» — кадр рисуется в облаке, фетч не нужен"
+  },
+  {
+   "id": 40,
+   "start_sec": 413.3,
+   "duration_sec": 6.8,
+   "text": "",
+   "source": "card:dof",
+   "source_query": "карточка «dof» — кадр рисуется в облаке, фетч за сценой не идёт",
+   "card": {
+    "kind": "dof",
+    "код": "A64",
+    "watermark": "ПЕРЕВОД С ДИПЛОМАТИЧЕСКОГО",
+    "anim": 6.8
+   }
+  },
+  {
+   "id": 41,
+   "start_sec": 420.1,
+   "duration_sec": 14.4,
+   "text": "",
+   "source": "card:paper_hand",
+   "source_query": "карточка «paper_hand» — кадр рисуется в облаке, фетч не нужен"
+  },
+  {
+   "id": 42,
+   "start_sec": 434.5,
+   "duration_sec": 5.5,
+   "text": "",
+   "source": "card:film_frame",
+   "source_query": "карточка «film_frame» — кадр рисуется в облаке, фетч не нужен"
+  },
+  {
+   "id": 43,
+   "start_sec": 440.0,
+   "duration_sec": 16.0,
+   "text": "",
+   "source": "card:poster",
+   "source_query": "карточка «poster» — кадр рисуется в облаке, фетч за сценой не идёт",
+   "card": {
+    "kind": "poster",
+    "код": "A6",
+    "title": "КОГО ВЫВОДЯТ В КАДР",
+    "watermark": "ПЕРЕВОД С ДИПЛОМАТИЧЕСКОГО",
+    "anim": 16.0
+   }
+  },
+  {
+   "id": 44,
+   "start_sec": 456.0,
+   "duration_sec": 3.9,
+   "text": "",
+   "source": "card:waterfall",
+   "source_query": "карточка «waterfall» — кадр рисуется в облаке, фетч не нужен"
+  },
+  {
+   "id": 45,
+   "start_sec": 459.9,
+   "duration_sec": 15.7,
+   "text": "",
+   "source": "card:doc",
+   "source_query": "карточка «doc» — кадр рисуется в облаке, фетч не нужен"
+  },
+  {
+   "id": 46,
+   "start_sec": 475.6,
+   "duration_sec": 8.0,
+   "text": "",
+   "source": "card:dof",
+   "source_query": "карточка «dof» — кадр рисуется в облаке, фетч за сценой не идёт",
+   "card": {
+    "kind": "dof",
+    "код": "A64",
+    "watermark": "ПЕРЕВОД С ДИПЛОМАТИЧЕСКОГО",
+    "anim": 8.0
+   }
+  },
+  {
+   "id": 47,
+   "start_sec": 483.6,
+   "duration_sec": 10.7,
+   "text": "",
+   "source": "card:pull",
+   "source_query": "карточка «pull» — кадр рисуется в облаке, фетч не нужен"
+  },
+  {
+   "id": 48,
+   "start_sec": 494.3,
+   "duration_sec": 12.4,
+   "text": "",
+   "source": "card:network",
+   "source_query": "карточка «network» — кадр рисуется в облаке, фетч не нужен"
+  },
+  {
+   "id": 49,
+   "start_sec": 506.7,
+   "duration_sec": 12.6,
+   "text": "",
+   "source": "card:marker_serif",
+   "source_query": "карточка «marker_serif» — кадр рисуется в облаке, фетч не нужен"
+  },
+  {
+   "id": 50,
+   "start_sec": 519.3,
+   "duration_sec": 15.7,
+   "text": "",
+   "source": "card:vyrezka",
+   "source_query": "карточка «vyrezka» — кадр рисуется в облаке, фетч не нужен"
+  },
+  {
+   "id": 51,
+   "start_sec": 535.0,
+   "duration_sec": 7.65,
+   "text": "",
+   "source": "card:film",
+   "source_query": "карточка «film» — кадр рисуется в облаке, фетч не нужен"
+  },
+  {
+   "id": 52,
+   "start_sec": 542.65,
+   "duration_sec": 7.65,
+   "text": "",
+   "source": "card:wall",
+   "source_query": "карточка «wall» — кадр рисуется в облаке, фетч за сценой не идёт",
+   "card": {
+    "kind": "wall",
+    "код": "A56",
+    "title": "КТО СМОТРИТ НА ОМБУДСМЕНА",
+    "watermark": "ПЕРЕВОД С ДИПЛОМАТИЧЕСКОГО",
+    "anim": 7.65
+   }
+  },
+  {
+   "id": 53,
+   "start_sec": 550.3,
+   "duration_sec": 14.9,
+   "text": "",
+   "source": "card:duel",
+   "source_query": "карточка «duel» — кадр рисуется в облаке, фетч не нужен"
+  },
+  {
+   "id": 54,
+   "start_sec": 565.2,
+   "duration_sec": 10.3,
+   "text": "",
+   "source": "card:vyrezka_kontur",
+   "source_query": "карточка «vyrezka_kontur» — кадр рисуется в облаке, фетч не нужен"
+  },
+  {
+   "id": 55,
+   "start_sec": 575.5,
+   "duration_sec": 14.0,
+   "text": "",
+   "source": "card:quote",
+   "source_query": "карточка «quote» — кадр рисуется в облаке, фетч не нужен"
+  },
+  {
+   "id": 56,
+   "start_sec": 589.5,
+   "duration_sec": 6.4,
+   "text": "",
+   "source": "card:pie",
+   "source_query": "карточка «pie» — кадр рисуется в облаке, фетч не нужен"
+  },
+  {
+   "id": 57,
+   "start_sec": 595.9,
+   "duration_sec": 11.0,
+   "text": "",
+   "source": "card:film_frame",
+   "source_query": "карточка «film_frame» — кадр рисуется в облаке, фетч не нужен"
+  },
+  {
+   "id": 58,
+   "start_sec": 606.9,
+   "duration_sec": 10.8,
+   "text": "",
+   "source": "card:strike",
+   "source_query": "карточка"
+  },
+  {
+   "id": 59,
+   "start_sec": 617.7,
+   "duration_sec": 14.9,
+   "text": "",
+   "source": "card:dossier",
+   "source_query": "карточка «dossier» — кадр рисуется в облаке, фетч не нужен"
+  },
+  {
+   "id": 60,
+   "start_sec": 632.6,
+   "duration_sec": 10.6,
+   "text": "",
+   "source": "card:duel",
+   "source_query": "карточка «duel» — кадр рисуется в облаке, фетч не нужен"
+  },
+  {
+   "id": 61,
+   "start_sec": 643.2,
+   "duration_sec": 9.6,
+   "text": "",
+   "source": "card:device",
+   "source_query": "карточка «device» — кадр рисуется в облаке, фетч не нужен"
+  },
+  {
+   "id": 62,
+   "start_sec": 652.8,
+   "duration_sec": 9.4,
+   "text": "",
+   "source": "card:pull",
+   "source_query": "карточка «pull» — кадр рисуется в облаке, фетч не нужен"
+  },
+  {
+   "id": 63,
+   "start_sec": 662.2,
+   "duration_sec": 15.0,
+   "text": "",
+   "source": "card:network",
+   "source_query": "карточка «network» — кадр рисуется в облаке, фетч не нужен"
+  },
+  {
+   "id": 64,
+   "start_sec": 677.2,
+   "duration_sec": 9.7,
+   "text": "",
+   "source": "card:marker_serif",
+   "source_query": "карточка «marker_serif» — кадр рисуется в облаке, фетч не нужен"
+  },
+  {
+   "id": 65,
+   "start_sec": 686.9,
+   "duration_sec": 12.8,
+   "text": "",
+   "source": "card:map",
+   "source_query": "карточка «map» — кадр рисуется в облаке, фетч не нужен"
+  },
+  {
+   "id": 66,
+   "start_sec": 699.7,
+   "duration_sec": 10.8,
+   "text": "",
+   "source": "card:paper_typed",
+   "source_query": "карточка «paper_typed» — кадр рисуется в облаке, фетч не нужен"
+  },
+  {
+   "id": 67,
+   "start_sec": 710.5,
+   "duration_sec": 9.11,
+   "text": "",
+   "source": "card:wall",
+   "source_query": "карточка «wall» — кадр рисуется в облаке, фетч за сценой не идёт",
+   "card": {
+    "kind": "wall",
+    "код": "A56",
+    "title": "ЧЕЛОВЕКУ С ГУМАНИТАРНОЙ БИОГРАФИЕЙ,",
+    "watermark": "ПЕРЕВОД С ДИПЛОМАТИЧЕСКОГО",
+    "anim": 9.11
+   }
+  }
+ ]
+}
