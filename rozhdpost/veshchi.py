@@ -150,11 +150,17 @@ def _kadushka(x, y, s_=1.0):
 
 
 def _valenki(x, y, s_=1.0):
-    out = ten(x + 10 * s_, y + 6 * s_, 62 * s_, 10 * s_, .4)
-    for i in range(2):
-        xx = x + i * 44 * s_
-        out += (f'<path d="M{xx-26*s_:.0f},{y:.0f} v{-96*s_:.0f} q{26*s_:.0f},{-14*s_:.0f}'
-                f' {46*s_:.0f},0 v{96*s_:.0f} Z" fill="#9a8c74" {o(max(4,5*s_))}/>')
+    """Пара валенок: голенище и ступня, носы в одну сторону."""
+    out = ten(x + 18 * s_, y + 6 * s_, 74 * s_, 11 * s_, .42)
+    for i, (dx, col) in enumerate(((0, "#9a8c74"), (40 * s_, "#8a7c66"))):
+        xx = x + dx
+        out += (f'<path d="M{xx-24*s_:.0f},{y-116*s_:.0f} q{24*s_:.0f},{-12*s_:.0f}'
+                f' {46*s_:.0f},0 l{-4*s_:.0f},{84*s_:.0f} q{30*s_:.0f},{6*s_:.0f}'
+                f' {36*s_:.0f},{32*s_:.0f} q{-6*s_:.0f},{12*s_:.0f} {-30*s_:.0f},{12*s_:.0f}'
+                f' h{-50*s_:.0f} q{-14*s_:.0f},{-4*s_:.0f} {-12*s_:.0f},{-26*s_:.0f} Z"'
+                f' fill="{col}" {o(max(4,5*s_))}/>'
+                f'<path d="M{xx-22*s_:.0f},{y-96*s_:.0f} q{22*s_:.0f},{10*s_:.0f} {42*s_:.0f},0"'
+                f' fill="none" stroke="#7a6c58" stroke-width="{max(2,3*s_):.0f}"/>')
     return out
 
 
@@ -467,13 +473,26 @@ def dvor_veshchi(x, y, w_, t, seed=8, n=3, vidy_sp=None):
         s_ = r.uniform(.85, 1.15)
         v = vidy[i % len(vidy)]
         if v == "polennica":
-            out += ten(xx, y + 6, 104 * s_, 12, .4)
-            for ry_ in range(4):
-                for cx_ in range(5):
-                    out += (f'<ellipse cx="{xx-86*s_+cx_*44*s_:.0f}" cy="{y-20*s_-ry_*40*s_:.0f}"'
-                            f' rx="{20*s_:.0f}" ry="{18*s_:.0f}" fill="url(#derev)" {o(4)}/>')
-            out += (f'<path d="M{xx-108*s_:.0f},{y-180*s_:.0f} q{108*s_:.0f},{-26*s_:.0f}'
-                    f' {216*s_:.0f},0" fill="{SNEG}" opacity=".9" {o(0)}/>')
+            out += ten(xx, y + 6, 116 * s_, 13, .42)
+            for ry_ in range(3):
+                for cx_ in range(4):
+                    bx = xx - 96 * s_ + cx_ * 64 * s_ + (ry_ % 2) * 14 * s_
+                    by = y - 30 * s_ - ry_ * 58 * s_
+                    out += (f'<ellipse cx="{bx:.0f}" cy="{by:.0f}" rx="{30*s_:.0f}"'
+                            f' ry="{27*s_:.0f}" fill="url(#derev)" {o(max(4,5*s_))}/>'
+                            f'<ellipse cx="{bx:.0f}" cy="{by:.0f}" rx="{19*s_:.0f}"'
+                            f' ry="{17*s_:.0f}" fill="none" stroke="#7d5636"'
+                            f' stroke-width="{max(2,3*s_):.0f}" opacity=".8"/>'
+                            f'<ellipse cx="{bx:.0f}" cy="{by:.0f}" rx="{9*s_:.0f}"'
+                            f' ry="{8*s_:.0f}" fill="none" stroke="#7d5636"'
+                            f' stroke-width="{max(2,3*s_):.0f}" opacity=".7"/>')
+            for sg in (-1, 1):
+                out += (f'<rect x="{xx+sg*118*s_-6*s_:.0f}" y="{y-200*s_:.0f}"'
+                        f' width="{12*s_:.0f}" height="{200*s_:.0f}" rx="{5*s_:.0f}"'
+                        f' fill="url(#dosk)" {o(max(3,4*s_))}/>')
+            out += (f'<path d="M{xx-118*s_:.0f},{y-186*s_:.0f} q{118*s_:.0f},{-30*s_:.0f}'
+                    f' {236*s_:.0f},0 q{-118*s_:.0f},{18*s_:.0f} {-236*s_:.0f},0 Z"'
+                    f' fill="{SNEG}" opacity=".92" {o(max(3,4*s_))}/>')
         elif v == "sani":
             out += (ten(xx, y + 6, 100 * s_, 12, .4)
                     + f'<path d="M{xx-96*s_:.0f},{y:.0f} q{16*s_:.0f},{-22*s_:.0f} {36*s_:.0f},{-18*s_:.0f}'
@@ -485,23 +504,34 @@ def dvor_veshchi(x, y, w_, t, seed=8, n=3, vidy_sp=None):
                     + f'<ellipse cx="{xx:.0f}" cy="{y-84*s_:.0f}" rx="{70*s_:.0f}"'
                       f' ry="{16*s_:.0f}" fill="{SNEG}" opacity=".85"/>')
         elif v == "lopata":
-            out += (f'<g transform="rotate(-12,{xx:.0f},{y:.0f})">'
-                    f'<rect x="{xx-7*s_:.0f}" y="{y-250*s_:.0f}" width="{14*s_:.0f}"'
-                    f' height="{200*s_:.0f}" rx="{6*s_:.0f}" fill="url(#dosk)" {o(5)}/>'
-                    f'<path d="M{xx-34*s_:.0f},{y-56*s_:.0f} h{68*s_:.0f} v{56*s_:.0f}'
-                    f' q{-34*s_:.0f},{16*s_:.0f} {-68*s_:.0f},0 Z" fill="url(#zhel)" {o(5)}/></g>')
+            out += (ten(xx, y + 6, 46 * s_, 9, .35)
+                    + f'<g transform="rotate(-11,{xx:.0f},{y:.0f})">'
+                    f'<rect x="{xx-9*s_:.0f}" y="{y-330*s_:.0f}" width="{18*s_:.0f}"'
+                    f' height="{250*s_:.0f}" rx="{8*s_:.0f}" fill="url(#dosk)" {o(max(4,5*s_))}/>'
+                    f'<rect x="{xx-30*s_:.0f}" y="{y-344*s_:.0f}" width="{60*s_:.0f}"'
+                    f' height="{18*s_:.0f}" rx="{8*s_:.0f}" fill="url(#dosk)" {o(max(3,4*s_))}/>'
+                    f'<path d="M{xx-46*s_:.0f},{y-86*s_:.0f} h{92*s_:.0f} v{62*s_:.0f}'
+                    f' q{-46*s_:.0f},{26*s_:.0f} {-92*s_:.0f},0 Z" fill="url(#zhel)"'
+                    f' {o(max(4,5*s_))}/>'
+                    f'<path d="M{xx:.0f},{y-86*s_:.0f} v{74*s_:.0f}" stroke="#3c4047"'
+                    f' stroke-width="{max(2,3*s_):.0f}" opacity=".7"/></g>')
         elif v == "vedro":
             out += _vedro(xx, y, s_ * .9) + (f'<ellipse cx="{xx:.0f}" cy="{y-88*s_:.0f}"'
                                              f' rx="{40*s_:.0f}" ry="{10*s_:.0f}" fill="{SNEG}" opacity=".8"/>')
         elif v == "kust":
-            out += ten(xx, y + 4, 86 * s_, 12, .35)
+            out += ten(xx, y + 4, 92 * s_, 12, .35)
             for j in range(9):
                 out += (f'<path d="M{xx:.0f},{y:.0f} q{-60+j*15:.0f},{-80*s_:.0f}'
-                        f' {-84+j*21:.0f},{-150*s_:.0f}" fill="none" stroke="#5a4a38"'
-                        f' stroke-width="{8*s_:.0f}"/>')
-            for j, (dx, dy, rr) in enumerate(((-60, -150, 44), (0, -176, 54), (62, -146, 42))):
+                        f' {-84+j*21:.0f},{-150*s_:.0f}" fill="none" stroke="#4a3b2c"'
+                        f' stroke-width="{9*s_:.0f}"/>')
+            for dx, dy, rr in ((-56, -128, 52), (4, -150, 62), (64, -120, 48)):
                 out += (f'<ellipse cx="{xx+dx*s_:.0f}" cy="{y+dy*s_:.0f}" rx="{rr*s_:.0f}"'
-                        f' ry="{rr*.62*s_:.0f}" fill="{SNEG}" opacity=".93" {o(4)}/>')
+                        f' ry="{rr*.74*s_:.0f}" fill="#3f4a3a" opacity=".92"'
+                        f' {o(max(4,5*s_))}/>')
+            for dx, dy, rr in ((-56, -156, 44), (4, -182, 54), (64, -148, 40)):
+                out += (f'<ellipse cx="{xx+dx*s_:.0f}" cy="{y+dy*s_:.0f}" rx="{rr*s_:.0f}"'
+                        f' ry="{rr*.44*s_:.0f}" fill="{SNEG}" opacity=".95"'
+                        f' {o(max(3,4*s_))}/>')
         elif v == "skamya":
             out += (ten(xx, y + 6, 100 * s_, 12, .38)
                     + f'<rect x="{xx-96*s_:.0f}" y="{y-92*s_:.0f}" width="{192*s_:.0f}"'
