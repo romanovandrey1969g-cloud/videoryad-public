@@ -289,3 +289,67 @@ def plashka_vniz(s_, t, t0, y=900, dur=.6, maxw=1700):
     out += f'<rect x="{x:.0f}" y="{y}" width="{w_:.0f}" height="{kegl*1.7:.0f}" rx="12" fill="url(#zol)" {o(6)}/>'
     out += txt(W / 2, y + kegl * 1.18, s_, kegl, "#1a1208", "middle", SERIF, 1, stroke=0)
     return out + "</g>"
+
+
+# ── ПАМЯТКА-РЕКОМЕНДАЦИЯ (R-0046) ──────────────────────────────────────────
+# Его слово 14.11.2026: «это превратить своего рода в инструкцию, чтобы у
+# человека какая-то рекомендация мелькала перед глазами». Лента выходит
+# слева внизу, держится план и уходит до склейки; под окно вставки не лезет.
+REK_VID = {
+    "mozhno": (ZOL, "МОЖНО"),
+    "nelzya": (TKAN, "НЕЛЬЗЯ"),
+    "sovet":  ("#7fa9c2", "СОВЕТ"),
+}
+
+
+def _znak_rek(x, y, vid, col, s_=1.0):
+    """Значок памятки: галка, крест или восклицательный знак — путями."""
+    if vid == "mozhno":
+        d = (f'M{x-16*s_:.0f},{y:.0f} l{12*s_:.0f},{13*s_:.0f} l{22*s_:.0f},{-26*s_:.0f}')
+    elif vid == "nelzya":
+        d = (f'M{x-15*s_:.0f},{y-14*s_:.0f} l{30*s_:.0f},{28*s_:.0f}'
+             f' M{x+15*s_:.0f},{y-14*s_:.0f} l{-30*s_:.0f},{28*s_:.0f}')
+    else:
+        d = f'M{x:.0f},{y-18*s_:.0f} v{22*s_:.0f} M{x:.0f},{y+13*s_:.0f} v{3*s_:.0f}'
+    return (f'<path d="{d}" fill="none" stroke="{col}" stroke-width="{7*s_:.0f}"'
+            f' stroke-linecap="round" stroke-linejoin="round"/>')
+
+
+def plashka_rek(vid, s, t, dur_plana, x=70, niz=1012, maxw=1040, t0=.55):
+    """Лента-рекомендация: значок, слово МОЖНО/НЕЛЬЗЯ/СОВЕТ и сама подсказка."""
+    col, slovo = REK_VID.get(vid, REK_VID["sovet"])
+    p = A.out(A.seg(t, t0, .45))
+    if p <= 0:
+        return ""
+    uhod = 1.0
+    if dur_plana and t > dur_plana - .45:
+        uhod = max(0.0, (dur_plana - t) / .45)
+    if uhod <= 0:
+        return ""
+    kegl = kegl_pod(s, maxw - 190, "SANS", 46, 26)
+    stroki = [s]
+    if wid(s, kegl, "SANS", 1) > maxw - 190 or kegl < 34:
+        kegl = min(46, kegl + 10)
+        sl, a_, b_ = s.split(), "", ""
+        for w_ in sl:
+            if not b_ and wid((a_ + " " + w_).strip(), kegl, "SANS", 1) <= maxw - 190:
+                a_ = (a_ + " " + w_).strip()
+            else:
+                b_ = (b_ + " " + w_).strip()
+        stroki = [a_, b_] if b_ else [a_]
+    shir = max(wid(z, kegl, "SANS", 1) for z in stroki) + 190
+    vys = 92 + (len(stroki) - 1) * (kegl + 12)
+    y = niz - vys
+    dx = (1 - p) * -90
+    out = (f'<g opacity="{min(p, uhod):.2f}" transform="translate({dx:.0f},0)">'
+           + ten(x + shir / 2, y + vys + 12, shir * .44, 13, .45)
+           + f'<rect x="{x:.0f}" y="{y:.0f}" width="{shir:.0f}" height="{vys:.0f}"'
+             f' rx="14" fill="#160f0a" opacity=".88" {o(5)}/>'
+           + f'<rect x="{x:.0f}" y="{y:.0f}" width="12" height="{vys:.0f}" rx="6" fill="{col}"/>'
+           + f'<circle cx="{x+68:.0f}" cy="{y+vys/2:.0f}" r="34" fill="{col}" opacity=".16"/>'
+           + _znak_rek(x + 68, y + vys / 2, vid, col, 1.25)
+           + txt(x + 118, y + 38, slovo, 26, col, "start", SANS, 3, stroke=0))
+    for i, z in enumerate(stroki):
+        out += txt(x + 118, y + 78 + i * (kegl + 12), z, kegl, "#f6ecd6", "start",
+                   SANS, 1, stroke=0)
+    return out + "</g>"

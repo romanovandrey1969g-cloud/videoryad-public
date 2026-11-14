@@ -5,7 +5,7 @@
 """
 import json, os, re, math
 import anim as A
-import baza, lok, over, kamera, klipy
+import baza, lok, over, kamera, klipy, napoln
 from baza import W, H
 from karta import DEK
 
@@ -16,6 +16,11 @@ KLIPY = {}          # {номер плана: папка с кадрами кл�
 _ST = {}
 if os.path.exists(os.path.join(HERE, "stock.json")):
     _ST = json.load(open(os.path.join(HERE, "stock.json"), encoding="utf-8"))
+# памятки-рекомендации (R-0046): номер плана → (вид, текст)
+_REK = {}
+_f_rek = os.path.join(HERE, "rekomendacii.json")
+if os.path.exists(_f_rek):
+    _REK = json.load(open(_f_rek, encoding="utf-8"))
 
 
 def kadr_okna(pl, t=0.0):
@@ -137,7 +142,7 @@ def body(pl, t, p=.5, zaglushki=True):
     imya = DEK[pl["lok"]]
     fn = getattr(lok, imya)
     # слои декорации разъезжаются по глубине под ход камеры (C1/K9)
-    syr = fn(t)
+    syr = napoln.scena(imya, t)
     if '<g data-z="-' not in syr:
         # интерьеру без переднего плана добавляем край кадра: без ближнего
         # слоя параллакса не видно, сцена остаётся плоской
@@ -238,4 +243,15 @@ def nalozheniya(pl, t):
                 x = lx if est_okno else (W - over.wid(s, kg, "SERIF", 1) - 68) / 2
                 out += over.plashka(x, yy, s, t, .9, kg, maxw=maxw)
                 yy += 120
+    out += rekomendaciya(pl, t)
     return out
+
+
+def rekomendaciya(pl, t):
+    """Лента-памятка этого плана (R-0046): ролик читается как инструкция."""
+    r = _REK.get(str(pl["n"]))
+    if not r:
+        return ""
+    vid, s = r[0], r[1]
+    shir = 740 if (nado_okno(pl) or data_kartochka(pl)) else 1040
+    return over.plashka_rek(vid, s, t, pl["sek"], 70, 1012, shir)

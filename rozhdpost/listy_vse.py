@@ -10,7 +10,7 @@ import cairosvg
 from PIL import Image, ImageDraw
 from baza import defs, W, H
 from karta import DEK
-import lok
+import lok, napoln
 
 ap = argparse.ArgumentParser()
 ap.add_argument("out")
@@ -26,7 +26,7 @@ TH = int(TW * H / W)
 
 def risuy_dek(nm):
     return ('<svg xmlns="http://www.w3.org/2000/svg" width="%d" height="%d">'
-            '<defs>%s</defs>%s</svg>' % (W, H, defs(), getattr(lok, nm)(2.2)))
+            '<defs>%s</defs>%s</svg>' % (W, H, defs(), napoln.scena(nm, 2.2)))
 
 
 def sheet(items, risuy, podpis, path):
