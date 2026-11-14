@@ -99,23 +99,31 @@ def dobavit(imya, t):
     r = random.Random(sd)
     out = ""
     gruppy = 0
+    zanyato_vidov = set()          # один вид — один раз на сцену
 
     # 1. ПОЛ (или земля): корзины, мешки, вёдра, поленница, сани
     br = int(pol / CH)                      # ряд, в котором стоит низ предмета
     polosy = _polosy(_svobod(karta, max(0, br - 2), br - 1), 3)
     if polosy:
         c0, n = polosy[0]
-        x, w_ = c0 * CW + 14, n * CW - 28
+        x = max(56, c0 * CW + 14)
+        w_ = min((c0 + n) * CW - 28, W - 56) - x
         if tip == "ulica":
-            out += SL(Z_PERED, V.dvor_veshchi(x, pol, w_, t, sd, min(3, max(2, n // 4))))
+            sp = V.nabor(V.DVOR_VIDY, sd, min(3, max(2, n // 4)), zanyato_vidov)
+            zanyato_vidov |= set(sp)
+            out += SL(Z_PERED, V.dvor_veshchi(x, pol, w_, t, sd, len(sp), sp))
             out += SL(Z_PERED, V.sled_v_snegu(x + 20, pol + 30, w_ - 40, 5, .4))
         else:
-            out += SL(Z_PERED, V.pod_stolom(x, pol, w_, t, sd, min(4, max(2, n // 3))))
+            sp = V.nabor(V.POL_VIDY, sd, min(4, max(2, n // 3)), zanyato_vidov)
+            zanyato_vidov |= set(sp)
+            out += SL(Z_PERED, V.pod_stolom(x, pol, w_, t, sd, len(sp), sp))
         gruppy += 1
         if len(polosy) > 1 and polosy[1][1] >= 4 and tip != "ulica":
             c0, n = polosy[1]
+            sp = V.nabor(V.POL_VIDY, sd + 7, min(3, max(2, n // 4)), zanyato_vidov)
+            zanyato_vidov |= set(sp)
             out += SL(Z_PERED, V.pod_stolom(c0 * CW + 14, pol, n * CW - 28, t,
-                                            sd + 7, min(3, max(2, n // 4))))
+                                            sd + 7, len(sp), sp))
             gruppy += 1
 
     # 2. СТЕНА: пучки трав, связки, доска, сито, рушник, рамка
@@ -129,14 +137,17 @@ def dobavit(imya, t):
                 out += SL(Z_SRED, V.polka_veshchey(x, r1 * CH + 40, w_, t, sd,
                                                    dve=n >= 9))
             else:
+                sp = V.nabor(V.STENA_VIDY, sd, min(4, max(2, n // 3)), zanyato_vidov)
+                zanyato_vidov |= set(sp)
                 out += SL(Z_SRED, V.stena_nabor(x, r0 * CH + 30, w_, t, sd,
-                                                min(4, max(2, n // 3))))
+                                                len(sp), sp))
             gruppy += 1
             if len(polosy) > 1 and polosy[1][1] >= 4 and gruppy < 3:
                 c0, n = polosy[1]
+                sp = V.nabor(V.STENA_VIDY, sd + 3, min(3, max(2, n // 4)), zanyato_vidov)
+                zanyato_vidov |= set(sp)
                 out += SL(Z_SRED, V.stena_nabor(c0 * CW + 20, r0 * CH + 30,
-                                                n * CW - 40, t, sd + 3,
-                                                min(3, max(2, n // 4))))
+                                                n * CW - 40, t, sd + 3, len(sp), sp))
                 gruppy += 1
 
     # 3. ПОТОЛОК: вязки грибов и трав — только в избе и на кухне

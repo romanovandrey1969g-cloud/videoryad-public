@@ -172,6 +172,22 @@ def _tabulet(x, y, s_=1.0):
 # ── ГРУППЫ ─────────────────────────────────────────────────────────────────
 NA_STOLE = ("krynka", "miska", "kruzhka", "hleb", "luk", "banka", "lozhki",
             "solonka", "korzinka", "kartoshka", "svecha", "kadushka")
+POL_VIDY = ("korzina", "meshok", "vedro", "kadushka", "valenki", "kot",
+            "drova", "tabulet")
+STENA_VIDY = ("travy", "svyazka", "doska", "sito", "polovnik", "rushnik",
+              "ramka", "podkova", "venik", "kalendar", "skovoroda")
+DVOR_VIDY = ("polennica", "sani", "lopata", "vedro", "kust", "skamya", "stolb")
+
+
+def nabor(vidy, seed, n, krome=()):
+    """Выбрать n РАЗНЫХ видов, не повторяя уже стоящее в этой же сцене:
+    два кота в одном кадре — брак листа 14.11."""
+    r = random.Random(seed * 7 + 1)
+    sp = [v for v in vidy if v not in krome]
+    r.shuffle(sp)
+    if len(sp) < n:
+        sp += [v for v in vidy if v in krome]
+    return sp[:max(1, n)]
 
 
 def na_stole(x, y, w_, t, seed=1, n=4, krupno=1.0):
@@ -213,13 +229,11 @@ def na_stole(x, y, w_, t, seed=1, n=4, krupno=1.0):
     return out
 
 
-def stena_nabor(x, y, w_, t, seed=2, n=4):
+def stena_nabor(x, y, w_, t, seed=2, n=4, vidy_sp=None):
     """Обжитая стена: пучки трав, связки, доски, сито, рушник, рамка, подкова.
     y — высота, на которой вещи висят (верх предмета)."""
     r = random.Random(seed * 29 + 11)
-    vidy = ["travy", "svyazka", "doska", "sito", "polovnik", "rushnik",
-            "ramka", "podkova", "venik", "kalendar", "skovoroda"]
-    r.shuffle(vidy)
+    vidy = list(vidy_sp) if vidy_sp else nabor(STENA_VIDY, seed, n)
     out = ""
     for i in range(max(2, min(n, 5))):
         xx = x + (i + .5) * w_ / max(2, min(n, 5)) + r.uniform(-14, 14)
@@ -272,9 +286,14 @@ def stena_nabor(x, y, w_, t, seed=2, n=4):
                     f'<path d="M{xx-38:.0f},{y+78:.0f} a38,44 0 1,1 76,0" fill="none"'
                     f' stroke="{K}" stroke-width="5"/></g>')
         elif v == "venik":
-            out += (g0 + f'<rect x="{xx-8:.0f}" y="{y:.0f}" width="16" height="96" rx="7"'
+            out += (g0 + f'<rect x="{xx-9:.0f}" y="{y:.0f}" width="18" height="86" rx="8"'
                     f' fill="url(#dosk)" {o(5)}/>'
-                    f'<path d="M{xx-46:.0f},{y+200:.0f} q46,-130 92,0 Z" fill="url(#solom)" {o(5)}/></g>')
+                    f'<path d="M{xx-54:.0f},{y+216:.0f} q54,-150 108,0 Z" fill="url(#solom)" {o(6)}/>'
+                    + "".join(f'<path d="M{xx-38+j*19:.0f},{y+96:.0f} l{-8+j*4:.0f},116"'
+                              f' stroke="#a07c2e" stroke-width="4" opacity=".7" fill="none"/>'
+                              for j in range(5))
+                    + f'<rect x="{xx-30:.0f}" y="{y+86:.0f}" width="60" height="20" rx="7"'
+                      f' fill="{TKAN}" {o(4)}/></g>')
         elif v == "kalendar":
             out += (g0 + f'<rect x="{xx-44:.0f}" y="{y:.0f}" width="88" height="118" rx="8"'
                     f' fill="url(#list)" {o(5)}/>'
@@ -324,11 +343,10 @@ def polka_veshchey(x, y, w_, t, seed=3, dve=False):
     return out
 
 
-def pod_stolom(x, y, w_, t, seed=4, n=3):
+def pod_stolom(x, y, w_, t, seed=4, n=3, vidy_sp=None):
     """Пол под столом и у стены: корзина, мешок, ведро, кадушка, валенки, кот."""
     r = random.Random(seed * 31 + 5)
-    vidy = ["korzina", "meshok", "vedro", "kadushka", "valenki", "kot", "drova", "tabulet"]
-    r.shuffle(vidy)
+    vidy = list(vidy_sp) if vidy_sp else nabor(POL_VIDY, seed, n)
     out = ""
     n = max(2, min(n, 4))
     for i in range(n):
@@ -358,28 +376,37 @@ def pod_stolom(x, y, w_, t, seed=4, n=3):
 
 
 def pod_potolkom(x, y, w_, t, seed=6, n=3):
-    """Под потолком: вязки грибов, пучки трав, корзина на крюке."""
+    """Под потолком: БАЛКА, а на ней вязки грибов, пучки трав, корзина.
+    Без балки вязки читаются как полоски у края кадра — брак листа 14.11."""
     r = random.Random(seed * 23 + 9)
-    out = ""
+    y = max(y, 34)
+    out = (f'<rect x="{x-40:.0f}" y="{y-34:.0f}" width="{w_+80:.0f}" height="36" rx="8"'
+           f' fill="url(#dosk)" {o(6)}/>'
+           f'<rect x="{x-40:.0f}" y="{y+2:.0f}" width="{w_+80:.0f}" height="10"'
+           f' fill="{DOSKA2}" opacity=".8"/>')
     for i in range(max(2, min(n, 4))):
         xx = x + (i + .5) * w_ / max(2, min(n, 4)) + r.uniform(-16, 16)
         kach = 1.4 * A.w(t, 5.2 + i * .6, i * .25)
         out += f'<g transform="rotate({kach:.2f},{xx:.0f},{y:.0f})">'
+        out += f'<path d="M{xx:.0f},{y:.0f} v26" {o(5)} fill="none"/>'
         k = r.random()
         if k < .45:                      # вязка грибов
-            out += f'<path d="M{xx:.0f},{y:.0f} v250" {o(5)} fill="none"/>'
+            out += f'<path d="M{xx:.0f},{y+26:.0f} v240" {o(5)} fill="none"/>'
             for j in range(6):
-                yy = y + 46 + j * 34
-                out += (f'<path d="M{xx-26:.0f},{yy:.0f} q26,-30 52,0 Z" fill="#8a5a33" {o(4)}/>'
-                        f'<rect x="{xx-5:.0f}" y="{yy:.0f}" width="10" height="16" fill="#c9ad7d" {o(3)}/>')
+                yy = y + 64 + j * 38
+                out += (f'<path d="M{xx-32:.0f},{yy:.0f} q32,-36 64,0 Z" fill="#8a5a33" {o(5)}/>'
+                        f'<rect x="{xx-6:.0f}" y="{yy:.0f}" width="12" height="20"'
+                        f' fill="#c9ad7d" {o(3)}/>')
         elif k < .8:                     # пучок трав
-            out += f'<circle cx="{xx:.0f}" cy="{y:.0f}" r="6" fill="{ZHELEZ}" {o(3)}/>'
-            for j in range(5):
-                out += (f'<path d="M{xx:.0f},{y:.0f} q{-18+j*9:.0f},72 {-12+j*6:.0f},132"'
-                        f' fill="none" stroke="{["#6f8c4a","#8a9a58","#5c7a40"][j%3]}" stroke-width="7"/>')
+            out += (f'<path d="M{xx-26:.0f},{y+30:.0f} q26,-18 52,0" fill="none"'
+                    f' stroke="{TKAN}" stroke-width="11"/>')
+            for j in range(7):
+                out += (f'<path d="M{xx:.0f},{y+34:.0f} q{-26+j*9:.0f},84 {-18+j*6:.0f},168"'
+                        f' fill="none" stroke="{["#6f8c4a","#8a9a58","#5c7a40"][j%3]}"'
+                        f' stroke-width="9"/>')
         else:                            # корзина на крюке
-            out += (f'<path d="M{xx:.0f},{y:.0f} v96" {o(5)} fill="none"/>'
-                    + _korzinka(xx, y + 170, .8, "ovoshchi"))
+            out += (f'<path d="M{xx:.0f},{y+26:.0f} v84" {o(5)} fill="none"/>'
+                    + _korzinka(xx, y + 196, 1.0, r.choice(("ovoshchi", "griby"))))
         out += "</g>"
     return out
 
@@ -430,11 +457,10 @@ def ugol_mebel(x, y, t, seed=7, vid=None):
     return out
 
 
-def dvor_veshchi(x, y, w_, t, seed=8, n=3):
+def dvor_veshchi(x, y, w_, t, seed=8, n=3, vidy_sp=None):
     """Двор: поленница, сани, лопата, ведро, куст под снегом, скамья, следы."""
     r = random.Random(seed * 41 + 13)
-    vidy = ["polennica", "sani", "lopata", "vedro", "kust", "skamya", "stolb"]
-    r.shuffle(vidy)
+    vidy = list(vidy_sp) if vidy_sp else nabor(DVOR_VIDY, seed, n)
     out = ""
     for i in range(max(2, min(n, 4))):
         xx = x + (i + .5) * w_ / max(2, min(n, 4)) + r.uniform(-24, 24)
@@ -468,13 +494,14 @@ def dvor_veshchi(x, y, w_, t, seed=8, n=3):
             out += _vedro(xx, y, s_ * .9) + (f'<ellipse cx="{xx:.0f}" cy="{y-88*s_:.0f}"'
                                              f' rx="{40*s_:.0f}" ry="{10*s_:.0f}" fill="{SNEG}" opacity=".8"/>')
         elif v == "kust":
-            out += ten(xx, y + 4, 70 * s_, 10, .35)
-            for j in range(6):
-                out += (f'<path d="M{xx:.0f},{y:.0f} q{-50+j*20:.0f},{-70*s_:.0f}'
-                        f' {-62+j*25:.0f},{-120*s_:.0f}" fill="none" stroke="#5a4a38"'
-                        f' stroke-width="{7*s_:.0f}"/>')
-            out += (f'<ellipse cx="{xx:.0f}" cy="{y-128*s_:.0f}" rx="{76*s_:.0f}"'
-                    f' ry="{30*s_:.0f}" fill="{SNEG}" opacity=".92" {o(0)}/>')
+            out += ten(xx, y + 4, 86 * s_, 12, .35)
+            for j in range(9):
+                out += (f'<path d="M{xx:.0f},{y:.0f} q{-60+j*15:.0f},{-80*s_:.0f}'
+                        f' {-84+j*21:.0f},{-150*s_:.0f}" fill="none" stroke="#5a4a38"'
+                        f' stroke-width="{8*s_:.0f}"/>')
+            for j, (dx, dy, rr) in enumerate(((-60, -150, 44), (0, -176, 54), (62, -146, 42))):
+                out += (f'<ellipse cx="{xx+dx*s_:.0f}" cy="{y+dy*s_:.0f}" rx="{rr*s_:.0f}"'
+                        f' ry="{rr*.62*s_:.0f}" fill="{SNEG}" opacity=".93" {o(4)}/>')
         elif v == "skamya":
             out += (ten(xx, y + 6, 100 * s_, 12, .38)
                     + f'<rect x="{xx-96*s_:.0f}" y="{y-92*s_:.0f}" width="{192*s_:.0f}"'
