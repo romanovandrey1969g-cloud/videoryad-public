@@ -1251,16 +1251,17 @@
   }
  },
  {
-  "scene": 79,
+  "scene": 80,
   "view": "vyrezka.figura",
-  "dur": 10.9,
+  "dur": 11.6,
   "anim": 2.6,
   "tail_zoom": 0.045,
   "watermark": "ПЛАНЕТА",
   "channel": "ПЛАНЕТА",
   "kwargs": {
-   "photo": "cards/photo/card_079.jpg",
-   "author": "наблюдение",
+   "photo": "cards/photo/card_080.jpg",
+   "author": "Роберт Фицо",
+   "role": "премьер Словакии",
    "watermark": "ПЛАНЕТА"
   }
  },
