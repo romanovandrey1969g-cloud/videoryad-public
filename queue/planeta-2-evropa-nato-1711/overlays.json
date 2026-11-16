@@ -1,0 +1,72 @@
+{
+  "9": {
+    "text": {
+      "words": "НОМЕР МОСКВЫ",
+      "color": "orange",
+      "pos": "ml",
+      "font": "default",
+      "sound": "whoosh",
+      "at": 0.5,
+      "scale": 1.0,
+      "style": "mask_plate",
+      "sub": "аварийный выход под рукой",
+      "approved": true
+    }
+  },
+  "26": {
+    "text": {
+      "words": "САММИТ ОТМЕНЁН",
+      "color": "yellow",
+      "pos": "ml",
+      "font": "default",
+      "sound": "mashinka",
+      "at": 0.5,
+      "scale": 1.0,
+      "style": "mask_plate",
+      "sub": "встречи обещают сделать гибкими",
+      "approved": true
+    }
+  },
+  "69": {
+    "text": {
+      "words": "БРИТАНСКИЙ РАЗВОРОТ",
+      "color": "orange",
+      "pos": "ml",
+      "font": "default",
+      "sound": "zatvor",
+      "at": 0.5,
+      "scale": 1.0,
+      "style": "mask_plate",
+      "sub": "спор уже не только о Донбассе",
+      "approved": true
+    }
+  },
+  "84": {
+    "text": {
+      "words": "ПЕРЕЧЕНЬ УСТУПОК",
+      "color": "orange",
+      "pos": "ml",
+      "font": "default",
+      "sound": "whoosh",
+      "at": 0.5,
+      "scale": 1.0,
+      "style": "mask_plate",
+      "sub": "главное представление впереди",
+      "approved": true
+    }
+  },
+  "1": {
+    "text": {
+      "words": "ЛОНДОН И СТОЛ",
+      "color": "yellow",
+      "pos": "ml",
+      "font": "default",
+      "sound": "whoosh",
+      "at": 0.5,
+      "scale": 1.0,
+      "style": "mask_plate",
+      "sub": "переговорный, а не для санкций",
+      "approved": true
+    }
+  }
+}
