@@ -1,0 +1,52 @@
+{
+ "9": {
+  "text": {
+   "words": "НОМЕР МОСКВЫ",
+   "sub": "аварийный выход под рукой",
+   "style": "mask_plate",
+   "pos": "ml",
+   "at": 0.5,
+   "sound": "whoosh"
+  }
+ },
+ "26": {
+  "text": {
+   "words": "САММИТ ОТМЕНЁН",
+   "sub": "встречи обещают сделать гибкими",
+   "style": "mask_plate",
+   "pos": "ml",
+   "at": 0.5,
+   "sound": "mashinka"
+  }
+ },
+ "69": {
+  "text": {
+   "words": "БРИТАНСКИЙ РАЗВОРОТ",
+   "sub": "спор уже не только о Донбассе",
+   "style": "mask_plate",
+   "pos": "ml",
+   "at": 0.5,
+   "sound": "zatvor"
+  }
+ },
+ "84": {
+  "text": {
+   "words": "ПЕРЕЧЕНЬ УСТУПОК",
+   "sub": "главное представление впереди",
+   "style": "mask_plate",
+   "pos": "ml",
+   "at": 0.5,
+   "sound": "whoosh"
+  }
+ },
+ "1": {
+  "text": {
+   "words": "ЛОНДОН И СТОЛ",
+   "sub": "переговорный, а не для санкций",
+   "style": "mask_plate",
+   "pos": "ml",
+   "at": 0.5,
+   "sound": "whoosh"
+  }
+ }
+}
