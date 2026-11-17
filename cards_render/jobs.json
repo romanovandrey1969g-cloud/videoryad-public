@@ -1,0 +1,522 @@
+[
+ {
+  "scene": 9,
+  "view": "tape",
+  "dur": 12.32,
+  "anim": 2.4,
+  "tail_zoom": 0.04,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "text": "Пятый год продолжаются боевые действия. Россия наносит удары по украинским объектам",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 10,
+  "view": "pull",
+  "dur": 13.44,
+  "anim": 2.6,
+  "tail_zoom": 0.05,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "text": "Тему физического устранения теперь выносят на поверхность, а не держат в тени",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 19,
+  "view": "charts.network",
+  "dur": 13.44,
+  "anim": 13.44,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "nodes": [
+    {
+     "id": "Дука-",
+     "label": "Дука-",
+     "weight": 2.0
+    },
+    {
+     "id": "НАБУ",
+     "label": "НАБУ",
+     "weight": 1.0
+    },
+    {
+     "id": "САП",
+     "label": "САП",
+     "weight": 1.0
+    },
+    {
+     "id": "Вашингтон-",
+     "label": "Вашингтон-",
+     "weight": 1.0
+    },
+    {
+     "id": "Киев",
+     "label": "Киев",
+     "weight": 2.0
+    },
+    {
+     "id": "Москва-",
+     "label": "Москва-",
+     "weight": 1.0
+    }
+   ],
+   "links": [
+    {
+     "from": "Дука-",
+     "to": "НАБУ",
+     "weight": 1.0
+    },
+    {
+     "from": "Дука-",
+     "to": "САП",
+     "weight": 1.0
+    },
+    {
+     "from": "Вашингтон-",
+     "to": "Киев",
+     "weight": 1.0
+    },
+    {
+     "from": "Москва-",
+     "to": "Киев",
+     "weight": 1.0
+    }
+   ],
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 26,
+  "view": "pull",
+  "dur": 12.88,
+  "anim": 2.6,
+  "tail_zoom": 0.05,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "text": "Генерал заговорил о спецоперации против высшего политического руководства Украины",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 29,
+  "view": "marker_serif",
+  "dur": 9.52,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "text": "Подобные действия подрывают доверие к государству уже сейчас",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 30,
+  "view": "zal_slova",
+  "dur": 11.92,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "channel": "5 МИНУТ",
+   "dur": 11.92,
+   "sheets": [],
+   "text": "Дука допускает умысел",
+   "na_polu": "НЕПРОФЕССИОНАЛИЗМ",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 37,
+  "view": "doc",
+  "dur": 11.28,
+  "anim": 3.4,
+  "tail_zoom": 0.04,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "text": "Сам Сергей Дука ранее оказался фигурантом дела о мошеннических колл-центрах. После задержания он вышел под залог, а теперь требует проверки антикоррупционных органов",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 39,
+  "view": "duel",
+  "dur": 12.72,
+  "anim": 3.2,
+  "tail_zoom": 0.035,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "top": {
+    "who": "",
+    "text": "Одни получали деньги за покровительство.",
+    "accent": null,
+    "source": ""
+   },
+   "bottom": {
+    "who": "",
+    "text": "Другие ищут российский след у расследователей.",
+    "accent": null,
+    "source": ""
+   },
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 41,
+  "view": "zal_g01",
+  "dur": 12.8,
+  "anim": 12.8,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "channel": "5 МИНУТ",
+   "dur": 12.8,
+   "sheets": [],
+   "text": "Под сомнением госорганы",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 43,
+  "view": "sceny.prolog",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 10.88,
+  "channel": "5 МИНУТ",
+  "watermark": "5 МИНУТ",
+  "cfg": {
+   "view": "prolog",
+   "seconds": 10.88,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Записи НАБУ подлинные",
+    "channel": "5 МИНУТ",
+    "watermark": "5 МИНУТ",
+    "dur": 10.88
+   }
+  },
+  "kwargs": {
+   "text": "Записи НАБУ подлинные",
+   "channel": "5 МИНУТ",
+   "watermark": "5 МИНУТ",
+   "dur": 10.88
+  }
+ },
+ {
+  "scene": 45,
+  "view": "sceny.repliki",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 11.44,
+  "channel": "5 МИНУТ",
+  "watermark": "5 МИНУТ",
+  "cfg": {
+   "view": "repliki",
+   "seconds": 11.44,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Вопросы множатся вокруг этой системы",
+    "channel": "5 МИНУТ",
+    "watermark": "5 МИНУТ",
+    "dur": 11.44,
+    "repliki_": [
+     "Кто обеспечивал систему?",
+     "Кто предупреждал о проверках?",
+     "Кто получал деньги?"
+    ]
+   }
+  },
+  "kwargs": {
+   "text": "Вопросы множатся вокруг этой системы",
+   "channel": "5 МИНУТ",
+   "watermark": "5 МИНУТ",
+   "dur": 11.44,
+   "repliki_": [
+    "Кто обеспечивал систему?",
+    "Кто предупреждал о проверках?",
+    "Кто получал деньги?"
+   ]
+  }
+ },
+ {
+  "scene": 46,
+  "view": "sceny.tribuna",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 11.92,
+  "channel": "5 МИНУТ",
+  "watermark": "5 МИНУТ",
+  "cfg": {
+   "view": "tribuna",
+   "seconds": 11.92,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Проверить антикоррупционные органы",
+    "channel": "5 МИНУТ",
+    "watermark": "5 МИНУТ",
+    "dur": 11.92,
+    "role": "генерал СБУ"
+   }
+  },
+  "kwargs": {
+   "text": "Проверить антикоррупционные органы",
+   "channel": "5 МИНУТ",
+   "watermark": "5 МИНУТ",
+   "dur": 11.92,
+   "role": "генерал СБУ"
+  }
+ },
+ {
+  "scene": 54,
+  "view": "sceny.mehanizm",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 11.52,
+  "channel": "5 МИНУТ",
+  "watermark": "5 МИНУТ",
+  "cfg": {
+   "view": "mehanizm",
+   "seconds": 11.52,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Офисы закрыли, но связи внутри системы остались",
+    "channel": "5 МИНУТ",
+    "watermark": "5 МИНУТ",
+    "dur": 11.52,
+    "pary": [
+     "сеть->мошенники"
+    ]
+   }
+  },
+  "kwargs": {
+   "text": "Офисы закрыли, но связи внутри системы остались",
+   "channel": "5 МИНУТ",
+   "watermark": "5 МИНУТ",
+   "dur": 11.52,
+   "pary": [
+    "сеть->мошенники"
+   ]
+  }
+ },
+ {
+  "scene": 62,
+  "view": "sceny.prohod",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 11.44,
+  "channel": "5 МИНУТ",
+  "watermark": "5 МИНУТ",
+  "cfg": {
+   "view": "prohod",
+   "seconds": 11.44,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Важно понять его истинную позицию",
+    "channel": "5 МИНУТ",
+    "watermark": "5 МИНУТ",
+    "dur": 11.44,
+    "tezisy": [
+     "Не для обвинения.",
+     "А для понимания."
+    ]
+   }
+  },
+  "kwargs": {
+   "text": "Важно понять его истинную позицию",
+   "channel": "5 МИНУТ",
+   "watermark": "5 МИНУТ",
+   "dur": 11.44,
+   "tezisy": [
+    "Не для обвинения.",
+    "А для понимания."
+   ]
+  }
+ },
+ {
+  "scene": 63,
+  "view": "duel",
+  "dur": 11.48,
+  "anim": 3.2,
+  "tail_zoom": 0.035,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "top": {
+    "who": "",
+    "text": "Цель могла быть в получении отказа.",
+    "accent": null,
+    "source": ""
+   },
+   "bottom": {
+    "who": "",
+    "text": "Результат оказался показательным.",
+    "accent": null,
+    "source": ""
+   },
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 64,
+  "view": "sceny.repliki",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 12.16,
+  "channel": "5 МИНУТ",
+  "watermark": "5 МИНУТ",
+  "cfg": {
+   "view": "repliki",
+   "seconds": 12.16,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Зеленский называет свои условия",
+    "channel": "5 МИНУТ",
+    "watermark": "5 МИНУТ",
+    "dur": 12.16,
+    "repliki_": [
+     "Гарантии безопасности.",
+     "Финансирование армии.",
+     "Вооружения и восстановление."
+    ]
+   }
+  },
+  "kwargs": {
+   "text": "Зеленский называет свои условия",
+   "channel": "5 МИНУТ",
+   "watermark": "5 МИНУТ",
+   "dur": 12.16,
+   "repliki_": [
+    "Гарантии безопасности.",
+    "Финансирование армии.",
+    "Вооружения и восстановление."
+   ]
+  }
+ },
+ {
+  "scene": 67,
+  "view": "doc",
+  "dur": 11.04,
+  "anim": 3.4,
+  "tail_zoom": 0.04,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "text": "Украинское руководство пытается сохранить собственные условия. К обычному политическому торгу добавляются сообщения об угрозе лично Зеленскому",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 68,
+  "view": "pull",
+  "dur": 12.0,
+  "anim": 2.6,
+  "tail_zoom": 0.05,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "text": "Интереснее — как на происходящее смотрят люди вокруг него",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 69,
+  "view": "sceny.globus_map",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 11.15,
+  "channel": "5 МИНУТ",
+  "watermark": "5 МИНУТ",
+  "cfg": {
+   "view": "globus",
+   "seconds": 11.15,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Устойчивость не на одном человеке",
+    "channel": "5 МИНУТ",
+    "watermark": "5 МИНУТ",
+    "dur": 11.15,
+    "region": "Украина"
+   }
+  },
+  "kwargs": {
+   "text": "Устойчивость не на одном человеке",
+   "channel": "5 МИНУТ",
+   "watermark": "5 МИНУТ",
+   "dur": 11.15,
+   "region": "Украина"
+  }
+ },
+ {
+  "scene": 77,
+  "view": "tape",
+  "dur": 11.68,
+  "anim": 2.4,
+  "tail_zoom": 0.04,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "text": "Система выдерживает давление, пока участники доверяют друг другу",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 78,
+  "view": "sceny.pechat",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 10.8,
+  "channel": "5 МИНУТ",
+  "watermark": "5 МИНУТ",
+  "cfg": {
+   "view": "pechat",
+   "seconds": 10.8,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Доверие превращается в предмет обвинений",
+    "channel": "5 МИНУТ",
+    "watermark": "5 МИНУТ",
+    "dur": 10.8,
+    "stamp": "утверждено"
+   }
+  },
+  "kwargs": {
+   "text": "Доверие превращается в предмет обвинений",
+   "channel": "5 МИНУТ",
+   "watermark": "5 МИНУТ",
+   "dur": 10.8,
+   "stamp": "утверждено"
+  }
+ },
+ {
+  "scene": 79,
+  "view": "quote",
+  "dur": 11.84,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "text": "Важно, насколько твёрдо руководство контролирует исполнителей",
+   "watermark": "5 МИНУТ"
+  }
+ }
+]
