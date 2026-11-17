@@ -1,0 +1,103 @@
+{
+  "anchor": "top",
+  "1": {
+    "photo": "overlays/scene_001.jpg",
+    "sound": "pop",
+    "at": 2.2,
+    "shape": "rect",
+    "scale": 1.0,
+    "style": "right",
+    "text": {
+      "words": "НЕГЛАСНЫЙ ЗАПРЕТ СНЯТ",
+      "color": "yellow",
+      "pos": "tc",
+      "font": "default",
+      "sound": "mashinka",
+      "at": 2.0,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "6": {
+    "photo": "overlays/scene_006.jpg",
+    "sound": "whoosh",
+    "at": 2.4,
+    "shape": "rect",
+    "scale": 1.2,
+    "style": "up-left",
+    "text": {
+      "words": "УДАРЫ ПО РОССИИ",
+      "color": "yellow",
+      "pos": "tc",
+      "font": "default",
+      "sound": "mashinka",
+      "at": 2.0,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "12": {
+    "text": {
+      "words": "США И РОССИЯ",
+      "color": "red",
+      "pos": "mc",
+      "font": "default",
+      "sound": "pshik",
+      "at": 2.0,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "17": {
+    "text": {
+      "words": "ВАШИНГТОН ДАВИТ",
+      "color": "red",
+      "pos": "mc",
+      "font": "default",
+      "sound": "pshik",
+      "at": 2.0,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "22": {
+    "text": {
+      "words": "СОГЛАСОВАННЫЙ СИГНАЛ",
+      "color": "red",
+      "pos": "tc",
+      "font": "default",
+      "sound": "pshik",
+      "at": 2.0,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "27": {
+    "photo": "overlays/scene_027.jpg",
+    "sound": "ding",
+    "at": 2.6,
+    "shape": "circle",
+    "scale": 1.0,
+    "style": "up-left",
+    "approved": true,
+    "dash_ok": true
+  },
+  "40": {
+    "photo": "overlays/scene_040.jpg",
+    "sound": "pop",
+    "at": 2.8,
+    "shape": "rect",
+    "scale": 1.0,
+    "style": "up-right",
+    "text": {
+      "words": "ПОД ПОДОЗРЕНИЕМ",
+      "color": "white",
+      "pos": "tc",
+      "font": "default",
+      "sound": "pop",
+      "at": 2.0,
+      "scale": 1.0,
+      "approved": true
+    }
+  }
+}
