@@ -1,0 +1,1167 @@
+[
+ {
+  "scene": 5,
+  "view": "charts.waterfall",
+  "dur": 8.7,
+  "anim": 8.7,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "start": {
+    "label": "ожидался рост",
+    "value": 1.0
+   },
+   "steps": [
+    {
+     "label": "теперь 2026 год",
+     "value": -0.5
+    },
+    {
+     "label": "год после",
+     "value": -1.0
+    }
+   ],
+   "end": {
+    "label": "ИТОГ"
+   },
+   "title": "Прогноз МВФ по Украине",
+   "unit": "%",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 11,
+  "view": "tape",
+  "dur": 12.5,
+  "anim": 2.4,
+  "tail_zoom": 0.04,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "После войны — более 3 миллионов ветеранов",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 12,
+  "view": "charts.pie",
+  "dur": 11.8,
+  "anim": 11.8,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "segments": [
+    {
+     "label": "почти треть населения",
+     "value": 33.333333333333336
+    },
+    {
+     "label": "Раздать всем пособия",
+     "value": 33.333333333333336
+    },
+    {
+     "label": "Бюджет такого праздника забо",
+     "value": 33.333333333333336
+    }
+   ],
+   "title": "Вместе с семьями это около девяти миллио",
+   "sobytiya": true,
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 14,
+  "view": "quote",
+  "dur": 12.1,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Украина не готова. Это будет",
+   "author": "Виталий Ким",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 16,
+  "view": "sceny.mehanizm",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 16.7,
+  "channel": "ПЛАНЕТА",
+  "watermark": "ПЛАНЕТА",
+  "cfg": {
+   "view": "mehanizm",
+   "seconds": 16.7,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Ветеран угрожает порядку",
+    "channel": "ПЛАНЕТА",
+    "watermark": "ПЛАНЕТА",
+    "dur": 16.7,
+    "pary": [
+     "ветераны>власть",
+     "боевое братство>порядок"
+    ]
+   }
+  },
+  "kwargs": {
+   "text": "Ветеран угрожает порядку",
+   "channel": "ПЛАНЕТА",
+   "watermark": "ПЛАНЕТА",
+   "dur": 16.7,
+   "pary": [
+    "ветераны>власть",
+    "боевое братство>порядок"
+   ]
+  }
+ },
+ {
+  "scene": 18,
+  "view": "film.film_strip",
+  "dur": 4.6,
+  "anim": 4.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "shots": [
+    "cards/photo/card_018.jpg",
+    "cards/photo/card_018_2.jpg",
+    "cards/photo/card_018_3.jpg"
+   ],
+   "title": "Боевое братство",
+   "captions": [
+    "служба",
+    "тыл",
+    "возвращение"
+   ],
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 19,
+  "view": "torn_split.torn_split",
+  "dur": 9.8,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "a_path": "cards/photo/card_019.jpg",
+   "b_path": "cards/photo/card_019_2.jpg",
+   "title": "Им не нужна презентация о командной рабо",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 20,
+  "view": "zal_slova",
+  "dur": 10.2,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 10.2,
+   "sheets": [],
+   "text": "Братство не отменит приказ",
+   "na_polu": "ВСЕГДА",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 21,
+  "view": "cinematic.evidence_wall",
+  "dur": 9.9,
+  "anim": 9.9,
+  "tail_zoom": 0.0,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "shots": [
+    [
+     "cards/photo/card_021.jpg",
+     240,
+     380,
+     -4,
+     "зал заседаний"
+    ],
+    [
+     "cards/photo/card_021_2.jpg",
+     800,
+     380,
+     3,
+     "суд"
+    ]
+   ],
+   "title": "Связи и доверие",
+   "watermark": "ПЛАНЕТА"
+  },
+  "mode": "frame"
+ },
+ {
+  "scene": 22,
+  "view": "zal_kub",
+  "dur": 11.0,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 11.0,
+   "sheets": [],
+   "text": "Среда организуется быстрее, чем хочет начальник",
+   "kick": "Турникет и охранник",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 23,
+  "view": "charts.line",
+  "dur": 9.3,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "x_labels": [
+    "мобилизация",
+    "снабжение",
+    "коррупция"
+   ],
+   "series": [
+    {
+     "name": "Пять лет наблюдений",
+     "values": [
+      1.0,
+      2.0,
+      3.0
+     ]
+    }
+   ],
+   "title": "Пять лет наблюдений",
+   "source": "5 МИНУТ",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 24,
+  "view": "sceny.lenta",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 5.8,
+  "channel": "ПЛАНЕТА",
+  "watermark": "ПЛАНЕТА",
+  "cfg": {
+   "view": "lenta",
+   "seconds": 5.8,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Коррупция на фоне войны",
+    "channel": "ПЛАНЕТА",
+    "watermark": "ПЛАНЕТА",
+    "dur": 5.8,
+    "soobshcheniya": [
+     "Проблемы со снабжением фиксируются годами",
+     "Через структуры проходят огромные суммы"
+    ]
+   }
+  },
+  "kwargs": {
+   "text": "Коррупция на фоне войны",
+   "channel": "ПЛАНЕТА",
+   "watermark": "ПЛАНЕТА",
+   "dur": 5.8,
+   "soobshcheniya": [
+    "Проблемы со снабжением фиксируются годами",
+    "Через структуры проходят огромные суммы"
+   ]
+  }
+ },
+ {
+  "scene": 25,
+  "view": "zal",
+  "dur": 11.3,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Разница измеряется не километрами, а совестью",
+   "words": [
+    "ФРОНТ"
+   ],
+   "sheets": [
+    "Передовая",
+    "Кабинет",
+    "Совесть",
+    "Расстояние"
+   ],
+   "channel": "ПЛАНЕТА",
+   "dur": 11.3,
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 26,
+  "view": "marker_serif",
+  "dur": 9.1,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Поэтому обещание, что после возвращения все спокойно наденут рабочие каски и отправятся восстанавливать страну",
+   "accent": "возвращения",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 27,
+  "view": "charts.radar",
+  "dur": 9.7,
+  "anim": 9.7,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "axes": [
+    "трудоустройство",
+    "благодарность",
+    "адаптация"
+   ],
+   "series": [
+    {
+     "label": "Ожидания от ветеранов",
+     "values": [
+      2.0,
+      1.0,
+      2.0
+     ]
+    }
+   ],
+   "title": "Ожидания от ветеранов",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 28,
+  "view": "bars",
+  "dur": 5.0,
+  "anim": 5.0,
+  "tail_zoom": 0.0,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {},
+  "mode": "cli",
+  "script": "build_chart_bars.py",
+  "cfg": {
+   "title": "Кто строил карьеру",
+   "caption": "",
+   "seconds": 5.0,
+   "bars": [
+    {
+     "label": "НА ПЕРЕДОВОЙ",
+     "value": 0.3,
+     "color": "4A90E2"
+    },
+    {
+     "label": "В КАБИНЕТЕ",
+     "value": 0.7,
+     "color": "48BB78"
+    }
+   ]
+  }
+ },
+ {
+  "scene": 29,
+  "view": "charts.network",
+  "dur": 14.1,
+  "anim": 14.1,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "nodes": [
+    {
+     "id": "ветеран",
+     "label": "ветеран",
+     "weight": 2.0
+    },
+    {
+     "id": "снабжение",
+     "label": "снабжение",
+     "weight": 1.0
+    },
+    {
+     "id": "бюджет",
+     "label": "бюджет",
+     "weight": 1.0
+    },
+    {
+     "id": "чиновник",
+     "label": "чиновник",
+     "weight": 1.0
+    },
+    {
+     "id": "контракты",
+     "label": "контракты",
+     "weight": 1.0
+    }
+   ],
+   "links": [
+    {
+     "from": "ветеран",
+     "to": "снабжение",
+     "weight": 1.0
+    },
+    {
+     "from": "ветеран",
+     "to": "бюджет",
+     "weight": 1.0
+    },
+    {
+     "from": "чиновник",
+     "to": "контракты",
+     "weight": 1.0
+    }
+   ],
+   "title": "Фамилии вместо отписок",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 30,
+  "view": "zal_efir",
+  "dur": 8.7,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 8.7,
+   "sheets": [],
+   "text": "Вопрос без уклонения",
+   "say": "Почему одни годами не выходили с передовой, а другие прекрасно устроились?",
+   "author": "Виталий Ким",
+   "role": "глава Николаевской ОВА",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 31,
+  "view": "zal_pol",
+  "dur": 10.2,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 10.2,
+   "sheets": [],
+   "text": "Спор о выплатах закончится",
+   "na_polu": "ОТВЕТСТВЕННОСТЬ",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 32,
+  "view": "poster.poster",
+  "dur": 9.0,
+  "anim": 9.0,
+  "tail_zoom": 0.0,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "title": "Диаграмма удобный собеседник",
+   "hero_photo": "cards/photo/card_032.jpg",
+   "bottom": "Доклад вместо ответа",
+   "features": [
+    {
+     "text": "не задаёт встречных"
+    }
+   ],
+   "facts": [
+    {
+     "label": "вопросов",
+     "value": "0"
+    }
+   ],
+   "watermark": "ПЛАНЕТА"
+  },
+  "mode": "frame"
+ },
+ {
+  "scene": 33,
+  "view": "zal_g48",
+  "dur": 8.3,
+  "anim": 8.3,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 8.3,
+   "sheets": [],
+   "text": "Диаграмма не задаёт вопросов",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 34,
+  "view": "sceny.prohod",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 14.7,
+  "channel": "ПЛАНЕТА",
+  "watermark": "ПЛАНЕТА",
+  "cfg": {
+   "view": "prohod",
+   "seconds": 14.7,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Вертикаль встроит не сразу",
+    "channel": "ПЛАНЕТА",
+    "watermark": "ПЛАНЕТА",
+    "dur": 14.7,
+    "tezisy": [
+     "Ветеранские объединения",
+     "Самостоятельная политическая сила",
+     "Несколько должностей не решат вопрос"
+    ]
+   }
+  },
+  "kwargs": {
+   "text": "Вертикаль встроит не сразу",
+   "channel": "ПЛАНЕТА",
+   "watermark": "ПЛАНЕТА",
+   "dur": 14.7,
+   "tezisy": [
+    "Ветеранские объединения",
+    "Самостоятельная политическая сила",
+    "Несколько должностей не решат вопрос"
+   ]
+  }
+ },
+ {
+  "scene": 35,
+  "view": "quote",
+  "dur": 5.2,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Пока продолжаются боевые действия, у власти имеется универсальное объяснение почти для всего",
+   "accent": "универсальное",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 36,
+  "view": "zal_makety",
+  "dur": 9.3,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 9.3,
+   "sheets": [],
+   "text": "Ответ на любой вопрос власти",
+   "makety": [
+    "лэп=КОНФЛИКТ"
+   ],
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 37,
+  "view": "film.film_single",
+  "dur": 9.3,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "photo": "cards/photo/card_037.jpg",
+   "title": "Там, куда послало",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 38,
+  "view": "sceny.repliki",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 7.8,
+  "channel": "ПЛАНЕТА",
+  "watermark": "ПЛАНЕТА",
+  "cfg": {
+   "view": "repliki",
+   "seconds": 7.8,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Голоса после возвращения",
+    "channel": "ПЛАНЕТА",
+    "watermark": "ПЛАНЕТА",
+    "dur": 7.8,
+    "repliki_": [
+     "ветеран|Работы нет",
+     "ветеран|Жильё разрушено",
+     "ветеран|Цены выросли",
+     "власть|Потерпите ещё"
+    ]
+   }
+  },
+  "kwargs": {
+   "text": "Голоса после возвращения",
+   "channel": "ПЛАНЕТА",
+   "watermark": "ПЛАНЕТА",
+   "dur": 7.8,
+   "repliki_": [
+    "ветеран|Работы нет",
+    "ветеран|Жильё разрушено",
+    "ветеран|Цены выросли",
+    "власть|Потерпите ещё"
+   ]
+  }
+ },
+ {
+  "scene": 39,
+  "view": "pull",
+  "dur": 7.9,
+  "anim": 2.6,
+  "tail_zoom": 0.05,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Понимание всегда требуется от ветерана, а комфорт достаётся кому-то другому",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 41,
+  "view": "sceny.kreslo",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 9.7,
+  "channel": "ПЛАНЕТА",
+  "watermark": "ПЛАНЕТА",
+  "cfg": {
+   "view": "kreslo",
+   "seconds": 9.7,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Сохранение собственных кресел",
+    "channel": "ПЛАНЕТА",
+    "watermark": "ПЛАНЕТА",
+    "dur": 9.7,
+    "role": "глава ведомства"
+   }
+  },
+  "kwargs": {
+   "text": "Сохранение собственных кресел",
+   "channel": "ПЛАНЕТА",
+   "watermark": "ПЛАНЕТА",
+   "dur": 9.7,
+   "role": "глава ведомства"
+  }
+ },
+ {
+  "scene": 42,
+  "view": "cinematic.depth_of_field",
+  "dur": 13.7,
+  "anim": 13.7,
+  "tail_zoom": 0.0,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "photo": "cards/photo/card_042.jpg",
+   "title": "Таблица социальных расходов",
+   "watermark": "ПЛАНЕТА"
+  },
+  "mode": "frame"
+ },
+ {
+  "scene": 43,
+  "view": "duel",
+  "dur": 10.5,
+  "anim": 3.2,
+  "tail_zoom": 0.035,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "top": {
+    "who": "",
+    "text": "напряжении и революциях возникает вопрос",
+    "accent": null,
+    "source": ""
+   },
+   "bottom": {
+    "who": "",
+    "text": "чиновник боится безработного ветерана или ветерана",
+    "accent": null,
+    "source": ""
+   },
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 44,
+  "view": "charts.map_dist",
+  "dur": 6.4,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "points": [
+    {
+     "label": "Киев",
+     "lat": 50.45,
+     "lon": 30.52,
+     "accent": false
+    },
+    {
+     "label": "Варшава",
+     "lat": 52.23,
+     "lon": 21.01,
+     "accent": false
+    }
+   ],
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 45,
+  "view": "sceny.globus_map",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 10.7,
+  "channel": "ПЛАНЕТА",
+  "watermark": "ПЛАНЕТА",
+  "cfg": {
+   "view": "globus",
+   "seconds": 10.7,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Экономика ждёт, зарплата нет",
+    "channel": "ПЛАНЕТА",
+    "watermark": "ПЛАНЕТА",
+    "dur": 10.7,
+    "region": "Евросоюз"
+   }
+  },
+  "kwargs": {
+   "text": "Экономика ждёт, зарплата нет",
+   "channel": "ПЛАНЕТА",
+   "watermark": "ПЛАНЕТА",
+   "dur": 10.7,
+   "region": "Евросоюз"
+  }
+ },
+ {
+  "scene": 46,
+  "view": "zal_shkala",
+  "dur": 11.9,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 11.9,
+   "sheets": [],
+   "text": "Доля украинцев в ЕС",
+   "value": "34 %",
+   "value_sub": "не намерены возвращаться",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 47,
+  "view": "zal_g18",
+  "dur": 10.0,
+  "anim": 10.0,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 10.0,
+   "sheets": [],
+   "text": "Каждый третий не вернётся",
+   "value": "34 %",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 48,
+  "view": "charts.cartogram",
+  "dur": 6.5,
+  "anim": 6.5,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "data": [
+    "Украина"
+   ],
+   "title": "Кто наполняет бюджет",
+   "mode": "bubble",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 49,
+  "view": "charts.cartogram",
+  "dur": 6.7,
+  "anim": 6.7,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "data": [
+    "Киевская",
+    "Харьковская",
+    "Одесская"
+   ],
+   "title": "Бюджету нужны все",
+   "level": "region",
+   "admin": "Украина",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 50,
+  "view": "charts.cartogram",
+  "dur": 8.1,
+  "anim": 8.1,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "data": [
+    "Украина",
+    "Евросоюз"
+   ],
+   "title": "Билет в одну сторону",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 51,
+  "view": "devices.device_scene",
+  "dur": 9.2,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "content_path": "cards/photo/card_051.jpg",
+   "items": [
+    "не вернутся=34"
+   ],
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 52,
+  "view": "pull",
+  "dur": 9.0,
+  "anim": 2.6,
+  "tail_zoom": 0.05,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Отъезд человека станет потерей для экономики и бюджета",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 53,
+  "view": "zal_schetchik",
+  "dur": 10.6,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 10.6,
+   "sheets": [],
+   "text": "Страна, бюджет, восстановление",
+   "value": "3",
+   "value_sub": "теряет",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 54,
+  "view": "strike",
+  "dur": 8.2,
+  "anim": 3.0,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Вот и вся послевоенная арифметика: одних надо удержать, других трудоустроить",
+   "struck": "трудоустроить",
+   "fix": "а не прокормить пособием",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 55,
+  "view": "zal_g44",
+  "dur": 8.3,
+  "anim": 8.3,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 8.3,
+   "sheets": [],
+   "text": "Решивших не вернуться",
+   "value": "34 %",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 56,
+  "view": "paper_typed",
+  "dur": 10.9,
+  "anim": 2.8,
+  "tail_zoom": 0.04,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "На границе с Румынией уже обсуждают колючую проволоку",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 57,
+  "view": "photo",
+  "dur": 8.0,
+  "anim": 8.0,
+  "tail_zoom": 0.0,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "kick": "МВФ · требование",
+   "watermark": "ПЛАНЕТА",
+   "photo": "cards/photo/card_057.jpg",
+   "lines": [
+    "Увеличить налоговую базу",
+    "Расширить сборы"
+   ]
+  }
+ },
+ {
+  "scene": 58,
+  "view": "sceny.pechat",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 11.7,
+  "channel": "ПЛАНЕТА",
+  "watermark": "ПЛАНЕТА",
+  "cfg": {
+   "view": "pechat",
+   "seconds": 11.7,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "В расчётах всё выглядит убедительно",
+    "channel": "ПЛАНЕТА",
+    "watermark": "ПЛАНЕТА",
+    "dur": 11.7,
+    "stamp": "утверждено"
+   }
+  },
+  "kwargs": {
+   "text": "В расчётах всё выглядит убедительно",
+   "channel": "ПЛАНЕТА",
+   "watermark": "ПЛАНЕТА",
+   "dur": 11.7,
+   "stamp": "утверждено"
+  }
+ },
+ {
+  "scene": 59,
+  "view": "doc",
+  "dur": 5.3,
+  "anim": 3.4,
+  "tail_zoom": 0.04,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Таблица не мёрзнет без отопления, не закрывает мастерскую и не покупает билет за границу. Налоги платят живые люди, а не ячейки",
+   "mark": "живые люди",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 60,
+  "view": "sceny.tribuna",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 9.6,
+  "channel": "ПЛАНЕТА",
+  "watermark": "ПЛАНЕТА",
+  "cfg": {
+   "view": "tribuna",
+   "seconds": 9.6,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "После конфликта нужны рабочие руки",
+    "channel": "ПЛАНЕТА",
+    "watermark": "ПЛАНЕТА",
+    "dur": 9.6,
+    "role": "глава Николаевской ОВА"
+   }
+  },
+  "kwargs": {
+   "text": "После конфликта нужны рабочие руки",
+   "channel": "ПЛАНЕТА",
+   "watermark": "ПЛАНЕТА",
+   "dur": 9.6,
+   "role": "глава Николаевской ОВА"
+  }
+ },
+ {
+  "scene": 62,
+  "view": "doc",
+  "dur": 9.3,
+  "anim": 3.4,
+  "tail_zoom": 0.04,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "С доверием этот номер не проходит. Ким понимает масштаб предстоящего столкновения",
+   "mark": "доверием",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 63,
+  "view": "zal_g01",
+  "dur": 9.1,
+  "anim": 9.1,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 9.1,
+   "sheets": [],
+   "text": "Кто восстановит Украину",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 64,
+  "view": "zal_ekran",
+  "dur": 7.7,
+  "anim": 7.7,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 7.7,
+   "sheets": [],
+   "text": "Вопрос за дверями кабинета",
+   "say": "Кто вернётся с фронта, тот и спросит",
+   "author": "Виталий Ким",
+   "role": "глава Николаевской ОВА",
+   "source": "интервью, ноябрь",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 65,
+  "view": "sceny.relsy",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 10.6,
+  "channel": "ПЛАНЕТА",
+  "watermark": "ПЛАНЕТА",
+  "cfg": {
+   "view": "relsy",
+   "seconds": 10.6,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Их последствия приказам уже не подчиняются",
+    "channel": "ПЛАНЕТА",
+    "watermark": "ПЛАНЕТА",
+    "dur": 10.6,
+    "sobytiya": [
+     "Военные действия могут завер",
+     "Их последствия приказам уже",
+     "Самый тяжёлый разговор иногд"
+    ]
+   }
+  },
+  "kwargs": {
+   "text": "Их последствия приказам уже не подчиняются",
+   "channel": "ПЛАНЕТА",
+   "watermark": "ПЛАНЕТА",
+   "dur": 10.6,
+   "sobytiya": [
+    "Военные действия могут завер",
+    "Их последствия приказам уже",
+    "Самый тяжёлый разговор иногд"
+   ]
+  }
+ },
+ {
+  "scene": 66,
+  "view": "charts.slope",
+  "dur": 6.55,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "items": [
+    {
+     "label": "Служба",
+     "from": 1.0,
+     "to": 1.0,
+     "to_label": "Вопрос"
+    },
+    {
+     "label": "Фронт",
+     "from": 1.0,
+     "to": 1.0,
+     "to_label": "Ответ"
+    }
+   ],
+   "left_label": "До",
+   "right_label": "После",
+   "source": "5 МИНУТ",
+   "sobytiya": true,
+   "watermark": "ПЛАНЕТА"
+  }
+ }
+]
