@@ -1,0 +1,36 @@
+[
+ {
+  "scene": 32,
+  "view": "poster.poster",
+  "dur": 9.0,
+  "anim": 9.0,
+  "tail_zoom": 0.0,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "title": "Диаграмма удобный собеседник",
+   "hero_photo": "cards/photo/card_032.jpg",
+   "bottom": "Доклад вместо ответа",
+   "features": [
+    {
+     "text": "не задаёт встречных"
+    },
+    {
+     "text": "не спорит"
+    }
+   ],
+   "facts": [
+    {
+     "label": "встречных вопросов",
+     "value": "0"
+    },
+    {
+     "label": "неудобных тем",
+     "value": "0"
+    }
+   ],
+   "watermark": "ПЛАНЕТА"
+  },
+  "mode": "frame"
+ }
+]
