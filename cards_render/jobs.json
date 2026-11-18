@@ -1,0 +1,223 @@
+[
+ {
+  "scene": 3,
+  "view": "sceny.prolog",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 7.9,
+  "channel": "ПЛАНЕТА",
+  "watermark": "ПЛАНЕТА",
+  "cfg": {
+   "view": "prolog",
+   "seconds": 7.9,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Ким смотрит в будущее Украины",
+    "channel": "ПЛАНЕТА",
+    "watermark": "ПЛАНЕТА",
+    "dur": 7.9,
+    "kick": "Киев · сейчас"
+   }
+  },
+  "kwargs": {
+   "text": "Ким смотрит в будущее Украины",
+   "channel": "ПЛАНЕТА",
+   "watermark": "ПЛАНЕТА",
+   "dur": 7.9,
+   "kick": "Киев · сейчас"
+  }
+ },
+ {
+  "scene": 4,
+  "view": "paper_hand",
+  "dur": 11.9,
+  "anim": 2.8,
+  "tail_zoom": 0.04,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Если нет цифр, наглядно показываем соотношение",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 7,
+  "view": "slider",
+  "dur": 10.6,
+  "anim": 10.6,
+  "tail_zoom": 0.0,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {},
+  "mode": "cli",
+  "script": "build_chart_slider.py",
+  "cfg": {
+   "title": "Доля не вернувшихся",
+   "min": 0.0,
+   "max": 40.0,
+   "low": 17.0,
+   "high": 34.0,
+   "marker_value": 34.0,
+   "marker_display": "34",
+   "seconds": 10.6,
+   "range_label": "РАЗБРОС ОЦЕНОК",
+   "caption": "за год",
+   "source": ""
+  }
+ },
+ {
+  "scene": 8,
+  "view": "zal_g01",
+  "dur": 13.7,
+  "anim": 13.7,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 13.7,
+   "sheets": [
+    "Школы",
+    "Больницы",
+    "Детсады"
+   ],
+   "text": "Свет — на часы в сутки",
+   "value": "неделями",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 11,
+  "view": "cinematic.dossier",
+  "dur": 12.5,
+  "anim": 12.5,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "case": "Виталий Ким",
+   "rows": [
+    "ветеранов после войны — более 3 миллионов",
+    "вместе с семьями — около 9 миллионов человек",
+    "тема — трудоустройство и жильё",
+    "итог — бюджет праздника не выдержит"
+   ],
+   "title": "ДОСЬЕ",
+   "photo": "cards/photo/card_011.jpg",
+   "stamp": "ПЕРВОИСТОЧНИК",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 17,
+  "view": "tape",
+  "dur": 4.9,
+  "anim": 2.4,
+  "tail_zoom": 0.04,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Пять лет военные наблюдают за мобилизацией",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 30,
+  "view": "zal_efir",
+  "dur": 8.7,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 8.7,
+   "sheets": [],
+   "text": "Вопрос без уклонения",
+   "say": "Почему одни годами не выходили с передовой, а другие прекрасно устроились?",
+   "author": "Виталий Ким",
+   "role": "министр по делам ветеранов",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 60,
+  "view": "sceny.tribuna",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 9.6,
+  "channel": "ПЛАНЕТА",
+  "watermark": "ПЛАНЕТА",
+  "cfg": {
+   "view": "tribuna",
+   "seconds": 9.6,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "После конфликта нужны рабочие руки",
+    "channel": "ПЛАНЕТА",
+    "watermark": "ПЛАНЕТА",
+    "dur": 9.6,
+    "role": "министр по делам ветеранов"
+   }
+  },
+  "kwargs": {
+   "text": "После конфликта нужны рабочие руки",
+   "channel": "ПЛАНЕТА",
+   "watermark": "ПЛАНЕТА",
+   "dur": 9.6,
+   "role": "министр по делам ветеранов"
+  }
+ },
+ {
+  "scene": 62,
+  "view": "vyrezka.gazeta",
+  "dur": 9.3,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "photo": "cards/photo/card_062.jpg",
+   "author": "Виталий Ким",
+   "role": "министр по делам ветеранов",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 63,
+  "view": "vyrezka.figura",
+  "dur": 9.1,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "photo": "cards/photo/card_063.jpg",
+   "author": "Виталий Ким",
+   "role": "министр по делам ветеранов",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 64,
+  "view": "zal_ekran",
+  "dur": 7.7,
+  "anim": 7.7,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 7.7,
+   "sheets": [],
+   "text": "Вопрос за дверями кабинета",
+   "say": "Кто вернётся с фронта, тот и спросит",
+   "author": "Виталий Ким",
+   "role": "министр по делам ветеранов",
+   "source": "интервью, ноябрь",
+   "watermark": "ПЛАНЕТА"
+  }
+ }
+]
