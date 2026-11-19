@@ -1,0 +1,879 @@
+[
+ {
+  "scene": 2,
+  "view": "sceny.prolog",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 9.6,
+  "channel": "ПЛАНЕТА",
+  "watermark": "ПЛАНЕТА",
+  "cfg": {
+   "view": "prolog",
+   "seconds": 9.6,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Мемуары без благодарности",
+    "channel": "ПЛАНЕТА",
+    "watermark": "ПЛАНЕТА",
+    "dur": 9.6
+   }
+  },
+  "kwargs": {
+   "text": "Мемуары без благодарности",
+   "channel": "ПЛАНЕТА",
+   "watermark": "ПЛАНЕТА",
+   "dur": 9.6
+  }
+ },
+ {
+  "scene": 3,
+  "view": "zal_slova",
+  "dur": 12.45,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 12.45,
+   "sheets": [],
+   "text": "Вашингтон отправлял оружие и миллиарды",
+   "na_polu": "БЛАГОДАРНОСТЬ",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 9,
+  "view": "film.film_single",
+  "dur": 11.2,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "photo": "cards/photo/card_009.jpg",
+   "title": "Уходящая администрация",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 17,
+  "view": "zal_g44",
+  "dur": 8.0,
+  "anim": 8.0,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 8.0,
+   "sheets": [],
+   "text": "Разговор о санкциях по кругу",
+   "value": "25",
+   "value_sub": "НОМЕР ПАКЕТА",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 21,
+  "view": "charts.waterfall",
+  "dur": 4.6,
+  "anim": 4.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "start": {
+    "label": "Начальная цена",
+    "value": 50.0
+   },
+   "steps": [
+    {
+     "label": "Война",
+     "value": 30.0
+    },
+    {
+     "label": "Новые армии",
+     "value": 20.0
+    }
+   ],
+   "end": {
+    "label": "Стало"
+   },
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 25,
+  "view": "devices.device_scene",
+  "dur": 8.9,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "content_path": "cards/photo/card_025.jpg",
+   "items": [
+    "Правило невмешательства",
+    "Применяется выборочно"
+   ],
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 26,
+  "view": "paper_typed",
+  "dur": 7.8,
+  "anim": 2.8,
+  "tail_zoom": 0.04,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Расследование ZDF о Deutsche Bank выглядит особенно пикантно",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 27,
+  "view": "sceny.pechat",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 8.2,
+  "channel": "ПЛАНЕТА",
+  "watermark": "ПЛАНЕТА",
+  "cfg": {
+   "view": "pechat",
+   "seconds": 8.2,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Нуланд приехала на Майдан с едой",
+    "channel": "ПЛАНЕТА",
+    "watermark": "ПЛАНЕТА",
+    "dur": 8.2,
+    "stamp": "утверждено"
+   }
+  },
+  "kwargs": {
+   "text": "Нуланд приехала на Майдан с едой",
+   "channel": "ПЛАНЕТА",
+   "watermark": "ПЛАНЕТА",
+   "dur": 8.2,
+   "stamp": "утверждено"
+  }
+ },
+ {
+  "scene": 30,
+  "view": "marker_serif",
+  "dur": 14.4,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Они выходили к людям и показывали, на чьей стороне находятся",
+   "accent": "на чьей стороне находятся",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 32,
+  "view": "zal_schetchik",
+  "dur": 10.8,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 10.8,
+   "sheets": [],
+   "text": "Номер пакета санкций растёт без конца",
+   "accent": "пакета",
+   "value": "325",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 33,
+  "view": "vyrezka.gazeta",
+  "dur": 8.8,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "photo": "cards/photo/card_033.jpg",
+   "author": "Илон Маск",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 34,
+  "view": "sceny.mehanizm",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 8.0,
+  "channel": "ПЛАНЕТА",
+  "watermark": "ПЛАНЕТА",
+  "cfg": {
+   "view": "mehanizm",
+   "seconds": 8.0,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Правило не зависит от паспорта",
+    "channel": "ПЛАНЕТА",
+    "watermark": "ПЛАНЕТА",
+    "dur": 8.0,
+    "pary": [
+     "Запад критикует Россию за вмешательство",
+     "Та же критика к себе не применяется",
+     "Маск предлагает проверить правило"
+    ]
+   }
+  },
+  "kwargs": {
+   "text": "Правило не зависит от паспорта",
+   "channel": "ПЛАНЕТА",
+   "watermark": "ПЛАНЕТА",
+   "dur": 8.0,
+   "pary": [
+    "Запад критикует Россию за вмешательство",
+    "Та же критика к себе не применяется",
+    "Маск предлагает проверить правило"
+   ]
+  }
+ },
+ {
+  "scene": 36,
+  "view": "zal_makety",
+  "dur": 8.9,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 8.9,
+   "sheets": [],
+   "text": "Он разделил две системы на карте",
+   "accent": "системы",
+   "makety": [
+    "сети=СПУТНИКИ",
+    "министерство=ПЕНТАГОН"
+   ],
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 37,
+  "view": "split",
+  "dur": 18.2,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Маск напоминает: его компания обеспечила Украине связь",
+   "accent": "Маск",
+   "photo": "cards/photo/card_037.jpg",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 39,
+  "view": "photo",
+  "dur": 13.6,
+  "anim": 13.6,
+  "tail_zoom": 0.0,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "watermark": "ПЛАНЕТА",
+   "photo": "cards/photo/card_039.jpg",
+   "title": "Спор о спутниках",
+   "lines": [
+    "Зеленский недоволен ограничениями",
+    "Спутники остаются под управлением США"
+   ]
+  }
+ },
+ {
+  "scene": 41,
+  "view": "sceny.lenta",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 6.0,
+  "channel": "ПЛАНЕТА",
+  "watermark": "ПЛАНЕТА",
+  "cfg": {
+   "view": "lenta",
+   "seconds": 6.0,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Связь появилась не по щелчку",
+    "channel": "ПЛАНЕТА",
+    "watermark": "ПЛАНЕТА",
+    "dur": 6.0,
+    "soobshcheniya": [
+     "Маск: связь не по щелчку Киева",
+     "Критически важная сеть названа"
+    ]
+   }
+  },
+  "kwargs": {
+   "text": "Связь появилась не по щелчку",
+   "channel": "ПЛАНЕТА",
+   "watermark": "ПЛАНЕТА",
+   "dur": 6.0,
+   "soobshcheniya": [
+    "Маск: связь не по щелчку Киева",
+    "Критически важная сеть названа"
+   ]
+  }
+ },
+ {
+  "scene": 42,
+  "view": "pull",
+  "dur": 5.4,
+  "anim": 2.6,
+  "tail_zoom": 0.05,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Киев снова требует отношения к себе как к центру решения",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 43,
+  "view": "charts.cartogram",
+  "dur": 14.2,
+  "anim": 14.2,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "data": [
+    "Германия"
+   ],
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 44,
+  "view": "zal_shkala",
+  "dur": 14.2,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 14.2,
+   "sheets": [],
+   "text": "Перевод в пользу Керимова",
+   "accent": "Перевод",
+   "value": "1,1",
+   "value_sub": "МЛРД ЕВРО",
+   "source": "расследование ZDF",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 45,
+  "view": "strike",
+  "dur": 11.4,
+  "anim": 3.0,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Он продолжал работать с клиентами высокого риска",
+   "struck": "продолжал работать",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 46,
+  "view": "charts.cartogram",
+  "dur": 10.5,
+  "anim": 10.5,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "data": [
+    "Швейцария",
+    "Люксембург"
+   ],
+   "mode": "bubble",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 47,
+  "view": "zal_kub",
+  "dur": 8.1,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 8.1,
+   "sheets": [],
+   "text": "Перевод в пользу Керимова",
+   "kick": "1,1 МЛРД ЕВРО",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 48,
+  "view": "sceny.repliki",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 6.4,
+  "channel": "ПЛАНЕТА",
+  "watermark": "ПЛАНЕТА",
+  "cfg": {
+   "view": "repliki",
+   "seconds": 6.4,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Музыка санкционных пакетов",
+    "channel": "ПЛАНЕТА",
+    "watermark": "ПЛАНЕТА",
+    "dur": 6.4,
+    "repliki_": [
+     "Пакет 25 — новое заявление",
+     "Пакет 35 — новое заявление",
+     "Пакет 325 — та же музыка",
+     "Итог — без изменений"
+    ]
+   }
+  },
+  "kwargs": {
+   "text": "Музыка санкционных пакетов",
+   "channel": "ПЛАНЕТА",
+   "watermark": "ПЛАНЕТА",
+   "dur": 6.4,
+   "repliki_": [
+    "Пакет 25 — новое заявление",
+    "Пакет 35 — новое заявление",
+    "Пакет 325 — та же музыка",
+    "Итог — без изменений"
+   ]
+  }
+ },
+ {
+  "scene": 49,
+  "view": "sceny.prohod",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 16.6,
+  "channel": "ПЛАНЕТА",
+  "watermark": "ПЛАНЕТА",
+  "cfg": {
+   "view": "prohod",
+   "seconds": 16.6,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Проход, которого не было",
+    "channel": "ПЛАНЕТА",
+    "watermark": "ПЛАНЕТА",
+    "dur": 16.6,
+    "tezisy": [
+     "Чиновники объявляют перекрытие",
+     "Банкиры изучают клиента и комиссию",
+     "В Люксембурге находится проход"
+    ]
+   }
+  },
+  "kwargs": {
+   "text": "Проход, которого не было",
+   "channel": "ПЛАНЕТА",
+   "watermark": "ПЛАНЕТА",
+   "dur": 16.6,
+   "tezisy": [
+    "Чиновники объявляют перекрытие",
+    "Банкиры изучают клиента и комиссию",
+    "В Люксембурге находится проход"
+   ]
+  }
+ },
+ {
+  "scene": 50,
+  "view": "charts.pie",
+  "dur": 6.2,
+  "anim": 6.2,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "segments": [
+    {
+     "label": "Возможности Европы",
+     "value": 40.0
+    },
+    {
+     "label": "Ценность активов",
+     "value": 60.0
+    }
+   ],
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 51,
+  "view": "charts.line",
+  "dur": 9.9,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "x_labels": [
+    "Заявление",
+    "Реальность",
+    "Итог"
+   ],
+   "series": [
+    {
+     "name": "",
+     "values": [
+      1.0,
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "source": "по открытым данным",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 52,
+  "view": "bars",
+  "dur": 9.9,
+  "anim": 9.9,
+  "tail_zoom": 0.0,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {},
+  "mode": "cli",
+  "script": "build_chart_bars.py",
+  "cfg": {
+   "title": "Куда уходят клиенты",
+   "caption": "",
+   "seconds": 9.9,
+   "bars": [
+    {
+     "label": "ШВЕЙЦАРИЯ",
+     "value": 0.6,
+     "color": "4A90E2"
+    },
+    {
+     "label": "ЛЮКСЕМБУРГ",
+     "value": 0.4,
+     "color": "48BB78"
+    }
+   ]
+  }
+ },
+ {
+  "scene": 53,
+  "view": "split",
+  "dur": 13.1,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Джей Ди Вэнс называл Трампа мошенником",
+   "accent": "Джей Ди Вэнс",
+   "photo": "cards/photo/card_053.jpg",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 56,
+  "view": "cinematic.depth_of_field",
+  "dur": 10.8,
+  "anim": 10.8,
+  "tail_zoom": 0.0,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "photo": "cards/photo/card_056.jpg",
+   "watermark": "ПЛАНЕТА"
+  },
+  "mode": "frame"
+ },
+ {
+  "scene": 57,
+  "view": "zal_efir",
+  "dur": 8.7,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 8.7,
+   "sheets": [],
+   "text": "Вэнс держит карты на будущее",
+   "say": "В какую сторону ни повернётся партия, у Вэнса уже готова фотография для альбома",
+   "author": "от автора",
+   "role": "вице-президент США",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 58,
+  "view": "poster.poster",
+  "dur": 13.1,
+  "anim": 13.1,
+  "tail_zoom": 0.0,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "title": "Карьера Вэнса",
+   "hero_photo": "cards/photo/card_058.jpg",
+   "bottom": "Бывший критик стал возможным наследником",
+   "facts": [
+    {
+     "label": "2016",
+     "value": "критик Трампа"
+    },
+    {
+     "label": "сенатор",
+     "value": "да"
+    },
+    {
+     "label": "вице-президент",
+     "value": "да"
+    }
+   ],
+   "watermark": "ПЛАНЕТА"
+  },
+  "mode": "frame"
+ },
+ {
+  "scene": 59,
+  "view": "slider",
+  "dur": 3.7,
+  "anim": 3.7,
+  "tail_zoom": 0.0,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {},
+  "mode": "cli",
+  "script": "build_chart_slider.py",
+  "cfg": {
+   "title": "",
+   "min": 0.0,
+   "max": 100.0,
+   "low": 0.0,
+   "high": 100.0,
+   "marker_value": 50.0,
+   "marker_display": "50",
+   "seconds": 3.7,
+   "range_label": "РАЗБРОС ОЦЕНОК",
+   "caption": "",
+   "source": ""
+  }
+ },
+ {
+  "scene": 60,
+  "view": "zal_g48",
+  "dur": 15.5,
+  "anim": 15.5,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 15.5,
+   "sheets": [],
+   "text": "Выпады Вэнса станут удостоверением",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 61,
+  "view": "charts.slope",
+  "dur": 8.7,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "items": [
+    {
+     "label": "Лозунг против практики",
+     "from": 90.0,
+     "to": 20.0
+    },
+    {
+     "label": "Ожидание против реальности",
+     "from": 80.0,
+     "to": 30.0
+    }
+   ],
+   "source": "расследование ZDF",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 62,
+  "view": "cinematic.evidence_wall",
+  "dur": 8.5,
+  "anim": 8.5,
+  "tail_zoom": 0.0,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "shots": [
+    [
+     "cards/photo/card_062.jpg",
+     240,
+     380,
+     -4,
+     "Байден пишет мемуары"
+    ],
+    [
+     "cards/photo/card_062_2.jpg",
+     800,
+     380,
+     3,
+     "Маск критикует обе стороны"
+    ],
+    [
+     "cards/photo/card_062_3.jpg",
+     1360,
+     380,
+     -2,
+     "Вэнс примеряет наследство"
+    ]
+   ],
+   "title": "Кто кому предъявляет счёт",
+   "watermark": "ПЛАНЕТА"
+  },
+  "mode": "frame"
+ },
+ {
+  "scene": 64,
+  "view": "torn_split.torn_split",
+  "dur": 14.0,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "a_path": "cards/photo/card_064.jpg",
+   "b_path": "cards/photo/card_064_2.jpg",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 65,
+  "view": "sceny.tribuna",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 7.3,
+  "channel": "ПЛАНЕТА",
+  "watermark": "ПЛАНЕТА",
+  "cfg": {
+   "view": "tribuna",
+   "seconds": 7.3,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Один требует, другой проверяет, третий ограничивает доступ",
+    "channel": "ПЛАНЕТА",
+    "watermark": "ПЛАНЕТА",
+    "dur": 7.3,
+    "role": "сменяющиеся покровители"
+   }
+  },
+  "kwargs": {
+   "text": "Один требует, другой проверяет, третий ограничивает доступ",
+   "channel": "ПЛАНЕТА",
+   "watermark": "ПЛАНЕТА",
+   "dur": 7.3,
+   "role": "сменяющиеся покровители"
+  }
+ },
+ {
+  "scene": 66,
+  "view": "sceny.relsy",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 16.0,
+  "channel": "ПЛАНЕТА",
+  "watermark": "ПЛАНЕТА",
+  "cfg": {
+   "view": "relsy",
+   "seconds": 16.0,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Каждый хозяин диктует свои условия",
+    "channel": "ПЛАНЕТА",
+    "watermark": "ПЛАНЕТА",
+    "dur": 16.0,
+    "sobytiya": [
+     "Байден требует благодарности",
+     "Трамп проверяет карты",
+     "Маск ограничивает доступ"
+    ]
+   }
+  },
+  "kwargs": {
+   "text": "Каждый хозяин диктует свои условия",
+   "channel": "ПЛАНЕТА",
+   "watermark": "ПЛАНЕТА",
+   "dur": 16.0,
+   "sobytiya": [
+    "Байден требует благодарности",
+    "Трамп проверяет карты",
+    "Маск ограничивает доступ"
+   ]
+  }
+ },
+ {
+  "scene": 67,
+  "view": "sceny.kreslo",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 11.56,
+  "channel": "ПЛАНЕТА",
+  "watermark": "ПЛАНЕТА",
+  "cfg": {
+   "view": "kreslo",
+   "seconds": 11.56,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Киев заходит, а кресло уже убрали",
+    "channel": "ПЛАНЕТА",
+    "watermark": "ПЛАНЕТА",
+    "dur": 11.56,
+    "role": "место Украины"
+   }
+  },
+  "kwargs": {
+   "text": "Киев заходит, а кресло уже убрали",
+   "channel": "ПЛАНЕТА",
+   "watermark": "ПЛАНЕТА",
+   "dur": 11.56,
+   "role": "место Украины"
+  }
+ }
+]
