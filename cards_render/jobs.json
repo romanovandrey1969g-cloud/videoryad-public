@@ -1,0 +1,114 @@
+[
+ {
+  "scene": 23,
+  "view": "zal",
+  "dur": 18.4,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Майдан 2014 — государственный переворот",
+   "words": [
+    "ФЕЙК",
+    "ПРОВАЛ"
+   ],
+   "sheets": [
+    "Обвинение Маска",
+    "Госдеп молчит",
+    "Пророссийский президент",
+    "США причастны",
+    "Реакция Киева",
+    "Споры в сети"
+   ],
+   "channel": "ПЛАНЕТА",
+   "dur": 18.4,
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 43,
+  "view": "zal_slova",
+  "dur": 14.2,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 14.2,
+   "sheets": [],
+   "text": "Кто принимает решения?",
+   "na_polu": "НЕМЕЦКИЙ БАНК",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 44,
+  "view": "sceny.lenta",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 14.2,
+  "channel": "ПЛАНЕТА",
+  "watermark": "ПЛАНЕТА",
+  "cfg": {
+   "view": "lenta",
+   "seconds": 14.2,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Расследование Deutsche Bank",
+    "channel": "ПЛАНЕТА",
+    "watermark": "ПЛАНЕТА",
+    "dur": 14.2,
+    "soobshcheniya": [
+     "ZDF: расследование по Deutsche Bank",
+     "Банк работал с клиентами высокого риска"
+    ]
+   }
+  },
+  "kwargs": {
+   "text": "Расследование Deutsche Bank",
+   "channel": "ПЛАНЕТА",
+   "watermark": "ПЛАНЕТА",
+   "dur": 14.2,
+   "soobshcheniya": [
+    "ZDF: расследование по Deutsche Bank",
+    "Банк работал с клиентами высокого риска"
+   ]
+  }
+ },
+ {
+  "scene": 46,
+  "view": "charts.cartogram",
+  "dur": 10.5,
+  "anim": 10.5,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "data": [
+    "Швейцария",
+    "Люксембург"
+   ],
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 47,
+  "view": "zal_g18",
+  "dur": 8.1,
+  "anim": 8.1,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 8.1,
+   "sheets": [],
+   "text": "Перевод в пользу Керимова",
+   "value": "1,1 МЛРД ЕВРО",
+   "watermark": "ПЛАНЕТА"
+  }
+ }
+]
