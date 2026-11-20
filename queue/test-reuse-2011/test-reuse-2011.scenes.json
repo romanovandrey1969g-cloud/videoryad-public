@@ -1,0 +1,18 @@
+{
+ "scenes": [
+  {
+   "id": 1,
+   "text": "",
+   "source": "web_search",
+   "source_query": "Москва Кремль набережная панорама",
+   "duration_sec": 5
+  },
+  {
+   "id": 2,
+   "text": "",
+   "source": "web_search",
+   "source_query": "Санкт-Петербург Зимний дворец фасад",
+   "duration_sec": 5
+  }
+ ]
+}
