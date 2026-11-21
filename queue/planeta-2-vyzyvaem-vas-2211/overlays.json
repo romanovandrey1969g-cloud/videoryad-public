@@ -1,0 +1,110 @@
+{
+  "6": {
+    "text": {
+      "words": "НЕ ТЕ ГОСТИ",
+      "style": "mask_plate",
+      "pos": "ml",
+      "at": 0.35,
+      "scale": 2.0
+    }
+  },
+  "16": {
+    "text": {
+      "words": "СЛУХ ПРОВЕРЯЮТ",
+      "style": "mask_plate",
+      "pos": "mr",
+      "at": 0.35,
+      "scale": 2.0
+    }
+  },
+  "23": {
+    "text": {
+      "words": "ЧТО УСЛЫШАТ",
+      "style": "mask_plate",
+      "pos": "tc",
+      "at": 0.35,
+      "scale": 2.0
+    }
+  },
+  "31": {
+    "text": {
+      "words": "СВОЯ ЧАСТЬ",
+      "style": "mask_plate",
+      "pos": "ml",
+      "at": 0.35,
+      "scale": 2.0
+    }
+  },
+  "39": {
+    "text": {
+      "words": "НЕ ФОТОСЕССИЯ",
+      "style": "mask_plate",
+      "pos": "mr",
+      "at": 0.35,
+      "scale": 2.0
+    }
+  },
+  "47": {
+    "text": {
+      "words": "КАК НАТО",
+      "style": "mask_plate",
+      "pos": "tc",
+      "at": 0.35,
+      "scale": 2.0
+    }
+  },
+  "55": {
+    "text": {
+      "words": "ЦЕПНАЯ РЕАКЦИЯ",
+      "style": "mask_plate",
+      "pos": "ml",
+      "at": 0.35,
+      "scale": 2.0
+    }
+  },
+  "63": {
+    "text": {
+      "words": "ДРУГОЙ ВОПРОС",
+      "style": "mask_plate",
+      "pos": "mr",
+      "at": 0.35,
+      "scale": 2.0
+    }
+  },
+  "70": {
+    "text": {
+      "words": "ДРУГОЙ СМЫСЛ",
+      "style": "mask_plate",
+      "pos": "tc",
+      "at": 0.35,
+      "scale": 2.0
+    }
+  },
+  "77": {
+    "text": {
+      "words": "ДВОЙНАЯ ЗАДАЧА",
+      "style": "mask_plate",
+      "pos": "ml",
+      "at": 0.35,
+      "scale": 2.0
+    }
+  },
+  "85": {
+    "text": {
+      "words": "ПРЕДЕЛ ЗАВИСИМОСТИ",
+      "style": "mask_plate",
+      "pos": "mr",
+      "at": 0.35,
+      "scale": 2.0
+    }
+  },
+  "95": {
+    "text": {
+      "words": "ЧЕЙ ПОРОГ",
+      "style": "mask_plate",
+      "pos": "tc",
+      "at": 0.35,
+      "scale": 2.0
+    }
+  }
+}
