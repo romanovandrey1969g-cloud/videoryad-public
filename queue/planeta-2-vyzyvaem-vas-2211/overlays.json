@@ -1,0 +1,206 @@
+{
+  "6": {
+    "text": {
+      "words": "НЕ ТЕ ГОСТИ",
+      "style": "mask_plate",
+      "pos": "ml",
+      "at": 0.35,
+      "scale": 2.0
+    }
+  },
+  "16": {
+    "text": {
+      "words": "СЛУХ ПРОВЕРЯЮТ",
+      "style": "mask_plate",
+      "pos": "mr",
+      "at": 0.35,
+      "scale": 2.0
+    }
+  },
+  "23": {
+    "text": {
+      "words": "ЧТО УСЛЫШАТ",
+      "style": "mask_plate",
+      "pos": "tc",
+      "at": 0.35,
+      "scale": 2.0
+    }
+  },
+  "31": {
+    "text": {
+      "words": "СВОЯ ЧАСТЬ",
+      "style": "mask_plate",
+      "pos": "ml",
+      "at": 0.35,
+      "scale": 2.0
+    }
+  },
+  "39": {
+    "text": {
+      "words": "НЕ ФОТОСЕССИЯ",
+      "style": "mask_plate",
+      "pos": "mr",
+      "at": 0.35,
+      "scale": 2.0
+    }
+  },
+  "47": {
+    "text": {
+      "words": "КАК НАТО",
+      "style": "mask_plate",
+      "pos": "tc",
+      "at": 0.35,
+      "scale": 2.0
+    }
+  },
+  "55": {
+    "text": {
+      "words": "ЦЕПНАЯ РЕАКЦИЯ",
+      "style": "mask_plate",
+      "pos": "ml",
+      "at": 0.35,
+      "scale": 2.0
+    }
+  },
+  "63": {
+    "text": {
+      "words": "ДРУГОЙ ВОПРОС",
+      "style": "mask_plate",
+      "pos": "mr",
+      "at": 0.35,
+      "scale": 2.0
+    }
+  },
+  "70": {
+    "text": {
+      "words": "ДРУГОЙ СМЫСЛ",
+      "style": "mask_plate",
+      "pos": "tc",
+      "at": 0.35,
+      "scale": 2.0
+    }
+  },
+  "77": {
+    "text": {
+      "words": "ДВОЙНАЯ ЗАДАЧА",
+      "style": "mask_plate",
+      "pos": "ml",
+      "at": 0.35,
+      "scale": 2.0
+    }
+  },
+  "85": {
+    "text": {
+      "words": "ПРЕДЕЛ ЗАВИСИМОСТИ",
+      "style": "mask_plate",
+      "pos": "mr",
+      "at": 0.35,
+      "scale": 2.0
+    }
+  },
+  "95": {
+    "text": {
+      "words": "ЧЕЙ ПОРОГ",
+      "style": "mask_plate",
+      "pos": "tc",
+      "at": 0.35,
+      "scale": 2.0
+    }
+  },
+  "11": {
+    "photo": "overlays/scene_011.jpg",
+    "sound": "whoosh",
+    "at": 0.4,
+    "shape": "rect",
+    "pos": "left-top",
+    "scale": 1.0
+  },
+  "19": {
+    "photo": "overlays/scene_019.jpg",
+    "sound": "pop",
+    "at": 0.4,
+    "shape": "rect",
+    "pos": "right-middle",
+    "scale": 1.0
+  },
+  "27": {
+    "photo": "overlays/scene_027.jpg",
+    "sound": "ding",
+    "at": 0.4,
+    "shape": "rect",
+    "pos": "left-bottom",
+    "scale": 1.0
+  },
+  "36": {
+    "photo": "overlays/scene_036.jpg",
+    "sound": "zatvor",
+    "at": 0.4,
+    "shape": "rect",
+    "pos": "right-top",
+    "scale": 1.0
+  },
+  "44": {
+    "photo": "overlays/scene_044.jpg",
+    "sound": "whoosh",
+    "at": 0.4,
+    "shape": "rect",
+    "pos": "left-middle",
+    "scale": 1.0
+  },
+  "52": {
+    "photo": "overlays/scene_052.jpg",
+    "sound": "pop",
+    "at": 0.4,
+    "shape": "rect",
+    "pos": "right-bottom",
+    "scale": 1.0
+  },
+  "60": {
+    "photo": "overlays/scene_060.jpg",
+    "sound": "ding",
+    "at": 0.4,
+    "shape": "rect",
+    "pos": "left-top",
+    "scale": 1.0
+  },
+  "68": {
+    "photo": "overlays/scene_068.jpg",
+    "sound": "zatvor",
+    "at": 0.4,
+    "shape": "rect",
+    "pos": "right-middle",
+    "scale": 1.0
+  },
+  "75": {
+    "photo": "overlays/scene_075.jpg",
+    "sound": "whoosh",
+    "at": 0.4,
+    "shape": "rect",
+    "pos": "left-bottom",
+    "scale": 1.0
+  },
+  "82": {
+    "photo": "overlays/scene_082.jpg",
+    "sound": "pop",
+    "at": 0.4,
+    "shape": "rect",
+    "pos": "right-top",
+    "scale": 1.0
+  },
+  "90": {
+    "photo": "overlays/scene_090.jpg",
+    "sound": "ding",
+    "at": 0.4,
+    "shape": "rect",
+    "pos": "left-middle",
+    "scale": 1.0
+  },
+  "97": {
+    "photo": "overlays/scene_097.jpg",
+    "sound": "zatvor",
+    "at": 0.4,
+    "shape": "rect",
+    "pos": "right-bottom",
+    "scale": 1.0
+  }
+}
