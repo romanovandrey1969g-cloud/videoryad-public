@@ -1,0 +1,45 @@
+[
+ {
+  "scene": 18,
+  "view": "duel",
+  "dur": 13.9,
+  "anim": 3.2,
+  "tail_zoom": 0.035,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "top": {
+    "who": "",
+    "text": "Стороны хотят понять друг друга",
+    "accent": null,
+    "source": ""
+   },
+   "bottom": {
+    "who": "",
+    "text": "Им приходится открыть рот",
+    "accent": null,
+    "source": ""
+   },
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 42,
+  "view": "zal_g01",
+  "dur": 12.62,
+  "anim": 12.62,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 12.62,
+   "sheets": [
+    "начало переговоров",
+    "гарантии НАТО"
+   ],
+   "text": "Европа узнаёт цену разговора",
+   "watermark": "ПЛАНЕТА"
+  }
+ }
+]
