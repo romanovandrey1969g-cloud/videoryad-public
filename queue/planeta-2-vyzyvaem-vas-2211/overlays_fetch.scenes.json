@@ -1,0 +1,74 @@
+{
+ "scenes": [
+  {
+   "id": 19,
+   "duration_sec": 3.0,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Борис Писториус Бундестаг кафедра 2026"
+  },
+  {
+   "id": 27,
+   "duration_sec": 3.0,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "МИД России Смоленская площадь вход"
+  },
+  {
+   "id": 44,
+   "duration_sec": 3.0,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "МИД России Рябков переговоры"
+  },
+  {
+   "id": 52,
+   "duration_sec": 3.0,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "военный завод Rheinmetall Германия 2026"
+  },
+  {
+   "id": 60,
+   "duration_sec": 3.0,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Капитолий Вашингтон здание фасад"
+  },
+  {
+   "id": 75,
+   "duration_sec": 3.0,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Борис Писториус Бундесвер пресс-конференция"
+  },
+  {
+   "id": 82,
+   "duration_sec": 3.0,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Зеленский видеообращение Киев 2026"
+  },
+  {
+   "id": 90,
+   "duration_sec": 3.0,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Кэ д'Орсе МИД Франции заявление"
+  },
+  {
+   "id": 97,
+   "duration_sec": 3.0,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Совет ЕС Брюссель зал заседаний"
+  },
+  {
+   "id": 1,
+   "duration_sec": 3.0,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Московский Кремль купола"
+  }
+ ]
+}
