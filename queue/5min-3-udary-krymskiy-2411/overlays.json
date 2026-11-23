@@ -1,0 +1,511 @@
+{
+  "anchor": "top",
+  "3": {
+    "text": {
+      "words": "ПОЧТИ ДВЕ НЕДЕЛИ",
+      "color": "yellow",
+      "pos": "tc",
+      "font": "default",
+      "sound": "zatvor",
+      "at": 0.5,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "4": {
+    "text": {
+      "words": "СНОВА УГРОЗЫ",
+      "color": "white",
+      "pos": "tl",
+      "font": "default",
+      "sound": "whoosh",
+      "at": 0.5,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "9": {
+    "text": {
+      "words": "МОСТ НЕ УСТОИТ",
+      "color": "red",
+      "pos": "mc",
+      "font": "default",
+      "sound": "whoosh",
+      "at": 0.5,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "10": {
+    "text": {
+      "words": "КРЫМ — ЗАКОННАЯ ЦЕЛЬ",
+      "color": "orange",
+      "pos": "tr",
+      "font": "default",
+      "sound": "pop",
+      "at": 0.5,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "11": {
+    "text": {
+      "words": "УДАР ЗА УДАР",
+      "color": "green",
+      "pos": "ml",
+      "font": "default",
+      "sound": "mashinka",
+      "at": 0.5,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "13": {
+    "text": {
+      "words": "ГЕНШТАБ ОБСУЖДАЕТ",
+      "color": "yellow",
+      "pos": "mr",
+      "font": "default",
+      "sound": "zatvor",
+      "at": 0.5,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "14": {
+    "text": {
+      "words": "СКОЛЬКО ВРЕМЕНИ ЕСТЬ",
+      "color": "white",
+      "pos": "tc",
+      "font": "default",
+      "sound": "whoosh",
+      "at": 0.5,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "16": {
+    "text": {
+      "words": "ДРУГИЕ МОСТЫ",
+      "color": "red",
+      "pos": "tl",
+      "font": "default",
+      "sound": "mashinka",
+      "at": 0.5,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "20": {
+    "text": {
+      "words": "РАСЧЁТ, А НЕ УГРОЗА",
+      "color": "orange",
+      "pos": "mc",
+      "font": "default",
+      "sound": "pop",
+      "at": 0.5,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "21": {
+    "text": {
+      "words": "КИЕВ ВЫДЕРЖИТ",
+      "color": "green",
+      "pos": "tr",
+      "font": "default",
+      "sound": "mashinka",
+      "at": 0.5,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "22": {
+    "text": {
+      "words": "ГАРАНТИИ ПОЛУЧЕНЫ",
+      "color": "yellow",
+      "pos": "ml",
+      "font": "default",
+      "sound": "pshik",
+      "at": 0.5,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "24": {
+    "text": {
+      "words": "ИНОСТРАННЫЕ СПЕЦИАЛИСТЫ",
+      "color": "yellow",
+      "pos": "mr",
+      "font": "default",
+      "sound": "whoosh",
+      "at": 0.5,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "26": {
+    "text": {
+      "words": "ИМЁН НЕ НАЗВАЛИ",
+      "color": "white",
+      "pos": "tc",
+      "font": "default",
+      "sound": "mashinka",
+      "at": 0.5,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "27": {
+    "text": {
+      "words": "148 РАЙОНОВ",
+      "color": "red",
+      "pos": "tl",
+      "font": "default",
+      "sound": "pshik",
+      "at": 0.5,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "29": {
+    "text": {
+      "words": "УДАР ПО ЛЬВОВУ",
+      "color": "orange",
+      "pos": "mc",
+      "font": "default",
+      "sound": "whoosh",
+      "at": 0.5,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "30": {
+    "text": {
+      "words": "РАКЕТЫ ФЛАМИНГО",
+      "color": "green",
+      "pos": "tr",
+      "font": "default",
+      "sound": "pop",
+      "at": 0.5,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "31": {
+    "text": {
+      "words": "ЦЕЛЬ — ЗАВОД",
+      "color": "yellow",
+      "pos": "ml",
+      "font": "default",
+      "sound": "mashinka",
+      "at": 0.5,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "34": {
+    "text": {
+      "words": "КОРВЕТ МЕРКУРИЙ",
+      "color": "yellow",
+      "pos": "tr",
+      "font": "default",
+      "sound": "whoosh",
+      "at": 0.5,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "39": {
+    "text": {
+      "words": "ДВАДЦАТЬ БЕСПИЛОТНИКОВ",
+      "color": "white",
+      "pos": "tc",
+      "font": "default",
+      "sound": "whoosh",
+      "at": 0.5,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "40": {
+    "text": {
+      "words": "ВАШИНГТОН СЛЕДИТ",
+      "color": "red",
+      "pos": "ml",
+      "font": "default",
+      "sound": "pop",
+      "at": 0.5,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "42": {
+    "text": {
+      "words": "ЗАВОД В БРИТАНИИ",
+      "color": "orange",
+      "pos": "mc",
+      "font": "default",
+      "sound": "pshik",
+      "at": 0.5,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "45": {
+    "text": {
+      "words": "ПОСТАВЩИК — КИТАЙ",
+      "color": "green",
+      "pos": "tr",
+      "font": "default",
+      "sound": "pop",
+      "at": 0.5,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "48": {
+    "text": {
+      "words": "ЦЕНА РАСТЁТ",
+      "color": "yellow",
+      "pos": "ml",
+      "font": "default",
+      "sound": "zatvor",
+      "at": 0.5,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "51": {
+    "text": {
+      "words": "МОЛНИИ ПРОТИВ ГЛУШЕНИЯ",
+      "color": "yellow",
+      "pos": "tc",
+      "font": "default",
+      "sound": "mashinka",
+      "at": 0.5,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "52": {
+    "text": {
+      "words": "БЕЗ РАДИОКАНАЛА",
+      "color": "white",
+      "pos": "mc",
+      "font": "default",
+      "sound": "pshik",
+      "at": 0.5,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "57": {
+    "text": {
+      "words": "ОПЕРАЦИЯ ВЕЛЕС",
+      "color": "red",
+      "pos": "tl",
+      "font": "default",
+      "sound": "pshik",
+      "at": 0.5,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "65": {
+    "text": {
+      "words": "ВТОРОЙ ЗАПУСК",
+      "color": "orange",
+      "pos": "mc",
+      "font": "default",
+      "sound": "pop",
+      "at": 0.5,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "66": {
+    "text": {
+      "words": "ДО КОНЦА ГОДА",
+      "color": "green",
+      "pos": "tr",
+      "font": "default",
+      "sound": "mashinka",
+      "at": 0.5,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "75": {
+    "text": {
+      "words": "ЛИНИЯ НЕ МЕНЯЕТСЯ",
+      "color": "yellow",
+      "pos": "ml",
+      "font": "default",
+      "sound": "pop",
+      "at": 0.5,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "80": {
+    "text": {
+      "words": "ЛОНДОН СТРОИТ ДРОНЫ",
+      "color": "yellow",
+      "pos": "mr",
+      "font": "default",
+      "sound": "pop",
+      "at": 0.5,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "81": {
+    "text": {
+      "words": "УЧАСТИЕ СОКРАЩАЮТ",
+      "color": "white",
+      "pos": "tc",
+      "font": "default",
+      "sound": "mashinka",
+      "at": 0.5,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "82": {
+    "text": {
+      "words": "ЧЕТЫРЕ ИМЕНИ",
+      "color": "red",
+      "pos": "mc",
+      "font": "default",
+      "sound": "pshik",
+      "at": 0.5,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "89": {
+    "text": {
+      "words": "ДЕНЬ ДОСТОИНСТВА",
+      "color": "orange",
+      "pos": "tc",
+      "font": "default",
+      "sound": "whoosh",
+      "at": 0.5,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "91": {
+    "text": {
+      "words": "НЕ ЗРЯ",
+      "color": "green",
+      "pos": "tr",
+      "font": "default",
+      "sound": "mashinka",
+      "at": 0.5,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "6": {
+    "photo": "overlays/scene_006.jpg",
+    "sound": "pop",
+    "at": 2.2,
+    "shape": "rect",
+    "scale": 1.0,
+    "style": "up-left",
+    "approved": true,
+    "dash_ok": true
+  },
+  "12": {
+    "photo": "overlays/scene_012.jpg",
+    "sound": "whoosh",
+    "at": 2.4,
+    "shape": "rect",
+    "scale": 1.2,
+    "style": "up-right",
+    "approved": true,
+    "dash_ok": true
+  },
+  "19": {
+    "photo": "overlays/scene_019.jpg",
+    "sound": "ding",
+    "at": 2.6,
+    "shape": "circle",
+    "scale": 1.0,
+    "style": "up-right",
+    "approved": true,
+    "dash_ok": true
+  },
+  "28": {
+    "photo": "overlays/scene_028.jpg",
+    "sound": "pop",
+    "at": 2.8,
+    "shape": "rect",
+    "scale": 1.0,
+    "style": "right",
+    "approved": true,
+    "dash_ok": true
+  },
+  "33": {
+    "photo": "overlays/scene_033.jpg",
+    "sound": "whoosh",
+    "at": 3.0,
+    "shape": "rect",
+    "scale": 1.0,
+    "style": "up-right",
+    "approved": true,
+    "dash_ok": true
+  },
+  "41": {
+    "photo": "overlays/scene_041.jpg",
+    "sound": "ding",
+    "at": 3.2,
+    "shape": "circle",
+    "scale": 1.2,
+    "style": "up-left",
+    "approved": true,
+    "dash_ok": true
+  },
+  "49": {
+    "photo": "overlays/scene_049.jpg",
+    "sound": "pop",
+    "at": 3.4,
+    "shape": "rect",
+    "scale": 1.0,
+    "style": "right",
+    "approved": true,
+    "dash_ok": true
+  },
+  "58": {
+    "photo": "overlays/scene_058.jpg",
+    "sound": "whoosh",
+    "at": 3.6,
+    "shape": "rect",
+    "scale": 1.0,
+    "style": "left",
+    "approved": true,
+    "dash_ok": true
+  },
+  "76": {
+    "photo": "overlays/scene_076.jpg",
+    "sound": "ding",
+    "at": 3.8,
+    "shape": "circle",
+    "scale": 1.0,
+    "style": "up-left",
+    "approved": true,
+    "dash_ok": true
+  },
+  "85": {
+    "photo": "overlays/scene_085.jpg",
+    "sound": "pop",
+    "at": 4.0,
+    "shape": "rect",
+    "scale": 1.2,
+    "style": "right",
+    "approved": true,
+    "dash_ok": true
+  }
+}
