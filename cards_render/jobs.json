@@ -1,0 +1,1312 @@
+[
+ {
+  "scene": 3,
+  "view": "zal_g01",
+  "dur": 12.4,
+  "anim": 12.4,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 12.4,
+   "sheets": [],
+   "text": "Кто пообещал ему безопасность?",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 4,
+  "view": "vyrezka.gazeta",
+  "dur": 7.5,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "photo": "cards/photo/card_004.jpg",
+   "author": "Владимир Зеленский",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 9,
+  "view": "duel",
+  "dur": 7.7,
+  "anim": 3.2,
+  "tail_zoom": 0.035,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "top": {
+    "who": "",
+    "text": "Украина обещает новые удары по мостам",
+    "accent": null,
+    "source": ""
+   },
+   "bottom": {
+    "who": "",
+    "text": "Москва: ответ будет намного тяжелее",
+    "accent": null,
+    "source": ""
+   },
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 11,
+  "view": "sceny.mehanizm",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 13.3,
+  "channel": "ПЛАНЕТА",
+  "watermark": "ПЛАНЕТА",
+  "cfg": {
+   "view": "mehanizm",
+   "seconds": 13.3,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Мосты ломаем. Срок назначаем",
+    "channel": "ПЛАНЕТА",
+    "watermark": "ПЛАНЕТА",
+    "dur": 13.3,
+    "pary": [
+     "Россия>мосты Украины",
+     "Украина>мосты России"
+    ]
+   }
+  },
+  "kwargs": {
+   "text": "Мосты ломаем. Срок назначаем",
+   "channel": "ПЛАНЕТА",
+   "watermark": "ПЛАНЕТА",
+   "dur": 13.3,
+   "pary": [
+    "Россия>мосты Украины",
+    "Украина>мосты России"
+   ]
+  }
+ },
+ {
+  "scene": 12,
+  "view": "charts.cartogram",
+  "dur": 12.0,
+  "anim": 12.0,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "data": [
+    "Украина",
+    "Россия"
+   ],
+   "accent": [
+    "Украина"
+   ],
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 14,
+  "view": "sceny.globus_map",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 12.1,
+  "channel": "ПЛАНЕТА",
+  "watermark": "ПЛАНЕТА",
+  "cfg": {
+   "view": "globus",
+   "seconds": 12.1,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Любой объезд требует времени и топлива",
+    "channel": "ПЛАНЕТА",
+    "watermark": "ПЛАНЕТА",
+    "dur": 12.1,
+    "region": "Украина"
+   }
+  },
+  "kwargs": {
+   "text": "Любой объезд требует времени и топлива",
+   "channel": "ПЛАНЕТА",
+   "watermark": "ПЛАНЕТА",
+   "dur": 12.1,
+   "region": "Украина"
+  }
+ },
+ {
+  "scene": 17,
+  "view": "sceny.prolog",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 4.3,
+  "channel": "ПЛАНЕТА",
+  "watermark": "ПЛАНЕТА",
+  "cfg": {
+   "view": "prolog",
+   "seconds": 4.3,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Минобороны отчиталось об ударе",
+    "channel": "ПЛАНЕТА",
+    "watermark": "ПЛАНЕТА",
+    "dur": 4.3
+   }
+  },
+  "kwargs": {
+   "text": "Минобороны отчиталось об ударе",
+   "channel": "ПЛАНЕТА",
+   "watermark": "ПЛАНЕТА",
+   "dur": 4.3
+  }
+ },
+ {
+  "scene": 18,
+  "view": "bars",
+  "dur": 15.2,
+  "anim": 15.2,
+  "tail_zoom": 0.0,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {},
+  "mode": "cli",
+  "script": "build_chart_bars.py",
+  "cfg": {
+   "title": "Цена кабеля выросла в разы",
+   "caption": "",
+   "seconds": 15.2,
+   "bars": [
+    {
+     "label": "ВЕСНОЙ",
+     "value": 0.12,
+     "color": "4A90E2"
+    },
+    {
+     "label": "СЕЙЧАС",
+     "value": 0.88,
+     "color": "48BB78"
+    }
+   ]
+  }
+ },
+ {
+  "scene": 19,
+  "view": "zal_slova",
+  "dur": 14.7,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 14.7,
+   "sheets": [],
+   "text": "Кто решает, кто выполняет",
+   "na_polu": "РЕШАЮТ",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 20,
+  "view": "cinematic.evidence_wall",
+  "dur": 5.1,
+  "anim": 5.1,
+  "tail_zoom": 0.0,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "shots": [
+    [
+     "cards/photo/card_020.jpg",
+     240,
+     380,
+     -4,
+     "объект удара"
+    ],
+    [
+     "cards/photo/card_020_2.jpg",
+     800,
+     380,
+     3,
+     "техника на месте"
+    ]
+   ],
+   "title": "Что известно об ударе",
+   "watermark": "ПЛАНЕТА"
+  },
+  "mode": "frame"
+ },
+ {
+  "scene": 21,
+  "view": "zal_ekran",
+  "dur": 3.5,
+  "anim": 3.5,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 3.5,
+   "sheets": [
+    "СВОДКА УДАРОВ",
+    "ПРЯМОЙ ЭФИР"
+   ],
+   "text": "Минобороны доложило об ударе",
+   "say": "Там собрались те, кто определяет военные задачи и выпуск вооружений",
+   "author": "Министерство обороны России",
+   "role": "представитель МО России",
+   "source": "брифинг Минобороны России",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 23,
+  "view": "zal_makety",
+  "dur": 5.8,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 5.8,
+   "sheets": [],
+   "text": "148 районов под наблюдением",
+   "makety": [
+    "ракета=ОБЪЕКТЫ"
+   ],
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 25,
+  "view": "charts.line",
+  "dur": 6.1,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "x_labels": [
+    "2022 авария",
+    "2024 неудача",
+    "2026 успех"
+   ],
+   "series": [
+    {
+     "name": "",
+     "values": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ],
+   "source": "открытые данные о пусках",
+   "sobytiya": true,
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 30,
+  "view": "zal_g48",
+  "dur": 4.8,
+  "anim": 4.8,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 4.8,
+   "sheets": [],
+   "text": "Тем временем — Северная Африка",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 33,
+  "view": "film.film_strip",
+  "dur": 11.0,
+  "anim": 11.0,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "shots": [
+    "cards/photo/card_033.jpg",
+    "cards/photo/card_033_2.jpg",
+    "cards/photo/card_033_3.jpg"
+   ],
+   "title": "Три державы за одним столом",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 34,
+  "view": "charts.network",
+  "dur": 13.0,
+  "anim": 13.0,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "nodes": [
+    {
+     "id": "Москва",
+     "label": "Москва",
+     "weight": 2.0
+    },
+    {
+     "id": "Вашингтон",
+     "label": "Вашингтон",
+     "weight": 1.0
+    },
+    {
+     "id": "Пекин",
+     "label": "Пекин",
+     "weight": 1.0
+    }
+   ],
+   "links": [
+    {
+     "from": "Москва",
+     "to": "Вашингтон",
+     "weight": 1.0
+    },
+    {
+     "from": "Москва",
+     "to": "Пекин",
+     "weight": 1.0
+    }
+   ],
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 35,
+  "view": "pull",
+  "dur": 5.5,
+  "anim": 2.6,
+  "tail_zoom": 0.05,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Туда же укладывается давление на европейском направлении и игра вокруг Калининграда",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 39,
+  "view": "charts.map_dist",
+  "dur": 10.8,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "points": [
+    {
+     "label": "Львов",
+     "lat": 49.84,
+     "lon": 24.03,
+     "accent": true
+    },
+    {
+     "label": "Лондон",
+     "lat": 51.51,
+     "lon": -0.13,
+     "accent": false
+    }
+   ],
+   "admin": "Великобритания",
+   "place": "Великобритания",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 44,
+  "view": "sceny.prohod",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 8.4,
+  "channel": "ПЛАНЕТА",
+  "watermark": "ПЛАНЕТА",
+  "cfg": {
+   "view": "prohod",
+   "seconds": 8.4,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Кабель резко подорожал",
+    "channel": "ПЛАНЕТА",
+    "watermark": "ПЛАНЕТА",
+    "dur": 8.4,
+    "tezisy": [
+     "это обычное оптоволокно",
+     "весной километр стоил четыре доллара",
+     "теперь цена приблизилась к тридцати"
+    ]
+   }
+  },
+  "kwargs": {
+   "text": "Кабель резко подорожал",
+   "channel": "ПЛАНЕТА",
+   "watermark": "ПЛАНЕТА",
+   "dur": 8.4,
+   "tezisy": [
+    "это обычное оптоволокно",
+    "весной километр стоил четыре доллара",
+    "теперь цена приблизилась к тридцати"
+   ]
+  }
+ },
+ {
+  "scene": 46,
+  "view": "poster.poster",
+  "dur": 6.2,
+  "anim": 6.2,
+  "tail_zoom": 0.0,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "title": "Оптоволокно для дронов подорожало",
+   "hero_photo": "cards/photo/card_046.jpg",
+   "bottom": "Посредники уже делят растущую цену поровну",
+   "features": [
+    {
+     "text": "спрос растёт у военных"
+    },
+    {
+     "text": "спрос растёт у дата-центров ИИ"
+    },
+    {
+     "text": "посредники делят цену"
+    }
+   ],
+   "facts": [
+    {
+     "label": "весной $",
+     "value": "4 за км"
+    },
+    {
+     "label": "сейчас $",
+     "value": "30 за км"
+    },
+    {
+     "label": "рост",
+     "value": "в 7,5 раза"
+    }
+   ],
+   "watermark": "ПЛАНЕТА"
+  },
+  "mode": "frame"
+ },
+ {
+  "scene": 47,
+  "view": "charts.cartogram",
+  "dur": 12.0,
+  "anim": 12.0,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "data": [
+    "США",
+    "Китай",
+    "Россия"
+   ],
+   "mode": "bubble",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 48,
+  "view": "charts.pie",
+  "dur": 10.5,
+  "anim": 10.5,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "segments": [
+    {
+     "label": "продавец",
+     "value": 33.0
+    },
+    {
+     "label": "посредник",
+     "value": 33.0
+    },
+    {
+     "label": "покупатель",
+     "value": 34.0
+    }
+   ],
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 50,
+  "view": "paper_typed",
+  "dur": 10.2,
+  "anim": 2.8,
+  "tail_zoom": 0.04,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "И это только оптоволокно, без самого аппарата, камеры, двигателя и боевой части. Россия в это время расширяет использование оптоволоконных аппаратов Молния",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 51,
+  "view": "devices.device_scene",
+  "dur": 10.2,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "content_path": "cards/photo/card_051.jpg",
+   "items": [
+    "глубина — до тридцати километров",
+    "радиоканал — отсутствует"
+   ],
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 52,
+  "view": "charts.cartogram",
+  "dur": 11.2,
+  "anim": 11.2,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "data": [
+    "Харьковская область"
+   ],
+   "level": "region",
+   "admin": "Украина",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 55,
+  "view": "sceny.relsy",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 5.0,
+  "channel": "ПЛАНЕТА",
+  "watermark": "ПЛАНЕТА",
+  "cfg": {
+   "view": "relsy",
+   "seconds": 5.0,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "От опытных запусков к фронтовому применению",
+    "channel": "ПЛАНЕТА",
+    "watermark": "ПЛАНЕТА",
+    "dur": 5.0,
+    "sobytiya": [
+     "опытные запуски",
+     "фронтовое применение"
+    ]
+   }
+  },
+  "kwargs": {
+   "text": "От опытных запусков к фронтовому применению",
+   "channel": "ПЛАНЕТА",
+   "watermark": "ПЛАНЕТА",
+   "dur": 5.0,
+   "sobytiya": [
+    "опытные запуски",
+    "фронтовое применение"
+   ]
+  }
+ },
+ {
+  "scene": 56,
+  "view": "sceny.lenta",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 13.8,
+  "channel": "ПЛАНЕТА",
+  "watermark": "ПЛАНЕТА",
+  "cfg": {
+   "view": "lenta",
+   "seconds": 13.8,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Поставщик получает заказ без торга",
+    "channel": "ПЛАНЕТА",
+    "watermark": "ПЛАНЕТА",
+    "dur": 13.8,
+    "soobshcheniya": [
+     "заказ крупной партии у китайского поставщика",
+     "цена не обсуждается заранее"
+    ]
+   }
+  },
+  "kwargs": {
+   "text": "Поставщик получает заказ без торга",
+   "channel": "ПЛАНЕТА",
+   "watermark": "ПЛАНЕТА",
+   "dur": 13.8,
+   "soobshcheniya": [
+    "заказ крупной партии у китайского поставщика",
+    "цена не обсуждается заранее"
+   ]
+  }
+ },
+ {
+  "scene": 57,
+  "view": "zal_g18",
+  "dur": 11.8,
+  "anim": 11.8,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 11.8,
+   "sheets": [],
+   "text": "Счёт за кабель вырос резко",
+   "value": "в 6 раз",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 60,
+  "view": "zal_kub",
+  "dur": 15.1,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 15.1,
+   "sheets": [],
+   "text": "Подготовка заняла месяцы",
+   "kick": "ПОЛЗЛИ ЛЁЖА",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 61,
+  "view": "zal_schetchik",
+  "dur": 10.3,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 10.3,
+   "sheets": [],
+   "text": "Счёт идёт на десятки",
+   "value": "30+",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 62,
+  "view": "charts.slope",
+  "dur": 13.8,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "items": [
+    {
+     "label": "дрон",
+     "from": 0.0,
+     "to": 30.0
+    },
+    {
+     "label": "человек",
+     "from": 0.0,
+     "to": 15.0
+    }
+   ],
+   "left_label": "старт",
+   "right_label": "километры",
+   "source": "описание операции",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 63,
+  "view": "cinematic.depth_of_field",
+  "dur": 13.5,
+  "anim": 13.5,
+  "tail_zoom": 0.0,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "photo": "cards/photo/card_063.jpg",
+   "watermark": "ПЛАНЕТА"
+  },
+  "mode": "frame"
+ },
+ {
+  "scene": 64,
+  "view": "zal_pol",
+  "dur": 8.5,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 8.5,
+   "sheets": [],
+   "text": "Фронт выше, чем километры",
+   "na_polu": "СВЯЗЯМИ",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 68,
+  "view": "slider",
+  "dur": 13.5,
+  "anim": 13.5,
+  "tail_zoom": 0.0,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {},
+  "mode": "cli",
+  "script": "build_chart_slider.py",
+  "cfg": {
+   "title": "",
+   "min": 0.0,
+   "max": 100.0,
+   "low": 0.0,
+   "high": 100.0,
+   "marker_value": 50.0,
+   "marker_display": "50",
+   "seconds": 13.5,
+   "range_label": "РАЗБРОС ОЦЕНОК",
+   "caption": "",
+   "source": ""
+  }
+ },
+ {
+  "scene": 71,
+  "view": "sceny.tribuna",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 14.1,
+  "channel": "ПЛАНЕТА",
+  "watermark": "ПЛАНЕТА",
+  "cfg": {
+   "view": "tribuna",
+   "seconds": 14.1,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Политики размышляют вслух, чем это закончится",
+    "channel": "ПЛАНЕТА",
+    "watermark": "ПЛАНЕТА",
+    "dur": 14.1,
+    "role": "европейский политик"
+   }
+  },
+  "kwargs": {
+   "text": "Политики размышляют вслух, чем это закончится",
+   "channel": "ПЛАНЕТА",
+   "watermark": "ПЛАНЕТА",
+   "dur": 14.1,
+   "role": "европейский политик"
+  }
+ },
+ {
+  "scene": 72,
+  "view": "photo",
+  "dur": 6.9,
+  "anim": 6.9,
+  "tail_zoom": 0.0,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "watermark": "ПЛАНЕТА",
+   "photo": "cards/photo/card_072.jpg",
+   "title": "Россия: одиннадцать часовых поясов",
+   "lines": [
+    "Меланшон предлагает начать с карты"
+   ]
+  }
+ },
+ {
+  "scene": 75,
+  "view": "vyrezka.figura",
+  "dur": 11.0,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "photo": "cards/photo/card_075.jpg",
+   "author": "Владимир Зеленский",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 76,
+  "view": "paper_hand",
+  "dur": 12.6,
+  "anim": 2.8,
+  "tail_zoom": 0.04,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Меланшон и раньше выступал против втягивания Франции в войну с Россией",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 77,
+  "view": "sceny.lenta_foto",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 11.3,
+  "channel": "ПЛАНЕТА",
+  "watermark": "ПЛАНЕТА",
+  "cfg": {
+   "view": "lenta_foto",
+   "seconds": 11.3,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Киев и Лондон расширяют военное производство",
+    "channel": "ПЛАНЕТА",
+    "watermark": "ПЛАНЕТА",
+    "dur": 11.3,
+    "kadry": [
+     {
+      "photo": "cards/photo/card_077.jpg",
+      "god": "2026",
+      "podpis": "Зеленский на церемонии"
+     },
+     {
+      "photo": "cards/photo/card_077_2.jpg",
+      "god": "2026",
+      "podpis": "после возвращения в Киев"
+     }
+    ]
+   }
+  },
+  "kwargs": {
+   "text": "Киев и Лондон расширяют военное производство",
+   "channel": "ПЛАНЕТА",
+   "watermark": "ПЛАНЕТА",
+   "dur": 11.3,
+   "kadry": [
+    {
+     "photo": "cards/photo/card_077.jpg",
+     "god": "2026",
+     "podpis": "Зеленский на церемонии"
+    },
+    {
+     "photo": "cards/photo/card_077_2.jpg",
+     "god": "2026",
+     "podpis": "после возвращения в Киев"
+    }
+   ]
+  }
+ },
+ {
+  "scene": 78,
+  "view": "split",
+  "dur": 12.2,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Зеленский, Буданов, Сибига и Стефанчук почтили память Небесной сотни",
+   "photo": "cards/photo/card_078.jpg",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 80,
+  "view": "film.film_single",
+  "dur": 10.4,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "photo": "cards/photo/card_080.jpg",
+   "title": "После возвращения в Киев",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 81,
+  "view": "sceny.repliki",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 11.2,
+  "channel": "ПЛАНЕТА",
+  "watermark": "ПЛАНЕТА",
+  "cfg": {
+   "view": "repliki",
+   "seconds": 11.2,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Два политика, два разных счёта за войну",
+    "channel": "ПЛАНЕТА",
+    "watermark": "ПЛАНЕТА",
+    "dur": 11.2,
+    "repliki_": [
+     "Меланшон|нынешний курс закончится уничтожением страны",
+     "Ле Пен|за это Франция платит миллиарды ежегодно",
+     "Меланшон|одного удара хватит, чтобы Франции не стало",
+     "Ле Пен|прекращу финансирование, если приду к власти"
+    ]
+   }
+  },
+  "kwargs": {
+   "text": "Два политика, два разных счёта за войну",
+   "channel": "ПЛАНЕТА",
+   "watermark": "ПЛАНЕТА",
+   "dur": 11.2,
+   "repliki_": [
+    "Меланшон|нынешний курс закончится уничтожением страны",
+    "Ле Пен|за это Франция платит миллиарды ежегодно",
+    "Меланшон|одного удара хватит, чтобы Франции не стало",
+    "Ле Пен|прекращу финансирование, если приду к власти"
+   ]
+  }
+ },
+ {
+  "scene": 82,
+  "view": "torn_split.torn_split",
+  "dur": 9.9,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "a_path": "cards/photo/card_082.jpg",
+   "b_path": "cards/photo/card_082_2.jpg",
+   "title": "Позиция Ле Пен не нова",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 84,
+  "view": "strike",
+  "dur": 11.7,
+  "anim": 3.0,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Одни государства ищут возможность отступить от края, другие подвозят к нему новые станки",
+   "struck": "возможность отступить от края",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 85,
+  "view": "sceny.kreslo",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 7.3,
+  "channel": "ПЛАНЕТА",
+  "watermark": "ПЛАНЕТА",
+  "cfg": {
+   "view": "kreslo",
+   "seconds": 7.3,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Подготовка к новой борьбе уже идёт",
+    "channel": "ПЛАНЕТА",
+    "watermark": "ПЛАНЕТА",
+    "dur": 7.3,
+    "role": "кандидат в президенты США"
+   }
+  },
+  "kwargs": {
+   "text": "Подготовка к новой борьбе уже идёт",
+   "channel": "ПЛАНЕТА",
+   "watermark": "ПЛАНЕТА",
+   "dur": 7.3,
+   "role": "кандидат в президенты США"
+  }
+ },
+ {
+  "scene": 88,
+  "view": "zal_shkala",
+  "dur": 12.1,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 12.1,
+   "sheets": [],
+   "text": "Палата тоже посчитана",
+   "value": "257 мест",
+   "value_sub": "у демократов",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 90,
+  "view": "doc",
+  "dur": 8.1,
+  "anim": 3.4,
+  "tail_zoom": 0.04,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Через законодателей проходят санкционные решения, финансирование и исключения из ограничений",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 91,
+  "view": "cinematic.dossier",
+  "dur": 9.2,
+  "anim": 9.2,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "rows": [
+    "тема — соглашение с Москвой",
+    "проверяет — Конгресс США",
+    "процедура — одобрение финансирования",
+    "следующий шаг — разбор условий",
+    "срок — после подписания"
+   ],
+   "title": "ДОСЬЕ",
+   "photo": "cards/photo/card_091.jpg",
+   "stamp": "ПЕРВОИСТОЧНИК",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 92,
+  "view": "zal_efir",
+  "dur": 14.3,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 14.3,
+   "sheets": [
+    "СЕНАТ США",
+    "ПРЯМОЙ ЭФИР"
+   ],
+   "text": "Сенатор поднимет вопрос о сделке",
+   "say": "Последствия российско-американского соглашения о смягчении санкций требуют проверки",
+   "author": "Тим Кейн",
+   "role": "сенатор США",
+   "source": "заявление, 2026",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 93,
+  "view": "tape",
+  "dur": 12.8,
+  "anim": 2.4,
+  "tail_zoom": 0.04,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "У любой большой сделки есть домашний экзамен: мало убедить соседа, нужно убедить свою столицу",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 94,
+  "view": "zal_g44",
+  "dur": 11.9,
+  "anim": 11.9,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 11.9,
+   "sheets": [],
+   "text": "Дата закреплена официально",
+   "value": "2014",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 96,
+  "view": "sceny.pechat",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 11.0,
+  "channel": "ПЛАНЕТА",
+  "watermark": "ПЛАНЕТА",
+  "cfg": {
+   "view": "pechat",
+   "seconds": 11.0,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Путь был верным?",
+    "channel": "ПЛАНЕТА",
+    "watermark": "ПЛАНЕТА",
+    "dur": 11.0,
+    "stamp": "утверждено"
+   }
+  },
+  "kwargs": {
+   "text": "Путь был верным?",
+   "channel": "ПЛАНЕТА",
+   "watermark": "ПЛАНЕТА",
+   "dur": 11.0,
+   "stamp": "утверждено"
+  }
+ },
+ {
+  "scene": 98,
+  "view": "quote",
+  "dur": 7.5,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Без улицы, переворота и цепочки событий, цена которой продолжает расти, готового ответа уже не получить",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 100,
+  "view": "sceny.perematka",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 10.9,
+  "channel": "ПЛАНЕТА",
+  "watermark": "ПЛАНЕТА",
+  "cfg": {
+   "view": "perematka",
+   "seconds": 10.9,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Что, если бы страна дождалась выборов?",
+    "channel": "ПЛАНЕТА",
+    "watermark": "ПЛАНЕТА",
+    "dur": 10.9,
+    "kadry": [
+     {
+      "photo": "cards/photo/card_100.jpg",
+      "god": "2014"
+     }
+    ]
+   }
+  },
+  "kwargs": {
+   "text": "Что, если бы страна дождалась выборов?",
+   "channel": "ПЛАНЕТА",
+   "watermark": "ПЛАНЕТА",
+   "dur": 10.9,
+   "kadry": [
+    {
+     "photo": "cards/photo/card_100.jpg",
+     "god": "2014"
+    }
+   ]
+  }
+ },
+ {
+  "scene": 102,
+  "view": "marker_serif",
+  "dur": 9.4,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Вопрос мира не в количестве речей, а в готовности сделать первый шаг",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 105,
+  "view": "charts.waterfall",
+  "dur": 10.1,
+  "anim": 10.1,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "start": {
+    "label": "новая угроза",
+    "value": 1.0
+   },
+   "steps": [
+    {
+     "label": "новые ракеты",
+     "value": 1.0
+    },
+    {
+     "label": "новые испытания",
+     "value": 1.0
+    },
+    {
+     "label": "рост напряжения",
+     "value": 1.0
+    }
+   ],
+   "end": {
+    "label": "ИТОГ"
+   },
+   "sobytiya": true,
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 106,
+  "view": "zal",
+  "dur": 7.7,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Все спорят, кто первым начал курить в горящей комнате",
+   "words": [
+    "КАНИСТРА",
+    "ГОРИТ"
+   ],
+   "sheets": [
+    "ЗЕЛЕНСКИЙ",
+    "ПЕРЕПРАВЫ",
+    "БЕНГАЗИ",
+    "САРМАТ",
+    "ФРАНЦИЯ",
+    "КОНГРЕСС"
+   ],
+   "channel": "ПЛАНЕТА",
+   "dur": 7.7,
+   "watermark": "ПЛАНЕТА"
+  }
+ }
+]
