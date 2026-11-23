@@ -1,0 +1,64 @@
+{
+ "scenes": [
+  {
+   "id": 1,
+   "source": "press_photo",
+   "source_query": "карта Крымский мост расположение"
+  },
+  {
+   "id": 6,
+   "source": "press_photo",
+   "source_query": "карта мостов через Днепр"
+  },
+  {
+   "id": 12,
+   "source": "press_photo",
+   "source_query": "Владимир Путин портрет 2026"
+  },
+  {
+   "id": 19,
+   "source": "press_photo",
+   "source_query": "грузовой транспорт очередь мост"
+  },
+  {
+   "id": 23,
+   "source": "press_photo",
+   "source_query": "карта удара военный объект Украина"
+  },
+  {
+   "id": 28,
+   "source": "press_photo",
+   "source_query": "карта Львов авиаремонтный завод"
+  },
+  {
+   "id": 33,
+   "source": "press_photo",
+   "source_query": "пожарные повреждённое здание последствия"
+  },
+  {
+   "id": 41,
+   "source": "press_photo",
+   "source_query": "флаги Великобритания Украина соглашение"
+  },
+  {
+   "id": 49,
+   "source": "press_photo",
+   "source_query": "украинский беспилотник производство завод"
+  },
+  {
+   "id": 58,
+   "source": "press_photo",
+   "source_query": "карта Купянск наступление"
+  },
+  {
+   "id": 76,
+   "source": "press_photo",
+   "source_query": "финансовая помощь Украине Франция"
+  },
+  {
+   "id": 85,
+   "source": "press_photo",
+   "source_query": "Белый дом здание Вашингтон"
+  }
+ ]
+}
