@@ -1,0 +1,1156 @@
+[
+ {
+  "scene": 2,
+  "view": "zal_slova",
+  "dur": 9.3,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "channel": "5 МИНУТ",
+   "dur": 9.3,
+   "sheets": [
+    "заявление за заявлением",
+    "ставка за ставкой"
+   ],
+   "text": "Ставки растут с каждым разом",
+   "na_polu": "ЭСКАЛАЦИЯ",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 5,
+  "view": "sceny.repliki",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 11.7,
+  "channel": "5 МИНУТ",
+  "watermark": "5 МИНУТ",
+  "cfg": {
+   "view": "repliki",
+   "seconds": 11.7,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "По российским объектам будем работать",
+    "channel": "5 МИНУТ",
+    "watermark": "5 МИНУТ",
+    "dur": 11.7,
+    "repliki_": [
+     "Зеленский|По российским объектам будем работать.",
+     "Зеленский|Путин должен понять: мост всё равно не устоит.",
+     "Зеленский|Россия бьёт по украинским мостам — Украина отвечает.",
+     "Зеленский|Крым считаем украинским — значит, имеем право действовать там."
+    ]
+   }
+  },
+  "kwargs": {
+   "text": "По российским объектам будем работать",
+   "channel": "5 МИНУТ",
+   "watermark": "5 МИНУТ",
+   "dur": 11.7,
+   "repliki_": [
+    "Зеленский|По российским объектам будем работать.",
+    "Зеленский|Путин должен понять: мост всё равно не устоит.",
+    "Зеленский|Россия бьёт по украинским мостам — Украина отвечает.",
+    "Зеленский|Крым считаем украинским — значит, имеем право действовать там."
+   ]
+  }
+ },
+ {
+  "scene": 7,
+  "view": "vyrezka.figura",
+  "dur": 10.6,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "photo": "cards/photo/card_007.jpg",
+   "author": "ВЛАДИМИР ЗЕЛЕНСКИЙ",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 8,
+  "view": "paper_hand",
+  "dur": 9.2,
+  "anim": 2.8,
+  "tail_zoom": 0.04,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "text": "Когда тебе объяснили, что лично до тебя постараются не добраться, повышать ставки становится гораздо",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 15,
+  "view": "slider",
+  "dur": 7.8,
+  "anim": 7.8,
+  "tail_zoom": 0.0,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {},
+  "mode": "cli",
+  "script": "build_chart_slider.py",
+  "cfg": {
+   "title": "",
+   "min": 0.0,
+   "max": 10.0,
+   "low": 0.0,
+   "high": 4.0,
+   "marker_value": 3.0,
+   "marker_display": "3",
+   "seconds": 7.8,
+   "range_label": "РАЗБРОС ОЦЕНОК",
+   "caption": "самооценка Киева: время ещё есть",
+   "source": ""
+  }
+ },
+ {
+  "scene": 17,
+  "view": "sceny.tribuna",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 9.8,
+  "channel": "5 МИНУТ",
+  "watermark": "5 МИНУТ",
+  "cfg": {
+   "view": "tribuna",
+   "seconds": 9.8,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Чужие мосты собираемся ломать",
+    "channel": "5 МИНУТ",
+    "watermark": "5 МИНУТ",
+    "dur": 9.8,
+    "role": "Офис президента Украины"
+   }
+  },
+  "kwargs": {
+   "text": "Чужие мосты собираемся ломать",
+   "channel": "5 МИНУТ",
+   "watermark": "5 МИНУТ",
+   "dur": 9.8,
+   "role": "Офис президента Украины"
+  }
+ },
+ {
+  "scene": 18,
+  "view": "zal",
+  "dur": 11.9,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "text": "Штабная арифметика превращается в бытовую проблему",
+   "words": [
+    "РАСЧЁТ",
+    "НАГРУЗКА"
+   ],
+   "sheets": [
+    "расчёт штаба переходит в повседневную нагрузку",
+    "каждый просчёт оборачивается бытовой проблемой",
+    "мосты держат не только фронт, но и быт",
+    "запас прочности не бесконечен",
+    "вопрос времени становится вопросом снабжения",
+    "то, что казалось стратегией, оборачивается логистикой"
+   ],
+   "channel": "5 МИНУТ",
+   "dur": 11.9,
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 25,
+  "view": "sceny.mehanizm",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 9.7,
+  "channel": "5 МИНУТ",
+  "watermark": "5 МИНУТ",
+  "cfg": {
+   "view": "mehanizm",
+   "seconds": 9.7,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Штаб и завод — в одном месте",
+    "channel": "5 МИНУТ",
+    "watermark": "5 МИНУТ",
+    "dur": 9.7,
+    "pary": [
+     "штаб>фронтовые решения",
+     "завод>производство техники"
+    ]
+   }
+  },
+  "kwargs": {
+   "text": "Штаб и завод — в одном месте",
+   "channel": "5 МИНУТ",
+   "watermark": "5 МИНУТ",
+   "dur": 9.7,
+   "pary": [
+    "штаб>фронтовые решения",
+    "завод>производство техники"
+   ]
+  }
+ },
+ {
+  "scene": 32,
+  "view": "cinematic.evidence_wall",
+  "dur": 12.7,
+  "anim": 12.7,
+  "tail_zoom": 0.0,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "shots": [
+    [
+     "cards/photo/card_032.jpg",
+     240,
+     380,
+     -4,
+     "украинский дрон дальнего действия"
+    ],
+    [
+     "cards/photo/card_032_2.jpg",
+     800,
+     380,
+     3,
+     "российский оборонный завод"
+    ]
+   ],
+   "title": "ПРОИЗВОДСТВЕННАЯ БАЗА",
+   "watermark": "5 МИНУТ"
+  },
+  "mode": "frame"
+ },
+ {
+  "scene": 35,
+  "view": "split",
+  "dur": 3.5,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "text": "Участники всех атак достоверно не установлены",
+   "photo": "cards/photo/card_035.jpg",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 36,
+  "view": "charts.cartogram",
+  "dur": 11.6,
+  "anim": 11.6,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "data": [
+    "Россия",
+    "Китай"
+   ],
+   "title": "Россия, США и Китай только что провели",
+   "accent": [
+    "Россия"
+   ],
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 37,
+  "view": "charts.network",
+  "dur": 14.1,
+  "anim": 14.1,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "nodes": [
+    {
+     "id": "Зеленский",
+     "label": "Зеленский",
+     "weight": 1.0
+    },
+    {
+     "id": "внешние силы",
+     "label": "внешние силы",
+     "weight": 2.0
+    },
+    {
+     "id": "срыв сближения",
+     "label": "срыв сближения",
+     "weight": 2.0
+    },
+    {
+     "id": "резкий ответ Москвы",
+     "label": "резкий ответ Москвы",
+     "weight": 1.0
+    }
+   ],
+   "links": [
+    {
+     "from": "Зеленский",
+     "to": "внешние силы",
+     "weight": 1.0
+    },
+    {
+     "from": "внешние силы",
+     "to": "срыв сближения",
+     "weight": 1.0
+    },
+    {
+     "from": "срыв сближения",
+     "to": "резкий ответ Москвы",
+     "weight": 1.0
+    }
+   ],
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 38,
+  "view": "charts.map_dist",
+  "dur": 10.0,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "points": [
+    {
+     "label": "Калининград",
+     "lat": 54.7104,
+     "lon": 20.4522,
+     "accent": false
+    },
+    {
+     "label": "Брюссель",
+     "lat": 50.8503,
+     "lon": 4.3517,
+     "accent": false
+    },
+    {
+     "label": "Берлин",
+     "lat": 52.52,
+     "lon": 13.405,
+     "accent": false
+    }
+   ],
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 43,
+  "view": "sceny.globus_map",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 11.4,
+  "channel": "5 МИНУТ",
+  "watermark": "5 МИНУТ",
+  "cfg": {
+   "view": "globus",
+   "seconds": 11.4,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Британия тут ни при чём",
+    "channel": "5 МИНУТ",
+    "watermark": "5 МИНУТ",
+    "dur": 11.4,
+    "region": "Великобритания"
+   }
+  },
+  "kwargs": {
+   "text": "Британия тут ни при чём",
+   "channel": "5 МИНУТ",
+   "watermark": "5 МИНУТ",
+   "dur": 11.4,
+   "region": "Великобритания"
+  }
+ },
+ {
+  "scene": 44,
+  "view": "sceny.prohod",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 15.4,
+  "channel": "5 МИНУТ",
+  "watermark": "5 МИНУТ",
+  "cfg": {
+   "view": "prohod",
+   "seconds": 15.4,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Цепочки строятся, дефицит растёт",
+    "channel": "5 МИНУТ",
+    "watermark": "5 МИНУТ",
+    "dur": 15.4,
+    "tezisy": [
+     "новые цепочки ещё не достроены",
+     "старый дефицит уже ощутим",
+     "замену найти не так просто"
+    ]
+   }
+  },
+  "kwargs": {
+   "text": "Цепочки строятся, дефицит растёт",
+   "channel": "5 МИНУТ",
+   "watermark": "5 МИНУТ",
+   "dur": 15.4,
+   "tezisy": [
+    "новые цепочки ещё не достроены",
+    "старый дефицит уже ощутим",
+    "замену найти не так просто"
+   ]
+  }
+ },
+ {
+  "scene": 46,
+  "view": "charts.cartogram",
+  "dur": 6.2,
+  "anim": 6.2,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "data": [
+    "Украина",
+    "Россия",
+    "Китай"
+   ],
+   "mode": "bubble",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 47,
+  "view": "devices.device_scene",
+  "dur": 9.1,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "content_path": "cards/photo/card_047.jpg",
+   "items": [
+    "кабель=цена растёт",
+    "цель=заглушить нельзя"
+   ],
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 50,
+  "view": "zal_g18",
+  "dur": 11.4,
+  "anim": 11.4,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "channel": "5 МИНУТ",
+   "dur": 11.4,
+   "sheets": [],
+   "text": "Тысяча долларов только за кабель",
+   "value": "1000 $",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 53,
+  "view": "sceny.prolog",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 11.2,
+  "channel": "5 МИНУТ",
+  "watermark": "5 МИНУТ",
+  "cfg": {
+   "view": "prolog",
+   "seconds": 11.2,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Причём сама технология не новая",
+    "channel": "5 МИНУТ",
+    "watermark": "5 МИНУТ",
+    "dur": 11.2,
+    "kick": "оптоволоконные дроны"
+   }
+  },
+  "kwargs": {
+   "text": "Причём сама технология не новая",
+   "channel": "5 МИНУТ",
+   "watermark": "5 МИНУТ",
+   "dur": 11.2,
+   "kick": "оптоволоконные дроны"
+  }
+ },
+ {
+  "scene": 54,
+  "view": "film.film_strip",
+  "dur": 13.6,
+  "anim": 13.6,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "shots": [
+    "cards/photo/card_054.jpg",
+    "cards/photo/card_054_2.jpg",
+    "cards/photo/card_054_3.jpg",
+    "cards/photo/card_054_4.jpg"
+   ],
+   "title": "ЭКСПЕРИМЕНТЕ",
+   "captions": [
+    "Почтовое-Отделение",
+    "Почтовое-Отделение",
+    "Почтовое-Отделение",
+    "Почтовое-Отделение"
+   ],
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 55,
+  "view": "sceny.lenta",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 4.2,
+  "channel": "5 МИНУТ",
+  "watermark": "5 МИНУТ",
+  "cfg": {
+   "view": "lenta",
+   "seconds": 4.2,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Подпишитесь на канал — дальше будет интереснее",
+    "channel": "5 МИНУТ",
+    "watermark": "5 МИНУТ",
+    "dur": 4.2,
+    "soobshcheniya": [
+     "редакция|новые детали выходят по мере проверки",
+     "редакция|подписка открывает доступ к разбору"
+    ]
+   }
+  },
+  "kwargs": {
+   "text": "Подпишитесь на канал — дальше будет интереснее",
+   "channel": "5 МИНУТ",
+   "watermark": "5 МИНУТ",
+   "dur": 4.2,
+   "soobshcheniya": [
+    "редакция|новые детали выходят по мере проверки",
+    "редакция|подписка открывает доступ к разбору"
+   ]
+  }
+ },
+ {
+  "scene": 56,
+  "view": "zal_g48",
+  "dur": 18.2,
+  "anim": 18.2,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "channel": "5 МИНУТ",
+   "dur": 18.2,
+   "sheets": [],
+   "text": "Ответ скрыт в деталях",
+   "kick": "СМЕНА",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 59,
+  "view": "paper_typed",
+  "dur": 19.8,
+  "anim": 2.8,
+  "tail_zoom": 0.04,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "text": "Операция Велес. Военные прошли пятнадцать километров по газопроводу. Итог — пленение тридцати российских военных. Современная война — в одном кадре",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 60,
+  "view": "bars",
+  "dur": 5.7,
+  "anim": 5.7,
+  "tail_zoom": 0.0,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {},
+  "mode": "cli",
+  "script": "build_chart_bars.py",
+  "cfg": {
+   "title": "Купянск: две тактики",
+   "caption": "",
+   "seconds": 5.7,
+   "bars": [
+    {
+     "label": "ТЕХНОЛОГИИ",
+     "value": 0.5,
+     "color": "EABD23"
+    },
+    {
+     "label": "ПОДЗЕМНЫЙ МАРШРУТ",
+     "value": 0.5,
+     "color": "B92526"
+    }
+   ]
+  }
+ },
+ {
+  "scene": 61,
+  "view": "zal_g01",
+  "dur": 18.0,
+  "anim": 18.0,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "channel": "5 МИНУТ",
+   "dur": 18.0,
+   "sheets": [],
+   "text": "Пройти туда, где тебя не ждут",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 62,
+  "view": "zal_kub",
+  "dur": 12.3,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "channel": "5 МИНУТ",
+   "dur": 12.3,
+   "sheets": [],
+   "text": "Эти ракеты должны заменить старые тяжёлые комплексы",
+   "kick": "СМЕНА ПОКОЛЕНИЙ",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 63,
+  "view": "charts.pie",
+  "dur": 5.5,
+  "anim": 5.5,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "segments": [
+    {
+     "label": "успешные испытания",
+     "value": 50.0
+    },
+    {
+     "label": "неудачные испытания",
+     "value": 50.0
+    }
+   ],
+   "source": "открытые данные",
+   "sobytiya": true,
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 64,
+  "view": "sceny.lenta_foto",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 16.3,
+  "channel": "5 МИНУТ",
+  "watermark": "5 МИНУТ",
+  "cfg": {
+   "view": "lenta_foto",
+   "seconds": 16.3,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "В 2024 году ракета взорвалась в шахте",
+    "channel": "5 МИНУТ",
+    "watermark": "5 МИНУТ",
+    "dur": 16.3,
+    "kadry": [
+     {
+      "photo": "авария в шахте, 2024",
+      "god": "",
+      "podpis": ""
+     }
+    ]
+   }
+  },
+  "kwargs": {
+   "text": "В 2024 году ракета взорвалась в шахте",
+   "channel": "5 МИНУТ",
+   "watermark": "5 МИНУТ",
+   "dur": 16.3,
+   "kadry": [
+    {
+     "photo": "авария в шахте, 2024",
+     "god": "",
+     "podpis": ""
+    }
+   ]
+  }
+ },
+ {
+  "scene": 67,
+  "view": "photo",
+  "dur": 4.6,
+  "anim": 4.6,
+  "tail_zoom": 0.0,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "kick": "МЕЖКОНТИНЕНТАЛЬНАЯ РАКЕТА",
+   "watermark": "5 МИНУТ",
+   "photo": "cards/photo/card_067.jpg",
+   "lines": [
+    "шахтного базирования"
+   ]
+  }
+ },
+ {
+  "scene": 68,
+  "view": "poster.poster",
+  "dur": 16.4,
+  "anim": 16.4,
+  "tail_zoom": 0.0,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "title": "РАКЕТА НА ДЕЖУРСТВЕ",
+   "hero_photo": "cards/photo/card_068.jpg",
+   "bottom": "система ставится на дежурство до конца года",
+   "facts": [
+    {
+     "label": "испытания",
+     "value": "со сбоями"
+    },
+    {
+     "label": "развёртывание",
+     "value": "продолжается"
+    }
+   ],
+   "watermark": "5 МИНУТ"
+  },
+  "mode": "frame"
+ },
+ {
+  "scene": 69,
+  "view": "zal_shkala",
+  "dur": 11.9,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "channel": "5 МИНУТ",
+   "dur": 11.9,
+   "sheets": [],
+   "text": "Тут появляется Жан-Люк Меланшон",
+   "value": "ЖЛМ",
+   "value_sub": "французская политика",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 70,
+  "view": "marker_serif",
+  "dur": 15.3,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "text": "Поэтому, говорит Меланшон, рассчитывать, что можно бить по Москве, а Россия в ответ предложит всем спокойно",
+   "accent": "Меланшон",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 71,
+  "view": "zal_pol",
+  "dur": 10.0,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "channel": "5 МИНУТ",
+   "dur": 10.0,
+   "sheets": [
+    "политик называет цель вслух",
+    "речь о своей же инфраструктуре"
+   ],
+   "text": "Он публично называет цель для удара",
+   "na_polu": "ЯДЕРНЫЕ ОБЪЕКТЫ",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 72,
+  "view": "pull",
+  "dur": 17.8,
+  "anim": 2.6,
+  "tail_zoom": 0.05,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "text": "Пока один политик спорит о праве бить по Москве, а другой — о деньгах для Киева, от прежней решительной Франции почти ничего не осталось",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 73,
+  "view": "cinematic.depth_of_field",
+  "dur": 8.5,
+  "anim": 8.5,
+  "tail_zoom": 0.0,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "photo": "cards/photo/card_073.jpg",
+   "watermark": "5 МИНУТ"
+  },
+  "mode": "frame"
+ },
+ {
+  "scene": 74,
+  "view": "sceny.relsy",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 9.1,
+  "channel": "5 МИНУТ",
+  "watermark": "5 МИНУТ",
+  "cfg": {
+   "view": "relsy",
+   "seconds": 9.1,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Меланшон: конфликта не будет",
+    "channel": "5 МИНУТ",
+    "watermark": "5 МИНУТ",
+    "dur": 9.1,
+    "sobytiya": [
+     "позиция по России",
+     "позиция по Тайваню",
+     "нынешнее заявление"
+    ]
+   }
+  },
+  "kwargs": {
+   "text": "Меланшон: конфликта не будет",
+   "channel": "5 МИНУТ",
+   "watermark": "5 МИНУТ",
+   "dur": 9.1,
+   "sobytiya": [
+    "позиция по России",
+    "позиция по Тайваню",
+    "нынешнее заявление"
+   ]
+  }
+ },
+ {
+  "scene": 77,
+  "view": "zal_makety",
+  "dur": 8.2,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "channel": "5 МИНУТ",
+   "dur": 8.2,
+   "sheets": [],
+   "text": "Помощь останется при смене власти",
+   "makety": [
+    "самолёт=ГУМАНИТАРНАЯ"
+   ],
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 78,
+  "view": "duel",
+  "dur": 13.1,
+  "anim": 3.2,
+  "tail_zoom": 0.035,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "top": {
+    "who": "",
+    "text": "ЛЕ ПЕН: деньги прекратить",
+    "accent": null,
+    "source": ""
+   },
+   "bottom": {
+    "who": "",
+    "text": "ГУМАНИТАРНАЯ ПОМОЩЬ: остаётся",
+    "accent": null,
+    "source": ""
+   },
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 79,
+  "view": "film.film_single",
+  "dur": 10.3,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "photo": "cards/photo/card_079.jpg",
+   "title": "ДВА ЛИЦА ФРАНЦИИ",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 83,
+  "view": "zal_efir",
+  "dur": 8.3,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "channel": "5 МИНУТ",
+   "dur": 8.3,
+   "sheets": [],
+   "text": "Келли: шаг против Москвы",
+   "say": "Расширить ограничения, увеличить поставки Киеву",
+   "author": "Марк Келли",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 84,
+  "view": "zal_schetchik",
+  "dur": 12.4,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "channel": "5 МИНУТ",
+   "dur": 12.4,
+   "sheets": [],
+   "text": "Фамилии здесь не главное",
+   "value": "4",
+   "value_sub": "КАНДИДАТА",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 86,
+  "view": "quote",
+  "dur": 22.2,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "text": "Санкции, деньги, исключения из режима и часть внешнеполитических решений проходят не только через Белый дом",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 87,
+  "view": "sceny.pechat",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 9.2,
+  "channel": "5 МИНУТ",
+  "watermark": "5 МИНУТ",
+  "cfg": {
+   "view": "pechat",
+   "seconds": 9.2,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Трамп готов к сделке с Москвой",
+    "channel": "5 МИНУТ",
+    "watermark": "5 МИНУТ",
+    "dur": 9.2,
+    "stamp": "ДОГОВОРЁННОСТЬ"
+   }
+  },
+  "kwargs": {
+   "text": "Трамп готов к сделке с Москвой",
+   "channel": "5 МИНУТ",
+   "watermark": "5 МИНУТ",
+   "dur": 9.2,
+   "stamp": "ДОГОВОРЁННОСТЬ"
+  }
+ },
+ {
+  "scene": 88,
+  "view": "doc",
+  "dur": 8.9,
+  "anim": 3.4,
+  "tail_zoom": 0.04,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "text": "Решения по санкциям, деньгам и исключениям из режима ограничений проходят не только через Белый дом — у большой сделки оказывается ещё один слой",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 90,
+  "view": "zal_g44",
+  "dur": 8.8,
+  "anim": 8.8,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "channel": "5 МИНУТ",
+   "dur": 8.8,
+   "sheets": [],
+   "text": "Сам ритуал понятен",
+   "value": "4",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 92,
+  "view": "sceny.perematka",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 8.7,
+  "channel": "5 МИНУТ",
+  "watermark": "5 МИНУТ",
+  "cfg": {
+   "view": "perematka",
+   "seconds": 8.7,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Почему не дождались выборов?",
+    "channel": "5 МИНУТ",
+    "watermark": "5 МИНУТ",
+    "dur": 8.7,
+    "kadry": [
+     {
+      "photo": "Янукович, уход от власти",
+      "god": ""
+     }
+    ]
+   }
+  },
+  "kwargs": {
+   "text": "Почему не дождались выборов?",
+   "channel": "5 МИНУТ",
+   "watermark": "5 МИНУТ",
+   "dur": 8.7,
+   "kadry": [
+    {
+     "photo": "Янукович, уход от власти",
+     "god": ""
+    }
+   ]
+  }
+ },
+ {
+  "scene": 93,
+  "view": "tape",
+  "dur": 19.7,
+  "anim": 2.4,
+  "tail_zoom": 0.04,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "text": "Чем выше цена событий, последовавших потом, тем труднее просто повторять старую формулу и рассчитывать, что никто",
+   "accent": "последовавших",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 94,
+  "view": "zal_ekran",
+  "dur": 11.3,
+  "anim": 11.3,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "channel": "5 МИНУТ",
+   "dur": 11.3,
+   "sheets": [
+    "ОФИЦИАЛЬНОЕ ЗАЯВЛЕНИЕ",
+    "Россия · США · Китай"
+   ],
+   "text": "Произнести его вообще несложно",
+   "say": "Декларация о недопущении ядерного столкновения",
+   "author": "Россия · США · Китай",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 95,
+  "view": "strike",
+  "dur": 11.2,
+  "anim": 3.0,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "text": "Одни подписывают декларации, другие проверяют мосты на прочность",
+   "struck": "подписывают декларации",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 96,
+  "view": "sceny.kreslo",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 9.0,
+  "channel": "5 МИНУТ",
+  "watermark": "5 МИНУТ",
+  "cfg": {
+   "view": "kreslo",
+   "seconds": 9.0,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Вопрос будет другим",
+    "channel": "5 МИНУТ",
+    "watermark": "5 МИНУТ",
+    "dur": 9.0,
+    "role": "место за столом переговоров"
+   }
+  },
+  "kwargs": {
+   "text": "Вопрос будет другим",
+   "channel": "5 МИНУТ",
+   "watermark": "5 МИНУТ",
+   "dur": 9.0,
+   "role": "место за столом переговоров"
+  }
+ }
+]
