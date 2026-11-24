@@ -1,0 +1,100 @@
+{
+  "5": {
+    "text": {
+      "words": "ПОДМЕНА",
+      "color": "white",
+      "pos": "ml",
+      "font": "default",
+      "sound": "pop",
+      "at": 0.3,
+      "scale": 1.0,
+      "style": "mask_plate",
+      "sub": "удары вместо ответа",
+      "approved": true
+    }
+  },
+  "16": {
+    "text": {
+      "words": "СТО ЛЕТ",
+      "color": "yellow",
+      "pos": "ml",
+      "font": "default",
+      "sound": "mashinka",
+      "at": 0.3,
+      "scale": 1.0,
+      "style": "mask_plate",
+      "sub": "удобная формула",
+      "approved": true
+    }
+  },
+  "24": {
+    "text": {
+      "words": "ГАРАНТИИ",
+      "color": "orange",
+      "pos": "ml",
+      "font": "default",
+      "sound": "whoosh",
+      "at": 0.3,
+      "scale": 1.0,
+      "style": "mask_plate",
+      "sub": "конкретные вопросы",
+      "approved": true
+    }
+  },
+  "43": {
+    "text": {
+      "words": "ЛОГИКА",
+      "color": "green",
+      "pos": "ml",
+      "font": "default",
+      "sound": "zatvor",
+      "at": 0.3,
+      "scale": 1.0,
+      "style": "mask_plate",
+      "sub": "против а не вместе",
+      "approved": true
+    }
+  },
+  "56": {
+    "text": {
+      "words": "ПАМЯТЬ",
+      "color": "yellow",
+      "pos": "ml",
+      "font": "default",
+      "sound": "mashinka",
+      "at": 0.3,
+      "scale": 1.0,
+      "style": "mask_plate",
+      "sub": "у каждого своя",
+      "approved": true
+    }
+  },
+  "67": {
+    "text": {
+      "words": "ПЛАН КУШНЕРА",
+      "color": "red",
+      "pos": "ml",
+      "font": "default",
+      "sound": "pshik",
+      "at": 0.3,
+      "scale": 1.0,
+      "style": "mask_plate",
+      "sub": "шире Украины",
+      "approved": true
+    }
+  },
+  "1": {
+    "text": {
+      "words": "УРОК ИСТОРИИ",
+      "color": "yellow",
+      "pos": "tc",
+      "font": "default",
+      "sound": "mashinka",
+      "at": 0.3,
+      "scale": 1.0,
+      "style": "mask_plate",
+      "sub": "от Зеленского",
+      "approved": true
+    }
+  }
+}
