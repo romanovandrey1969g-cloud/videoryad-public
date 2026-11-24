@@ -1,0 +1,53 @@
+[
+ {
+  "scene": 14,
+  "view": "poster.poster",
+  "dur": 13.75,
+  "anim": 13.75,
+  "tail_zoom": 0.0,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "title": "МЕЛКИЙ ШРИФТ",
+   "hero_photo": "cards/photo/card_014.jpg",
+   "bottom": "самое важное редко пишут крупно",
+   "features": [
+    {
+     "text": "как в договоре с банком"
+    }
+   ],
+   "facts": [
+    {
+     "label": "где главное",
+     "value": "внизу страницы"
+    }
+   ],
+   "watermark": "5 МИНУТ"
+  },
+  "mode": "frame"
+ },
+ {
+  "scene": 37,
+  "view": "duel",
+  "dur": 10.88,
+  "anim": 3.2,
+  "tail_zoom": 0.035,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "top": {
+    "who": "",
+    "text": "ВЫ ПЕРВЫМИ ПРИНЕСЛИ В КОСМОС МЕЧ",
+    "accent": null,
+    "source": ""
+   },
+   "bottom": {
+    "who": "",
+    "text": "ОН В ОТВЕТ ПРИНЁС ТУДА ЖЕ ЩИТ",
+    "accent": null,
+    "source": ""
+   },
+   "watermark": "5 МИНУТ"
+  }
+ }
+]
