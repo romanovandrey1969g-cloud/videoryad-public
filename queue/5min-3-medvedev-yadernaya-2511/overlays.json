@@ -1,0 +1,111 @@
+{
+  "anchor": "top",
+  "4": {
+    "text": {
+      "words": "ОСТРИЕ КОПЬЯ",
+      "color": "yellow",
+      "pos": "tc",
+      "font": "default",
+      "sound": "whoosh",
+      "at": 0.9,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "9": {
+    "text": {
+      "words": "ПРЕВЕНТИВНЫЙ УДАР",
+      "color": "white",
+      "pos": "tl",
+      "font": "default",
+      "sound": "pop",
+      "at": 0.9,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "11": {
+    "text": {
+      "words": "КОМУ ИМЕННО?",
+      "color": "red",
+      "pos": "mc",
+      "font": "default",
+      "sound": "ding",
+      "at": 0.9,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "16": {
+    "text": {
+      "words": "МОДЕЛЬ ДЛЯ ИРАНА?",
+      "color": "orange",
+      "pos": "tr",
+      "font": "default",
+      "sound": "pshik",
+      "at": 0.9,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "22": {
+    "text": {
+      "words": "«ПОСЕЙДОН»",
+      "color": "green",
+      "pos": "mr",
+      "font": "default",
+      "sound": "zatvor",
+      "at": 0.9,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "27": {
+    "text": {
+      "words": "ГРАНЬ ПОРАЖЕНИЯ",
+      "color": "yellow",
+      "pos": "mr",
+      "font": "default",
+      "sound": "mashinka",
+      "at": 0.9,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "43": {
+    "text": {
+      "words": "ТРЕТЬ СПУТНИКОВ",
+      "color": "white",
+      "pos": "tc",
+      "font": "default",
+      "sound": "whoosh",
+      "at": 0.9,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "46": {
+    "text": {
+      "words": "ЭФФЕКТ КЕССЛЕРА",
+      "color": "red",
+      "pos": "tl",
+      "font": "default",
+      "sound": "pop",
+      "at": 0.9,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "69": {
+    "text": {
+      "words": "БОЛЬШОЙ ПИСТОЛЕТ",
+      "color": "green",
+      "pos": "tr",
+      "font": "default",
+      "sound": "pshik",
+      "at": 0.9,
+      "scale": 1.0,
+      "approved": true
+    }
+  }
+}
