@@ -1,0 +1,113 @@
+{
+  "anchor": "top",
+  "4": {
+    "text": {
+      "words": "ОСТРИЕ КОПЬЯ",
+      "color": "yellow",
+      "pos": "tc",
+      "font": "default",
+      "sound": "whoosh",
+      "at": 0.9,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "9": {
+    "text": {
+      "words": "ПРЕВЕНТИВНЫЙ УДАР",
+      "color": "white",
+      "pos": "tl",
+      "font": "default",
+      "sound": "pop",
+      "at": 0.9,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "11": {
+    "text": {
+      "words": "КОМУ ИМЕННО?",
+      "color": "red",
+      "pos": "mc",
+      "font": "default",
+      "sound": "ding",
+      "at": 0.9,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "16": {
+    "text": {
+      "words": "МОДЕЛЬ ДЛЯ ИРАНА?",
+      "color": "orange",
+      "pos": "tr",
+      "font": "default",
+      "sound": "pshik",
+      "at": 0.9,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "22": {
+    "text": {
+      "words": "«ПОСЕЙДОН»",
+      "color": "green",
+      "pos": "mr",
+      "font": "default",
+      "sound": "zatvor",
+      "at": 0.9,
+      "scale": 1.0,
+      "approved": true
+    }
+  },
+  "27": {
+    "text": {
+      "words": "ГРАНЬ ПОРАЖЕНИЯ",
+      "pos": "mr",
+      "at": 0.9,
+      "scale": 1.0,
+      "sound": "mashinka",
+      "color": "yellow"
+    }
+  },
+  "43": {
+    "text": {
+      "words": "ТРЕТЬ СПУТНИКОВ",
+      "pos": "tc",
+      "at": 0.9,
+      "scale": 1.0,
+      "sound": "whoosh",
+      "color": "white"
+    }
+  },
+  "46": {
+    "text": {
+      "words": "ЭФФЕКТ КЕССЛЕРА",
+      "pos": "tl",
+      "at": 0.9,
+      "scale": 1.0,
+      "sound": "pop",
+      "color": "red"
+    }
+  },
+  "57": {
+    "text": {
+      "words": "ЕСТЬ ВЕТО",
+      "pos": "mc",
+      "at": 0.9,
+      "scale": 1.0,
+      "sound": "ding",
+      "color": "orange"
+    }
+  },
+  "69": {
+    "text": {
+      "words": "БОЛЬШОЙ ПИСТОЛЕТ",
+      "pos": "tr",
+      "at": 0.9,
+      "scale": 1.0,
+      "sound": "pshik",
+      "color": "green"
+    }
+  }
+}
