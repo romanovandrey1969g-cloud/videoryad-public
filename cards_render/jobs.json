@@ -1,0 +1,26 @@
+[
+ {
+  "scene": 67,
+  "view": "duel",
+  "dur": 9.4,
+  "anim": 3.2,
+  "tail_zoom": 0.035,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "top": {
+    "who": "",
+    "text": "Москва бесконечно расходует личный состав",
+    "accent": null,
+    "source": ""
+   },
+   "bottom": {
+    "who": "",
+    "text": "Киев бережёт военнослужащих — так считалось раньше",
+    "accent": null,
+    "source": ""
+   },
+   "watermark": "ПЛАНЕТА"
+  }
+ }
+]
