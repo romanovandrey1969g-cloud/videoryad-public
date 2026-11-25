@@ -1,0 +1,1161 @@
+[
+ {
+  "scene": 2,
+  "view": "marker_serif",
+  "dur": 7.7,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Огласите весь список: что в итоге будет считаться победой?",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 3,
+  "view": "zal_slova",
+  "dur": 12.4,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 12.4,
+   "sheets": [],
+   "text": "Финишную черту уже не видно",
+   "na_polu": "ПЯТЫЙ ГОД",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 4,
+  "view": "charts.cartogram",
+  "dur": 12.7,
+  "anim": 12.7,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "data": [
+    "Киев",
+    "Москва",
+    "Вашингтон"
+   ],
+   "accent": [
+    "Киев"
+   ],
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 6,
+  "view": "split",
+  "dur": 7.9,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Он хочет перезапустить отношения России и Европы",
+   "photo": "cards/photo/card_006.jpg",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 7,
+  "view": "charts.network",
+  "dur": 11.0,
+  "anim": 11.0,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "nodes": [
+    {
+     "id": "Зеленский",
+     "label": "Зеленский",
+     "weight": 3.0
+    },
+    {
+     "id": "нормальная жизнь",
+     "label": "нормальная жизнь",
+     "weight": 1.0
+    },
+    {
+     "id": "торговля",
+     "label": "торговля",
+     "weight": 1.0
+    },
+    {
+     "id": "восстановление",
+     "label": "восстановление",
+     "weight": 1.0
+    }
+   ],
+   "links": [
+    {
+     "from": "Зеленский",
+     "to": "нормальная жизнь",
+     "weight": 1.0
+    },
+    {
+     "from": "Зеленский",
+     "to": "торговля",
+     "weight": 1.0
+    },
+    {
+     "from": "Зеленский",
+     "to": "восстановление",
+     "weight": 1.0
+    }
+   ],
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 8,
+  "view": "tape",
+  "dur": 10.3,
+  "anim": 2.4,
+  "tail_zoom": 0.04,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Ему предлагают закончить конфликт, добиться гарантий безопасности и заняться восстановлением экономики",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 9,
+  "view": "zal_makety",
+  "dur": 10.4,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 10.4,
+   "sheets": [],
+   "text": "Новая роль Зеленского",
+   "makety": [
+    "банк=ГОРОДА",
+    "лэп=ЭНЕРГЕТИКА"
+   ],
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 10,
+  "view": "pull",
+  "dur": 7.0,
+  "anim": 2.6,
+  "tail_zoom": 0.05,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Роль менее героическая на плакате, зато полезнее за окном",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 11,
+  "view": "duel",
+  "dur": 8.9,
+  "anim": 3.2,
+  "tail_zoom": 0.035,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "top": {
+    "who": "",
+    "text": "Кушнер за нормализацию отношений с Россией",
+    "accent": null,
+    "source": ""
+   },
+   "bottom": {
+    "who": "",
+    "text": "Европа за новые санкции и военную поддержку Киева",
+    "accent": null,
+    "source": ""
+   },
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 12,
+  "view": "sceny.mehanizm",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 11.7,
+  "channel": "ПЛАНЕТА",
+  "watermark": "ПЛАНЕТА",
+  "cfg": {
+   "view": "mehanizm",
+   "seconds": 11.7,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Давление на Киев",
+    "channel": "ПЛАНЕТА",
+    "watermark": "ПЛАНЕТА",
+    "dur": 11.7,
+    "pary": [
+     "Вашингтон>Киев",
+     "Европа>Россия"
+    ]
+   }
+  },
+  "kwargs": {
+   "text": "Давление на Киев",
+   "channel": "ПЛАНЕТА",
+   "watermark": "ПЛАНЕТА",
+   "dur": 11.7,
+   "pary": [
+    "Вашингтон>Киев",
+    "Европа>Россия"
+   ]
+  }
+ },
+ {
+  "scene": 13,
+  "view": "zal",
+  "dur": 12.0,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Каждый строит своё здание",
+   "words": [
+    "СТОЛ",
+    "ДВЕРЬ",
+    "ИТОГ"
+   ],
+   "sheets": [
+    "Киев",
+    "Москва",
+    "Вашингтон",
+    "Минск",
+    "Санкции",
+    "Ракеты"
+   ],
+   "channel": "ПЛАНЕТА",
+   "dur": 12.0,
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 14,
+  "view": "pull",
+  "dur": 5.9,
+  "anim": 2.6,
+  "tail_zoom": 0.05,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Кушнера раздражает привычка Киева вести переговоры через публику — он считает такую манеру вредной",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 15,
+  "view": "charts.waterfall",
+  "dur": 22.4,
+  "anim": 22.4,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "start": {
+    "label": "Обсуждение условий",
+    "value": 1.0
+   },
+   "steps": [
+    {
+     "label": "Подробности наружу",
+     "value": 1.0
+    },
+    {
+     "label": "Обиды и обвинения",
+     "value": 1.0
+    }
+   ],
+   "end": {
+    "label": "ИТОГ"
+   },
+   "sobytiya": true,
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 17,
+  "view": "sceny.pechat",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 8.4,
+  "channel": "ПЛАНЕТА",
+  "watermark": "ПЛАНЕТА",
+  "cfg": {
+   "view": "pechat",
+   "seconds": 8.4,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Дизельное топливо России в США",
+    "channel": "ПЛАНЕТА",
+    "watermark": "ПЛАНЕТА",
+    "dur": 8.4,
+    "stamp": "утверждено"
+   }
+  },
+  "kwargs": {
+   "text": "Дизельное топливо России в США",
+   "channel": "ПЛАНЕТА",
+   "watermark": "ПЛАНЕТА",
+   "dur": 8.4,
+   "stamp": "утверждено"
+  }
+ },
+ {
+  "scene": 18,
+  "view": "charts.waterfall",
+  "dur": 15.6,
+  "anim": 15.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "start": {
+    "label": "Жёсткое давление",
+    "value": 1.0
+   },
+   "steps": [
+    {
+     "label": "Нет реакции",
+     "value": 1.0
+    },
+    {
+     "label": "Экономические стимулы",
+     "value": 1.0
+    }
+   ],
+   "end": {
+    "label": "ИТОГ"
+   },
+   "sobytiya": true,
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 20,
+  "view": "sceny.pechat",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 9.8,
+  "channel": "ПЛАНЕТА",
+  "watermark": "ПЛАНЕТА",
+  "cfg": {
+   "view": "pechat",
+   "seconds": 9.8,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Абу-Даби: территории и гарантии",
+    "channel": "ПЛАНЕТА",
+    "watermark": "ПЛАНЕТА",
+    "dur": 9.8,
+    "stamp": "утверждено"
+   }
+  },
+  "kwargs": {
+   "text": "Абу-Даби: территории и гарантии",
+   "channel": "ПЛАНЕТА",
+   "watermark": "ПЛАНЕТА",
+   "dur": 9.8,
+   "stamp": "утверждено"
+  }
+ },
+ {
+  "scene": 21,
+  "view": "sceny.globus_map",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 14.8,
+  "channel": "ПЛАНЕТА",
+  "watermark": "ПЛАНЕТА",
+  "cfg": {
+   "view": "globus",
+   "seconds": 14.8,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Не всё продаётся с гарантией",
+    "channel": "ПЛАНЕТА",
+    "watermark": "ПЛАНЕТА",
+    "dur": 14.8,
+    "region": "США"
+   }
+  },
+  "kwargs": {
+   "text": "Не всё продаётся с гарантией",
+   "channel": "ПЛАНЕТА",
+   "watermark": "ПЛАНЕТА",
+   "dur": 14.8,
+   "region": "США"
+  }
+ },
+ {
+  "scene": 22,
+  "view": "slider",
+  "dur": 13.6,
+  "anim": 13.6,
+  "tail_zoom": 0.0,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {},
+  "mode": "cli",
+  "script": "build_chart_slider.py",
+  "cfg": {
+   "title": "",
+   "min": 0.0,
+   "max": 100.0,
+   "low": 0.0,
+   "high": 100.0,
+   "marker_value": 50.0,
+   "marker_display": "50",
+   "seconds": 13.6,
+   "range_label": "РАЗБРОС ОЦЕНОК",
+   "caption": "",
+   "source": ""
+  }
+ },
+ {
+  "scene": 24,
+  "view": "marker_serif",
+  "dur": 13.3,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Зеленский обвиняет США в том, что действия Вашингтона выглядят так, будто он движется в одну сторону с Путиным",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 25,
+  "view": "tape",
+  "dur": 7.4,
+  "anim": 2.4,
+  "tail_zoom": 0.04,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Америка годами давала деньги, оружие, разведданные и прикрытие на международной сцене",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 26,
+  "view": "zal_g48",
+  "dur": 14.5,
+  "anim": 14.5,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 14.5,
+   "sheets": [],
+   "text": "Подозрительно плохой друг",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 27,
+  "view": "sceny.kreslo",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 16.9,
+  "channel": "ПЛАНЕТА",
+  "watermark": "ПЛАНЕТА",
+  "cfg": {
+   "view": "kreslo",
+   "seconds": 16.9,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Киев ждёт декабря и новый Конгресс",
+    "channel": "ПЛАНЕТА",
+    "watermark": "ПЛАНЕТА",
+    "dur": 16.9,
+    "role": "Расчёт"
+   }
+  },
+  "kwargs": {
+   "text": "Киев ждёт декабря и новый Конгресс",
+   "channel": "ПЛАНЕТА",
+   "watermark": "ПЛАНЕТА",
+   "dur": 16.9,
+   "role": "Расчёт"
+  }
+ },
+ {
+  "scene": 30,
+  "view": "zal_g18",
+  "dur": 6.6,
+  "anim": 6.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 6.6,
+   "sheets": [],
+   "text": "Получить их планируют",
+   "value": "В НАЧАЛЕ 2030-Х",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 32,
+  "view": "doc",
+  "dur": 13.2,
+  "anim": 3.4,
+  "tail_zoom": 0.04,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Соглашение должно устраивать не только Киев с Вашингтоном — без согласия Москвы получится не мирный договор",
+   "title": "Без третьей стороны",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 34,
+  "view": "duel",
+  "dur": 16.1,
+  "anim": 3.2,
+  "tail_zoom": 0.035,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "top": {
+    "who": "",
+    "text": "Украина в НАТО не начнёт реванш",
+    "accent": null,
+    "source": ""
+   },
+   "bottom": {
+    "who": "",
+    "text": "Путин хочет сохранить влияние на Украину",
+    "accent": null,
+    "source": ""
+   },
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 35,
+  "view": "zal_kub",
+  "dur": 10.8,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 10.8,
+   "sheets": [],
+   "text": "Путин хочет сохранить влияние на Украину",
+   "kick": "Не отпустить окончательно",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 36,
+  "view": "zal_kub",
+  "dur": 14.7,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 14.7,
+   "sheets": [],
+   "text": "Сейчас Зеленский разъяснил",
+   "kick": "МОЖНО ПРЕДСТАВИТЬ",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 37,
+  "view": "charts.cartogram",
+  "dur": 11.6,
+  "anim": 11.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "data": [
+    "Киев",
+    "Россия"
+   ],
+   "mode": "bubble",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 38,
+  "view": "charts.cartogram",
+  "dur": 13.5,
+  "anim": 13.5,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "data": [
+    "Киев"
+   ],
+   "accent": [
+    "Киев"
+   ],
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 39,
+  "view": "dok_word",
+  "dur": 11.1,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Зеленский считает добровольный уход из Донбасса, включая Славянск и Краматорск, проигрышем",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 40,
+  "view": "sceny.prohod",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 16.6,
+  "channel": "ПЛАНЕТА",
+  "watermark": "ПЛАНЕТА",
+  "cfg": {
+   "view": "prohod",
+   "seconds": 16.6,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Что значит проиграть, ясно",
+    "channel": "ПЛАНЕТА",
+    "watermark": "ПЛАНЕТА",
+    "dur": 16.6,
+    "tezisy": [
+     "Сознательное решение оставить территории",
+     "Отступление под давлением на фронте",
+     "Но что тогда означает выиграть?"
+    ]
+   }
+  },
+  "kwargs": {
+   "text": "Что значит проиграть, ясно",
+   "channel": "ПЛАНЕТА",
+   "watermark": "ПЛАНЕТА",
+   "dur": 16.6,
+   "tezisy": [
+    "Сознательное решение оставить территории",
+    "Отступление под давлением на фронте",
+    "Но что тогда означает выиграть?"
+   ]
+  }
+ },
+ {
+  "scene": 41,
+  "view": "doc",
+  "dur": 11.6,
+  "anim": 3.4,
+  "tail_zoom": 0.04,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Как выглядит украинская победа не на плакате, а в конкретных условиях? Какое событие должно произойти, чтобы власти сказали: задача выполнена?",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 42,
+  "view": "pull",
+  "dur": 11.4,
+  "anim": 2.6,
+  "tail_zoom": 0.05,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Раньше ориентиры были понятны: границы 1991 года, Крым, обещания скорой победы",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 43,
+  "view": "quote",
+  "dur": 7.4,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Добровольный отход равен поражению. Теперь прежняя определённость растворилась. На её месте осталась одна формула",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 44,
+  "view": "sceny.relsy",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 11.4,
+  "channel": "ПЛАНЕТА",
+  "watermark": "ПЛАНЕТА",
+  "cfg": {
+   "view": "relsy",
+   "seconds": 11.4,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "В сохранении нынешней линии соприкосновения?",
+    "channel": "ПЛАНЕТА",
+    "watermark": "ПЛАНЕТА",
+    "dur": 11.4,
+    "sobytiya": [
+     "Тогда где находится победа?",
+     "В возвращении всех",
+     "В достижении границ тысяча",
+     "Во вступлении в НАТО?"
+    ]
+   }
+  },
+  "kwargs": {
+   "text": "В сохранении нынешней линии соприкосновения?",
+   "channel": "ПЛАНЕТА",
+   "watermark": "ПЛАНЕТА",
+   "dur": 11.4,
+   "sobytiya": [
+    "Тогда где находится победа?",
+    "В возвращении всех",
+    "В достижении границ тысяча",
+    "Во вступлении в НАТО?"
+   ]
+  }
+ },
+ {
+  "scene": 45,
+  "view": "sceny.tribuna",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 13.1,
+  "channel": "ПЛАНЕТА",
+  "watermark": "ПЛАНЕТА",
+  "cfg": {
+   "view": "tribuna",
+   "seconds": 13.1,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Приемлемым для Киева остаётся лишь уход не по его воле",
+    "channel": "ПЛАНЕТА",
+    "watermark": "ПЛАНЕТА",
+    "dur": 13.1,
+    "role": "позиция Киева"
+   }
+  },
+  "kwargs": {
+   "text": "Приемлемым для Киева остаётся лишь уход не по его воле",
+   "channel": "ПЛАНЕТА",
+   "watermark": "ПЛАНЕТА",
+   "dur": 13.1,
+   "role": "позиция Киева"
+  }
+ },
+ {
+  "scene": 46,
+  "view": "strike",
+  "dur": 13.7,
+  "anim": 3.0,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Война не футбольный матч, где свисток сам объявит результат",
+   "struck": "свисток сам объявит результат",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 48,
+  "view": "zal_g01",
+  "dur": 5.9,
+  "anim": 5.9,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 5.9,
+   "sheets": [],
+   "text": "Крайне мрачная развилка для Киева",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 49,
+  "view": "paper_typed",
+  "dur": 9.1,
+  "anim": 2.8,
+  "tail_zoom": 0.04,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Приемлемым для Киева остаётся лишь уход, который произойдёт не по его собственной воле",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 50,
+  "view": "sceny.tribuna",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 6.3,
+  "channel": "ПЛАНЕТА",
+  "watermark": "ПЛАНЕТА",
+  "cfg": {
+   "view": "tribuna",
+   "seconds": 6.3,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Лукашенко готов усадить Зеленского в самолёт",
+    "channel": "ПЛАНЕТА",
+    "watermark": "ПЛАНЕТА",
+    "dur": 6.3,
+    "role": "Лукашенко"
+   }
+  },
+  "kwargs": {
+   "text": "Лукашенко готов усадить Зеленского в самолёт",
+   "channel": "ПЛАНЕТА",
+   "watermark": "ПЛАНЕТА",
+   "dur": 6.3,
+   "role": "Лукашенко"
+  }
+ },
+ {
+  "scene": 51,
+  "view": "tape",
+  "dur": 13.6,
+  "anim": 2.4,
+  "tail_zoom": 0.04,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Договориться напрямую, без лишних посредников",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 53,
+  "view": "paper_hand",
+  "dur": 9.5,
+  "anim": 2.8,
+  "tail_zoom": 0.04,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Чтобы за столом хотя бы хватило времени услышать собеседника, а не только переводчика и следующего",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 54,
+  "view": "sceny.kreslo",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 8.5,
+  "channel": "ПЛАНЕТА",
+  "watermark": "ПЛАНЕТА",
+  "cfg": {
+   "view": "kreslo",
+   "seconds": 8.5,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Пусть берёт автомат и воюет сам",
+    "channel": "ПЛАНЕТА",
+    "watermark": "ПЛАНЕТА",
+    "dur": 8.5,
+    "role": "Лукашенко"
+   }
+  },
+  "kwargs": {
+   "text": "Пусть берёт автомат и воюет сам",
+   "channel": "ПЛАНЕТА",
+   "watermark": "ПЛАНЕТА",
+   "dur": 8.5,
+   "role": "Лукашенко"
+  }
+ },
+ {
+  "scene": 55,
+  "view": "zal_pol",
+  "dur": 9.4,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 9.4,
+   "sheets": [],
+   "text": "Сервис почти как у авиакомпании",
+   "na_polu": "АВТОМАТ",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 57,
+  "view": "tape",
+  "dur": 15.2,
+  "anim": 2.4,
+  "tail_zoom": 0.04,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Один назначает пассажира, другой меняет маршрут",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 59,
+  "view": "pull",
+  "dur": 21.2,
+  "anim": 2.6,
+  "tail_zoom": 0.05,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Нужно пространство между позициями, а его заставили мебелью",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 61,
+  "view": "doc",
+  "dur": 13.0,
+  "anim": 3.4,
+  "tail_zoom": 0.04,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Автор пишет, что Украина не выигрывает войну: западное давление с 2014 года было политикой кнута без пряника, а нужны ещё и стимулы",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 62,
+  "view": "pull",
+  "dur": 8.7,
+  "anim": 2.6,
+  "tail_zoom": 0.05,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Политика кнута без пряника не дала результата — нужны и стимулы",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 63,
+  "view": "zal_efir",
+  "dur": 11.5,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 11.5,
+   "sheets": [],
+   "text": "Трамп и Нобель",
+   "say": "Хочет войти в историю",
+   "author": "Трамп",
+   "role": "Президент США",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 64,
+  "view": "zal_ekran",
+  "dur": 11.2,
+  "anim": 11.2,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 11.2,
+   "sheets": [
+    "ПАНЕЛЬ ЭФИРА",
+    "ПРЯМОЙ ЭФИР"
+   ],
+   "text": "Тщеславие двигает переговоры",
+   "say": "Награда не должна решать судьбу войны",
+   "author": "Трамп",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 65,
+  "view": "pull",
+  "dur": 5.8,
+  "anim": 2.6,
+  "tail_zoom": 0.05,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Александр Грейбл изучил потери: Украина теряет больше людей, чем Россия",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 66,
+  "view": "duel",
+  "dur": 13.6,
+  "anim": 3.2,
+  "tail_zoom": 0.035,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "top": {
+    "who": "",
+    "text": "Украина теряет больше людей",
+    "accent": null,
+    "source": ""
+   },
+   "bottom": {
+    "who": "",
+    "text": "чем Россия, вопреки привычной картине",
+    "accent": null,
+    "source": ""
+   },
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 68,
+  "view": "sceny.repliki",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 8.5,
+  "channel": "ПЛАНЕТА",
+  "watermark": "ПЛАНЕТА",
+  "cfg": {
+   "view": "repliki",
+   "seconds": 8.5,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Формулировка услышана",
+    "channel": "ПЛАНЕТА",
+    "watermark": "ПЛАНЕТА",
+    "dur": 8.5,
+    "repliki_": [
+     "Зеленский|Добровольный уход из Донбасса — поражение",
+     "Общество|Ждём и вторую часть: что считать победой?"
+    ]
+   }
+  },
+  "kwargs": {
+   "text": "Формулировка услышана",
+   "channel": "ПЛАНЕТА",
+   "watermark": "ПЛАНЕТА",
+   "dur": 8.5,
+   "repliki_": [
+    "Зеленский|Добровольный уход из Донбасса — поражение",
+    "Общество|Ждём и вторую часть: что считать победой?"
+   ]
+  }
+ },
+ {
+  "scene": 69,
+  "view": "pull",
+  "dur": 16.0,
+  "anim": 2.6,
+  "tail_zoom": 0.05,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Нужен не лозунг, а достижимый итог с понятными условиями",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 70,
+  "view": "dok_title",
+  "dur": 6.7,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Война не может длиться, чтобы никто не произнёс слово поражение",
+   "accent": "поражение",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 71,
+  "view": "doc",
+  "dur": 13.2,
+  "anim": 3.4,
+  "tail_zoom": 0.04,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Каждый следующий месяц — отсрочка разговора, а американцы по очереди предлагают деньги, сроки, гарантии и территории",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 72,
+  "view": "tape",
+  "dur": 12.2,
+  "anim": 2.4,
+  "tail_zoom": 0.04,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Все предлагают свой путь: самолёт, Конгресс, диалог, санкции",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 73,
+  "view": "pull",
+  "dur": 15.08,
+  "anim": 2.6,
+  "tail_zoom": 0.05,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Если отойти значит проиграть, что тогда назвать победой?",
+   "watermark": "ПЛАНЕТА"
+  }
+ }
+]
