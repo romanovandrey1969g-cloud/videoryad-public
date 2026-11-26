@@ -1,0 +1,72 @@
+{
+  "1": {
+    "text": {
+      "words": "ЕВРОПА ЗА СТОЛОМ",
+      "color": "yellow",
+      "pos": "ml",
+      "font": "default",
+      "sound": "zatvor",
+      "at": 0.5,
+      "scale": 1.0,
+      "style": "mask_plate",
+      "sub": "Условия вместо диалога",
+      "approved": true
+    }
+  },
+  "28": {
+    "text": {
+      "words": "ОРУЖИЕ И ГРАНИЦЫ",
+      "color": "green",
+      "pos": "tl",
+      "font": "default",
+      "sound": "zatvor",
+      "at": 0.5,
+      "scale": 1.0,
+      "style": "mask_plate",
+      "sub": "Что готов обсуждать Лукашенко",
+      "approved": true
+    }
+  },
+  "39": {
+    "text": {
+      "words": "УРОК ИРАНА",
+      "color": "orange",
+      "pos": "ml",
+      "font": "default",
+      "sound": "zatvor",
+      "at": 0.5,
+      "scale": 1.0,
+      "style": "mask_plate",
+      "sub": "Давление без прямой войны",
+      "approved": true
+    }
+  },
+  "52": {
+    "text": {
+      "words": "ОЦЕНКА КУШНЕРА",
+      "color": "red",
+      "pos": "ml",
+      "font": "default",
+      "sound": "zatvor",
+      "at": 0.5,
+      "scale": 1.0,
+      "style": "mask_plate",
+      "sub": "Кто сорвал точку сближения",
+      "approved": true
+    }
+  },
+  "64": {
+    "text": {
+      "words": "ЦИКЛ ЭСКАЛАЦИИ",
+      "color": "orange",
+      "pos": "ml",
+      "font": "default",
+      "sound": "zatvor",
+      "at": 0.5,
+      "scale": 1.0,
+      "style": "mask_plate",
+      "sub": "Мир, который не состоялся",
+      "approved": true
+    }
+  }
+}
