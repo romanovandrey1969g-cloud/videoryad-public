@@ -1,0 +1,61 @@
+{
+ "channel": "5 МИНУТ",
+ "scenes": [
+  {
+   "id": 201,
+   "start_sec": 0,
+   "duration_sec": 5,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "Москва Кремль купола собор реальное фото"
+  },
+  {
+   "id": 202,
+   "start_sec": 5,
+   "duration_sec": 5,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "здание Еврокомиссии Брюссель флаги Европы"
+  },
+  {
+   "id": 203,
+   "start_sec": 10,
+   "duration_sec": 5,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "безэкипажный морской дрон катер Украина реальное фото 2026"
+  },
+  {
+   "id": 204,
+   "start_sec": 15,
+   "duration_sec": 5,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "здание НАТО Брюссель архитектура флаги 2026"
+  },
+  {
+   "id": 206,
+   "start_sec": 25,
+   "duration_sec": 5,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "мост через реку Украина инфраструктура реальное фото"
+  },
+  {
+   "id": 207,
+   "start_sec": 30,
+   "duration_sec": 5,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "военно-морская база причал подводная лодка Великобритания реальное фото"
+  },
+  {
+   "id": 208,
+   "start_sec": 35,
+   "duration_sec": 5,
+   "text": "",
+   "source": "press_photo",
+   "source_query": "здание Международного уголовного суда Гаага"
+  }
+ ]
+}
