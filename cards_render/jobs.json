@@ -1,0 +1,997 @@
+[
+ {
+  "scene": 4,
+  "view": "vyrezka.gazeta",
+  "dur": 9.5,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "photo": "cards/photo/card_004.jpg",
+   "author": "Борис Писториус",
+   "role": "министр обороны Германии",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 6,
+  "view": "zal_slova",
+  "dur": 13.0,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "channel": "5 МИНУТ",
+   "dur": 13.0,
+   "sheets": [
+    "что к двусторонним консультациям с",
+    "Только многосторонний формат"
+   ],
+   "text": "То есть ехать надо, но ехать пока не хотим",
+   "na_polu": "РОССИЕЙ",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 10,
+  "view": "quote",
+  "dur": 8.8,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "text": "Несколько лет обсуждали гарантии, конструкции, форматы, обязательства",
+   "accent": "обязательства",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 12,
+  "view": "paper_typed",
+  "dur": 9.7,
+  "anim": 2.8,
+  "tail_zoom": 0.04,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "text": "Никушор Дан: сбивать цели над Украиной — значит воевать вместе с Украиной",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 16,
+  "view": "duel",
+  "dur": 12.6,
+  "anim": 3.2,
+  "tail_zoom": 0.035,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "top": {
+    "who": "",
+    "text": "Если судить по откровениям Кушнера и тому",
+    "accent": null,
+    "source": ""
+   },
+   "bottom": {
+    "who": "",
+    "text": "готов идти на ограниченные уступки ради соглашения",
+    "accent": null,
+    "source": ""
+   },
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 18,
+  "view": "zal_kub",
+  "dur": 4.5,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "channel": "5 МИНУТ",
+   "dur": 4.5,
+   "sheets": [],
+   "text": "Зеленский идёт по канату переговоров",
+   "kick": "Остановка сразу рождает вопросы",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 20,
+  "view": "vyrezka.figura",
+  "dur": 7.4,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "photo": "cards/photo/card_020.jpg",
+   "author": "Владимир Зеленский",
+   "role": "президент Украины",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 24,
+  "view": "karta_brifing",
+  "dur": 12.6,
+  "anim": 12.6,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "text": "Затем снова доходим до реальной точки соприкосновения",
+   "accent": "соприкосновения",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 25,
+  "view": "sceny.relsy",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 15.4,
+  "channel": "5 МИНУТ",
+  "watermark": "5 МИНУТ",
+  "cfg": {
+   "view": "relsy",
+   "seconds": 15.4,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Каким образом вы намерены это изменить?",
+    "channel": "5 МИНУТ",
+    "watermark": "5 МИНУТ",
+    "dur": 15.4,
+    "sobytiya": [
+     "где он остановится",
+     "А дальше что?",
+     "Каким образом вы намерены",
+     "Вы будете это менять или"
+    ],
+    "рол_номер": 1
+   }
+  },
+  "kwargs": {
+   "text": "Каким образом вы намерены это изменить?",
+   "channel": "5 МИНУТ",
+   "watermark": "5 МИНУТ",
+   "dur": 15.4,
+   "sobytiya": [
+    "где он остановится",
+    "А дальше что?",
+    "Каким образом вы намерены",
+    "Вы будете это менять или"
+   ],
+   "рол_номер": 1
+  }
+ },
+ {
+  "scene": 26,
+  "view": "strike",
+  "dur": 8.0,
+  "anim": 3.0,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "text": "У администрации Трампа время бесконечно. Внутренняя политика скоро отъест всё внимание",
+   "struck": "бесконечно",
+   "fix": "на исходе",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 27,
+  "view": "zal_g48",
+  "dur": 13.6,
+  "anim": 13.6,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "channel": "5 МИНУТ",
+   "dur": 13.6,
+   "sheets": [],
+   "text": "Поддержите канал подпиской",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 28,
+  "view": "sceny.prohod",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 7.0,
+  "channel": "5 МИНУТ",
+  "watermark": "5 МИНУТ",
+  "cfg": {
+   "view": "prohod",
+   "seconds": 7.0,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Снова та же эскалация",
+    "channel": "5 МИНУТ",
+    "watermark": "5 МИНУТ",
+    "dur": 7.0,
+    "tezisy": [
+     "Переговоры возвращаются в одну точку",
+     "Теперь — история про эскалацию",
+     "Главное — не путать причину"
+    ]
+   }
+  },
+  "kwargs": {
+   "text": "Снова та же эскалация",
+   "channel": "5 МИНУТ",
+   "watermark": "5 МИНУТ",
+   "dur": 7.0,
+   "tezisy": [
+    "Переговоры возвращаются в одну точку",
+    "Теперь — история про эскалацию",
+    "Главное — не путать причину"
+   ]
+  }
+ },
+ {
+  "scene": 29,
+  "view": "sceny.globus_map",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 10.9,
+  "channel": "5 МИНУТ",
+  "watermark": "5 МИНУТ",
+  "cfg": {
+   "view": "globus",
+   "seconds": 10.9,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Это Россия эскалирует на Балтийском море",
+    "channel": "5 МИНУТ",
+    "watermark": "5 МИНУТ",
+    "dur": 10.9,
+    "region": "Россия"
+   }
+  },
+  "kwargs": {
+   "text": "Это Россия эскалирует на Балтийском море",
+   "channel": "5 МИНУТ",
+   "watermark": "5 МИНУТ",
+   "dur": 10.9,
+   "region": "Россия"
+  }
+ },
+ {
+  "scene": 30,
+  "view": "zal_makety",
+  "dur": 11.7,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "channel": "5 МИНУТ",
+   "dur": 11.7,
+   "sheets": [],
+   "text": "У Бенгази атакованы российские корабли",
+   "makety": [
+    "корабль=ДВА ТИПА"
+   ],
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 32,
+  "view": "zal_g01",
+  "dur": 7.1,
+  "anim": 7.1,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "channel": "5 МИНУТ",
+   "dur": 7.1,
+   "sheets": [],
+   "text": "И страна выбрана далеко не случайно",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 36,
+  "view": "charts.network",
+  "dur": 11.8,
+  "anim": 11.8,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "nodes": [
+    {
+     "id": "Значит",
+     "label": "Значит",
+     "weight": 1.0
+    },
+    {
+     "id": "Транспорт",
+     "label": "Транспорт",
+     "weight": 2.0
+    },
+    {
+     "id": "Транзит",
+     "label": "Транзит",
+     "weight": 2.0
+    },
+    {
+     "id": "Люди",
+     "label": "Люди",
+     "weight": 1.0
+    }
+   ],
+   "links": [
+    {
+     "from": "Значит",
+     "to": "Транспорт",
+     "weight": 1.0
+    },
+    {
+     "from": "Транспорт",
+     "to": "Транзит",
+     "weight": 1.0
+    },
+    {
+     "from": "Транзит",
+     "to": "Люди",
+     "weight": 1.0
+    }
+   ],
+   "title": "Значит, появляется маршрут. Транспорт",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 37,
+  "view": "torn_split.torn_split",
+  "dur": 6.7,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "a_path": "cards/photo/card_037.jpg",
+   "b_path": "cards/photo/card_037_2.jpg",
+   "title": "А дальше возникает неприятная асимметрия",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 38,
+  "view": "zal_pol",
+  "dur": 15.1,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "channel": "5 МИНУТ",
+   "dur": 15.1,
+   "sheets": [],
+   "text": "Где проходит граница конфликта",
+   "na_polu": "ДВИГАЕТСЯ",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 39,
+  "view": "sceny.prolog",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 7.5,
+  "channel": "5 МИНУТ",
+  "watermark": "5 МИНУТ",
+  "cfg": {
+   "view": "prolog",
+   "seconds": 7.5,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Граница есть, пока все молчат",
+    "channel": "5 МИНУТ",
+    "watermark": "5 МИНУТ",
+    "dur": 7.5
+   }
+  },
+  "kwargs": {
+   "text": "Граница есть, пока все молчат",
+   "channel": "5 МИНУТ",
+   "watermark": "5 МИНУТ",
+   "dur": 7.5
+  }
+ },
+ {
+  "scene": 40,
+  "view": "sceny.kreslo",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 4.0,
+  "channel": "5 МИНУТ",
+  "watermark": "5 МИНУТ",
+  "cfg": {
+   "view": "kreslo",
+   "seconds": 4.0,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Граница сдвигается — ясно, кто её двигает",
+    "channel": "5 МИНУТ",
+    "watermark": "5 МИНУТ",
+    "dur": 4.0,
+    "role": "сторона эскалации"
+   }
+  },
+  "kwargs": {
+   "text": "Граница сдвигается — ясно, кто её двигает",
+   "channel": "5 МИНУТ",
+   "watermark": "5 МИНУТ",
+   "dur": 4.0,
+   "role": "сторона эскалации"
+  }
+ },
+ {
+  "scene": 41,
+  "view": "sceny.mehanizm",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 12.0,
+  "channel": "5 МИНУТ",
+  "watermark": "5 МИНУТ",
+  "cfg": {
+   "view": "mehanizm",
+   "seconds": 12.0,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Даже не будем спорить",
+    "channel": "5 МИНУТ",
+    "watermark": "5 МИНУТ",
+    "dur": 12.0,
+    "pary": [
+     "Пять — Украине",
+     "Украине — Даже"
+    ]
+   }
+  },
+  "kwargs": {
+   "text": "Даже не будем спорить",
+   "channel": "5 МИНУТ",
+   "watermark": "5 МИНУТ",
+   "dur": 12.0,
+   "pary": [
+    "Пять — Украине",
+    "Украине — Даже"
+   ]
+  }
+ },
+ {
+  "scene": 42,
+  "view": "slider",
+  "dur": 9.9,
+  "anim": 9.9,
+  "tail_zoom": 0.0,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {},
+  "mode": "cli",
+  "script": "build_chart_slider.py",
+  "cfg": {
+   "title": "Сколько ракет на столе",
+   "min": 0.0,
+   "max": 70.0,
+   "low": 40.0,
+   "high": 60.0,
+   "marker_value": 50.0,
+   "marker_display": "50",
+   "seconds": 9.9,
+   "range_label": "оценка переговоров",
+   "caption": "от сорока до шестидесяти",
+   "source": ""
+  }
+ },
+ {
+  "scene": 45,
+  "view": "tape",
+  "dur": 8.2,
+  "anim": 2.4,
+  "tail_zoom": 0.04,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "text": "Ни лицензии, ни ракет — обе темы остаются только в разговорах",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 50,
+  "view": "zal_efir",
+  "dur": 9.1,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "channel": "5 МИНУТ",
+   "dur": 9.1,
+   "sheets": [],
+   "text": "Авиабомбы летят дальше",
+   "say": "Бывший тыл теперь в зоне риска",
+   "author": "5 МИНУТ",
+   "role": "обозреватели",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 51,
+  "view": "film.film_strip",
+  "dur": 14.1,
+  "anim": 14.1,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "shots": [
+    "cards/photo/card_051.jpg",
+    "cards/photo/card_051_2.jpg",
+    "cards/photo/card_051_3.jpg",
+    "cards/photo/card_051_4.jpg"
+   ],
+   "title": "СТРАШИЛКА",
+   "captions": [
+    "Кабинет-Министров-",
+    "Кабинет-Министров-",
+    "Кабинет-Министров-",
+    "Кабинет-Министров-"
+   ],
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 53,
+  "view": "zal_ekran",
+  "dur": 5.9,
+  "anim": 5.9,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "channel": "5 МИНУТ",
+   "dur": 5.9,
+   "sheets": [
+    "ЛИВИЯ",
+    "ПРЯМОЙ ЭФИР"
+   ],
+   "text": "Атака у берегов меняет статус",
+   "say": "Это фактически объявление войны Ливии",
+   "author": "Муса аль-Кони",
+   "role": "замглавы Президентского совета Ливии",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 54,
+  "view": "pull",
+  "dur": 8.8,
+  "anim": 2.6,
+  "tail_zoom": 0.05,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "text": "Ливия готовит иск и обращение в Совет Безопасности ООН",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 57,
+  "view": "charts.cartogram",
+  "dur": 7.0,
+  "anim": 7.0,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "data": [
+    "Украина"
+   ],
+   "mode": "bubble",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 59,
+  "view": "charts.map_dist",
+  "dur": 7.6,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "points": [
+    {
+     "label": "Триполи",
+     "lat": 32.89,
+     "lon": 13.19,
+     "accent": false
+    },
+    {
+     "label": "Гаага",
+     "lat": 52.08,
+     "lon": 4.31,
+     "accent": true
+    }
+   ],
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 60,
+  "view": "sceny.lenta",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 8.8,
+  "channel": "5 МИНУТ",
+  "watermark": "5 МИНУТ",
+  "cfg": {
+   "view": "lenta",
+   "seconds": 8.8,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Два разных суда — не путать",
+    "channel": "5 МИНУТ",
+    "watermark": "5 МИНУТ",
+    "dur": 8.8,
+    "soobshcheniya": [
+     "Ливия: Международный суд",
+     "СМИ: Международный уголовный суд"
+    ]
+   }
+  },
+  "kwargs": {
+   "text": "Два разных суда — не путать",
+   "channel": "5 МИНУТ",
+   "watermark": "5 МИНУТ",
+   "dur": 8.8,
+   "soobshcheniya": [
+    "Ливия: Международный суд",
+    "СМИ: Международный уголовный суд"
+   ]
+  }
+ },
+ {
+  "scene": 61,
+  "view": "sceny.repliki",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 12.4,
+  "channel": "5 МИНУТ",
+  "watermark": "5 МИНУТ",
+  "cfg": {
+   "view": "repliki",
+   "seconds": 12.4,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Итог одной морской операции",
+    "channel": "5 МИНУТ",
+    "watermark": "5 МИНУТ",
+    "dur": 12.4,
+    "repliki_": [
+     "ООН|Совет Безопасности",
+     "Ливия|суд и возмущение",
+     "СМИ|уголовный суд",
+     "НАТО|претензии страны альянса"
+    ]
+   }
+  },
+  "kwargs": {
+   "text": "Итог одной морской операции",
+   "channel": "5 МИНУТ",
+   "watermark": "5 МИНУТ",
+   "dur": 12.4,
+   "repliki_": [
+    "ООН|Совет Безопасности",
+    "Ливия|суд и возмущение",
+    "СМИ|уголовный суд",
+    "НАТО|претензии страны альянса"
+   ]
+  }
+ },
+ {
+  "scene": 62,
+  "view": "paper_hand",
+  "dur": 10.0,
+  "anim": 2.8,
+  "tail_zoom": 0.04,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "text": "Британия меняет военные приоритеты",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 63,
+  "view": "zal_g18",
+  "dur": 8.3,
+  "anim": 8.3,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "channel": "5 МИНУТ",
+   "dur": 8.3,
+   "sheets": [],
+   "text": "Миллиарды фунтов на флот",
+   "value": "8 млрд £",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 64,
+  "view": "dok_title",
+  "dur": 6.9,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "text": "Быстрее ремонт — выше боеготовность атомного флота Британии",
+   "accent": "Британии",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 66,
+  "view": "zal_shkala",
+  "dur": 11.2,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "channel": "5 МИНУТ",
+   "dur": 11.2,
+   "sheets": [],
+   "text": "Подрядчик оценивает сделку дороже",
+   "value": "8,7 млрд £",
+   "value_sub": "полная оценка контракта",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 67,
+  "view": "charts.waterfall",
+  "dur": 11.0,
+  "anim": 11.0,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "start": {
+    "label": "Ещё семьсот миллионов",
+    "value": 1.0
+   },
+   "steps": [
+    {
+     "label": "а на пятнадцать лет",
+     "value": 1.0
+    },
+    {
+     "label": "Это крупнейшая сделка в",
+     "value": 1.0
+    }
+   ],
+   "end": {
+    "label": "ИТОГ"
+   },
+   "title": "Ещё семьсот миллионов приходятся на",
+   "sobytiya": true,
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 68,
+  "view": "zal_schetchik",
+  "dur": 9.4,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "channel": "5 МИНУТ",
+   "dur": 9.4,
+   "sheets": [],
+   "text": "Подлодки ждали своей очереди",
+   "value": "2 года",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 69,
+  "view": "sceny.tribuna",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 8.4,
+  "channel": "5 МИНУТ",
+  "watermark": "5 МИНУТ",
+  "cfg": {
+   "view": "tribuna",
+   "seconds": 8.4,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Ядерная держава — и подлодки в очереди на ремонт",
+    "channel": "5 МИНУТ",
+    "watermark": "5 МИНУТ",
+    "dur": 8.4,
+    "role": "представитель Минобороны Британии"
+   }
+  },
+  "kwargs": {
+   "text": "Ядерная держава — и подлодки в очереди на ремонт",
+   "channel": "5 МИНУТ",
+   "watermark": "5 МИНУТ",
+   "dur": 8.4,
+   "role": "представитель Минобороны Британии"
+  }
+ },
+ {
+  "scene": 70,
+  "view": "zal",
+  "dur": 13.0,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "text": "Британия не должна повторить прежнюю ошибку",
+   "words": [
+    "ИТОГ",
+    "ФЛОТ"
+   ],
+   "sheets": [
+    "Ракетоносцы — приоритет",
+    "Субмарины ждали",
+    "Уэс Стритинг",
+    "Британия",
+    "Атомный флот",
+    "Ядерное сдерживание"
+   ],
+   "channel": "5 МИНУТ",
+   "dur": 13.0,
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 71,
+  "view": "zal_g44",
+  "dur": 11.9,
+  "anim": 11.9,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "channel": "5 МИНУТ",
+   "dur": 11.9,
+   "sheets": [],
+   "text": "Горизонт подготовки к войне",
+   "value": "1000 дней",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 72,
+  "view": "charts.cartogram",
+  "dur": 17.8,
+  "anim": 17.8,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "data": [
+    "Москва"
+   ],
+   "level": "region",
+   "admin": "Россия",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 73,
+  "view": "charts.cartogram",
+  "dur": 13.6,
+  "anim": 13.6,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "data": [
+    "Великобритания",
+    "Украина",
+    "Румыния"
+   ],
+   "accent": [
+    "Великобритания"
+   ],
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 75,
+  "view": "doc",
+  "dur": 12.6,
+  "anim": 3.4,
+  "tail_zoom": 0.04,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "text": "Переговоры раз за разом возвращаются в одну и ту же точку. Дело не в том, понимают ли это американцы — они понимают. Вопрос проще: что они собираются с этим делать",
+   "mark": "Вопрос проще",
+   "stamp": "ИТОГ",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 76,
+  "view": "sceny.perematka",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 17.56,
+  "channel": "5 МИНУТ",
+  "watermark": "5 МИНУТ",
+  "cfg": {
+   "view": "perematka",
+   "seconds": 17.56,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Гарантии безопасности переписывались не раз",
+    "channel": "5 МИНУТ",
+    "watermark": "5 МИНУТ",
+    "dur": 17.56,
+    "kadry": [
+     {
+      "photo": "cards/photo/card_076.jpg",
+      "god": "1994"
+     },
+     {
+      "photo": "cards/photo/card_076_2.jpg",
+      "god": "2015"
+     }
+    ]
+   }
+  },
+  "kwargs": {
+   "text": "Гарантии безопасности переписывались не раз",
+   "channel": "5 МИНУТ",
+   "watermark": "5 МИНУТ",
+   "dur": 17.56,
+   "kadry": [
+    {
+     "photo": "cards/photo/card_076.jpg",
+     "god": "1994"
+    },
+    {
+     "photo": "cards/photo/card_076_2.jpg",
+     "god": "2015"
+    }
+   ]
+  }
+ }
+]
