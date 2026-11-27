@@ -1,0 +1,29 @@
+[
+ {
+  "scene": 62,
+  "view": "paper_hand",
+  "dur": 10.0,
+  "anim": 2.8,
+  "tail_zoom": 0.04,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "text": "Британия меняет военные приоритеты",
+   "watermark": "5 МИНУТ"
+  }
+ },
+ {
+  "scene": 64,
+  "view": "dok_title",
+  "dur": 6.9,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "5 МИНУТ",
+  "channel": "5 МИНУТ",
+  "kwargs": {
+   "text": "Быстрее ремонт, выше боеготовность флота",
+   "accent": "боеготовность",
+   "watermark": "5 МИНУТ"
+  }
+ }
+]
