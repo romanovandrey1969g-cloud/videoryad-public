@@ -1,0 +1,216 @@
+[
+ {
+  "scene": 10,
+  "view": "duel",
+  "dur": 9.57,
+  "anim": 3.2,
+  "tail_zoom": 0.035,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "top": {
+    "who": "",
+    "text": "что обсуждения не было",
+    "accent": null,
+    "source": ""
+   },
+   "bottom": {
+    "who": "",
+    "text": "Затем Зеленский пообещал впредь обсуждать лучше",
+    "accent": null,
+    "source": ""
+   },
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 23,
+  "view": "karta_brifing",
+  "dur": 8.92,
+  "anim": 8.92,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Но сначала кто то должен доставить устройство, обеспечить стоянку, найти порт или участок берега",
+   "accent": "устройство",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 25,
+  "view": "quote",
+  "dur": 7.79,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Поэтому фраза Таяни о неосведомлённости закрывает спор вокруг предварительного уведомления Италии",
+   "accent": "Таяни",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 32,
+  "view": "dok_title",
+  "dur": 6.25,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Пока участники изображают случайных прохожих, вопросами интересуются те",
+   "accent": "участники",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 45,
+  "view": "zal_g48",
+  "dur": 6.57,
+  "anim": 6.57,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 6.57,
+   "sheets": [],
+   "text": "Таяни выбрал опровержение",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 48,
+  "view": "dok_word",
+  "dur": 7.87,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Что потерял бы Киев, если бы президент не стал рассказывать о внутренней кухне операции?",
+   "accent": "внутренней",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 51,
+  "view": "film.film_single",
+  "dur": 7.38,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "photo": "cards/photo/card_051.jpg",
+   "title": "ПАРТНЁРЫ",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 54,
+  "view": "zal_pol",
+  "dur": 6.33,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 6.33,
+   "sheets": [
+    "остальные в следующий раз будут",
+    "Да и ту осторожно"
+   ],
+   "text": "После раскрытия данных",
+   "na_polu": "ПОХОЖИЙ",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 57,
+  "view": "sceny.globus_map",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 7.18,
+  "channel": "ПЛАНЕТА",
+  "watermark": "ПЛАНЕТА",
+  "cfg": {
+   "view": "globus",
+   "seconds": 7.18,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Удивительная бухгалтерия",
+    "channel": "ПЛАНЕТА",
+    "watermark": "ПЛАНЕТА",
+    "dur": 7.18,
+    "region": "Украина"
+   }
+  },
+  "kwargs": {
+   "text": "Удивительная бухгалтерия",
+   "channel": "ПЛАНЕТА",
+   "watermark": "ПЛАНЕТА",
+   "dur": 7.18,
+   "region": "Украина"
+  }
+ },
+ {
+  "scene": 59,
+  "view": "zal_g01",
+  "dur": 7.06,
+  "anim": 7.06,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 7.06,
+   "sheets": [],
+   "text": "Зеленский получает внимание",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 67,
+  "view": "film.film_strip",
+  "dur": 6.76,
+  "anim": 6.76,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "shots": [
+    "cards/photo/card_067.jpg",
+    "cards/photo/card_067_2.jpg",
+    "cards/photo/card_067_3.jpg",
+    "cards/photo/card_067_4.jpg"
+   ],
+   "title": "ПОЯВЛЕНИЕ",
+   "captions": [
+    "Кабинет-Министров-",
+    "Кабинет-Министров-",
+    "Кабинет-Министров-",
+    "Кабинет-Министров-"
+   ],
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 75,
+  "view": "tape",
+  "dur": 7.46,
+  "anim": 2.4,
+  "tail_zoom": 0.04,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "text": "Тогда слова о государственном терроризме звучали бы не из одной Москвы, а разговор о согласовании с союзниками приобрёл",
+   "accent": "Москвы",
+   "watermark": "ПЛАНЕТА"
+  }
+ }
+]
