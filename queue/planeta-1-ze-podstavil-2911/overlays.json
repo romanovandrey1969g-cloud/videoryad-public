@@ -1,0 +1,92 @@
+{
+  "4": {
+    "text": {
+      "words": "ПЕРЕОБУЛСЯ",
+      "sub": "заявление меняется на ходу",
+      "style": "mask_plate",
+      "pos": "ml",
+      "at": 0.3,
+      "sound": "whoosh"
+    }
+  },
+  "13": {
+    "text": {
+      "words": "ЛОГИСТИКА",
+      "sub": "как дроны дошли до Бенгази",
+      "style": "mask_plate",
+      "pos": "ml",
+      "at": 0.3,
+      "sound": "whoosh"
+    }
+  },
+  "30": {
+    "text": {
+      "words": "ТАЙНА",
+      "sub": "кто обеспечил подготовку",
+      "style": "mask_plate",
+      "pos": "ml",
+      "at": 0.3,
+      "sound": "whoosh"
+    }
+  },
+  "39": {
+    "text": {
+      "words": "ПРИЗНАНИЕ",
+      "sub": "Зеленский меняет формулировку",
+      "style": "mask_plate",
+      "pos": "ml",
+      "at": 0.3,
+      "sound": "whoosh"
+    }
+  },
+  "47": {
+    "text": {
+      "words": "ОПРОВЕРЖЕНИЕ",
+      "sub": "Таяни выбрал второй вариант",
+      "style": "mask_plate",
+      "pos": "ml",
+      "at": 0.3,
+      "sound": "whoosh"
+    }
+  },
+  "56": {
+    "text": {
+      "words": "ПОСОЛ",
+      "sub": "Сеул рассматривал отзыв",
+      "style": "mask_plate",
+      "pos": "ml",
+      "at": 0.3,
+      "sound": "whoosh"
+    }
+  },
+  "65": {
+    "text": {
+      "words": "РИТУАЛ",
+      "sub": "привычный порядок ломается",
+      "style": "mask_plate",
+      "pos": "ml",
+      "at": 0.3,
+      "sound": "whoosh"
+    }
+  },
+  "74": {
+    "text": {
+      "words": "КУВЕЙТ",
+      "sub": "география конфликта расширяется",
+      "style": "mask_plate",
+      "pos": "ml",
+      "at": 0.3,
+      "sound": "whoosh"
+    }
+  },
+  "83": {
+    "text": {
+      "words": "МОЛЧАНИЕ",
+      "sub": "что потерял бы Киев",
+      "style": "mask_plate",
+      "pos": "ml",
+      "at": 0.3,
+      "sound": "whoosh"
+    }
+  }
+}
