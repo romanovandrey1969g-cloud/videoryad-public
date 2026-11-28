@@ -1,0 +1,114 @@
+{
+  "4": {
+    "text": {
+      "words": "ПЕРЕОБУЛСЯ",
+      "color": "orange",
+      "pos": "ml",
+      "font": "default",
+      "sound": "whoosh",
+      "at": 0.3,
+      "scale": 1.0,
+      "style": "mask_plate",
+      "sub": "заявление меняется на ходу",
+      "approved": true
+    }
+  },
+  "13": {
+    "text": {
+      "words": "ЛОГИСТИКА",
+      "color": "green",
+      "pos": "ml",
+      "font": "default",
+      "sound": "whoosh",
+      "at": 0.3,
+      "scale": 1.0,
+      "style": "mask_plate",
+      "sub": "как дроны дошли до Бенгази",
+      "approved": true
+    }
+  },
+  "30": {
+    "text": {
+      "words": "ТАЙНА",
+      "color": "white",
+      "pos": "mr",
+      "font": "default",
+      "sound": "whoosh",
+      "at": 0.3,
+      "scale": 1.0,
+      "style": "mask_plate",
+      "sub": "кто обеспечил подготовку",
+      "approved": true
+    }
+  },
+  "39": {
+    "text": {
+      "words": "ПРИЗНАНИЕ",
+      "color": "orange",
+      "pos": "ml",
+      "font": "default",
+      "sound": "whoosh",
+      "at": 0.3,
+      "scale": 1.0,
+      "style": "mask_plate",
+      "sub": "Зеленский меняет формулировку",
+      "approved": true
+    }
+  },
+  "47": {
+    "text": {
+      "words": "ОПРОВЕРЖЕНИЕ",
+      "color": "red",
+      "pos": "ml",
+      "font": "default",
+      "sound": "whoosh",
+      "at": 0.3,
+      "scale": 1.0,
+      "style": "mask_plate",
+      "sub": "Таяни выбрал второй вариант",
+      "approved": true
+    }
+  },
+  "56": {
+    "text": {
+      "words": "ПОСОЛ",
+      "color": "yellow",
+      "pos": "ml",
+      "font": "default",
+      "sound": "whoosh",
+      "at": 0.3,
+      "scale": 1.0,
+      "style": "mask_plate",
+      "sub": "Сеул рассматривал отзыв",
+      "approved": true
+    }
+  },
+  "65": {
+    "text": {
+      "words": "РИТУАЛ",
+      "color": "white",
+      "pos": "ml",
+      "font": "default",
+      "sound": "whoosh",
+      "at": 0.3,
+      "scale": 1.0,
+      "style": "mask_plate",
+      "sub": "привычный порядок ломается",
+      "approved": true
+    }
+  },
+  "83": {
+    "text": {
+      "words": "МОЛЧАНИЕ",
+      "color": "green",
+      "pos": "ml",
+      "font": "default",
+      "sound": "whoosh",
+      "at": 0.3,
+      "scale": 1.0,
+      "style": "mask_plate",
+      "sub": "что потерял бы Киев",
+      "approved": true
+    }
+  }
+}
