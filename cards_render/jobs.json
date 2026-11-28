@@ -1,0 +1,91 @@
+[
+ {
+  "scene": 12,
+  "view": "kartoteka",
+  "dur": 7.95,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 7.95,
+   "accent": "АНТОНИО ТАЯНИ",
+   "kick": "министр иностранных дел Италии",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 21,
+  "view": "chertezh",
+  "dur": 5.92,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 5.92,
+   "accent": "МАГУРА",
+   "items": [
+    "скорость свыше 70 узлов",
+    "боевая часть до 300 кг",
+    "дальность более 800 км"
+   ],
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 29,
+  "view": "kompas",
+  "dur": 6.33,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 6.33,
+   "accent": "оружие идёт и в обратную сторону",
+   "value": "ОТ УКРАИНЫ",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 69,
+  "view": "otbivka",
+  "dur": 8.27,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 8.27,
+   "accent": "КУВЕЙТ",
+   "value": "2",
+   "kick": "Персидский залив, 2026",
+   "watermark": "ПЛАНЕТА"
+  }
+ },
+ {
+  "scene": 86,
+  "view": "pereskaz",
+  "dur": 8.48,
+  "anim": 2.6,
+  "tail_zoom": 0.045,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {
+   "channel": "ПЛАНЕТА",
+   "dur": 8.48,
+   "items": [
+    "Италия отодвинула стул",
+    "Албания закрыла дверь",
+    "Западная Ливия погасила свет",
+    "ЛНА пообещала вернуться"
+   ],
+   "watermark": "ПЛАНЕТА"
+  }
+ }
+]
