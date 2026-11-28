@@ -1,0 +1,37 @@
+[
+ {
+  "scene": 74,
+  "view": "sceny.mehanizm",
+  "mode": "cli",
+  "script": "sceny_cli.py",
+  "dur": 8.35,
+  "channel": "ПЛАНЕТА",
+  "watermark": "ПЛАНЕТА",
+  "cfg": {
+   "view": "mehanizm",
+   "seconds": 8.35,
+   "fps": 30,
+   "t0": 0.0,
+   "kwargs": {
+    "text": "Кувейт серьёзнее Ливии",
+    "channel": "ПЛАНЕТА",
+    "watermark": "ПЛАНЕТА",
+    "dur": 8.35,
+    "pary": [
+     "КУВЕЙТ>ЛИВИЯ",
+     "ПОДОЗРЕНИЕ>СКАНДАЛ"
+    ]
+   }
+  },
+  "kwargs": {
+   "text": "Кувейт серьёзнее Ливии",
+   "channel": "ПЛАНЕТА",
+   "watermark": "ПЛАНЕТА",
+   "dur": 8.35,
+   "pary": [
+    "КУВЕЙТ>ЛИВИЯ",
+    "ПОДОЗРЕНИЕ>СКАНДАЛ"
+   ]
+  }
+ }
+]
