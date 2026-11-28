@@ -1,0 +1,27 @@
+[
+ {
+  "scene": 21,
+  "view": "slider",
+  "dur": 5.92,
+  "anim": 5.92,
+  "tail_zoom": 0.0,
+  "watermark": "ПЛАНЕТА",
+  "channel": "ПЛАНЕТА",
+  "kwargs": {},
+  "mode": "cli",
+  "script": "build_chart_slider.py",
+  "cfg": {
+   "title": "СКОРОСТЬ КАТЕРА МАГУРА",
+   "min": 0.0,
+   "max": 100.0,
+   "low": 0.0,
+   "high": 100.0,
+   "marker_value": 70.0,
+   "marker_display": "70 узлов",
+   "seconds": 5.92,
+   "range_label": "РАЗБРОС ОЦЕНОК",
+   "caption": "",
+   "source": ""
+  }
+ }
+]
